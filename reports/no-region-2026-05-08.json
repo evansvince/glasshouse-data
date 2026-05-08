@@ -1,0 +1,1488 @@
+{
+  "generated": "2026-05-08T19:40:12.776857",
+  "dry_run": true,
+  "description": "Agents excluded from site \u2014 no region in BoldTrail. Assign a region to make them visible.",
+  "count": 148,
+  "agents": [
+    {
+      "name": "*Melissa Miotti",
+      "email": "mmiotti@att.net",
+      "boldtrailId": "272335",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Aaron Kroggel",
+      "email": "aaron@glasshouserealty.com",
+      "boldtrailId": "272164",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Amanda Fife",
+      "email": "amanda.fifehomes@outlook.com",
+      "boldtrailId": "272170",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Bobby Hopkins",
+      "email": "bobby@glasshouserealty.com",
+      "boldtrailId": "285335",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Brian Budde",
+      "email": "buddebrian@gmail.com",
+      "boldtrailId": "272187",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Carol Ilg",
+      "email": "rlilg@netzero.com",
+      "boldtrailId": "272194",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Carrie Flinders",
+      "email": "cflindersatgh@gmail.com",
+      "boldtrailId": "272196",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Casey Hartman",
+      "email": "casey@glasshouserealty.com",
+      "boldtrailId": "272198",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Charles Robinson",
+      "email": "charles.robinson@glasshouserealty.com",
+      "boldtrailId": "272202",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Chloe Chicarelli",
+      "email": "chloechicarelli@gmail.com",
+      "boldtrailId": "272205",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - David Hochwalt",
+      "email": "hochwalt@gmail.com",
+      "boldtrailId": "272222",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Dawn Cordle",
+      "email": "dawn123@glasshouserealty.com",
+      "boldtrailId": "269011",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - De'Shawna Yamini",
+      "email": "deshawnayamini@gmail.com",
+      "boldtrailId": "272227",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Erika Deady",
+      "email": "eadeady5@gmail.com",
+      "boldtrailId": "277366",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Frederick Seeger",
+      "email": "fseeger13@gmail.com",
+      "boldtrailId": "272241",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Hailey Cox",
+      "email": "haileycox2004@gmail.com",
+      "boldtrailId": "275089",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Janis Bryant Hayes",
+      "email": "janis@glasshouserealty.com",
+      "boldtrailId": "272259",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Jesse Fife",
+      "email": "jesse.fifehomes@outlook.com",
+      "boldtrailId": "272265",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Joseph Green",
+      "email": "joegreenrealtor@outlook.com",
+      "boldtrailId": "272273",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Joseph Zaharieff",
+      "email": "j.alexz@outlook.com",
+      "boldtrailId": "272272",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Kaitlyn Perkins",
+      "email": "kaitlyn.perkins@glasshouserealty.com",
+      "boldtrailId": "295578",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Kim Robinson",
+      "email": "kimrobinson@glasshouserealty.com",
+      "boldtrailId": "272293",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Kristine Bertrand",
+      "email": "onerealvalue@gmail.com",
+      "boldtrailId": "272299",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Latrice Boyd",
+      "email": "latrice@glasshouserealty.com",
+      "boldtrailId": "272303",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Mavlud Pazilov",
+      "email": "realtormavlud@gmail.com",
+      "boldtrailId": "272326",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Mike Ford",
+      "email": "mike@fordsquared.com",
+      "boldtrailId": "277373",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Mohammad Zahedi",
+      "email": "boldtrail@glasshouserealty.com",
+      "boldtrailId": "254091",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Rachel Dunham",
+      "email": "rachel.dunham1@aim.com",
+      "boldtrailId": "272360",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Reid Osborne",
+      "email": "reidsellsrealestate@gmail.com",
+      "boldtrailId": "272366",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Richard Kloth",
+      "email": "evan@z-kgroup.com",
+      "boldtrailId": "256293",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Shannon Grant",
+      "email": "sgrant@santelgrant.com",
+      "boldtrailId": "279504",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Sierrah Hardy",
+      "email": "hardyhomesgroup@gmail.com",
+      "boldtrailId": "272386",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "boldtrailId": "272387",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Stephanie Weaver",
+      "email": "s.weaver@glasshouserealty.com",
+      "boldtrailId": "272393",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Stephanie Wunderlich",
+      "email": "stephanie.t@glasshouserealty.com",
+      "boldtrailId": "272389",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Thomas Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "boldtrailId": "272405",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Tia Turner",
+      "email": "tia@glasshouserealty.com",
+      "boldtrailId": "272578",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Timothy Young",
+      "email": "tim.young@glasshouserealty.com",
+      "boldtrailId": "272581",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Troy Goffe",
+      "email": "troygoffe28@gmail.com",
+      "boldtrailId": "272585",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Zachary Banks",
+      "email": "zac@goodguyteam.com",
+      "boldtrailId": "272590",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "001 - Zahedi Kloth Group Inc",
+      "email": "admin@z-kgroup.com",
+      "boldtrailId": "272593",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Adam Bauer",
+      "email": "adam.bauer77@gmail.com",
+      "boldtrailId": "272165",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Carr's Real Estate Group",
+      "email": "carrgroup@glasshouserealty.com",
+      "boldtrailId": "272195",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Centerville Office Manager",
+      "email": "lisamay83@yahoo.com",
+      "boldtrailId": "272204",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Cortney Loyd",
+      "email": "loyd.cortney@gmail.com",
+      "boldtrailId": "272214",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - David Jenks",
+      "email": "info@davidjenks.com",
+      "boldtrailId": "272225",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Holly Sbrocchi",
+      "email": "hollysbrocchi@gmail.com",
+      "boldtrailId": "272250",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Kerry Phillips",
+      "email": "kerry@homewithhartman.com",
+      "boldtrailId": "272289",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Kimberly Luehmann",
+      "email": "kimberlyl@glasshouserealty.com",
+      "boldtrailId": "272295",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Reena Patel",
+      "email": "reenapatelrealty@gmail.com",
+      "boldtrailId": "272364",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Sophia Fleckenstein",
+      "email": "sophia@soldwithsophia.com",
+      "boldtrailId": "272388",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "002 - Zane Keadle",
+      "email": "zanekeadlesold@gmail.com",
+      "boldtrailId": "272594",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Ashley Lesher",
+      "email": "lesherrealty@gmail.com",
+      "boldtrailId": "295808",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Harley Wade",
+      "email": "harley@glasshouserealty.com",
+      "boldtrailId": "272245",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "boldtrailId": "272264",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Jill Barhorst",
+      "email": "jillbsellshouses@gmail.com",
+      "boldtrailId": "272268",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Kasey Prikkel",
+      "email": "kaseyprikkelrealestate@gmail.com",
+      "boldtrailId": "272281",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Kaylynn Burritt",
+      "email": "kaylynn@glasshouserealty.com",
+      "boldtrailId": "272285",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Michael Williams",
+      "email": "mike@cornerstonevetclinic.com",
+      "boldtrailId": "272337",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Mustafa Shamuratov",
+      "email": "mustafa.shamuratov1@gmail.com",
+      "boldtrailId": "272349",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Siara Grinstead",
+      "email": "siara@glasshouserealty.com",
+      "boldtrailId": "272384",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "003 - Teresa Hobbs",
+      "email": "teri@glasshouserealty.com",
+      "boldtrailId": "272401",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Chelsea Williams",
+      "email": "closedwithchelsea@gmail.com",
+      "boldtrailId": "294172",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Crush Team Manager",
+      "email": "admin@daytonrealestatecrush.com",
+      "boldtrailId": "272216",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Hannah Lavey",
+      "email": "hannah@glasshouserealty.com",
+      "boldtrailId": "272244",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Jennifer Martinez",
+      "email": "soldbyjenniferm@gmail.com",
+      "boldtrailId": "272263",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Lacey Watson",
+      "email": "laceywatsonre@gmail.com",
+      "boldtrailId": "272302",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Lauren Galdeen",
+      "email": "listwithlaurengaldeen@gmail.com",
+      "boldtrailId": "272305",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Maxwell Zukowitz",
+      "email": "max@daytonrealestatecrush.com",
+      "boldtrailId": "272327",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Patterson Office Manager",
+      "email": "patterson@glasshouserealty.com",
+      "boldtrailId": "272359",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "004 - Susan Marra",
+      "email": "smarra@glasshouserealty.com",
+      "boldtrailId": "272395",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "005 - Anna Catanzaro",
+      "email": "ohiohomegirls@gmail.com",
+      "boldtrailId": "272178",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "005 - Kevin Jackson",
+      "email": "kjackson14@woh.rr.com",
+      "boldtrailId": "272291",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "005 - Lisa Jackson",
+      "email": "lisamacjack@gmail.com",
+      "boldtrailId": "272311",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "005 - Madison Justice",
+      "email": "madison@navehometeam.com",
+      "boldtrailId": "272316",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "005 - Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "boldtrailId": "272373",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "006 - Brittany Singer",
+      "email": "brittanysinger.gh@outlook.com",
+      "boldtrailId": "275114",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "006 - Lucas Little",
+      "email": "lucaslittle98@outlook.com",
+      "boldtrailId": "272315",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "007 - Eric Loudenback",
+      "email": "eloudenback@gmail.com",
+      "boldtrailId": "272239",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "007 - Matthew Echols",
+      "email": "matthewechols1@gmail.com",
+      "boldtrailId": "272325",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "008 - David Woodward",
+      "email": "david@glasshouserealty.com",
+      "boldtrailId": "272226",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "008 - Jayvon Tate",
+      "email": "jayvon_tate@glasshouserealty.com",
+      "boldtrailId": "278681",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "009 - Deanna O'Diam",
+      "email": "conniedeanna@glasshouserealty.com",
+      "boldtrailId": "272228",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "009 - Hayley Stewart",
+      "email": "hayley@glasshouserealty.com",
+      "boldtrailId": "272246",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "009 - Kunal Patel",
+      "email": "kunal@kunalpatelgroup.com",
+      "boldtrailId": "272300",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "011 - Keith Gabbard",
+      "email": "keithgabbard.1@gmail.com",
+      "boldtrailId": "277381",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Abby Taylor",
+      "email": "abby@glasshouserealty.com",
+      "boldtrailId": "284625",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Admin Test",
+      "email": "kaileygilbert7@gmail.com",
+      "boldtrailId": "284620",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cassandra Cox",
+      "email": "cassandrac.sotoestrada@gmail.com",
+      "boldtrailId": "285155",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Christopher Wang",
+      "email": "christopherthewang@gmail.com",
+      "boldtrailId": "272209",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cody Goodman",
+      "email": "codygoodmanhma@gmail.com",
+      "boldtrailId": "275338",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cody Hemmelgarn",
+      "email": "cody@glasshouserealty.com",
+      "boldtrailId": "259197",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cody Hemmelgarn Test 3",
+      "email": "dithered.era@gmail.com",
+      "boldtrailId": "279490",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cody's Team Lead Test Account",
+      "email": "cody_hemmelgarn@yahoo.com",
+      "boldtrailId": "267183",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cody's Team Member Test Account",
+      "email": "codyhemmelgarn7@gmail.com",
+      "boldtrailId": "267182",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "CV Admin Test Account",
+      "email": "cvadmin@glasshouserealty.com",
+      "boldtrailId": "276212",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Dave Henderson",
+      "email": "dhendersonhcg@gmail.com",
+      "boldtrailId": "272221",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "operations@glasshouserealty.com",
+      "boldtrailId": "256585",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "falkner2328@gmail.com",
+      "boldtrailId": "274687",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "ddc cordle",
+      "email": "cordle726@gmail.com",
+      "boldtrailId": "294734",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "ddc cordle",
+      "email": "123falkner@gmail.com",
+      "boldtrailId": "294736",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Glasshouse Admin",
+      "email": "admin@glasshouserealty.com",
+      "boldtrailId": "268791",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Gregory Reynolds",
+      "email": "gregoryreynolds@glasshouserealty.com",
+      "boldtrailId": "272243",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Hema Chhatani",
+      "email": "finance2@buildvessel.com",
+      "boldtrailId": "274172",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Jed Helmers",
+      "email": "jedhelmers+1@gmail.com",
+      "boldtrailId": "280273",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Jed Helmers 2",
+      "email": "jedhelmers+2@gmail.com",
+      "boldtrailId": "280274",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Jessica Gonzalez",
+      "email": "jessica.gonzalez@glasshouserealty.com",
+      "boldtrailId": "284671",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Joel Gard",
+      "email": "joel@glasshouserealty.com",
+      "boldtrailId": "272269",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "John Smith",
+      "email": "john.smith@glasshouserealty.com",
+      "boldtrailId": "280104",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Kailey Test",
+      "email": "kaileygilbert620@gmail.com",
+      "boldtrailId": "269542",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Korrin Ziswiler",
+      "email": "korrin@glasshouserealty.com",
+      "boldtrailId": "284623",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Meg Luck",
+      "email": "meganlucking7@gmail.com",
+      "boldtrailId": "276196",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Meg Lucking",
+      "email": "admin1@glasshouserealty.com",
+      "boldtrailId": "269715",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Luck",
+      "email": "megan.lucking4@glasshouserealty.com",
+      "boldtrailId": "276886",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "megan.lucking@glasshouserealty.com",
+      "boldtrailId": "256586",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking1@yahoo.com",
+      "boldtrailId": "265370",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking1@gmail.com",
+      "boldtrailId": "267167",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+1@yahoo.com",
+      "boldtrailId": "268623",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+2@yahoo.com",
+      "boldtrailId": "268783",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+3@yahoo.com",
+      "boldtrailId": "269182",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+4@yahoo.com",
+      "boldtrailId": "269234",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+5@yahoo.com",
+      "boldtrailId": "269238",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+6@yahoo.com",
+      "boldtrailId": "269524",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking+7@yahoo.com",
+      "boldtrailId": "269672",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking3@gmail.com",
+      "boldtrailId": "269839",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "megan.lucking@glasshouserealty5.com",
+      "boldtrailId": "276869",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "megan.lucking@yahoo.com",
+      "boldtrailId": "276977",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "melucking@yahoo.com",
+      "boldtrailId": "277157",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking2@yahoo.com",
+      "boldtrailId": "294399",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking3@yahoo.com",
+      "boldtrailId": "294410",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking5@gmail.com",
+      "boldtrailId": "294482",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "meganlucking@gmail.com",
+      "boldtrailId": "294533",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Megan Test",
+      "email": "megan.lucking+3@glasshouserealty.com",
+      "boldtrailId": "268804",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Melissa Miotti",
+      "email": "melissa@glasshouserealty.com",
+      "boldtrailId": "256290",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Michelle Marie Johansen",
+      "email": "mmrealtor4u@gmail.com",
+      "boldtrailId": "272344",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Nicole Gay",
+      "email": "nicolegayrealtor@gmail.com",
+      "boldtrailId": "272356",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Nikole Locke",
+      "email": "nlockerealtor@gmail.com",
+      "boldtrailId": "295685",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Processing Team",
+      "email": "processing@glasshouserealty.com",
+      "boldtrailId": "277918",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Queen Cordle",
+      "email": "cordle314@outlook.com",
+      "boldtrailId": "275320",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Rachna Kochar",
+      "email": "rachna@glasshouserealty.com",
+      "boldtrailId": "274170",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Sandra Bothia Gomez",
+      "email": "sandrabothia09@gmail.com",
+      "boldtrailId": "272374",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Scott Hetzler",
+      "email": "scott.hetzler@glasshouserealty.com",
+      "boldtrailId": "292809",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Scottie Fulhart",
+      "email": "soldwithscottie@gmail.com",
+      "boldtrailId": "296298",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Shobha Kodag",
+      "email": "shobha@glasshouserealty.com",
+      "boldtrailId": "285923",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Sibu Janardhanan",
+      "email": "sibu@buildvessel.com",
+      "boldtrailId": "272385",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Sibu Janardhanan",
+      "email": "sibu@glasshouserealty.com",
+      "boldtrailId": "274163",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Taylor Wright",
+      "email": "taylorwright.realty@gmail.com",
+      "boldtrailId": "272400",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Test Cordle",
+      "email": "cordle314@gmail.com",
+      "boldtrailId": "269014",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    }
+  ]
+}
