@@ -1,0 +1,243 @@
+name: Glasshouse Data Sync
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SAFETY NOTES
+# ─────────────────────────────────────────────────────────────────────────────
+# - All BoldTrail access is READ ONLY (GET requests only)
+# - BoldTrail data is NEVER modified, deleted, or altered by this workflow
+# - agents.json and sold json files are backed up before every update
+# - If BoldTrail returns 0 agents or suspiciously few, the job aborts
+#   and the existing file is left completely untouched
+# - The website always has data — we never overwrite with an empty/bad result
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: '0 * * * *'    # Agents: every hour
+    - cron: '0 7 * * *'    # Sold data: every day at 2am ET (7am UTC)
+
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which job to run'
+        required: true
+        default: 'agents'
+        type: choice
+        options:
+          - agents
+          - sold-dayton
+          - sold-cleveland
+          - all
+      dry_run:
+        description: 'Dry run — preview only, no files written'
+        required: false
+        default: 'true'
+        type: choice
+        options: ['true', 'false']
+
+# ── AGENTS ───────────────────────────────────────────────────────────────────
+jobs:
+  sync-agents:
+    name: "Sync Agents (BoldTrail → agents.json)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 * * * *') ||
+      (github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'agents' || github.event.inputs.job == 'all'))
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run agent sync (READ ONLY from BoldTrail)
+        env:
+          BOLDTRAIL_API_KEY: ${{ secrets.BOLDTRAIL_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "DRY RUN — no files will be written"
+            python3 gh-agents-sync-bt.py --dry-run
+          else
+            python3 gh-agents-sync-bt.py
+          fi
+
+      - name: Commit agents.json + backups if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "Glasshouse Sync Bot"
+          git config user.email "sync@glasshouserealty.com"
+
+          # Check if anything changed
+          git add agents.json backups/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit"
+            exit 0
+          fi
+
+          COUNT=$(python3 -c "
+          import json
+          d = json.load(open('agents.json'))
+          visible = [a for a in d if not a.get('hidden')]
+          print(len(visible))
+          ")
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "Auto-sync agents — ${COUNT} visible agents [${TIMESTAMP}]"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "BoldTrail was accessed READ ONLY — no data was modified in BoldTrail"
+          if [ -f agents.json ]; then
+            python3 -c "
+          import json
+          d = json.load(open('agents.json'))
+          visible = [a for a in d if not a.get('hidden')]
+          with_photo = [a for a in visible if a.get('photo')]
+          print(f'agents.json: {len(d)} total, {len(visible)} visible, {len(with_photo)} with photo')
+            "
+          fi
+
+# ── SOLD DAYTON ──────────────────────────────────────────────────────────────
+  sync-sold-dayton:
+    name: "Sync Sold Data — Dayton (BoldTrail → sold-dayton.json)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 7 * * *') ||
+      (github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'sold-dayton' || github.event.inputs.job == 'all'))
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Backup existing sold-dayton.json
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if [ -f sold-dayton.json ]; then
+            mkdir -p backups
+            TS=$(date -u '+%Y-%m-%d_%H-%M-%S')
+            cp sold-dayton.json "backups/sold-dayton_${TS}.json"
+            echo "Backed up to backups/sold-dayton_${TS}.json"
+          fi
+
+      - name: Run Dayton sold pipeline (READ ONLY from BoldTrail)
+        env:
+          BOLDTRAIL_API_KEY: ${{ secrets.BOLDTRAIL_API_KEY }}
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 gh-sold-pipeline.py \
+              --key "$BOLDTRAIL_API_KEY" \
+              --mapbox "$MAPBOX_TOKEN" \
+              --out sold-dayton.json \
+              --dry-run
+          else
+            python3 gh-sold-pipeline.py \
+              --key "$BOLDTRAIL_API_KEY" \
+              --mapbox "$MAPBOX_TOKEN" \
+              --out sold-dayton.json
+          fi
+
+      - name: Safety check — never commit empty sold file
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if [ -f sold-dayton.json ]; then
+            COUNT=$(python3 -c "import json; print(len(json.load(open('sold-dayton.json'))))")
+            if [ "$COUNT" -lt "10" ]; then
+              echo "ABORT: sold-dayton.json has only $COUNT records — suspiciously low, not committing"
+              exit 1
+            fi
+            echo "sold-dayton.json has $COUNT records — OK"
+          fi
+
+      - name: Commit if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "Glasshouse Sync Bot"
+          git config user.email "sync@glasshouserealty.com"
+          git add sold-dayton.json backups/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit"
+            exit 0
+          fi
+          COUNT=$(python3 -c "import json; print(len(json.load(open('sold-dayton.json'))))")
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "Auto-sync sold Dayton — ${COUNT} records [${TIMESTAMP}]"
+          git push
+
+# ── SOLD CLEVELAND ───────────────────────────────────────────────────────────
+  sync-sold-cleveland:
+    name: "Sync Sold Data — Cleveland (BoldTrail → sold-cleveland.json)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 7 * * *') ||
+      (github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'sold-cleveland' || github.event.inputs.job == 'all'))
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Backup existing sold-cleveland.json
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if [ -f sold-cleveland.json ]; then
+            mkdir -p backups
+            TS=$(date -u '+%Y-%m-%d_%H-%M-%S')
+            cp sold-cleveland.json "backups/sold-cleveland_${TS}.json"
+            echo "Backed up to backups/sold-cleveland_${TS}.json"
+          fi
+
+      - name: Run Cleveland sold pipeline (READ ONLY from BoldTrail)
+        env:
+          BOLDTRAIL_API_KEY_CLEVELAND: ${{ secrets.BOLDTRAIL_API_KEY_CLEVELAND }}
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 gh-sold-pipeline.py \
+              --key "$BOLDTRAIL_API_KEY_CLEVELAND" \
+              --mapbox "$MAPBOX_TOKEN" \
+              --out sold-cleveland.json \
+              --dry-run
+          else
+            python3 gh-sold-pipeline.py \
+              --key "$BOLDTRAIL_API_KEY_CLEVELAND" \
+              --mapbox "$MAPBOX_TOKEN" \
+              --out sold-cleveland.json
+          fi
+
+      - name: Commit if changed
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name  "Glasshouse Sync Bot"
+          git config user.email "sync@glasshouserealty.com"
+          git add sold-cleveland.json backups/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit"
+            exit 0
+          fi
+          COUNT=$(python3 -c "import json; print(len(json.load(open('sold-cleveland.json'))))")
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "Auto-sync sold Cleveland — ${COUNT} records [${TIMESTAMP}]"
+          git push
