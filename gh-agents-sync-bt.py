@@ -64,7 +64,6 @@ JUNK_NAME_PATTERNS = [
     r'cody hemmelgarn test',
     r'jed helmers 2',
     r'jed helmers 1',
-    r'john smith',
 ]
 
 # Staff/internal accounts — excluded from site, not flagged as junk
