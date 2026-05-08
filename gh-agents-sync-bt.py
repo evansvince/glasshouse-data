@@ -141,9 +141,6 @@ def is_junk(email, name):
         if re.search(p, name_low):  return True, f'name matches junk pattern: {p}'
     for p in STAFF_EMAIL_PATTERNS:
         if re.search(p, email_low): return True, f'staff/internal account: {p}'
-    # Exclude obvious numbered test prefixes like "001 - ", "002 - " etc with no office
-    if re.match(r'^0[0-9][0-9] - ', name) and not email.endswith('@glasshouserealty.com'):
-        return True, 'numbered prefix account with no brokerage email'
     return False, ''
 
 def abort(msg):
