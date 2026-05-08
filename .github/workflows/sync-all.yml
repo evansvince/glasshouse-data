@@ -63,12 +63,24 @@ jobs:
           SUMMARY=$(grep "^REPORT_SUMMARY=" sync-output.txt | tail -1 | sed 's/REPORT_SUMMARY=//')
           echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
 
-      - name: Commit agents.json + report + backups
+      - name: Commit flagged report (always — even dry run)
+        run: |
+          git config user.name  "Glasshouse Sync Bot"
+          git config user.email "sync@glasshouserealty.com"
+          git add reports/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "Flagged agents report [$(date -u '+%Y-%m-%d')]"
+            git push
+          fi
+
+      - name: Commit agents.json + backups (live run only)
         if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name  "Glasshouse Sync Bot"
           git config user.email "sync@glasshouserealty.com"
-          git add agents.json backups/ reports/ 2>/dev/null || true
+          git add agents.json backups/ 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes — skipping commit"
             exit 0
