@@ -209,9 +209,21 @@ def filter_and_flag(agents):
             })
             continue
 
-        # Check for missing data
+        # Agents with no region are excluded from the site
+        if not a['regions']:
+            flagged.append({
+                'name':        a['name'],
+                'email':       a['email'],
+                'boldtrailId': a['boldtrailId'],
+                'office':      a['office'],
+                'team':        a['team'],
+                'flag':        'NO_REGION',
+                'reason':      'No region assigned in BoldTrail',
+                'action':      'Excluded from site. Assign a region in BoldTrail to make visible.',
+            })
+            continue
+
         issues = []
-        if not a['regions']:    issues.append('no_region')
         if not a['office']:     issues.append('no_office')
         if not a['phone']:      issues.append('no_phone')
         if not a['team']:       issues.append('no_team')
