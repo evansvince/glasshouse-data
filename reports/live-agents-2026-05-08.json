@@ -1,16 +1,32 @@
 {
-  "generated": "2026-05-08T19:40:12.776857",
+  "generated": "2026-05-08T20:17:45.277725",
   "dry_run": true,
   "summary": {
     "total_from_boldtrail": 370,
-    "live_on_site": 204,
+    "live_on_site": 259,
     "hidden_on_site": 0,
-    "excluded_no_region": 148,
+    "excluded_no_region": 93,
     "excluded_junk": 18,
-    "missing_data": 204,
+    "missing_data": 259,
     "potential_duplicates": 0
   },
   "agents": [
+    {
+      "name": "001 - Aaron Kroggel",
+      "email": "aaron@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 270-2616",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272164",
+      "loftyId": ""
+    },
     {
       "name": "001 - Abbe DeVore",
       "email": "abbe@glasshouserealty.com",
@@ -142,6 +158,38 @@
       "loftyId": 8726238
     },
     {
+      "name": "001 - Bobby Hopkins",
+      "email": "bobby@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 760-3125",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "285335",
+      "loftyId": ""
+    },
+    {
+      "name": "001 - Brian Budde",
+      "email": "buddebrian@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(513) 265-4797",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272187",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Brooklynne Bussard",
       "email": "brooklynne@glasshouserealty.com",
       "regions": [
@@ -204,6 +252,24 @@
       "source": "boldtrail",
       "boldtrailId": "272197",
       "loftyId": 8718697
+    },
+    {
+      "name": "001 - Casey Hartman",
+      "email": "casey@glasshouserealty.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati",
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 889-8582",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272198",
+      "loftyId": ""
     },
     {
       "name": "001 - Cassie Gutt",
@@ -334,6 +400,22 @@
       "loftyId": 8783440
     },
     {
+      "name": "001 - David Hochwalt",
+      "email": "hochwalt@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 241-4270",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272222",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Devin Booher",
       "email": "devinb@glasshouserealty.com",
       "regions": [
@@ -430,6 +512,22 @@
       "loftyId": 8718699
     },
     {
+      "name": "001 - Erika Deady",
+      "email": "eadeady5@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 241-6607",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "277366",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Erin Wertalik Eads",
       "email": "erin@glasshouserealty.com",
       "regions": [
@@ -444,6 +542,38 @@
       "source": "boldtrail",
       "boldtrailId": "272240",
       "loftyId": 8726252
+    },
+    {
+      "name": "001 - Frederick Seeger",
+      "email": "fseeger13@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(513) 205-2213",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272241",
+      "loftyId": ""
+    },
+    {
+      "name": "001 - Hailey Cox",
+      "email": "haileycox2004@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 689-9748",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "275089",
+      "loftyId": ""
     },
     {
       "name": "001 - Hayley Evans",
@@ -510,6 +640,22 @@
       "loftyId": 8798185
     },
     {
+      "name": "001 - Joseph Zaharieff",
+      "email": "j.alexz@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 367-6030",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272272",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Julie Harris",
       "email": "julie@goodguyteam.com",
       "regions": [
@@ -540,6 +686,22 @@
       "source": "boldtrail",
       "boldtrailId": "272277",
       "loftyId": 8870111
+    },
+    {
+      "name": "001 - Kaitlyn Perkins",
+      "email": "kaitlyn.perkins@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "295578",
+      "loftyId": ""
     },
     {
       "name": "001 - Katherine Overholtz",
@@ -576,6 +738,22 @@
       "loftyId": 8726269
     },
     {
+      "name": "001 - Kim Robinson",
+      "email": "kimrobinson@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 469-3143",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272293",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Kimberly Harris",
       "email": "kimrharris4@gmail.com",
       "regions": [
@@ -606,6 +784,22 @@
       "source": "boldtrail",
       "boldtrailId": "272296",
       "loftyId": 8750600
+    },
+    {
+      "name": "001 - Kristine Bertrand",
+      "email": "onerealvalue@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 701-8750",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272299",
+      "loftyId": ""
     },
     {
       "name": "001 - Lauren Dillon",
@@ -944,6 +1138,22 @@
       "loftyId": 8838016
     },
     {
+      "name": "001 - Rachel Dunham",
+      "email": "rachel.dunham1@aim.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 269-6569",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272360",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Ranae Kocsis",
       "email": "ranae@glasshouserealty.com",
       "regions": [
@@ -1006,6 +1216,22 @@
       "source": "boldtrail",
       "boldtrailId": "272367",
       "loftyId": 8718662
+    },
+    {
+      "name": "001 - Richard Kloth",
+      "email": "evan@z-kgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 654-0283",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "256293",
+      "loftyId": ""
     },
     {
       "name": "001 - Robert Williams",
@@ -1088,6 +1314,38 @@
       "loftyId": 8916104
     },
     {
+      "name": "001 - Sierrah Hardy",
+      "email": "hardyhomesgroup@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 304-3158",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272386",
+      "loftyId": ""
+    },
+    {
+      "name": "001 - Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(614) 707-8725",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272387",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Stephanie Ball",
       "email": "ball.stephanie@gmail.com",
       "regions": [
@@ -1118,6 +1376,22 @@
       "source": "boldtrail",
       "boldtrailId": "272390",
       "loftyId": 8728587
+    },
+    {
+      "name": "001 - Stephanie Wunderlich",
+      "email": "stephanie.t@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 623-6960",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272389",
+      "loftyId": ""
     },
     {
       "name": "001 - Terri Johnson",
@@ -1152,6 +1426,38 @@
       "loftyId": 8726277
     },
     {
+      "name": "001 - Thomas Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 902-9970",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272405",
+      "loftyId": ""
+    },
+    {
+      "name": "001 - Tia Turner",
+      "email": "tia@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 838-3366",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272578",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Tiffany Hatfield",
       "email": "tiffany@remodelwithcc.com",
       "regions": [
@@ -1166,6 +1472,22 @@
       "source": "boldtrail",
       "boldtrailId": "272579",
       "loftyId": 8819807
+    },
+    {
+      "name": "001 - Timothy Young",
+      "email": "tim.young@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 718-4240",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272581",
+      "loftyId": ""
     },
     {
       "name": "001 - Todd Brandewie",
@@ -1248,6 +1570,22 @@
       "loftyId": 8801858
     },
     {
+      "name": "001 - Zachary Banks",
+      "email": "zac@goodguyteam.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 409-4459",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272590",
+      "loftyId": ""
+    },
+    {
       "name": "001 - Zachary Lucking",
       "email": "luckingza@glasshouserealty.com",
       "regions": [
@@ -1262,6 +1600,22 @@
       "source": "boldtrail",
       "boldtrailId": "272591",
       "loftyId": 8830277
+    },
+    {
+      "name": "002 - Adam Bauer",
+      "email": "adam.bauer77@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 824-0993",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272165",
+      "loftyId": ""
     },
     {
       "name": "002 - Amy Cook",
@@ -1326,6 +1680,38 @@
       "source": "boldtrail",
       "boldtrailId": "272189",
       "loftyId": 8718664
+    },
+    {
+      "name": "002 - Cortney Loyd",
+      "email": "loyd.cortney@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 776-4477",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272214",
+      "loftyId": ""
+    },
+    {
+      "name": "002 - David Jenks",
+      "email": "info@davidjenks.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 271-1065",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272225",
+      "loftyId": ""
     },
     {
       "name": "002 - Deanne Chester",
@@ -1456,6 +1842,38 @@
       "loftyId": 8923926
     },
     {
+      "name": "002 - Kerry Phillips",
+      "email": "kerry@homewithhartman.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(703) 963-1443",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272289",
+      "loftyId": ""
+    },
+    {
+      "name": "002 - Kimberly Luehmann",
+      "email": "kimberlyl@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 287-7592",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272295",
+      "loftyId": ""
+    },
+    {
       "name": "002 - Kori Shelton",
       "email": "ksheltonsoldit@gmail.com",
       "regions": [
@@ -1584,6 +2002,22 @@
       "loftyId": 8726255
     },
     {
+      "name": "002 - Reena Patel",
+      "email": "reenapatelrealty@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(270) 945-6833",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272364",
+      "loftyId": ""
+    },
+    {
       "name": "002 - Richard Carr",
       "email": "rick@glasshouserealty.com",
       "regions": [
@@ -1665,6 +2099,22 @@
       "loftyId": 8728630
     },
     {
+      "name": "003 - Ashley Lesher",
+      "email": "lesherrealty@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 657-7257",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "295808",
+      "loftyId": ""
+    },
+    {
       "name": "003 - Chancelor Kloecker",
       "email": "homeswithck@gmail.com",
       "regions": [
@@ -1729,6 +2179,22 @@
       "loftyId": 8697428
     },
     {
+      "name": "003 - Harley Wade",
+      "email": "harley@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 609-4786",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272245",
+      "loftyId": ""
+    },
+    {
       "name": "003 - Jared Wamsley",
       "email": "jared@wamsleygroup.com",
       "regions": [
@@ -1743,6 +2209,38 @@
       "source": "boldtrail",
       "boldtrailId": "278198",
       "loftyId": 8892978
+    },
+    {
+      "name": "003 - Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 418-6273",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272264",
+      "loftyId": ""
+    },
+    {
+      "name": "003 - Jill Barhorst",
+      "email": "jillbsellshouses@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 620-2718",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272268",
+      "loftyId": ""
     },
     {
       "name": "003 - Jill Freytag",
@@ -1825,6 +2323,22 @@
       "loftyId": 8894737
     },
     {
+      "name": "003 - Kasey Prikkel",
+      "email": "kaseyprikkelrealestate@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 405-6474",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272281",
+      "loftyId": ""
+    },
+    {
       "name": "003 - Kayli Anderson",
       "email": "closewithkayli@gmail.com",
       "regions": [
@@ -1839,6 +2353,22 @@
       "source": "boldtrail",
       "boldtrailId": "272284",
       "loftyId": 8728632
+    },
+    {
+      "name": "003 - Kaylynn Burritt",
+      "email": "kaylynn@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 479-2597",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272285",
+      "loftyId": ""
     },
     {
       "name": "003 - Kendra Osborne",
@@ -1921,6 +2451,38 @@
       "loftyId": 8901694
     },
     {
+      "name": "003 - Michael Williams",
+      "email": "mike@cornerstonevetclinic.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 620-8578",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272337",
+      "loftyId": ""
+    },
+    {
+      "name": "003 - Mustafa Shamuratov",
+      "email": "mustafa.shamuratov1@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 242-3095",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272349",
+      "loftyId": ""
+    },
+    {
       "name": "003 - Randy Shaffner",
       "email": "shaffnerrandy@gmail.com",
       "regions": [
@@ -1967,6 +2529,22 @@
       "source": "boldtrail",
       "boldtrailId": "272380",
       "loftyId": 8728627
+    },
+    {
+      "name": "003 - Teresa Hobbs",
+      "email": "teri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 474-0758",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272401",
+      "loftyId": ""
     },
     {
       "name": "003 - Zachary Thurston",
@@ -2017,6 +2595,22 @@
       "loftyId": 8817279
     },
     {
+      "name": "004 - Chelsea Williams",
+      "email": "closedwithchelsea@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 232-1610",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "294172",
+      "loftyId": ""
+    },
+    {
       "name": "004 - Christina Pennington",
       "email": "chrissie@daytonrealestatecrush.com",
       "regions": [
@@ -2065,6 +2659,22 @@
       "loftyId": 8726291
     },
     {
+      "name": "004 - Jennifer Martinez",
+      "email": "soldbyjenniferm@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(509) 851-0169",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272263",
+      "loftyId": ""
+    },
+    {
       "name": "004 - Jennifer Schiavone",
       "email": "jen@daytonrealestatecrush.com",
       "regions": [
@@ -2097,6 +2707,38 @@
       "loftyId": 8728593
     },
     {
+      "name": "004 - Lacey Watson",
+      "email": "laceywatsonre@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 929-0198",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272302",
+      "loftyId": ""
+    },
+    {
+      "name": "004 - Lauren Galdeen",
+      "email": "listwithlaurengaldeen@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 417-3666",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272305",
+      "loftyId": ""
+    },
+    {
       "name": "004 - Mary Cooper",
       "email": "elizabeth@daytonrealestatecrush.com",
       "regions": [
@@ -2111,6 +2753,23 @@
       "source": "boldtrail",
       "boldtrailId": "272321",
       "loftyId": 8726284
+    },
+    {
+      "name": "004 - Maxwell Zukowitz",
+      "email": "max@daytonrealestatecrush.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 307-1556",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272327",
+      "loftyId": ""
     },
     {
       "name": "004 - Melissa Sansabrino",
@@ -2191,6 +2850,22 @@
       "source": "boldtrail",
       "boldtrailId": "272394",
       "loftyId": 8726290
+    },
+    {
+      "name": "004 - Susan Marra",
+      "email": "smarra@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 298-3702",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272395",
+      "loftyId": ""
     },
     {
       "name": "004 - Talia Caldwell",
@@ -2321,6 +2996,23 @@
       "loftyId": 8925952
     },
     {
+      "name": "005 - Anna Catanzaro",
+      "email": "ohiohomegirls@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 450-0523",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272178",
+      "loftyId": ""
+    },
+    {
       "name": "005 - Danielle Chapman",
       "email": "daniellerchapman@att.net",
       "regions": [
@@ -2417,6 +3109,57 @@
       "loftyId": 8797470
     },
     {
+      "name": "005 - Kevin Jackson",
+      "email": "kjackson14@woh.rr.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 831-1307",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272291",
+      "loftyId": ""
+    },
+    {
+      "name": "005 - Lisa Jackson",
+      "email": "lisamacjack@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 831-1211",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272311",
+      "loftyId": ""
+    },
+    {
+      "name": "005 - Madison Justice",
+      "email": "madison@navehometeam.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 624-8010",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272316",
+      "loftyId": ""
+    },
+    {
       "name": "005 - Maegan Benne",
       "email": "maeganbennerealtor@gmail.com",
       "regions": [
@@ -2495,6 +3238,23 @@
       "source": "boldtrail",
       "boldtrailId": "279798",
       "loftyId": 8894740
+    },
+    {
+      "name": "005 - Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 605-6858",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272373",
+      "loftyId": ""
     },
     {
       "name": "005 - Sarah Lyons",
@@ -2591,6 +3351,23 @@
       "source": "boldtrail",
       "boldtrailId": "279759",
       "loftyId": 8893076
+    },
+    {
+      "name": "006 - Brittany Singer",
+      "email": "brittanysinger.gh@outlook.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(513) 222-8242",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "275114",
+      "loftyId": ""
     },
     {
       "name": "006 - Colleen Curtis",
@@ -2736,6 +3513,22 @@
       "source": "boldtrail",
       "boldtrailId": "272179",
       "loftyId": 8728625
+    },
+    {
+      "name": "007 - Eric Loudenback",
+      "email": "eloudenback@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 597-8078",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272239",
+      "loftyId": ""
     },
     {
       "name": "007 - Jaclyn Hoying",
@@ -2896,6 +3689,38 @@
       "source": "boldtrail",
       "boldtrailId": "272224",
       "loftyId": 8810422
+    },
+    {
+      "name": "008 - David Woodward",
+      "email": "david@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 591-1427",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272226",
+      "loftyId": ""
+    },
+    {
+      "name": "008 - Jayvon Tate",
+      "email": "jayvon_tate@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 424-6588",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "278681",
+      "loftyId": ""
     },
     {
       "name": "008 - John Dayspring",
@@ -3074,6 +3899,54 @@
       "loftyId": 8838020
     },
     {
+      "name": "009 - Deanna O'Diam",
+      "email": "conniedeanna@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 620-7850",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272228",
+      "loftyId": ""
+    },
+    {
+      "name": "009 - Hayley Stewart",
+      "email": "hayley@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 708-1039",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272246",
+      "loftyId": ""
+    },
+    {
+      "name": "009 - Kunal Patel",
+      "email": "kunal@kunalpatelgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(937) 248-3061",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "272300",
+      "loftyId": ""
+    },
+    {
       "name": "009 - Leslie Wade",
       "email": "l.wade@glasshouserealty.com",
       "regions": [
@@ -3221,6 +4094,7 @@
       "name": "011 - Jamie Gabbard",
       "email": "jamie@jamiegabbard.com",
       "regions": [
+        "Dayton",
         "Cincinnati"
       ],
       "team": "",
@@ -3232,6 +4106,23 @@
       "source": "boldtrail",
       "boldtrailId": "275091",
       "loftyId": 8886958
+    },
+    {
+      "name": "011 - Keith Gabbard",
+      "email": "keithgabbard.1@gmail.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "office": "",
+      "phone": "(513) 594-1090",
+      "has_photo": false,
+      "has_profile": false,
+      "hidden": false,
+      "source": "boldtrail",
+      "boldtrailId": "277381",
+      "loftyId": ""
     },
     {
       "name": "011 - Meagan Roderer",
