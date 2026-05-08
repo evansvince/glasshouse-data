@@ -101,50 +101,28 @@ def abort(msg):
 
 # ── BOLDTRAIL FETCH (READ ONLY) ───────────────────────────────────────────────
 def fetch_bt_agents():
+    """
+    Fetch all agents from BoldTrail in a single GET request.
+    BoldTrail v1 returns all records at once — no pagination needed or supported.
+    READ ONLY — no data is modified in BoldTrail.
+    """
     print("\n── BoldTrail Fetch (GET requests only) ─────────────────")
-    agents, page, per_page, errors = [], 1, 100, 0
-
-    while True:
-        print(f"  GET /v1/users?page={page}...", end=' ', flush=True)
-        url = f"{BT_BASE}/users?api_key={BT_API_KEY}&per_page={per_page}&page={page}&full_info=1&status=active"
-        try:
-            req = urllib.request.Request(url, headers={'Accept': 'application/json'})
-            with urllib.request.urlopen(req, timeout=20) as r:
-                batch = json.loads(r.read().decode())
-        except urllib.error.HTTPError as e:
-            print(f"HTTP {e.code}")
-            errors += 1
-            if e.code in (401, 403):
-                abort(f"BoldTrail authentication failed (HTTP {e.code}). Check BOLDTRAIL_API_KEY.")
-            if e.code == 429:
-                print("  Rate limited — waiting 15s...")
-                time.sleep(15)
-                continue
-            if errors > 3:
-                abort(f"Too many BoldTrail HTTP errors ({errors}). Protecting existing data.")
-            time.sleep(3)
-            continue
-        except Exception as e:
-            print(f"Error: {e}")
-            errors += 1
-            if errors > 3:
-                abort(f"Too many BoldTrail errors ({errors}). Protecting existing data.")
-            time.sleep(3)
-            continue
-
-        if not batch:
-            print("empty — done")
-            break
-
-        agents.extend(batch)
-        print(f"{len(batch)} agents (total: {len(agents)})")
-
-        if len(batch) < per_page:
-            break
-        page += 1
-        time.sleep(DELAY)
-
-    return agents
+    print("  GET /v1/users...", end=' ', flush=True)
+    url = f"{BT_BASE}/users?api_key={BT_API_KEY}&full_info=1&status=active"
+    try:
+        req = urllib.request.Request(url, headers={'Accept': 'application/json'})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            agents = json.loads(r.read().decode())
+        if not isinstance(agents, list):
+            abort(f"Unexpected BoldTrail response format: {type(agents)}")
+        print(f"{len(agents)} agents returned")
+        return agents
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            abort(f"BoldTrail authentication failed (HTTP {e.code}). Check BOLDTRAIL_API_KEY.")
+        abort(f"BoldTrail HTTP error {e.code}.")
+    except Exception as e:
+        abort(f"BoldTrail fetch error: {e}")
 
 # ── PARSE ────────────────────────────────────────────────────────────────────
 def parse_bt(bt):
