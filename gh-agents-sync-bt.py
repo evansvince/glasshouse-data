@@ -345,10 +345,9 @@ def write_report(flagged, merged, dry_run=False):
         'all_flagged':         flagged,
     }
 
-    if not dry_run:
-        with open(report_path, 'w') as f:
-            json.dump(report, f, indent=2)
-        print(f"  Report: {report_path}")
+    with open(report_path, 'w') as f:
+        json.dump(report, f, indent=2)
+    print(f"  Report: {report_path}{' (dry run)' if dry_run else ''}")
 
     # Always print summary
     print(f"\n── Flagged Agents Report ───────────────────────────────")
