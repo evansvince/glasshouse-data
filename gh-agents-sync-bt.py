@@ -425,6 +425,28 @@ def fetch_bt_agents():
 # To allow another role, add it to this set in lowercase form.
 ALLOWED_ROLES = {'agent', 'team leader', 'broker'}
 
+# ── JOINT LISTING SUPPRESSION ─────────────────────────────────────────────────
+# Some agents work as partnerships (married couples, business partners) and
+# have ONE joint Lofty profile / agent card on the website. Each individual
+# is licensed, so they each have their own BoldTrail record — but only the
+# joint Lofty record should appear publicly.
+#
+# To add a new partnership:
+#   1. Confirm the joint Lofty profile exists and is showing correctly
+#   2. Look up each partner's BoldTrail id (visible in the BoldTrail API)
+#   3. Add their btids below with a comment naming the joint listing
+#
+# This list is the only place that needs to change to onboard a new
+# partnership. Admins continue to use Lofty as normal — no JSON editing.
+SUPPRESS_BTIDS = {
+    '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
+    '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
+    '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
+}
+
+# Track suppressed records for the report (lets you verify the list is correct)
+SUPPRESSED = []
+
 # Track non-Agent role exclusions for the flagged report
 ROLE_EXCLUDED = []
 
@@ -432,6 +454,17 @@ ROLE_EXCLUDED = []
 def parse_bt(bt):
     email = (bt.get('email') or '').lower().strip()
     if not email: return None
+
+    # Suppress partnership-individual records (their joint listing handles them)
+    btid = str(bt.get('id', ''))
+    if btid and btid in SUPPRESS_BTIDS:
+        SUPPRESSED.append({
+            'name':        f"{bt.get('first_name', '')} {bt.get('last_name', '')}".strip(),
+            'email':       email,
+            'boldtrailId': btid,
+            'reason':      'partner in a joint listing',
+        })
+        return None
 
     # Numbered prefixes (e.g. "006 - Laura") appear in first_name in BoldTrail,
     # not just in the joined name. Strip from each component to be safe.
@@ -644,12 +677,39 @@ def load_existing(filepath):
         return {}, {}, {}, 0, []
 
 # ── MERGE ────────────────────────────────────────────────────────────────────
+
+# Manual BoldTrail-id to existing-record pairings.
+# When BoldTrail and Lofty have the same agent under different names/emails
+# (Fred/Frederick, Tim/Timothy, married name changes, etc.) we tell the sync
+# explicitly: "BoldTrail id X is the existing record currently named Y."
+# The merge will then update the name/email/etc. from BoldTrail while
+# preserving the existing photo/profileUrl/loftyId.
+#
+# This is the right place for one-time pairings that don't recur once
+# resolved. Every entry here represents a record that did NOT have a
+# boldtrailId before but now does. After the first sync, that record carries
+# its boldtrailId forward forever and future syncs match by btid — no
+# further intervention needed.
+#
+# To pair a new mismatch:
+#   1. Find the existing record's name in agents.json (the Lofty-side name)
+#   2. Find the corresponding BoldTrail id from the API or BackOffice
+#   3. Add an entry below: "boldtrail_id": "existing name as it appears in agents.json"
+MANUAL_BTID_PAIRINGS = {
+    '272241': 'Fred Seeger',       # BoldTrail: Frederick Seeger
+    '272581': 'Tim Young',         # BoldTrail: Timothy Young
+    '272386': 'Sierrah Gunder',    # BoldTrail: Sierrah Hardy (married name)
+}
+
+
 def find_existing(agent, by_email, by_btid, by_name):
     """
-    [BUG-1] Locate an existing record using the three-tier match.
+    Locate an existing record using a four-tier match.
     Returns the matched dict or None.
 
     Match priority (most reliable first):
+      0. MANUAL_BTID_PAIRINGS — one-time bridge for legacy records that
+         existed in Lofty before BoldTrail tracked them
       1. boldtrailId — exact, set by BoldTrail itself
       2. email — usually stable, but can be edited
       3. normalized name — last-resort fallback for first sync or email changes
@@ -658,8 +718,17 @@ def find_existing(agent, by_email, by_btid, by_name):
     records share the same normalized name, we refuse to match by name to
     avoid randomly clobbering one of them.
     """
-    # 1. boldtrailId
+    # 0. Manual pairing override (resolves Fred/Frederick-style mismatches)
     btid = str(agent.get('boldtrailId', ''))
+    if btid and btid in MANUAL_BTID_PAIRINGS:
+        target_name = MANUAL_BTID_PAIRINGS[btid].lower()
+        for nk, candidates in by_name.items():
+            if nk == normalize_name(MANUAL_BTID_PAIRINGS[btid]):
+                if len(candidates) == 1:
+                    return candidates[0]
+                # If ambiguous, refuse to guess — log and fall through
+                print(f"  ⚠ MANUAL_BTID_PAIRINGS: {btid} → '{MANUAL_BTID_PAIRINGS[btid]}' is ambiguous ({len(candidates)} matches), skipping")
+    # 1. boldtrailId
     if btid and btid in by_btid:
         return by_btid[btid]
     # 2. email
@@ -1032,6 +1101,7 @@ def write_report(flagged, merged, dry_run=False):
     print(f"  Excluded (no region):  {summary['excluded_no_region']}")
     print(f"  Excluded (junk):       {summary['excluded_junk']}")
     print(f"  Excluded (non-Agent):  {len(ROLE_EXCLUDED)}")
+    print(f"  Suppressed (partners): {len(SUPPRESSED)}")
     print(f"  Missing data:          {summary['missing_data']} (still shown)")
     print(f"  Potential duplicates:  {summary['potential_duplicates']}")
     print(f"  No photo:              {len(no_photo)}")
