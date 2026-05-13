@@ -1,0 +1,170 @@
+name: Glasshouse Agent Sync — TEST
+
+# ─────────────────────────────────────────────────────────────────────────────
+# THIS WORKFLOW IS FOR THE sync-testing BRANCH ONLY.
+#
+# What this is:
+#   - A clone of the production sync workflow
+#   - Runs against the BoldTrail API (read-only, same as production)
+#   - Writes ONLY to agents-test.json on this branch
+#   - Never pushes to main
+#   - Never touches the live agents.json
+#
+# Where the test data is consumed:
+#   The Lofty test page fetches from raw.githubusercontent.com:
+#   https://raw.githubusercontent.com/evansvince/glasshouse-data/sync-testing/agents-test.json
+#
+# Why no cron:
+#   GitHub Actions schedules only run on the default branch (main), so a cron
+#   here would never fire anyway. We document this explicitly to make the
+#   manual-only nature obvious. Test runs are always workflow_dispatch.
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run — preview only, no files written'
+        required: false
+        default: 'true'    # Safe default
+        type: choice
+        options: ['true', 'false']
+
+jobs:
+  sync-agents-test:
+    name: "Sync Agents to agents-test.json (TEST branch)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    # Hard guard: this job is allowed to run only on the sync-testing branch.
+    # If someone copies this workflow to main by mistake, the job exits.
+    if: github.ref == 'refs/heads/sync-testing'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: sync-testing
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify we are on sync-testing
+        run: |
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          if [ "$BRANCH" != "sync-testing" ]; then
+            echo "ABORT: workflow expects branch sync-testing, got $BRANCH"
+            exit 1
+          fi
+          echo "Branch verified: $BRANCH"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Determine run mode
+        id: mode
+        run: |
+          MODE="${{ github.event.inputs.dry_run }}"
+          if [ -z "$MODE" ]; then MODE="true"; fi
+          echo "dry_run=$MODE" >> $GITHUB_OUTPUT
+          echo "Run mode: dry_run=$MODE"
+
+      - name: Run agent sync against agents-test.json (READ ONLY from BoldTrail)
+        id: sync
+        env:
+          BOLDTRAIL_API_KEY: ${{ secrets.BOLDTRAIL_API_KEY }}
+        run: |
+          # CRITICAL: --out agents-test.json keeps writes away from the live file
+          if [ "${{ steps.mode.outputs.dry_run }}" = "true" ]; then
+            python3 gh-agents-sync-bt.py --dry-run --out agents-test.json 2>&1 | tee sync-output.txt
+          else
+            python3 gh-agents-sync-bt.py --out agents-test.json 2>&1 | tee sync-output.txt
+          fi
+          SUMMARY=$(grep "^REPORT_SUMMARY=" sync-output.txt | tail -1 | sed 's/REPORT_SUMMARY=//')
+          echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
+          if [ -f SYNC_EVENT ]; then
+            echo "has_event=true" >> $GITHUB_OUTPUT
+            echo "event_body<<EOF" >> $GITHUB_OUTPUT
+            cat SYNC_EVENT >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "has_event=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Belt-and-suspenders — verify live agents.json was not touched
+        if: always()
+        run: |
+          # If somehow the script wrote to agents.json, fail loudly and refuse
+          # to commit anything. The git status check is a final safety net.
+          if git status --porcelain agents.json | grep -q "agents.json"; then
+            echo "FATAL: agents.json was modified during a TEST run!"
+            echo "This should be impossible — the script was invoked with --out agents-test.json"
+            git status
+            git checkout -- agents.json
+            exit 1
+          fi
+          echo "✓ agents.json is untouched (as expected)"
+
+      - name: Commit test report + agents-test.json to sync-testing only
+        if: steps.mode.outputs.dry_run != 'true'
+        run: |
+          git config user.name  "Glasshouse Sync Bot (TEST)"
+          git config user.email "sync-test@glasshouserealty.com"
+          # Explicitly stage only test artifacts. agents.json is NEVER staged.
+          git add agents-test.json reports/ backups/ 2>/dev/null || true
+          # If anyone accidentally added agents.json, unstage it
+          git reset HEAD agents.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit"
+            exit 0
+          fi
+          COUNT=$(python3 -c "
+          import json
+          d = json.load(open('agents-test.json'))
+          print(len([a for a in d if not a.get('hidden')]))")
+          git commit -m "TEST sync — ${COUNT} agents in agents-test.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          # Push only this branch, never main
+          git push origin sync-testing
+
+      - name: Commit dry-run reports to sync-testing
+        if: steps.mode.outputs.dry_run == 'true'
+        run: |
+          git config user.name  "Glasshouse Sync Bot (TEST)"
+          git config user.email "sync-test@glasshouserealty.com"
+          git add reports/ 2>/dev/null || true
+          git reset HEAD agents.json agents-test.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No report changes"
+          else
+            git commit -m "TEST dry-run reports [$(date -u '+%Y-%m-%d')]"
+            git push origin sync-testing
+          fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          echo "## TEST Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Status | ${{ job.status }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Branch | sync-testing |" >> $GITHUB_STEP_SUMMARY
+          echo "| Mode | ${{ steps.mode.outputs.dry_run == 'true' && 'dry-run' || 'LIVE (writes agents-test.json)' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Output file | agents-test.json |" >> $GITHUB_STEP_SUMMARY
+          echo "| Has events | ${{ steps.sync.outputs.has_event }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Summary | ${{ steps.sync.outputs.summary }} |" >> $GITHUB_STEP_SUMMARY
+          if [ -f agents-test.json ]; then
+            COUNT=$(python3 -c "import json; d=json.load(open('agents-test.json')); print(len([a for a in d if not a.get('hidden')]))")
+            echo "| Visible agents in test file | ${COUNT} |" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Test data URL:**" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "https://raw.githubusercontent.com/evansvince/glasshouse-data/sync-testing/agents-test.json" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          if [ -f SYNC_EVENT ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Events this run" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat SYNC_EVENT >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
