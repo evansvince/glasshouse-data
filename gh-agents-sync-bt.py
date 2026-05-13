@@ -420,20 +420,50 @@ def fetch_bt_agents():
         abort(f"BoldTrail fetch error: {e}")
 
 # ── PARSE ────────────────────────────────────────────────────────────────────
+# Roles that appear on the public agent finder. BoldTrail's role names are
+# case-sensitive strings; we normalize before comparing.
+ALLOWED_ROLES = {'agent'}
+
+# Track non-Agent role exclusions for the flagged report
+ROLE_EXCLUDED = []
+
+
 def parse_bt(bt):
     email = (bt.get('email') or '').lower().strip()
     if not email: return None
-    first = bt.get('first_name', '') or ''
-    last  = bt.get('last_name', '')  or ''
-    name  = f"{first} {last}".strip() or bt.get('name', '')
+
+    # Numbered prefixes (e.g. "006 - Laura") appear in first_name in BoldTrail,
+    # not just in the joined name. Strip from each component to be safe.
+    first = (bt.get('first_name', '') or '').strip()
+    last  = (bt.get('last_name', '')  or '').strip()
+    # Strip 0XX - prefix from first_name specifically
+    first = re.sub(r'^0[0-9]+ - ', '', first).strip()
+    last  = re.sub(r'^0[0-9]+ - ', '', last).strip()
+    name  = f"{first} {last}".strip() or (bt.get('name', '') or '').strip()
     if not name: return None
-    # Strip numbered prefixes like "001 - ", "005 - " from BoldTrail names
+    # Final pass in case the prefix was on the joined name field
     name = re.sub(r'^0[0-9]+ - ', '', name).strip()
     if not name: return None
 
-    region_raw = bt.get('Region') or bt.get('region') or ''
+    # Role filter: only "Agent" appears on the public site. Office Administrator,
+    # Processor, Team Lead, etc. are excluded. Log every exclusion so you can
+    # audit who got filtered out in the reports/role-excluded/ folder.
+    role = (bt.get('role') or '').strip()
+    if role and role.lower() not in ALLOWED_ROLES:
+        ROLE_EXCLUDED.append({
+            'name':        name,
+            'email':       email,
+            'role':        role,
+            'boldtrailId': str(bt.get('id', '')),
+        })
+        return None
+
+    # BoldTrail field names: 'team' (lowercase) is the actual key.
+    # Keep the Capitalized/team_name variants as fallback in case BoldTrail
+    # ever changes the response shape for some accounts.
+    region_raw = bt.get('region') or bt.get('Region') or ''
     regions = [r.strip() for r in region_raw.split(',') if r.strip()]
-    team   = bt.get('Team') or bt.get('team_name') or ''
+    team   = bt.get('team') or bt.get('Team') or bt.get('team_name') or ''
     office = bt.get('office') or bt.get('office_name') or ''
 
     if not regions and office:
@@ -906,6 +936,30 @@ def write_report(flagged, merged, dry_run=False):
         }, f, indent=2)
     print(f"  No region:     {nr_path}{dr_label} ({len(no_region)} agents)")
 
+    # ── 2b. Role-excluded report ───────────────────────────────────────────────
+    # Non-Agent roles (Office Administrator, Processor, Team Lead, Broker, etc.)
+    # are filtered at parse time. This report lists who got filtered so you
+    # can confirm the role filter is doing the right thing.
+    role_dir = os.path.join(REPORTS_DIR, 'role-excluded')
+    os.makedirs(role_dir, exist_ok=True)
+    role_path = os.path.join(role_dir, f'role-excluded-{ts}.json')
+    role_excluded_sorted = sorted(ROLE_EXCLUDED, key=lambda x: (x.get('role', ''), x.get('name', '').lower()))
+    # Group by role for at-a-glance review
+    role_counts = {}
+    for r in ROLE_EXCLUDED:
+        role_counts[r.get('role', '?')] = role_counts.get(r.get('role', '?'), 0) + 1
+    with open(role_path, 'w') as f:
+        json.dump({
+            'generated':   generated,
+            'dry_run':     dry_run,
+            'description': "BoldTrail records excluded because role != 'Agent'. To allow a role on the site, add it to ALLOWED_ROLES in gh-agents-sync-bt.py.",
+            'allowed_roles': sorted(ALLOWED_ROLES),
+            'count':       len(ROLE_EXCLUDED),
+            'by_role':     role_counts,
+            'records':     role_excluded_sorted,
+        }, f, indent=2)
+    print(f"  Role-excluded: {role_path}{dr_label} ({len(ROLE_EXCLUDED)} records, breakdown: {role_counts})")
+
     # ── 3a. No-photo report ────────────────────────────────────────────────────
     photo_dir  = os.path.join(REPORTS_DIR, 'no-photo')
     os.makedirs(photo_dir, exist_ok=True)
@@ -976,6 +1030,7 @@ def write_report(flagged, merged, dry_run=False):
     print(f"  Hidden on site:        {summary['hidden_on_site']}")
     print(f"  Excluded (no region):  {summary['excluded_no_region']}")
     print(f"  Excluded (junk):       {summary['excluded_junk']}")
+    print(f"  Excluded (non-Agent):  {len(ROLE_EXCLUDED)}")
     print(f"  Missing data:          {summary['missing_data']} (still shown)")
     print(f"  Potential duplicates:  {summary['potential_duplicates']}")
     print(f"  No photo:              {len(no_photo)}")
