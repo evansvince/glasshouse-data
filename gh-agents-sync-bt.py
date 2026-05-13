@@ -421,8 +421,9 @@ def fetch_bt_agents():
 
 # ── PARSE ────────────────────────────────────────────────────────────────────
 # Roles that appear on the public agent finder. BoldTrail's role names are
-# case-sensitive strings; we normalize before comparing.
-ALLOWED_ROLES = {'agent'}
+# case-sensitive strings; we normalize to lowercase before comparing.
+# To allow another role, add it to this set in lowercase form.
+ALLOWED_ROLES = {'agent', 'team leader', 'broker'}
 
 # Track non-Agent role exclusions for the flagged report
 ROLE_EXCLUDED = []
@@ -1092,12 +1093,16 @@ def write_event_marker():
     if EVENTS['new_agents']:
         lines.append(f"\n{len(EVENTS['new_agents'])} new agent(s) added:")
         for a in EVENTS['new_agents']:
-            photo_note = '' if a['has_photo'] else ' [no photo yet]'
-            lines.append(f"  + {a['name']} <{a['email']}> — {a.get('team', 'No team')}, {', '.join(a.get('regions', []))}{photo_note}")
+            team    = a.get('team') or 'Solo agent'
+            regions = ', '.join(a.get('regions', [])) or 'No region'
+            photo   = '' if a['has_photo'] else ' [no photo yet]'
+            lines.append(f"  + {a['name']} <{a['email']}> · {team} · {regions}{photo}")
     if EVENTS['soft_deletes']:
         lines.append(f"\n{len(EVENTS['soft_deletes'])} agent(s) soft-deleted (gone from BoldTrail, hidden on site, 30-day grace before purge):")
         for a in EVENTS['soft_deletes']:
-            lines.append(f"  - {a['name']} <{a['email']}> — {a.get('team', '')}, {', '.join(a.get('regions', []))}")
+            team    = a.get('team') or 'Solo agent'
+            regions = ', '.join(a.get('regions', [])) or 'No region'
+            lines.append(f"  - {a['name']} <{a['email']}> · {team} · {regions}")
     if EVENTS['purges']:
         lines.append(f"\n{len(EVENTS['purges'])} agent(s) purged (gone for 30+ days):")
         for a in EVENTS['purges']:
