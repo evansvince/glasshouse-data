@@ -434,7 +434,10 @@ ALLOWED_ROLES = {'agent', 'team leader', 'broker'}
 # To add a new partnership:
 #   1. Confirm the joint Lofty profile exists and is showing correctly
 #   2. Look up each partner's BoldTrail id (visible in the BoldTrail API)
-#   3. Add their btids below with a comment naming the joint listing
+#   3. Add their btids to SUPPRESS_BTIDS below with a comment
+#   4. Add the joint Lofty record's EMAIL to PRESERVE_JOINT_EMAILS to keep
+#      the joint listing visible across syncs (since no BoldTrail record
+#      matches it directly)
 #
 # This list is the only place that needs to change to onboard a new
 # partnership. Admins continue to use Lofty as normal — no JSON editing.
@@ -442,6 +445,14 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
+}
+
+# Emails of joint-listing records in agents.json. The sync preserves these
+# records across every sync (they aren't matched by any single BoldTrail
+# record because they represent partnerships).
+PRESERVE_JOINT_EMAILS = {
+    'kljackson@glasshouserealty.com',         # Kevin & Lisa Jackson
+    'conniedeanna@kunalpatelgroup.com',       # Connie Lowery & Deanna O'Diam
 }
 
 # Track suppressed records for the report (lets you verify the list is correct)
@@ -893,6 +904,12 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
     for existing in existing_all:
         # Skip Cleveland — already handled
         if 'Cleveland' in existing.get('regions', []) or existing.get('source') == 'spreadsheet':
+            continue
+        # Skip joint listings — preserved across syncs (no 1:1 BT match exists).
+        # Carry the joint record forward into merged as-is.
+        ex_email = (existing.get('email') or '').lower()
+        if ex_email in PRESERVE_JOINT_EMAILS:
+            merged.append(existing)
             continue
         # Skip if this exact existing record was matched by an incoming BT record
         if id(existing) in matched_existing_ids:
