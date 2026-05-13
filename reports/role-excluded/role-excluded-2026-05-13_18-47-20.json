@@ -1,0 +1,264 @@
+{
+  "generated": "2026-05-13T18:47:20.359396",
+  "dry_run": true,
+  "description": "BoldTrail records excluded because role != 'Agent'. To allow a role on the site, add it to ALLOWED_ROLES in gh-agents-sync-bt.py.",
+  "allowed_roles": [
+    "agent"
+  ],
+  "count": 41,
+  "by_role": {
+    "owner": 1,
+    "Office administrator": 14,
+    "Broker": 2,
+    "Team leader": 19,
+    "Accountant": 5
+  },
+  "records": [
+    {
+      "name": "Hema Chhatani",
+      "email": "finance2@buildvessel.com",
+      "role": "Accountant",
+      "boldtrailId": "274172"
+    },
+    {
+      "name": "Rachna Kochar",
+      "email": "rachna@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "274170"
+    },
+    {
+      "name": "Scott Hetzler",
+      "email": "scott.hetzler@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "292809"
+    },
+    {
+      "name": "Shobha Kodag",
+      "email": "shobha@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "285923"
+    },
+    {
+      "name": "Sibu Janardhanan",
+      "email": "sibu@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "274163"
+    },
+    {
+      "name": "Kunal Patel",
+      "email": "kunal@kunalpatelgroup.com",
+      "role": "Broker",
+      "boldtrailId": "272300"
+    },
+    {
+      "name": "Richard Kloth",
+      "email": "evan@z-kgroup.com",
+      "role": "Broker",
+      "boldtrailId": "256293"
+    },
+    {
+      "name": "Abby Taylor",
+      "email": "abby@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "284625"
+    },
+    {
+      "name": "Admin Test",
+      "email": "kaileygilbert7@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "284620"
+    },
+    {
+      "name": "Cody Goodman",
+      "email": "codygoodmanhma@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "275338"
+    },
+    {
+      "name": "Cody Hemmelgarn",
+      "email": "cody@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "259197"
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "operations@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256585"
+    },
+    {
+      "name": "Glasshouse Admin",
+      "email": "admin@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "268791"
+    },
+    {
+      "name": "Jed Helmers",
+      "email": "jedhelmers+1@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "280273"
+    },
+    {
+      "name": "Jed Helmers 2",
+      "email": "jedhelmers+2@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "280274"
+    },
+    {
+      "name": "Jessica Gonzalez",
+      "email": "jessica.gonzalez@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "284671"
+    },
+    {
+      "name": "Kailey Gilbert",
+      "email": "kailey@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256292"
+    },
+    {
+      "name": "Korrin Ziswiler",
+      "email": "korrin@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "284623"
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "megan.lucking@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256586"
+    },
+    {
+      "name": "Melissa Miotti",
+      "email": "melissa@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256290"
+    },
+    {
+      "name": "Processing Team",
+      "email": "processing@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "277918"
+    },
+    {
+      "name": "Alison North",
+      "email": "alisonnorthrealtor@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272167"
+    },
+    {
+      "name": "Amanda Stiles",
+      "email": "amandaohiohomes@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "275095"
+    },
+    {
+      "name": "Carr's Real Estate Group",
+      "email": "carrgroup@glasshouserealty.com",
+      "role": "Team leader",
+      "boldtrailId": "272195"
+    },
+    {
+      "name": "Casey Hartman",
+      "email": "casey@glasshouserealty.com",
+      "role": "Team leader",
+      "boldtrailId": "272198"
+    },
+    {
+      "name": "Christopher Endres",
+      "email": "endreshomes@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272207"
+    },
+    {
+      "name": "Crush Team Manager",
+      "email": "admin@daytonrealestatecrush.com",
+      "role": "Team leader",
+      "boldtrailId": "272216"
+    },
+    {
+      "name": "Jamie Gabbard",
+      "email": "jamie@jamiegabbard.com",
+      "role": "Team leader",
+      "boldtrailId": "275091"
+    },
+    {
+      "name": "KD Nave",
+      "email": "kd@navehometeam.com",
+      "role": "Team leader",
+      "boldtrailId": "272286"
+    },
+    {
+      "name": "Kyra Buckner",
+      "email": "kyra@glasshouserealty.com",
+      "role": "Team leader",
+      "boldtrailId": "272301"
+    },
+    {
+      "name": "Lauren Dillon",
+      "email": "lauren.dillonrealtor@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272306"
+    },
+    {
+      "name": "Lisa Goris May",
+      "email": "lisa@gorismaygroup.com",
+      "role": "Team leader",
+      "boldtrailId": "272310"
+    },
+    {
+      "name": "Melissa Sansabrino",
+      "email": "missysans@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272332"
+    },
+    {
+      "name": "Nicole Miller",
+      "email": "nikimillerrealtor@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272355"
+    },
+    {
+      "name": "Stephanie Ball",
+      "email": "ball.stephanie@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272391"
+    },
+    {
+      "name": "Tamara Galdeen",
+      "email": "tami@daytonrealestatecrush.com",
+      "role": "Team leader",
+      "boldtrailId": "272397"
+    },
+    {
+      "name": "Thomas Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "role": "Team leader",
+      "boldtrailId": "272405"
+    },
+    {
+      "name": "Xanni Burton",
+      "email": "xanni.burton@outlook.com",
+      "role": "Team leader",
+      "boldtrailId": "272589"
+    },
+    {
+      "name": "Zachary Banks",
+      "email": "zac@goodguyteam.com",
+      "role": "Team leader",
+      "boldtrailId": "272590"
+    },
+    {
+      "name": "Zahedi Kloth Group Inc",
+      "email": "admin@z-kgroup.com",
+      "role": "Team leader",
+      "boldtrailId": "272593"
+    },
+    {
+      "name": "Mohammad Zahedi",
+      "email": "boldtrail@glasshouserealty.com",
+      "role": "owner",
+      "boldtrailId": "254091"
+    }
+  ]
+}
