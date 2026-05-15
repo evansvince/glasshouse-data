@@ -634,19 +634,86 @@ def filter_and_flag(agents):
     return valid, flagged
 
 # ── BACKUP ───────────────────────────────────────────────────────────────────
-def backup(filepath):
+# Backup strategy: every live run creates a timestamped backup on disk (this
+# protects against mid-run corruption). The backup is GIT-COMMITTED only if:
+#   - It is the first sync of the calendar day (UTC), OR
+#   - Change volume >= 5% of existing record count (significant event)
+#
+# Why this matters: with hourly syncs running 11x/day x 5 days/week, committing
+# every backup creates ~55 backup commits per week, cluttering git history with
+# noise. The smart approach gives you one durable rollback point per day plus
+# emergency snapshots when something significant happens, while keeping the
+# disk-side backup for short-term safety on every run.
+
+BACKUP_COMMIT_THRESHOLD_PCT = 0.05  # 5% change triggers an emergency commit
+
+def is_first_sync_today():
+    """
+    Check if any agents_*.json backup exists for today (UTC). If not,
+    this is the first sync of the day and the backup should be committed.
+    """
+    if not os.path.exists(BACKUP_DIR): return True
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    for f in os.listdir(BACKUP_DIR):
+        if f.startswith('agents_') and today in f:
+            return False
+    return True
+
+
+def backup(filepath, existing_count=0, new_count=0):
+    """
+    Create a timestamped backup on disk. Returns a dict with:
+      - 'path': the backup file path (or None if skipped)
+      - 'commit_worthy': True if this backup should be committed to git
+      - 'reason': why it's commit-worthy (or why it isn't)
+
+    Disk backup happens unconditionally on every live run. Git commit
+    decision is based on first-of-day + significant-change criteria.
+    """
     if not os.path.exists(filepath):
         print(f"  No existing {filepath} — skipping backup")
-        return None
+        return {'path': None, 'commit_worthy': False, 'reason': 'no existing file'}
+
     os.makedirs(BACKUP_DIR, exist_ok=True)
     ts   = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
     base = os.path.basename(filepath).replace('.json', '')
     dest = os.path.join(BACKUP_DIR, f"{base}_{ts}.json")
+
+    # First-of-day detection BEFORE we create the new backup (otherwise
+    # the new file we're about to write would be seen as "today's backup")
+    first_today = is_first_sync_today()
+
     shutil.copy2(filepath, dest)
     print(f"  Backed up → {dest} ({os.path.getsize(dest):,} bytes)")
-    return dest
+
+    # Decide if this backup should be committed
+    commit_worthy = False
+    reason = ''
+
+    if first_today:
+        commit_worthy = True
+        reason = 'first sync of the day (UTC)'
+    elif existing_count > 0:
+        change_pct = abs(new_count - existing_count) / existing_count
+        if change_pct >= BACKUP_COMMIT_THRESHOLD_PCT:
+            commit_worthy = True
+            reason = f'significant change: {change_pct:.0%} (threshold: {BACKUP_COMMIT_THRESHOLD_PCT:.0%})'
+        else:
+            reason = f'routine sync, {change_pct:.1%} change (under {BACKUP_COMMIT_THRESHOLD_PCT:.0%} threshold)'
+
+    if commit_worthy:
+        print(f"  ✓ Backup will be COMMITTED to git: {reason}")
+    else:
+        print(f"  · Backup kept on disk only: {reason}")
+
+    return {'path': dest, 'commit_worthy': commit_worthy, 'reason': reason}
+
 
 def prune_backups(keep=30):
+    """
+    Keep the last `keep` backups per file prefix. Backups are pruned on
+    disk; this doesn't affect what's already been committed to git.
+    """
     if not os.path.exists(BACKUP_DIR): return
     files = sorted(os.listdir(BACKUP_DIR), reverse=True)
     by_prefix = {}
@@ -1302,10 +1369,16 @@ def main():
         print(f"\nREPORT_SUMMARY=included:{summary['included_in_site']} junk:{summary['excluded_junk']} no_region:{summary['missing_region']} duplicates:{summary['potential_duplicates']} new:{summary['new_agents']} soft_del:{summary['soft_deletes']}")
         return
 
-    # 10. Backup
+    # 10. Backup (smart commit decision: first-of-day OR significant change)
     print(f"\n── Backup ──────────────────────────────────────────────")
-    backup(args.out)
+    backup_result = backup(args.out, existing_count=existing_count, new_count=len(merged))
     prune_backups(keep=30)
+    # Write a marker the workflow can read to decide whether to git-add backups/
+    if backup_result['commit_worthy']:
+        with open('BACKUP_COMMIT', 'w') as f:
+            f.write(backup_result['reason'] + '\n')
+    elif os.path.exists('BACKUP_COMMIT'):
+        os.remove('BACKUP_COMMIT')
 
     # 11. Write agents.json
     print(f"\n── Writing {args.out} ──────────────────────────────────")
