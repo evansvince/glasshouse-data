@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     if: |
-      (github.event_name == 'schedule' && github.event.schedule == '0 * * * *') ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 13-23 * * 1-5') ||
       (github.event_name == 'workflow_dispatch' && (github.event.inputs.job == 'agents' || github.event.inputs.job == 'all'))
 
     steps:
