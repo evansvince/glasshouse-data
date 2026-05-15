@@ -455,6 +455,28 @@ PRESERVE_JOINT_EMAILS = {
     'conniedeanna@kunalpatelgroup.com',       # Connie Lowery & Deanna O'Diam
 }
 
+# ── HIDE TEAM ASSIGNMENT FROM AGENT CARD ──────────────────────────────────────
+# Some agents are assigned to a team in BoldTrail for internal/backend reasons
+# (lead routing, transaction grouping, compensation, etc.) but don't want
+# their team name and logo visible on their public agent card.
+#
+# Add their BoldTrail id below. On every sync, their team field and teamLogo
+# will be blanked out before writing to agents.json. They still appear on
+# the public agent finder, but as a "solo agent" visually.
+#
+# To hide a team assignment:
+#   1. Look up the agent's BoldTrail id from the API
+#   2. Add their btid here with a comment naming the agent
+#   3. Their existing team logo / team name is wiped on the next sync
+#
+# To restore visibility: remove the btid from this list and the team will
+# reappear on the next sync.
+# Each entry is on its own line so you can comment/uncomment individual agents.
+HIDE_TEAM_BTIDS = {btid for btid in [
+    '272296',   # Kim Kretz — backend team only, don't show on card
+    '272405',   # Kim Kretz — backend team only, don't show on card
+] if btid}
+
 # Track suppressed records for the report (lets you verify the list is correct)
 SUPPRESSED = []
 
@@ -510,6 +532,12 @@ def parse_bt(bt):
     regions = [r.strip() for r in region_raw.split(',') if r.strip()]
     team   = bt.get('team') or bt.get('Team') or bt.get('team_name') or ''
     office = bt.get('office') or bt.get('office_name') or ''
+
+    # Hide-team override: agents listed in HIDE_TEAM_BTIDS have their team
+    # blanked on the public card (BoldTrail still tracks them internally).
+    btid_str = str(bt.get('id', ''))
+    if btid_str and btid_str in HIDE_TEAM_BTIDS:
+        team = ''  # blank team name → cards render as "Solo agent"
 
     if not regions and office:
         inferred = infer_region(office)
