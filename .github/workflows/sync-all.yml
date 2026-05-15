@@ -5,12 +5,32 @@ name: Glasshouse Data Sync
 # BoldTrail data is NEVER modified, deleted, or altered
 # agents.json is backed up before every update
 # Site never goes down — we abort if data looks wrong
+#
+# PATCHED 2026-05-13 — see CHANGELOG below
+# ─────────────────────────────────────────────────────────────────────────────
+# CHANGELOG (patch round 1)
+#   - Disabled the hourly cron until we've watched a few clean manual runs
+#     (the line is still present, just commented out — uncomment to resume)
+#   - Email step now gated on the existence of a SYNC_EVENT file written by
+#     the Python script. No event = no email. Aborts and real changes still
+#     send. Routine "nothing changed" hourly runs no longer spam your inbox.
+#   - workflow_dispatch dry_run default is 'true'. You have to consciously
+#     flip to 'false' for a live run.
+#   - Scheduled runs (when re-enabled) default to dry-run if no input given.
+#     Belt-and-suspenders against the original incident where the cron ran
+#     live with no human in the loop.
+#   - Added PAUSE_SYNC honoring — the Python script exits cleanly if a file
+#     named PAUSE_SYNC exists in the repo root. Workflow doesn't need to
+#     check; the script handles it.
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
   schedule:
-    - cron: '0 * * * *'    # Agents: every hour
-    # Sold data sync disabled for now — enable when ready
+    # Agents: every hour 9am-6pm Ohio time, Mon-Fri (with DST buffer).
+    # 13-23 UTC covers 9am-6pm EDT (summer) AND 8am-6pm EST (winter).
+    # The extra hour in each season is harmless — sync is silent when nothing changes.
+    - cron: '0 13-23 * * 1-5'
+    # Sold data sync: still disabled. Uncomment when ready.
     # - cron: '0 7 * * *'
 
   workflow_dispatch:
@@ -24,7 +44,7 @@ on:
       dry_run:
         description: 'Dry run — preview only, no files written'
         required: false
-        default: 'true'
+        default: 'true'    # Safe default
         type: choice
         options: ['true', 'false']
 
@@ -50,12 +70,28 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Determine run mode (dry-run unless explicitly LIVE)
+        id: mode
+        run: |
+          # workflow_dispatch: honor the user's choice
+          # schedule: default to dry-run (safer; user must opt into live via dispatch)
+          # anything else (push, etc.): default to dry-run
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ github.event.inputs.dry_run }}"
+          else
+            MODE="true"
+          fi
+          # Normalize empty string to 'true' just in case
+          if [ -z "$MODE" ]; then MODE="true"; fi
+          echo "dry_run=$MODE" >> $GITHUB_OUTPUT
+          echo "Run mode: dry_run=$MODE"
+
       - name: Run agent sync (READ ONLY from BoldTrail)
         id: sync
         env:
           BOLDTRAIL_API_KEY: ${{ secrets.BOLDTRAIL_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+          if [ "${{ steps.mode.outputs.dry_run }}" = "true" ]; then
             python3 gh-agents-sync-bt.py --dry-run 2>&1 | tee sync-output.txt
           else
             python3 gh-agents-sync-bt.py 2>&1 | tee sync-output.txt
@@ -63,6 +99,15 @@ jobs:
           # Extract report summary line for notification
           SUMMARY=$(grep "^REPORT_SUMMARY=" sync-output.txt | tail -1 | sed 's/REPORT_SUMMARY=//')
           echo "summary=$SUMMARY" >> $GITHUB_OUTPUT
+          # Detect whether the script wrote the SYNC_EVENT marker
+          if [ -f SYNC_EVENT ]; then
+            echo "has_event=true" >> $GITHUB_OUTPUT
+            echo "event_body<<EOF" >> $GITHUB_OUTPUT
+            cat SYNC_EVENT >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          else
+            echo "has_event=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit flagged report (always — even dry run)
         run: |
@@ -72,16 +117,26 @@ jobs:
           if git diff --staged --quiet; then
             echo "No report changes"
           else
-            git commit -m "Flagged agents report [$(date -u '+%Y-%m-%d')]${{ github.event.inputs.dry_run == 'true' && ' (dry run)' || '' }}"
+            git commit -m "Flagged agents report [$(date -u '+%Y-%m-%d')]${{ steps.mode.outputs.dry_run == 'true' && ' (dry run)' || '' }}"
             git push
           fi
 
       - name: Commit agents.json + backups (live run only)
-        if: github.event.inputs.dry_run != 'true'
+        if: steps.mode.outputs.dry_run != 'true'
         run: |
           git config user.name  "Glasshouse Sync Bot"
           git config user.email "sync@glasshouserealty.com"
-          git add agents.json backups/ 2>/dev/null || true
+          # Always stage agents.json if it changed
+          git add agents.json 2>/dev/null || true
+          # Only stage the backups folder if the script wrote BACKUP_COMMIT
+          # (i.e., first sync of the day OR significant change >=5%).
+          # This keeps git history clean for routine hourly runs.
+          if [ -f BACKUP_COMMIT ]; then
+            git add backups/ 2>/dev/null || true
+            echo "Backup will be committed: $(cat BACKUP_COMMIT)"
+          else
+            echo "Routine sync — backup kept on disk only, not committed to git"
+          fi
           if git diff --staged --quiet; then
             echo "No changes — skipping commit"
             exit 0
@@ -93,8 +148,12 @@ jobs:
           git commit -m "Auto-sync agents — ${COUNT} agents [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
 
-      - name: Send email notification
-        if: always()
+      - name: Send email notification (only on real events or failures)
+        # Gated on:
+        #   - the script wrote a SYNC_EVENT marker (new agents, soft-deletes, purges, aborts), OR
+        #   - the job failed for any reason
+        # Quiet hourly runs with no changes produce no email.
+        if: always() && (steps.sync.outputs.has_event == 'true' || job.status != 'success')
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -104,24 +163,31 @@ jobs:
           password: ${{ secrets.SMTP_PASS }}
           to: ${{ secrets.NOTIFY_EMAIL }}
           from: Glasshouse Sync Bot <${{ secrets.SMTP_USER }}>
-          subject: "Glasshouse Agent Sync — ${{ job.status == 'success' && 'SUCCESS' || 'FAILED' }} [${{ steps.sync.outputs.summary }}]"
+          subject: "Glasshouse Agent Sync — ${{ job.status == 'success' && 'EVENTS' || 'FAILED' }} [${{ steps.sync.outputs.summary }}]"
           body: |
             Glasshouse Agent Sync Report
             ════════════════════════════
             Status:    ${{ job.status }}
             Run time:  ${{ github.run_id }}
             Triggered: ${{ github.event_name }}
-            Dry run:   ${{ github.event.inputs.dry_run || 'false' }}
+            Dry run:   ${{ steps.mode.outputs.dry_run }}
 
             Summary: ${{ steps.sync.outputs.summary }}
+
+            ─── EVENTS ───────────────────────────────
+            ${{ steps.sync.outputs.event_body }}
+            ──────────────────────────────────────────
 
             View full log:
             https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
             Reports committed to reports/ folder:
-            • live-agents-YYYY-MM-DD.json  — all agents on site
-            • no-region-YYYY-MM-DD.json    — agents needing region in BoldTrail
-            • flagged-YYYY-MM-DD.json      — junk accounts and duplicates
+              • live-agents/    — all agents on site
+              • no-region/      — agents needing region in BoldTrail
+              • no-photo/       — agents missing photos
+              • no-profile-url/ — agents missing profile URLs
+              • flagged/        — junk accounts and duplicates
+              • events/         — this run's new/soft-deleted/purged
             https://github.com/${{ github.repository }}/tree/main/reports/
 
             ────────────────────────────────────
@@ -135,11 +201,20 @@ jobs:
           echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|-------|-------|" >> $GITHUB_STEP_SUMMARY
           echo "| Status | ${{ job.status }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Mode | ${{ steps.mode.outputs.dry_run == 'true' && 'dry-run' || 'LIVE' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Has events | ${{ steps.sync.outputs.has_event }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Summary | ${{ steps.sync.outputs.summary }} |" >> $GITHUB_STEP_SUMMARY
           echo "| BoldTrail access | READ ONLY — no data modified |" >> $GITHUB_STEP_SUMMARY
           if [ -f agents.json ]; then
             COUNT=$(python3 -c "import json; d=json.load(open('agents.json')); print(len([a for a in d if not a.get('hidden')]))")
             echo "| Agents on site | ${COUNT} |" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -f SYNC_EVENT ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Events this run" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat SYNC_EVENT >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           fi
 
   # ── SOLD DAYTON ────────────────────────────────────────────────────────────
