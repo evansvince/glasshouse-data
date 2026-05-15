@@ -1,0 +1,74 @@
+{
+  "generated": "2026-05-15T18:02:52.497922",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Amy Fralick",
+      "email": "amy.fralick@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    },
+    {
+      "name": "Brianne Lee",
+      "email": "brianne.lee@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "LUX Elite Group"
+    },
+    {
+      "name": "Kaitlyn Stewart",
+      "email": "kaitstewartrealty@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Leslie Wade",
+      "email": "l.wade@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Maegan Benne",
+      "email": "maeganbennerealtor@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    },
+    {
+      "name": "Cindy Menth",
+      "email": "gabbardgrouptc@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Kaylynn Burritt",
+      "email": "kaylynn@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group"
+    },
+    {
+      "name": "Maxwell Zukowitz",
+      "email": "max@daytonrealestatecrush.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "Dayton Real Estate Crush"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
