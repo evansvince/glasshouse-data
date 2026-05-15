@@ -473,8 +473,8 @@ PRESERVE_JOINT_EMAILS = {
 # reappear on the next sync.
 # Each entry is on its own line so you can comment/uncomment individual agents.
 HIDE_TEAM_BTIDS = {btid for btid in [
-    '272296',   # Kim Kretz — backend team only, don't show on card
-    '272405',   # Kim Kretz — backend team only, don't show on card
+    # '272304',   # Laura Long — backend team only, don't show on card
+    # '272456',   # Some Other Agent — example
 ] if btid}
 
 # Track suppressed records for the report (lets you verify the list is correct)
@@ -497,6 +497,18 @@ def parse_bt(bt):
             'boldtrailId': btid,
             'reason':      'partner in a joint listing',
         })
+        return None
+
+    # Active check: BoldTrail has two "active" fields:
+    #   - account_user_active = login still works
+    #   - active              = is currently an agent at the brokerage
+    # The URL filter status=active matches on account_user_active, NOT on active.
+    # We check 'active' explicitly here so deactivated agents are excluded even
+    # if their BoldTrail login is still alive.
+    # Defensive: only filter if 'active' is explicitly False. Missing/None fields
+    # pass through (we don't want to accidentally exclude every agent if BoldTrail
+    # ever changes the response shape).
+    if bt.get('active') is False:
         return None
 
     # Numbered prefixes (e.g. "006 - Laura") appear in first_name in BoldTrail,
