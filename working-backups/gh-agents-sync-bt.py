@@ -89,8 +89,7 @@ import urllib.request, urllib.error
 from datetime import datetime, timedelta, timezone
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
-BT_API_KEY            = os.environ.get('BOLDTRAIL_API_KEY', '')           # Dayton (Glasshouse Realty)
-BT_API_KEY_CLEVELAND  = os.environ.get('BOLDTRAIL_API_KEY_CLEVELAND', '') # Cleveland (Asa Cox Homes)
+BT_API_KEY   = os.environ.get('BOLDTRAIL_API_KEY', '')
 BT_BASE      = 'https://my.brokermint.com/api/v1'
 OUT_FILE     = 'agents.json'
 BACKUP_DIR   = 'backups'
@@ -394,76 +393,31 @@ def print_safety_audit():
 
 
 # ── BOLDTRAIL FETCH (READ ONLY) ───────────────────────────────────────────────
-def fetch_bt_for_account(api_key, account_label):
+def fetch_bt_agents():
     """
-    Single GET request to one BoldTrail account. Returns list of records.
+    Single GET request — BoldTrail v1 returns all agents at once.
     READ ONLY — no data is modified in BoldTrail.
 
     Goes through bt_get() which enforces the four-layer safety property.
-
-    account_label is a string for logging/error context (e.g. 'Dayton', 'Cleveland').
     """
-    print(f"  GET /v1/users ({account_label})...", end=' ', flush=True)
-    url = f"{BT_BASE}/users?api_key={api_key}&full_info=1&status=active"
+    print("\n── BoldTrail Fetch (GET requests only) ─────────────────")
+    print("  GET /v1/users...", end=' ', flush=True)
+    url = f"{BT_BASE}/users?api_key={BT_API_KEY}&full_info=1&status=active"
     try:
         agents = bt_get(url)
         if not isinstance(agents, list):
-            abort(f"Unexpected BoldTrail response format for {account_label}: {type(agents)}")
-        print(f"{len(agents)} records returned")
+            abort(f"Unexpected BoldTrail response format: {type(agents)}")
+        print(f"{len(agents)} agents returned")
         return agents
     except urllib.error.HTTPError as e:
         if e.code in (401, 403):
-            abort(f"BoldTrail authentication failed for {account_label} (HTTP {e.code}).")
-        abort(f"BoldTrail HTTP error {e.code} for {account_label}.")
+            abort(f"BoldTrail authentication failed (HTTP {e.code}). Check BOLDTRAIL_API_KEY.")
+        abort(f"BoldTrail HTTP error {e.code}.")
     except RuntimeError as e:
+        # Safety violation — propagate clearly
         abort(str(e))
     except Exception as e:
-        abort(f"BoldTrail fetch error for {account_label}: {e}")
-
-
-def fetch_bt_agents():
-    """
-    Fetch agents from BOTH BoldTrail accounts (Dayton + Cleveland).
-
-    Returns a list of (record, account_label) tuples. The account_label
-    flows through parse_bt so we can auto-assign Cleveland records to
-    the Cleveland region without depending on BoldTrail's `region` field
-    (Cleveland account doesn't populate it).
-
-    Dayton is fetched first so it's canonical for btid collisions:
-    if the same person exists in both accounts (e.g. operations staff
-    with logins in both), the Dayton record wins.
-    """
-    print("\n── BoldTrail Fetch (GET requests only) ─────────────────")
-
-    # Dayton first (canonical)
-    if not BT_API_KEY:
-        abort("BOLDTRAIL_API_KEY not set in environment.")
-    dayton = fetch_bt_for_account(BT_API_KEY, 'Dayton')
-
-    # Cleveland (deduplicated against Dayton by btid)
-    cleveland = []
-    if BT_API_KEY_CLEVELAND:
-        cleveland = fetch_bt_for_account(BT_API_KEY_CLEVELAND, 'Cleveland')
-    else:
-        print(f"  (Cleveland API key not configured — skipping Cleveland fetch)")
-
-    # Dedupe Cleveland against Dayton by btid (same person in both accounts)
-    dayton_btids = {str(r.get('id', '')) for r in dayton if r.get('id')}
-    cleveland_dedup = []
-    skipped_dups = 0
-    for r in cleveland:
-        if str(r.get('id', '')) in dayton_btids:
-            skipped_dups += 1
-            continue
-        cleveland_dedup.append(r)
-    if skipped_dups:
-        print(f"  Skipped {skipped_dups} Cleveland records already present in Dayton (same btid)")
-
-    # Tag each record with its source account so parse_bt can auto-assign region
-    tagged = [(r, 'dayton') for r in dayton] + [(r, 'cleveland') for r in cleveland_dedup]
-    print(f"  Total to process: {len(tagged)} ({len(dayton)} Dayton + {len(cleveland_dedup)} Cleveland)")
-    return tagged
+        abort(f"BoldTrail fetch error: {e}")
 
 # ── PARSE ────────────────────────────────────────────────────────────────────
 # Roles that appear on the public agent finder. BoldTrail's role names are
@@ -491,7 +445,6 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
-    '272587',  # Vincent (VJ) Evans — Cleveland-account record (dev/infra); his real agent identity is in the Dayton account
 }
 
 # Emails of joint-listing records in agents.json. The sync preserves these
@@ -502,48 +455,14 @@ PRESERVE_JOINT_EMAILS = {
     'conniedeanna@kunalpatelgroup.com',       # Connie Lowery & Deanna O'Diam
 }
 
-# ── HIDE TEAM ASSIGNMENT FROM AGENT CARD ──────────────────────────────────────
-# Some agents are assigned to a team in BoldTrail for internal/backend reasons
-# (lead routing, transaction grouping, compensation, etc.) but don't want
-# their team name and logo visible on their public agent card.
-#
-# Add their BoldTrail id below. On every sync, their team field and teamLogo
-# will be blanked out before writing to agents.json. They still appear on
-# the public agent finder, but as a "solo agent" visually.
-#
-# To hide a team assignment:
-#   1. Look up the agent's BoldTrail id from the API
-#   2. Add their btid here with a comment naming the agent
-#   3. Their existing team logo / team name is wiped on the next sync
-#
-# To restore visibility: remove the btid from this list and the team will
-# reappear on the next sync.
-# Each entry is on its own line so you can comment/uncomment individual agents.
-HIDE_TEAM_BTIDS = {btid for btid in [
-    # '272304',   # Laura Long — backend team only, don't show on card
-    # '272456',   # Some Other Agent — example
-] if btid}
-
 # Track suppressed records for the report (lets you verify the list is correct)
 SUPPRESSED = []
 
 # Track non-Agent role exclusions for the flagged report
 ROLE_EXCLUDED = []
 
-# Track Cleveland spreadsheet records that had no BoldTrail match (for review)
-CLEVELAND_UNMATCHED = []
 
-
-def parse_bt(bt, account='dayton'):
-    """
-    Parse a single BoldTrail user record into our agents.json shape.
-    Returns the dict on success, None if filtered out.
-
-    `account` is 'dayton' or 'cleveland', tagging which BoldTrail account
-    the record came from. Cleveland records are auto-assigned
-    regions:['Cleveland'] since the Cleveland account doesn't populate
-    BoldTrail's `region` field on user records.
-    """
+def parse_bt(bt):
     email = (bt.get('email') or '').lower().strip()
     if not email: return None
 
@@ -556,18 +475,6 @@ def parse_bt(bt, account='dayton'):
             'boldtrailId': btid,
             'reason':      'partner in a joint listing',
         })
-        return None
-
-    # Active check: BoldTrail has two "active" fields:
-    #   - account_user_active = login still works
-    #   - active              = is currently an agent at the brokerage
-    # The URL filter status=active matches on account_user_active, NOT on active.
-    # We check 'active' explicitly here so deactivated agents are excluded even
-    # if their BoldTrail login is still alive.
-    # Defensive: only filter if 'active' is explicitly False. Missing/None fields
-    # pass through (we don't want to accidentally exclude every agent if BoldTrail
-    # ever changes the response shape).
-    if bt.get('active') is False:
         return None
 
     # Numbered prefixes (e.g. "006 - Laura") appear in first_name in BoldTrail,
@@ -604,24 +511,17 @@ def parse_bt(bt, account='dayton'):
     team   = bt.get('team') or bt.get('Team') or bt.get('team_name') or ''
     office = bt.get('office') or bt.get('office_name') or ''
 
-    # Hide-team override: agents listed in HIDE_TEAM_BTIDS have their team
-    # blanked on the public card (BoldTrail still tracks them internally).
-    btid_str = str(bt.get('id', ''))
-    if btid_str and btid_str in HIDE_TEAM_BTIDS:
-        team = ''  # blank team name → cards render as "Solo agent"
-
     if not regions and office:
         inferred = infer_region(office)
         if inferred:
             regions = [inferred]
 
-    # Cleveland account: auto-assign region. BoldTrail's Cleveland account
-    # doesn't populate the `region` field on user records, but the account
-    # itself implies the region. If the record already declared a region
-    # (rare/unexpected), we still ensure Cleveland is listed.
-    if account == 'cleveland':
-        if 'Cleveland' not in regions:
-            regions = ['Cleveland'] + regions
+    # [GAP-4] Defense-in-depth: a BoldTrail record claiming Cleveland is dropped.
+    # Cleveland is owned by the spreadsheet pipeline until the Cleveland
+    # BoldTrail account is wired in. Belt and suspenders.
+    if 'Cleveland' in regions:
+        print(f"  ⚠ Dropping BT record claiming Cleveland region: {name} <{email}>")
+        return None
 
     # [GAP-1] Read BoldTrail's profile photo URL as a fallback.
     # BoldTrail v1 typically exposes the photo as 'profile_picture_url' or
@@ -653,7 +553,7 @@ def parse_bt(bt, account='dayton'):
         'loftyId':     '',
         # NOTE: hidden is intentionally NOT set here. Merge controls it.
         # New agents will have hidden=False; existing records keep their flag.
-        'source':      'boldtrail' if account == 'dayton' else 'boldtrail-cleveland',
+        'source':      'boldtrail',
     }
 
 # ── FILTER & FLAG ─────────────────────────────────────────────────────────────
@@ -1029,51 +929,34 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
 
     print(f"  Updated: {updated_count} | New: {new_count}")
 
-    # ── Cleveland spreadsheet → BoldTrail transition ────────────────────────
-    # Background: Cleveland used to come from a spreadsheet (source:'spreadsheet').
-    # We're transitioning to BoldTrail as the source of truth for Cleveland too.
-    # During this transition:
-    #   - BoldTrail-Cleveland records flow through the normal merge path above.
-    #     If they match a spreadsheet record by name, they take it over (preserving
-    #     the existing photo/profileUrl). If they don't match, they're added as new.
-    #   - Spreadsheet records that WEREN'T matched by any BoldTrail record stay
-    #     in place for now (preserved untouched). They surface in the "unmatched
-    #     spreadsheet" report so you can decide what to do.
-    #
-    # Once you've reviewed the unmatched list and confirmed Cleveland BoldTrail
-    # is the canonical source, set CLEVELAND_SOFT_DELETE_UNMATCHED to True
-    # (below) and unmatched spreadsheet records will be soft-deleted (30-day
-    # grace) on the next sync, matching Dayton's behavior.
-    CLEVELAND_SOFT_DELETE_UNMATCHED = False  # set True after spreadsheet review
-
-    unmatched_spreadsheet = []
+    # ── Cleveland preservation ──────────────────────────────────────────────
+    # Cleveland records live in the spreadsheet pipeline, not BoldTrail.
+    # We carry them through every sync untouched.
+    bt_emails = {a['email'] for a in merged if a.get('email')}
+    bt_btids  = {str(a['boldtrailId']) for a in merged if a.get('boldtrailId')}
     cleveland_preserved = 0
     for existing in existing_all:
-        is_cleveland_spreadsheet = (
-            existing.get('source') == 'spreadsheet'
-            or 'Cleveland' in existing.get('regions', [])
+        is_cleveland = (
+            'Cleveland' in existing.get('regions', [])
+            or existing.get('source') == 'spreadsheet'
         )
-        if not is_cleveland_spreadsheet:
+        if not is_cleveland:
             continue
-        # Already matched by find_existing during the merge above?
-        if id(existing) in matched_existing_ids:
-            continue
-        # Unmatched spreadsheet record
-        unmatched_spreadsheet.append(existing)
-        if CLEVELAND_SOFT_DELETE_UNMATCHED:
-            # Defer to the regular soft-delete loop below
-            continue
-        # Preserve untouched (transition mode)
+        # If somehow a Cleveland record collides with a BT email/btid, prefer
+        # the Cleveland record (BT shouldn't have Cleveland agents yet).
+        email = existing.get('email', '')
+        btid  = str(existing.get('boldtrailId', ''))
+        # Remove any BT record that collided with this Cleveland record
+        if email and email in bt_emails:
+            merged = [m for m in merged if m.get('email') != email]
+            print(f"  ⚠ BT record collided with Cleveland email — Cleveland wins: {existing['name']}")
+        elif btid and btid in bt_btids:
+            merged = [m for m in merged if str(m.get('boldtrailId', '')) != btid]
+            print(f"  ⚠ BT record collided with Cleveland boldtrailId — Cleveland wins: {existing['name']}")
         merged.append(existing)
         cleveland_preserved += 1
-
     if cleveland_preserved:
-        print(f"  ✦ Preserved {cleveland_preserved} unmatched Cleveland spreadsheet records (transition mode)")
-    if unmatched_spreadsheet:
-        print(f"  ⚠ {len(unmatched_spreadsheet)} Cleveland spreadsheet records had no BoldTrail match — see reports/cleveland-unmatched/")
-        # Make this list available for the report-writer
-        global CLEVELAND_UNMATCHED
-        CLEVELAND_UNMATCHED = unmatched_spreadsheet
+        print(f"  ✦ Preserved {cleveland_preserved} Cleveland agents (spreadsheet source)")
 
     # ── [BUG-2] Soft-delete pass ────────────────────────────────────────────
     # Anyone in existing_all who was NOT explicitly matched during the merge
@@ -1086,15 +969,8 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
     cutoff = datetime.now(timezone.utc) - timedelta(days=SOFT_DELETE_GRACE_DAYS)
 
     for existing in existing_all:
-        # Cleveland spreadsheet records are handled in the transition block above.
-        # In transition mode (CLEVELAND_SOFT_DELETE_UNMATCHED=False) they're either
-        # already in `merged` (matched or preserved untouched), so skip them here.
-        # When CLEVELAND_SOFT_DELETE_UNMATCHED=True, they fall through to soft-delete.
-        is_cleveland_spreadsheet = (
-            existing.get('source') == 'spreadsheet'
-            or 'Cleveland' in existing.get('regions', [])
-        )
-        if is_cleveland_spreadsheet and not CLEVELAND_SOFT_DELETE_UNMATCHED:
+        # Skip Cleveland — already handled
+        if 'Cleveland' in existing.get('regions', []) or existing.get('source') == 'spreadsheet':
             continue
         # Skip joint listings — preserved across syncs (no 1:1 BT match exists).
         # Carry the joint record forward into merged as-is.
@@ -1237,35 +1113,6 @@ def write_report(flagged, merged, dry_run=False):
             'records':     role_excluded_sorted,
         }, f, indent=2)
     print(f"  Role-excluded: {role_path}{dr_label} ({len(ROLE_EXCLUDED)} records, breakdown: {role_counts})")
-
-    # ── 2c. Cleveland-unmatched report ─────────────────────────────────────────
-    # Spreadsheet-source Cleveland records that did NOT match any incoming
-    # BoldTrail record (Dayton or Cleveland) during this sync. In transition
-    # mode they're still being preserved on the site. Review this list and
-    # decide which should stay vs which should be soft-deleted (former agent,
-    # role change, etc.). Once verified, set CLEVELAND_SOFT_DELETE_UNMATCHED=True
-    # in the script to start applying the standard 30-day soft-delete to them.
-    cle_dir = os.path.join(REPORTS_DIR, 'cleveland-unmatched')
-    os.makedirs(cle_dir, exist_ok=True)
-    cle_path = os.path.join(cle_dir, f'cleveland-unmatched-{ts}.json')
-    cle_sorted = sorted(
-        [{'name': a.get('name', ''), 'email': a.get('email', ''),
-          'team': a.get('team', ''), 'regions': a.get('regions', []),
-          'source': a.get('source', '')}
-         for a in CLEVELAND_UNMATCHED],
-        key=lambda x: x['name'].lower(),
-    )
-    with open(cle_path, 'w') as f:
-        json.dump({
-            'generated':   generated,
-            'dry_run':     dry_run,
-            'description': "Cleveland spreadsheet records with no BoldTrail match. "
-                           "Currently preserved on the site. Review and decide "
-                           "which should be retained vs soft-deleted.",
-            'count':       len(CLEVELAND_UNMATCHED),
-            'records':     cle_sorted,
-        }, f, indent=2)
-    print(f"  Cleveland-unmatched: {cle_path}{dr_label} ({len(CLEVELAND_UNMATCHED)} records)")
 
     # ── 3a. No-photo report ────────────────────────────────────────────────────
     photo_dir  = os.path.join(REPORTS_DIR, 'no-photo')
@@ -1452,12 +1299,11 @@ def main():
     if not BT_API_KEY:
         abort('BOLDTRAIL_API_KEY not set.')
 
-    # 1. Fetch (Dayton + Cleveland, tagged tuples)
-    bt_raw_tagged = fetch_bt_agents()
+    # 1. Fetch
+    bt_raw = fetch_bt_agents()
 
-    # 2. Parse — pass each record's account through so Cleveland records
-    #    get auto-assigned regions:['Cleveland'].
-    parsed = [a for a in (parse_bt(r, account=acct) for r, acct in bt_raw_tagged) if a]
+    # 2. Parse
+    parsed = [a for a in (parse_bt(r) for r in bt_raw) if a]
     print(f"  Parsed {len(parsed)} valid records")
 
     # 3. Filter junk + flag issues
