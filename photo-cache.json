@@ -1,0 +1,37 @@
+{
+  "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/603233.gif?v=1778869993": {
+    "boldtrailId": "294172",
+    "optimized_size": 83932,
+    "output_path": "agent-photos/294172.jpg",
+    "processed_at": "2026-05-18T14:19:12.623093+00:00",
+    "source_size": 4494710
+  },
+  "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/605598.gif?v=1778871040": {
+    "boldtrailId": "295685",
+    "optimized_size": 94056,
+    "output_path": "agent-photos/295685.jpg",
+    "processed_at": "2026-05-18T14:19:13.152345+00:00",
+    "source_size": 84811
+  },
+  "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/605736.gif?v=1778867148": {
+    "boldtrailId": "295808",
+    "optimized_size": 67559,
+    "output_path": "agent-photos/295808.jpg",
+    "processed_at": "2026-05-18T14:19:11.075335+00:00",
+    "source_size": 141698
+  },
+  "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/609044.gif?v=1778704936": {
+    "boldtrailId": "297962",
+    "optimized_size": 110606,
+    "output_path": "agent-photos/297962.jpg",
+    "processed_at": "2026-05-18T14:19:14.723024+00:00",
+    "source_size": 5576105
+  },
+  "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/609115.gif?v=1778869339": {
+    "boldtrailId": "298002",
+    "optimized_size": 38351,
+    "output_path": "agent-photos/298002.jpg",
+    "processed_at": "2026-05-18T14:19:15.417295+00:00",
+    "source_size": 256663
+  }
+}

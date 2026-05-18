@@ -1,0 +1,141 @@
+{
+  "generated": "2026-05-18T14:19:07.000593",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Nikole Locke",
+      "email": "nlockerealtor@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "295685",
+      "has_photo": true
+    },
+    {
+      "name": "Lauren Rau",
+      "email": "laurenraucre@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "297951",
+      "has_photo": false
+    },
+    {
+      "name": "Kyle Ward",
+      "email": "kyle.asacoxhomes@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "293457",
+      "has_photo": false
+    },
+    {
+      "name": "Mary Johnson",
+      "email": "maryjrealtor@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "294696",
+      "has_photo": false
+    },
+    {
+      "name": "Rosario Torres Bermudez",
+      "email": "rrealtorrosario@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Alyssa Christison Team",
+      "office": "",
+      "boldtrailId": "295320",
+      "has_photo": false
+    },
+    {
+      "name": "Veronica Plumb-Nelson",
+      "email": "veronica.plumbnelson@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Team Pizzo",
+      "office": "",
+      "boldtrailId": "298002",
+      "has_photo": true
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Amy Fralick",
+      "email": "amy.fralick@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    },
+    {
+      "name": "Brianne Lee",
+      "email": "brianne.lee@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "LUX Elite Group"
+    },
+    {
+      "name": "Kaitlyn Stewart",
+      "email": "kaitstewartrealty@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Leslie Wade",
+      "email": "l.wade@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Maegan Benne",
+      "email": "maeganbennerealtor@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    },
+    {
+      "name": "Cindy Menth",
+      "email": "gabbardgrouptc@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Kaylynn Burritt",
+      "email": "kaylynn@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group"
+    },
+    {
+      "name": "Maxwell Zukowitz",
+      "email": "max@daytonrealestatecrush.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "Dayton Real Estate Crush"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
