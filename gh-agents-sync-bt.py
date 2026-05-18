@@ -640,6 +640,7 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
+    '272213',  # Constance Lowery — partner in joint listing "Connie Lowery & Deanna O'Diam" (preferred display: partnership card only)
     # NOTE: Vincent (VJ) Evans (btid 272587) was previously suppressed here
     # because he appears in both Dayton and Cleveland accounts as operations
     # infrastructure staff. We discovered that BoldTrail uses the SAME btid
@@ -662,18 +663,35 @@ PRESERVE_JOINT_EMAILS = {
 # (lead routing, transaction grouping, compensation, etc.) but don't want
 # their team name and logo visible on their public agent card.
 #
-# Add their BoldTrail id below. On every sync, their team field and teamLogo
-# will be blanked out before writing to agents.json. They still appear on
-# the public agent finder, but as a "solo agent" visually.
+# Two ways to hide:
 #
-# To hide a team assignment:
+# 1. HIDE_TEAM_NAMES — hide an entire team by name. Every agent whose
+#    BoldTrail `team` field matches one of these strings (case-insensitive,
+#    whitespace-normalized) has their team and teamLogo blanked. Scales
+#    automatically as the team grows.
+#
+# 2. HIDE_TEAM_BTIDS — hide a specific agent's team by their BoldTrail id.
+#    Use this for one-off exceptions when you want to hide a team for some
+#    agents but not others.
+#
+# To hide via team name (preferred for whole-team hiding):
+#   Add the team name string to HIDE_TEAM_NAMES below
+#
+# To hide via per-agent btid (for individual exceptions):
 #   1. Look up the agent's BoldTrail id from the API
-#   2. Add their btid here with a comment naming the agent
-#   3. Their existing team logo / team name is wiped on the next sync
+#   2. Add their btid to HIDE_TEAM_BTIDS with a comment naming them
 #
-# To restore visibility: remove the btid from this list and the team will
-# reappear on the next sync.
-# Each entry is on its own line so you can comment/uncomment individual agents.
+# In both cases: agents still appear on the public agent finder, just as
+# "solo agent" visually (no team name, no team logo).
+#
+# To restore visibility: remove the entry — team reappears on the next sync.
+
+HIDE_TEAM_NAMES = {
+    'K4 Management Group',  # Backend lead-routing team, not for public display
+}
+# Normalize HIDE_TEAM_NAMES once for matching (lowercase + trimmed whitespace)
+_HIDE_TEAM_NAMES_NORMALIZED = {n.strip().lower() for n in HIDE_TEAM_NAMES}
+
 HIDE_TEAM_BTIDS = {btid for btid in [
     # '272304',   # Laura Long — backend team only, don't show on card
     # '272456',   # Some Other Agent — example
@@ -732,6 +750,24 @@ def parse_bt(bt, account='dayton'):
     # Strip 0XX - prefix from first_name specifically
     first = re.sub(r'^0[0-9]+ - ', '', first).strip()
     last  = re.sub(r'^0[0-9]+ - ', '', last).strip()
+
+    # ── Preferred Name override ─────────────────────────────────────────────
+    # BoldTrail exposes a "Preferred Name" custom field (note: literal field
+    # name with space and capitals, not snake_case — it's an admin-defined
+    # custom field, not a built-in one).
+    # If set, this replaces the first name in the displayed agent name.
+    # Examples:
+    #   first_name="Mohammad", Preferred Name="Mo"      → display: "Mo Zahedi"
+    #   first_name="Tamara",   Preferred Name="Tami"    → display: "Tami Galdeen"
+    #   first_name="Mary",     Preferred Name="Elizabeth" → display: "Elizabeth Cooper"
+    # The "Preferred Name" field is single-name (first name only). Whatever
+    # the admin entered is used as-is, paired with the legal last name.
+    preferred = (bt.get('Preferred Name', '') or '').strip()
+    # Defensive: strip the same 0XX - prefix in case admin pattern-copied it
+    preferred = re.sub(r'^0[0-9]+ - ', '', preferred).strip()
+    if preferred:
+        first = preferred
+
     name  = f"{first} {last}".strip() or (bt.get('name', '') or '').strip()
     if not name: return None
     # Final pass in case the prefix was on the joined name field
@@ -759,11 +795,17 @@ def parse_bt(bt, account='dayton'):
     team   = bt.get('team') or bt.get('Team') or bt.get('team_name') or ''
     office = bt.get('office') or bt.get('office_name') or ''
 
-    # Hide-team override: agents listed in HIDE_TEAM_BTIDS have their team
-    # blanked on the public card (BoldTrail still tracks them internally).
+    # Hide-team override: two paths, applied in order
+    #   1. HIDE_TEAM_NAMES — whole-team hiding (preferred for K4-style cases
+    #      where the team is internal-only across all members)
+    #   2. HIDE_TEAM_BTIDS — per-agent override for one-off exceptions
+    # If either matches, team is blanked → renders as "Solo agent" on the card.
     btid_str = str(bt.get('id', ''))
-    if btid_str and btid_str in HIDE_TEAM_BTIDS:
-        team = ''  # blank team name → cards render as "Solo agent"
+    team_normalized = team.strip().lower()
+    if team_normalized and team_normalized in _HIDE_TEAM_NAMES_NORMALIZED:
+        team = ''
+    elif btid_str and btid_str in HIDE_TEAM_BTIDS:
+        team = ''
 
     if not regions and office:
         inferred = infer_region(office)
@@ -996,6 +1038,41 @@ def load_existing(filepath):
     try:
         with open(filepath) as f:
             existing = json.load(f)
+
+        # [BUG-6] Deduplicate `existing` on load. Defensive cleanup for any
+        # historical duplicates that may have accumulated in agents.json.
+        #
+        # Duplicates can occur when:
+        #   - PRESERVE_JOINT_EMAILS preserves multiple BoldTrail records
+        #     sharing a joint email (the original bug)
+        #   - Early development test runs accidentally wrote duplicates
+        #     to production
+        #
+        # Strategy: group by a composite identity key (btid, loftyId, source).
+        # For each group, keep the FIRST occurrence; drop the rest.
+        # This is safe because: (1) duplicates are bit-identical by definition,
+        # (2) any genuine multi-record entries (joint listings) have distinct
+        # composite keys (different name or source).
+        seen_keys = set()
+        deduped = []
+        dupes_removed = 0
+        for a in existing:
+            # Composite identity key
+            key = (
+                str(a.get('boldtrailId', '')),
+                str(a.get('loftyId', '')),
+                a.get('source', ''),
+                a.get('name', '').strip().lower(),
+            )
+            if key in seen_keys:
+                dupes_removed += 1
+                continue
+            seen_keys.add(key)
+            deduped.append(a)
+        if dupes_removed:
+            print(f"  ⚠ Removed {dupes_removed} duplicate record(s) from existing data on load")
+        existing = deduped
+
         by_email = {a['email'].lower(): a for a in existing if a.get('email')}
         by_btid  = {str(a['boldtrailId']): a for a in existing if a.get('boldtrailId')}
         by_name  = {}
@@ -1142,10 +1219,15 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
             else:
                 agent['hidden'] = False
 
-            # [BUG-5] teamLogo: existing value always wins if it exists.
-            # Only fall through to TEAM_LOGOS dict if existing record has none.
-            if existing.get('teamLogo'):
+            # [BUG-5] teamLogo: existing value usually wins. EXCEPTION: if
+            # the incoming agent has team='' (hidden via HIDE_TEAM_NAMES or
+            # HIDE_TEAM_BTIDS), we must blank the teamLogo too — otherwise
+            # the old logo lingers on a card with no team name. Blanking team
+            # without blanking logo creates a worse visual than either alone.
+            if agent.get('team') and existing.get('teamLogo'):
                 agent['teamLogo'] = existing['teamLogo']
+            elif not agent.get('team'):
+                agent['teamLogo'] = ''
 
             # If existing record was previously soft-deleted but is back in BT,
             # clear the soft-delete state (reactivation).
@@ -1314,8 +1396,13 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
             continue
         # Skip joint listings — preserved across syncs (no 1:1 BT match exists).
         # Carry the joint record forward into merged as-is.
+        # IMPORTANT: only preserve records with source='lofty' here. A BoldTrail
+        # record sharing a joint email belongs to a real individual (e.g. Constance
+        # Lowery within the "Connie Lowery & Deanna O'Diam" partnership) and should
+        # fall through to normal soft-delete logic — preserving it as a "joint"
+        # record creates a duplicate that survives forever.
         ex_email = (existing.get('email') or '').lower()
-        if ex_email in PRESERVE_JOINT_EMAILS:
+        if ex_email in PRESERVE_JOINT_EMAILS and existing.get('source') == 'lofty':
             merged.append(existing)
             continue
         # Skip if this exact existing record was matched by an incoming BT record
@@ -1742,7 +1829,10 @@ def main():
     # 6. Merge
     print(f"\n── Merging ─────────────────────────────────────────────")
     merged = merge(valid, by_email, by_btid, by_name, existing_all)
-    merged.sort(key=lambda a: (0 if a.get('photo') else 1, a['name'].lower()))
+    # Pure alphabetical sort. Photoless agents interleave naturally with photoed
+    # ones rather than being segregated to the bottom. The agent finder reads
+    # this order directly — no client-side resort.
+    merged.sort(key=lambda a: a['name'].lower())
 
     # 7. Report
     report = write_report(flagged, merged, dry_run=args.dry_run)
