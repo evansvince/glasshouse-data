@@ -89,7 +89,8 @@ import urllib.request, urllib.error
 from datetime import datetime, timedelta, timezone
 
 # ── CONFIG ───────────────────────────────────────────────────────────────────
-BT_API_KEY   = os.environ.get('BOLDTRAIL_API_KEY', '')
+BT_API_KEY            = os.environ.get('BOLDTRAIL_API_KEY', '')           # Dayton (Glasshouse Realty)
+BT_API_KEY_CLEVELAND  = os.environ.get('BOLDTRAIL_API_KEY_CLEVELAND', '') # Cleveland (Asa Cox Homes)
 BT_BASE      = 'https://my.brokermint.com/api/v1'
 OUT_FILE     = 'agents.json'
 BACKUP_DIR   = 'backups'
@@ -100,6 +101,42 @@ DELAY        = 0.2
 MIN_AGENTS   = 50
 MIN_PCT_OF_EXISTING = 0.50
 SOFT_DELETE_GRACE_DAYS = 30
+
+# ── FEATURE FLAGS ─────────────────────────────────────────────────────────────
+# Cleveland BoldTrail integration is gated behind this flag.
+#
+# When DISABLED (production default):
+#   - Only Dayton BoldTrail is fetched
+#   - Existing Cleveland spreadsheet records are preserved untouched
+#   - Behaves exactly like the original Dayton-only sync
+#
+# When ENABLED:
+#   - Both Dayton AND Cleveland BoldTrail accounts are fetched
+#   - Cleveland records get regions:['Cleveland'] auto-assigned
+#   - Spreadsheet records that don't match BoldTrail go to cleveland-unmatched report
+#
+# Override via env var SYNC_ENABLE_CLEVELAND=true (the test workflow sets this).
+# Default is OFF so production behavior is unchanged until you flip the flag.
+ENABLE_CLEVELAND_FETCH = os.environ.get('SYNC_ENABLE_CLEVELAND', '').lower() == 'true'
+
+# ── PROFILE URL AUTO-GENERATION ───────────────────────────────────────────────
+# Lofty's "Slug" admin field creates root-level redirects at the public site
+# (e.g. Slug "/allen-blackburn" maps to glasshouserealty.com/allen-blackburn).
+# For agents without an existing profileUrl, we generate a candidate slug from
+# their name, HEAD-request it, and only commit the URL if it returns 200.
+#
+# Cleveland uses a DIFFERENT agent-page system — slugs don't resolve there the
+# same way. We skip profile URL generation for Cleveland agents (identified
+# by 'Cleveland' in regions or source == 'spreadsheet' or source.endswith('-cleveland')).
+PROFILE_URL_BASE      = 'https://glasshouserealty.com'
+PROFILE_URL_CACHE     = 'profile-url-cache.json'
+PROFILE_URL_TIMEOUT   = 10  # seconds per HEAD request
+PROFILE_URL_USER_AGENT = 'Glasshouse-Profile-URL-Verifier/1.0'
+# How long to cache a 404 response before re-checking. The cron runs once per
+# hour 9am-6pm M-F, so a 1-hour cooldown effectively means "re-check on the
+# next sync." This gives admins fast feedback: set the slug in Lofty admin,
+# next sync picks it up.
+PROFILE_URL_404_COOLDOWN_SECS = 3600  # 1 hour
 
 # ── JUNK/TEST ACCOUNT FILTERS ─────────────────────────────────────────────────
 # Agents matching these patterns are EXCLUDED from agents.json
@@ -113,6 +150,10 @@ JUNK_EMAIL_PATTERNS = [
     r'sample',
     r'demo@',
     r'dummy',
+    # Gmail plus-aliasing on @glasshouserealty addresses is a dev-test convention
+    # (e.g. cody+1@glasshouserealty.com, kailey+1@glasshouserealty.com).
+    # These are sandbox accounts, not real agents.
+    r'\+\d+@glasshouserealty\.com',
 ]
 JUNK_NAME_PATTERNS = [
     r'final test',
@@ -131,6 +172,9 @@ JUNK_NAME_PATTERNS = [
     r'jed helmers 2',
     r'jed helmers 1',
     r'john smith',
+    # Names starting with "testing" (e.g. "Testing ACH", "Testing: Team Lead")
+    # are BoldTrail sandbox records.
+    r'^testing\b',
 ]
 
 # Staff/internal accounts — excluded from site, not flagged as junk
@@ -212,6 +256,107 @@ def normalize_name(name):
     """Lowercase, strip everything but letters. For fuzzy name matching."""
     if not name: return ''
     return re.sub(r'[^a-z]', '', name.lower())
+
+
+def slugify_name(name):
+    """
+    Convert "Allen Blackburn" → "allen-blackburn".
+    Handles edge cases: apostrophes, multi-word last names, hyphens, accents.
+
+    Examples:
+      "Allen Blackburn"           → "allen-blackburn"
+      "Deanna O'Diam"             → "deanna-odiam"
+      "Lisa Al-Saedi"             → "lisa-al-saedi"
+      "Cassandra Cox Soto Estrada" → "cassandra-cox-soto-estrada"
+      "Madiera McCorkle"          → "madiera-mccorkle"
+      "Veronica Plumb-Nelson"     → "veronica-plumb-nelson"
+    """
+    if not name: return ''
+    s = name.lower().strip()
+    # Strip apostrophes entirely (O'Diam → ODiam → odiam)
+    s = s.replace("'", "").replace("\u2019", "")
+    # Replace any non-alphanumeric character with a hyphen
+    s = re.sub(r'[^a-z0-9]+', '-', s)
+    # Collapse multiple hyphens and trim
+    s = re.sub(r'-+', '-', s).strip('-')
+    return s
+
+
+# Cache of verified profile URLs. Loaded on demand by verify_profile_url().
+_profile_url_cache = None
+
+def _load_profile_url_cache():
+    """Load the cache of slug→status mappings (lazy, so tests don't need the file)."""
+    global _profile_url_cache
+    if _profile_url_cache is not None:
+        return _profile_url_cache
+    if not os.path.exists(PROFILE_URL_CACHE):
+        _profile_url_cache = {}
+        return _profile_url_cache
+    try:
+        with open(PROFILE_URL_CACHE) as f:
+            _profile_url_cache = json.load(f)
+    except (IOError, json.JSONDecodeError):
+        _profile_url_cache = {}
+    return _profile_url_cache
+
+
+def _save_profile_url_cache():
+    """Persist the cache. Called once at end of sync."""
+    if _profile_url_cache is None: return
+    try:
+        with open(PROFILE_URL_CACHE, 'w') as f:
+            json.dump(_profile_url_cache, f, indent=2, sort_keys=True)
+    except IOError as e:
+        print(f"  ⚠ Could not save {PROFILE_URL_CACHE}: {e}")
+
+
+def verify_profile_url(slug):
+    """
+    HEAD-request https://glasshouserealty.com/{slug} and return the public
+    URL if it resolves (200), or '' if it doesn't (404, etc).
+
+    Cached per-slug so we don't re-hit Lofty's server every sync for the
+    same agents. Status 200 is cached forever (slugs don't get removed
+    once set). Status 404 expires after PROFILE_URL_404_COOLDOWN_SECS
+    (1 hour by default) — short enough that admins see slug-setup take
+    effect on the next sync, long enough to avoid hammering Lofty.
+    """
+    if not slug: return ''
+    cache = _load_profile_url_cache()
+    cached = cache.get(slug)
+    now = datetime.now(timezone.utc).isoformat()
+    if cached:
+        if cached.get('status') == 200:
+            # Verified working — trust the cache
+            return cached.get('url', '')
+        # 404 or other — check if cache entry is stale
+        checked = parse_iso(cached.get('checked_at', ''))
+        if checked and (datetime.now(timezone.utc) - checked).total_seconds() < PROFILE_URL_404_COOLDOWN_SECS:
+            return ''  # still in cooldown
+        # cache entry expired, re-verify below
+
+    url = f"{PROFILE_URL_BASE}/{slug}"
+    try:
+        req = urllib.request.Request(
+            url,
+            method='HEAD',
+            headers={'User-Agent': PROFILE_URL_USER_AGENT},
+        )
+        with urllib.request.urlopen(req, timeout=PROFILE_URL_TIMEOUT) as r:
+            status = r.status
+    except urllib.error.HTTPError as e:
+        status = e.code
+    except Exception:
+        # Network error, timeout, etc — treat as unverified, retry next sync
+        return ''
+
+    cache[slug] = {
+        'status':     status,
+        'url':        url if status == 200 else '',
+        'checked_at': now,
+    }
+    return url if status == 200 else ''
 
 def is_junk(email, name):
     email_low = email.lower()
@@ -393,31 +538,81 @@ def print_safety_audit():
 
 
 # ── BOLDTRAIL FETCH (READ ONLY) ───────────────────────────────────────────────
-def fetch_bt_agents():
+def fetch_bt_for_account(api_key, account_label):
     """
-    Single GET request — BoldTrail v1 returns all agents at once.
+    Single GET request to one BoldTrail account. Returns list of records.
     READ ONLY — no data is modified in BoldTrail.
 
     Goes through bt_get() which enforces the four-layer safety property.
+
+    account_label is a string for logging/error context (e.g. 'Dayton', 'Cleveland').
     """
-    print("\n── BoldTrail Fetch (GET requests only) ─────────────────")
-    print("  GET /v1/users...", end=' ', flush=True)
-    url = f"{BT_BASE}/users?api_key={BT_API_KEY}&full_info=1&status=active"
+    print(f"  GET /v1/users ({account_label})...", end=' ', flush=True)
+    url = f"{BT_BASE}/users?api_key={api_key}&full_info=1&status=active"
     try:
         agents = bt_get(url)
         if not isinstance(agents, list):
-            abort(f"Unexpected BoldTrail response format: {type(agents)}")
-        print(f"{len(agents)} agents returned")
+            abort(f"Unexpected BoldTrail response format for {account_label}: {type(agents)}")
+        print(f"{len(agents)} records returned")
         return agents
     except urllib.error.HTTPError as e:
         if e.code in (401, 403):
-            abort(f"BoldTrail authentication failed (HTTP {e.code}). Check BOLDTRAIL_API_KEY.")
-        abort(f"BoldTrail HTTP error {e.code}.")
+            abort(f"BoldTrail authentication failed for {account_label} (HTTP {e.code}).")
+        abort(f"BoldTrail HTTP error {e.code} for {account_label}.")
     except RuntimeError as e:
-        # Safety violation — propagate clearly
         abort(str(e))
     except Exception as e:
-        abort(f"BoldTrail fetch error: {e}")
+        abort(f"BoldTrail fetch error for {account_label}: {e}")
+
+
+def fetch_bt_agents():
+    """
+    Fetch agents from BOTH BoldTrail accounts (Dayton + Cleveland).
+
+    Returns a list of (record, account_label) tuples. The account_label
+    flows through parse_bt so we can auto-assign Cleveland records to
+    the Cleveland region without depending on BoldTrail's `region` field
+    (Cleveland account doesn't populate it).
+
+    Dayton is fetched first so it's canonical for btid collisions:
+    if the same person exists in both accounts (e.g. operations staff
+    with logins in both), the Dayton record wins.
+    """
+    print("\n── BoldTrail Fetch (GET requests only) ─────────────────")
+
+    # Dayton first (canonical)
+    if not BT_API_KEY:
+        abort("BOLDTRAIL_API_KEY not set in environment.")
+    dayton = fetch_bt_for_account(BT_API_KEY, 'Dayton')
+
+    # Cleveland (deduplicated against Dayton by btid)
+    cleveland = []
+    if not ENABLE_CLEVELAND_FETCH:
+        print(f"  (Cleveland fetch disabled via feature flag — Dayton-only mode)")
+    elif BT_API_KEY_CLEVELAND:
+        cleveland = fetch_bt_for_account(BT_API_KEY_CLEVELAND, 'Cleveland')
+    else:
+        print(f"  (Cleveland fetch enabled but BOLDTRAIL_API_KEY_CLEVELAND not set — skipping)")
+
+    # Dedupe Cleveland against Dayton by btid (same person in both accounts)
+    dayton_btids = {str(r.get('id', '')) for r in dayton if r.get('id')}
+    cleveland_dedup = []
+    skipped_dups = 0
+    for r in cleveland:
+        if str(r.get('id', '')) in dayton_btids:
+            skipped_dups += 1
+            continue
+        cleveland_dedup.append(r)
+    if skipped_dups:
+        print(f"  Skipped {skipped_dups} Cleveland records already present in Dayton (same btid)")
+
+    # Tag each record with its source account so parse_bt can auto-assign region
+    tagged = [(r, 'dayton') for r in dayton] + [(r, 'cleveland') for r in cleveland_dedup]
+    total_label = f"{len(dayton)} Dayton"
+    if ENABLE_CLEVELAND_FETCH:
+        total_label += f" + {len(cleveland_dedup)} Cleveland"
+    print(f"  Total to process: {len(tagged)} ({total_label})")
+    return tagged
 
 # ── PARSE ────────────────────────────────────────────────────────────────────
 # Roles that appear on the public agent finder. BoldTrail's role names are
@@ -445,6 +640,13 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
+    # NOTE: Vincent (VJ) Evans (btid 272587) was previously suppressed here
+    # because he appears in both Dayton and Cleveland accounts as operations
+    # infrastructure staff. We discovered that BoldTrail uses the SAME btid
+    # for the same person across accounts, so the fetch-time dedup-by-btid
+    # already handles his case correctly. His Dayton record is the canonical
+    # one (fetched first); his Cleveland record is dropped at fetch.
+    # See MANUAL_BTID_PAIRINGS below for the Vince/Vincent name-pairing.
 }
 
 # Emails of joint-listing records in agents.json. The sync preserves these
@@ -483,8 +685,20 @@ SUPPRESSED = []
 # Track non-Agent role exclusions for the flagged report
 ROLE_EXCLUDED = []
 
+# Track Cleveland spreadsheet records that had no BoldTrail match (for review)
+CLEVELAND_UNMATCHED = []
 
-def parse_bt(bt):
+
+def parse_bt(bt, account='dayton'):
+    """
+    Parse a single BoldTrail user record into our agents.json shape.
+    Returns the dict on success, None if filtered out.
+
+    `account` is 'dayton' or 'cleveland', tagging which BoldTrail account
+    the record came from. Cleveland records are auto-assigned
+    regions:['Cleveland'] since the Cleveland account doesn't populate
+    BoldTrail's `region` field on user records.
+    """
     email = (bt.get('email') or '').lower().strip()
     if not email: return None
 
@@ -556,12 +770,13 @@ def parse_bt(bt):
         if inferred:
             regions = [inferred]
 
-    # [GAP-4] Defense-in-depth: a BoldTrail record claiming Cleveland is dropped.
-    # Cleveland is owned by the spreadsheet pipeline until the Cleveland
-    # BoldTrail account is wired in. Belt and suspenders.
-    if 'Cleveland' in regions:
-        print(f"  ⚠ Dropping BT record claiming Cleveland region: {name} <{email}>")
-        return None
+    # Cleveland account: auto-assign region. BoldTrail's Cleveland account
+    # doesn't populate the `region` field on user records, but the account
+    # itself implies the region. If the record already declared a region
+    # (rare/unexpected), we still ensure Cleveland is listed.
+    if account == 'cleveland':
+        if 'Cleveland' not in regions:
+            regions = ['Cleveland'] + regions
 
     # [GAP-1] Read BoldTrail's profile photo URL as a fallback.
     # BoldTrail v1 typically exposes the photo as 'profile_picture_url' or
@@ -593,7 +808,7 @@ def parse_bt(bt):
         'loftyId':     '',
         # NOTE: hidden is intentionally NOT set here. Merge controls it.
         # New agents will have hidden=False; existing records keep their flag.
-        'source':      'boldtrail',
+        'source':      'boldtrail' if account == 'dayton' else 'boldtrail-cleveland',
     }
 
 # ── FILTER & FLAG ─────────────────────────────────────────────────────────────
@@ -817,6 +1032,7 @@ MANUAL_BTID_PAIRINGS = {
     '272241': 'Fred Seeger',       # BoldTrail: Frederick Seeger
     '272581': 'Tim Young',         # BoldTrail: Timothy Young
     '272386': 'Sierrah Gunder',    # BoldTrail: Sierrah Hardy (married name)
+    '272587': 'Vince (VJ) Evans',  # BoldTrail: 001 - Vincent Evans (preferred name VJ)
 }
 
 
@@ -969,34 +1185,111 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
 
     print(f"  Updated: {updated_count} | New: {new_count}")
 
-    # ── Cleveland preservation ──────────────────────────────────────────────
-    # Cleveland records live in the spreadsheet pipeline, not BoldTrail.
-    # We carry them through every sync untouched.
-    bt_emails = {a['email'] for a in merged if a.get('email')}
-    bt_btids  = {str(a['boldtrailId']) for a in merged if a.get('boldtrailId')}
-    cleveland_preserved = 0
-    for existing in existing_all:
-        is_cleveland = (
-            'Cleveland' in existing.get('regions', [])
-            or existing.get('source') == 'spreadsheet'
-        )
-        if not is_cleveland:
+    # ── Profile URL auto-generation (Dayton-only) ──────────────────────────────
+    # For Dayton agents without a profileUrl, generate a candidate slug from
+    # their name (firstname-lastname) and HEAD-request it against Lofty.
+    # If it returns 200 the URL is committed; if 404 we leave profileUrl empty
+    # (next sync retries after the cache cooldown — see PROFILE_URL_404_COOLDOWN_SECS).
+    #
+    # CLEVELAND IS EXCLUDED — Cleveland uses a different agent-page system
+    # where slugs don't resolve the same way. Cleveland profile URLs are
+    # parking-lot work for the broader Cleveland production deployment.
+    def _is_cleveland_agent(agent):
+        if 'Cleveland' in agent.get('regions', []):
+            return True
+        src = agent.get('source', '')
+        if src == 'spreadsheet':
+            return True
+        if src.endswith('-cleveland'):  # 'boldtrail-cleveland'
+            return True
+        return False
+
+    profile_url_generated = 0
+    profile_url_skipped_no_match = 0
+    profile_url_skipped_cleveland = 0
+    for agent in merged:
+        if agent.get('profileUrl'):
+            continue  # already has one (preserved from existing record)
+        if agent.get('hidden'):
+            continue  # hidden agents don't need a profile URL
+        if _is_cleveland_agent(agent):
+            profile_url_skipped_cleveland += 1
+            continue  # Cleveland uses a different agent-page system
+        slug = slugify_name(agent.get('name', ''))
+        if not slug:
             continue
-        # If somehow a Cleveland record collides with a BT email/btid, prefer
-        # the Cleveland record (BT shouldn't have Cleveland agents yet).
-        email = existing.get('email', '')
-        btid  = str(existing.get('boldtrailId', ''))
-        # Remove any BT record that collided with this Cleveland record
-        if email and email in bt_emails:
-            merged = [m for m in merged if m.get('email') != email]
-            print(f"  ⚠ BT record collided with Cleveland email — Cleveland wins: {existing['name']}")
-        elif btid and btid in bt_btids:
-            merged = [m for m in merged if str(m.get('boldtrailId', '')) != btid]
-            print(f"  ⚠ BT record collided with Cleveland boldtrailId — Cleveland wins: {existing['name']}")
-        merged.append(existing)
-        cleveland_preserved += 1
-    if cleveland_preserved:
-        print(f"  ✦ Preserved {cleveland_preserved} Cleveland agents (spreadsheet source)")
+        verified = verify_profile_url(slug)
+        if verified:
+            agent['profileUrl'] = verified
+            profile_url_generated += 1
+        else:
+            profile_url_skipped_no_match += 1
+
+    # Persist the cache so subsequent syncs don't re-verify every URL
+    _save_profile_url_cache()
+
+    if profile_url_generated or profile_url_skipped_no_match or profile_url_skipped_cleveland:
+        msg = f"  Profile URLs: {profile_url_generated} verified & set"
+        if profile_url_skipped_no_match:
+            msg += f", {profile_url_skipped_no_match} not yet live (slug not configured — admin task)"
+        if profile_url_skipped_cleveland:
+            msg += f", {profile_url_skipped_cleveland} skipped (Cleveland)"
+        print(msg)
+
+    # ── Cleveland spreadsheet handling ──────────────────────────────────────
+    # CLEVELAND_SOFT_DELETE_UNMATCHED is also referenced in the soft-delete loop
+    # below, so define it at function scope. False means unmatched spreadsheet
+    # records are preserved rather than soft-deleted.
+    CLEVELAND_SOFT_DELETE_UNMATCHED = False
+
+    if not ENABLE_CLEVELAND_FETCH:
+        # FEATURE FLAG OFF (production default):
+        # Preserve every Cleveland spreadsheet record untouched (legacy behavior).
+        # This matches what the script did before the Cleveland integration was
+        # built. Cleveland data flows through the spreadsheet pipeline as before.
+        cleveland_preserved = 0
+        for existing in existing_all:
+            is_cleveland_spreadsheet = (
+                existing.get('source') == 'spreadsheet'
+                or 'Cleveland' in existing.get('regions', [])
+            )
+            if not is_cleveland_spreadsheet:
+                continue
+            if id(existing) in matched_existing_ids:
+                continue
+            merged.append(existing)
+            cleveland_preserved += 1
+        if cleveland_preserved:
+            print(f"  ✦ Preserved {cleveland_preserved} Cleveland agents (spreadsheet source, legacy mode)")
+
+    else:
+        # FEATURE FLAG ON (sync-testing):
+        # Cleveland transitioning to BoldTrail as source of truth.
+        # See header comment in this function for details.
+
+        unmatched_spreadsheet = []
+        cleveland_preserved = 0
+        for existing in existing_all:
+            is_cleveland_spreadsheet = (
+                existing.get('source') == 'spreadsheet'
+                or 'Cleveland' in existing.get('regions', [])
+            )
+            if not is_cleveland_spreadsheet:
+                continue
+            if id(existing) in matched_existing_ids:
+                continue
+            unmatched_spreadsheet.append(existing)
+            if CLEVELAND_SOFT_DELETE_UNMATCHED:
+                continue  # fall through to regular soft-delete loop
+            merged.append(existing)
+            cleveland_preserved += 1
+
+        if cleveland_preserved:
+            print(f"  ✦ Preserved {cleveland_preserved} unmatched Cleveland spreadsheet records (transition mode)")
+        if unmatched_spreadsheet:
+            print(f"  ⚠ {len(unmatched_spreadsheet)} Cleveland spreadsheet records had no BoldTrail match — see reports/cleveland-unmatched/")
+            global CLEVELAND_UNMATCHED
+            CLEVELAND_UNMATCHED = unmatched_spreadsheet
 
     # ── [BUG-2] Soft-delete pass ────────────────────────────────────────────
     # Anyone in existing_all who was NOT explicitly matched during the merge
@@ -1009,8 +1302,15 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
     cutoff = datetime.now(timezone.utc) - timedelta(days=SOFT_DELETE_GRACE_DAYS)
 
     for existing in existing_all:
-        # Skip Cleveland — already handled
-        if 'Cleveland' in existing.get('regions', []) or existing.get('source') == 'spreadsheet':
+        # Cleveland spreadsheet records are handled in the transition block above.
+        # In transition mode (CLEVELAND_SOFT_DELETE_UNMATCHED=False) they're either
+        # already in `merged` (matched or preserved untouched), so skip them here.
+        # When CLEVELAND_SOFT_DELETE_UNMATCHED=True, they fall through to soft-delete.
+        is_cleveland_spreadsheet = (
+            existing.get('source') == 'spreadsheet'
+            or 'Cleveland' in existing.get('regions', [])
+        )
+        if is_cleveland_spreadsheet and not CLEVELAND_SOFT_DELETE_UNMATCHED:
             continue
         # Skip joint listings — preserved across syncs (no 1:1 BT match exists).
         # Carry the joint record forward into merged as-is.
@@ -1154,6 +1454,35 @@ def write_report(flagged, merged, dry_run=False):
         }, f, indent=2)
     print(f"  Role-excluded: {role_path}{dr_label} ({len(ROLE_EXCLUDED)} records, breakdown: {role_counts})")
 
+    # ── 2c. Cleveland-unmatched report ─────────────────────────────────────────
+    # Spreadsheet-source Cleveland records that did NOT match any incoming
+    # BoldTrail record (Dayton or Cleveland) during this sync. In transition
+    # mode they're still being preserved on the site. Review this list and
+    # decide which should stay vs which should be soft-deleted (former agent,
+    # role change, etc.). Once verified, set CLEVELAND_SOFT_DELETE_UNMATCHED=True
+    # in the script to start applying the standard 30-day soft-delete to them.
+    cle_dir = os.path.join(REPORTS_DIR, 'cleveland-unmatched')
+    os.makedirs(cle_dir, exist_ok=True)
+    cle_path = os.path.join(cle_dir, f'cleveland-unmatched-{ts}.json')
+    cle_sorted = sorted(
+        [{'name': a.get('name', ''), 'email': a.get('email', ''),
+          'team': a.get('team', ''), 'regions': a.get('regions', []),
+          'source': a.get('source', '')}
+         for a in CLEVELAND_UNMATCHED],
+        key=lambda x: x['name'].lower(),
+    )
+    with open(cle_path, 'w') as f:
+        json.dump({
+            'generated':   generated,
+            'dry_run':     dry_run,
+            'description': "Cleveland spreadsheet records with no BoldTrail match. "
+                           "Currently preserved on the site. Review and decide "
+                           "which should be retained vs soft-deleted.",
+            'count':       len(CLEVELAND_UNMATCHED),
+            'records':     cle_sorted,
+        }, f, indent=2)
+    print(f"  Cleveland-unmatched: {cle_path}{dr_label} ({len(CLEVELAND_UNMATCHED)} records)")
+
     # ── 3a. No-photo report ────────────────────────────────────────────────────
     photo_dir  = os.path.join(REPORTS_DIR, 'no-photo')
     os.makedirs(photo_dir, exist_ok=True)
@@ -1172,23 +1501,55 @@ def write_report(flagged, merged, dry_run=False):
         }, f, indent=2)
     print(f"  No photo:      {photo_path}{dr_label} ({len(no_photo)} agents)")
 
-    # ── 3b. No-profile-URL report ──────────────────────────────────────────────
+    # ── 3b. No-profile-URL report (Dayton only) ────────────────────────────────
+    # Cleveland is excluded — Cleveland uses a different agent-page system
+    # where Lofty slugs don't resolve. Cleveland profile URL strategy is in
+    # the parking lot for a future build.
     purl_dir = os.path.join(REPORTS_DIR, 'no-profile-url')
     os.makedirs(purl_dir, exist_ok=True)
-    no_purl = [{'name': a['name'], 'email': a['email'], 'regions': a['regions'],
-                'team': a.get('team',''), 'source': a.get('source',''),
-                'boldtrailId': a.get('boldtrailId',''), 'loftyId': a.get('loftyId','')}
-               for a in merged if not a.get('profileUrl') and not a.get('hidden')]
+
+    def _is_cle(a):
+        if 'Cleveland' in a.get('regions', []):
+            return True
+        s = a.get('source', '')
+        return s == 'spreadsheet' or s.endswith('-cleveland')
+
+    no_purl = []
+    for a in merged:
+        if a.get('profileUrl'): continue
+        if a.get('hidden'):     continue
+        if _is_cle(a):          continue
+        no_purl.append({
+            'name':           a['name'],
+            'email':          a['email'],
+            'regions':        a['regions'],
+            'team':           a.get('team', ''),
+            'source':         a.get('source', ''),
+            'boldtrailId':    a.get('boldtrailId', ''),
+            'loftyId':        a.get('loftyId', ''),
+            # Auto-generated slug — what the admin should enter in Lofty's "Slug" field
+            'suggested_lofty_slug': slugify_name(a.get('name', '')),
+            'suggested_full_url':   f"{PROFILE_URL_BASE}/{slugify_name(a.get('name', ''))}",
+        })
+
     purl_path = os.path.join(purl_dir, f'no-profile-url-{ts}.json')
     with open(purl_path, 'w') as f:
         json.dump({
             'generated':   generated,
             'dry_run':     dry_run,
-            'description': 'Agents on site with no profile URL. Add agent to Lofty or set a custom slug to populate.',
+            'description': (
+                'Dayton agents on the site without a profile URL. To fix: '
+                'open Lofty admin, find the agent\'s "Slug" field, set it to '
+                'the value in `suggested_lofty_slug` (e.g. "nikole-locke"). '
+                'The next sync will HEAD-request the URL and, if it resolves, '
+                'auto-populate the agent\'s profileUrl. Cleveland agents are '
+                'excluded from this report since Cleveland uses a different '
+                'agent-page system.'
+            ),
             'count':       len(no_purl),
             'agents':      sorted(no_purl, key=lambda x: x['name'].lower()),
         }, f, indent=2)
-    print(f"  No profile URL:{purl_path}{dr_label} ({len(no_purl)} agents)")
+    print(f"  No profile URL:{purl_path}{dr_label} ({len(no_purl)} Dayton agents)")
 
     # ── 4. Flagged/junk report ─────────────────────────────────────────────────
     flagged_path = os.path.join(flag_dir, f'flagged-{ts}.json')
@@ -1339,11 +1700,12 @@ def main():
     if not BT_API_KEY:
         abort('BOLDTRAIL_API_KEY not set.')
 
-    # 1. Fetch
-    bt_raw = fetch_bt_agents()
+    # 1. Fetch (Dayton + Cleveland, tagged tuples)
+    bt_raw_tagged = fetch_bt_agents()
 
-    # 2. Parse
-    parsed = [a for a in (parse_bt(r) for r in bt_raw) if a]
+    # 2. Parse — pass each record's account through so Cleveland records
+    #    get auto-assigned regions:['Cleveland'].
+    parsed = [a for a in (parse_bt(r, account=acct) for r, acct in bt_raw_tagged) if a]
     print(f"  Parsed {len(parsed)} valid records")
 
     # 3. Filter junk + flag issues
