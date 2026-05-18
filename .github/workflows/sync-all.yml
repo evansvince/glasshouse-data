@@ -70,26 +70,33 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Determine run mode (dry-run unless explicitly LIVE)
+      - name: Determine run mode (live for scheduled, user choice for manual)
         id: mode
         run: |
-          # workflow_dispatch: honor the user's choice
-          # schedule: default to dry-run (safer; user must opt into live via dispatch)
-          # anything else (push, etc.): default to dry-run
+          # workflow_dispatch: honor the user's dry_run choice from the UI
+          # schedule:          run LIVE (writes agents.json). The hourly cron
+          #                    is the production sync — it should actually update
+          #                    the data file. Manual dry-runs are still available
+          #                    via workflow_dispatch when needed.
+          # anything else:     default to dry-run (push, repository_dispatch, etc.)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MODE="${{ github.event.inputs.dry_run }}"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            MODE="false"
           else
             MODE="true"
           fi
           # Normalize empty string to 'true' just in case
           if [ -z "$MODE" ]; then MODE="true"; fi
           echo "dry_run=$MODE" >> $GITHUB_OUTPUT
+          echo "Run mode: dry_run=$MODE (trigger: ${{ github.event_name }})"
           echo "Run mode: dry_run=$MODE"
 
       - name: Run agent sync (READ ONLY from BoldTrail)
         id: sync
         env:
-          BOLDTRAIL_API_KEY: ${{ secrets.BOLDTRAIL_API_KEY }}
+          BOLDTRAIL_API_KEY:           ${{ secrets.BOLDTRAIL_API_KEY }}
+          BOLDTRAIL_API_KEY_CLEVELAND: ${{ secrets.BOLDTRAIL_API_KEY_CLEVELAND }}
         run: |
           if [ "${{ steps.mode.outputs.dry_run }}" = "true" ]; then
             python3 gh-agents-sync-bt.py --dry-run 2>&1 | tee sync-output.txt
@@ -108,6 +115,18 @@ jobs:
           else
             echo "has_event=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Install Pillow for photo optimization
+        if: steps.mode.outputs.dry_run != 'true'
+        run: pip install --quiet Pillow
+
+      - name: Optimize new BoldTrail photos
+        if: steps.mode.outputs.dry_run != 'true'
+        run: |
+          # Only re-process photos whose source URL has changed (cache hit = skip).
+          # Limit per-run to prevent any single sync from running long if many
+          # new photos appear at once. The next sync will pick up any remaining.
+          python3 gh-photo-optimizer.py --limit 50 || true
 
       - name: Commit flagged report (always — even dry run)
         run: |
@@ -128,6 +147,10 @@ jobs:
           git config user.email "sync@glasshouserealty.com"
           # Always stage agents.json if it changed
           git add agents.json 2>/dev/null || true
+          # Photo optimizer outputs and cache
+          git add agent-photos/ photo-cache.json 2>/dev/null || true
+          # Profile URL verification cache
+          git add profile-url-cache.json 2>/dev/null || true
           # Only stage the backups folder if the script wrote BACKUP_COMMIT
           # (i.e., first sync of the day OR significant change >=5%).
           # This keeps git history clean for routine hourly runs.
