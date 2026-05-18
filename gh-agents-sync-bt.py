@@ -640,6 +640,7 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
+    '272213',  # Constance Lowery — partner in joint listing "Connie Lowery & Deanna O'Diam. This hides her individdual agent card"
     # NOTE: Vincent (VJ) Evans (btid 272587) was previously suppressed here
     # because he appears in both Dayton and Cleveland accounts as operations
     # infrastructure staff. We discovered that BoldTrail uses the SAME btid
