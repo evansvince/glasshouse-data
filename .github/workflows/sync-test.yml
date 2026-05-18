@@ -1,4 +1,4 @@
-name: Glasshouse Agent Sync — TEST 
+name: Glasshouse Agent Sync — TEST
 
 # ─────────────────────────────────────────────────────────────────────────────
 # THIS WORKFLOW IS FOR THE sync-testing BRANCH ONLY.
@@ -18,6 +18,14 @@ name: Glasshouse Agent Sync — TEST
 #   GitHub Actions schedules only run on the default branch (main), so a cron
 #   here would never fire anyway. We document this explicitly to make the
 #   manual-only nature obvious. Test runs are always workflow_dispatch.
+#
+# CHANGELOG
+#   2026-05-15 — added SYNC_ENABLE_CLEVELAND=true so this workflow exercises
+#                the Cleveland BoldTrail fetch. Production keeps the flag off
+#                until we've validated the Cleveland integration here.
+#   2026-05-15 — added BOLDTRAIL_API_KEY_CLEVELAND for the Cleveland account fetch
+#   2026-05-15 — added Pillow install + photo optimizer pass (matches production)
+#   2026-05-15 — added profile-url-cache.json + agent-photos/ to the commit
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
@@ -34,7 +42,7 @@ jobs:
   sync-agents-test:
     name: "Sync Agents to agents-test.json (TEST branch)"
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     # Hard guard: this job is allowed to run only on the sync-testing branch.
     # If someone copies this workflow to main by mistake, the job exits.
@@ -72,7 +80,13 @@ jobs:
       - name: Run agent sync against agents-test.json (READ ONLY from BoldTrail)
         id: sync
         env:
-          BOLDTRAIL_API_KEY: ${{ secrets.BOLDTRAIL_API_KEY }}
+          # Dayton BoldTrail account
+          BOLDTRAIL_API_KEY:           ${{ secrets.BOLDTRAIL_API_KEY }}
+          # Cleveland BoldTrail account (Asa Cox Homes)
+          BOLDTRAIL_API_KEY_CLEVELAND: ${{ secrets.BOLDTRAIL_API_KEY_CLEVELAND }}
+          # Enable Cleveland fetch for THIS workflow only. Production sync-all.yml
+          # leaves this unset so its default (off) is used.
+          SYNC_ENABLE_CLEVELAND: 'true'
         run: |
           # CRITICAL: --out agents-test.json keeps writes away from the live file
           if [ "${{ steps.mode.outputs.dry_run }}" = "true" ]; then
@@ -90,6 +104,18 @@ jobs:
           else
             echo "has_event=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Install Pillow for photo optimization
+        if: steps.mode.outputs.dry_run != 'true'
+        run: pip install --quiet Pillow
+
+      - name: Optimize new BoldTrail photos
+        if: steps.mode.outputs.dry_run != 'true'
+        run: |
+          # Same incremental optimizer used in production, but pointed at
+          # agents-test.json. Caches in photo-cache.json so the second run
+          # only processes new/changed photos. Limit per-run prevents long syncs.
+          python3 gh-photo-optimizer.py --agents-file agents-test.json --limit 50 || true
 
       - name: Belt-and-suspenders — verify live agents.json was not touched
         if: always()
@@ -111,7 +137,15 @@ jobs:
           git config user.name  "Glasshouse Sync Bot (TEST)"
           git config user.email "sync-test@glasshouserealty.com"
           # Explicitly stage only test artifacts. agents.json is NEVER staged.
-          git add agents-test.json reports/ backups/ 2>/dev/null || true
+          git add agents-test.json reports/ 2>/dev/null || true
+          # Photo optimizer outputs + cache
+          git add agent-photos/ photo-cache.json 2>/dev/null || true
+          # Profile URL verification cache
+          git add profile-url-cache.json 2>/dev/null || true
+          # Only stage backups/ if the script wrote BACKUP_COMMIT
+          if [ -f BACKUP_COMMIT ]; then
+            git add backups/ 2>/dev/null || true
+          fi
           # If anyone accidentally added agents.json, unstage it
           git reset HEAD agents.json 2>/dev/null || true
           if git diff --staged --quiet; then
@@ -149,6 +183,7 @@ jobs:
           echo "| Status | ${{ job.status }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Branch | sync-testing |" >> $GITHUB_STEP_SUMMARY
           echo "| Mode | ${{ steps.mode.outputs.dry_run == 'true' && 'dry-run' || 'LIVE (writes agents-test.json)' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Cleveland fetch | ENABLED (test workflow) |" >> $GITHUB_STEP_SUMMARY
           echo "| Output file | agents-test.json |" >> $GITHUB_STEP_SUMMARY
           echo "| Has events | ${{ steps.sync.outputs.has_event }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Summary | ${{ steps.sync.outputs.summary }} |" >> $GITHUB_STEP_SUMMARY
