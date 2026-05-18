@@ -128,6 +128,18 @@ jobs:
           # new photos appear at once. The next sync will pick up any remaining.
           python3 gh-photo-optimizer.py --limit 50 || true
 
+      - name: Scrape Lofty photos for agents missing headshots
+        if: steps.mode.outputs.dry_run != 'true'
+        run: |
+          # Pulls headshots from Lofty agent profile pages for agents who have
+          # a profileUrl set but no photo. Strictly READ-only HTTP GETs against
+          # publicly-served pages. Has its own cache (7-day TTL) so unchanged
+          # pages are skipped. Limit per-run to keep cycles short and be polite
+          # to Lofty's servers. Failures here never block the sync — the `|| true`
+          # ensures workflow continues even if the scraper hits an issue.
+          # Dayton-only (Cleveland agents use a different profile system).
+          python3 gh-lofty-scraper.py --limit 30 || true
+
       - name: Commit flagged report (always — even dry run)
         run: |
           git config user.name  "Glasshouse Sync Bot"
@@ -151,6 +163,8 @@ jobs:
           git add agent-photos/ photo-cache.json 2>/dev/null || true
           # Profile URL verification cache
           git add profile-url-cache.json 2>/dev/null || true
+          # Lofty scraper cache (so we don't re-scrape unchanged pages every run)
+          git add lofty-scrape-cache.json 2>/dev/null || true
           # Only stage the backups folder if the script wrote BACKUP_COMMIT
           # (i.e., first sync of the day OR significant change >=5%).
           # This keeps git history clean for routine hourly runs.
