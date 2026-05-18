@@ -1829,7 +1829,10 @@ def main():
     # 6. Merge
     print(f"\n── Merging ─────────────────────────────────────────────")
     merged = merge(valid, by_email, by_btid, by_name, existing_all)
-    merged.sort(key=lambda a: (0 if a.get('photo') else 1, a['name'].lower()))
+    # Pure alphabetical sort. Photoless agents interleave naturally with photoed
+    # ones rather than being segregated to the bottom. The agent finder reads
+    # this order directly — no client-side resort.
+    merged.sort(key=lambda a: a['name'].lower())
 
     # 7. Report
     report = write_report(flagged, merged, dry_run=args.dry_run)
