@@ -132,6 +132,11 @@ PROFILE_URL_BASE      = 'https://glasshouserealty.com'
 PROFILE_URL_CACHE     = 'profile-url-cache.json'
 PROFILE_URL_TIMEOUT   = 10  # seconds per HEAD request
 PROFILE_URL_USER_AGENT = 'Glasshouse-Profile-URL-Verifier/1.0'
+# How long to cache a 404 response before re-checking. The cron runs once per
+# hour 9am-6pm M-F, so a 1-hour cooldown effectively means "re-check on the
+# next sync." This gives admins fast feedback: set the slug in Lofty admin,
+# next sync picks it up.
+PROFILE_URL_404_COOLDOWN_SECS = 3600  # 1 hour
 
 # ── JUNK/TEST ACCOUNT FILTERS ─────────────────────────────────────────────────
 # Agents matching these patterns are EXCLUDED from agents.json
@@ -312,8 +317,10 @@ def verify_profile_url(slug):
     URL if it resolves (200), or '' if it doesn't (404, etc).
 
     Cached per-slug so we don't re-hit Lofty's server every sync for the
-    same agents. Status 200 is cached forever; status 404 expires after
-    24 hours (in case the admin sets up the slug later).
+    same agents. Status 200 is cached forever (slugs don't get removed
+    once set). Status 404 expires after PROFILE_URL_404_COOLDOWN_SECS
+    (1 hour by default) — short enough that admins see slug-setup take
+    effect on the next sync, long enough to avoid hammering Lofty.
     """
     if not slug: return ''
     cache = _load_profile_url_cache()
@@ -323,9 +330,9 @@ def verify_profile_url(slug):
         if cached.get('status') == 200:
             # Verified working — trust the cache
             return cached.get('url', '')
-        # 404 or other — check if cache entry is stale (>24h)
+        # 404 or other — check if cache entry is stale
         checked = parse_iso(cached.get('checked_at', ''))
-        if checked and (datetime.now(timezone.utc) - checked).total_seconds() < 86400:
+        if checked and (datetime.now(timezone.utc) - checked).total_seconds() < PROFILE_URL_404_COOLDOWN_SECS:
             return ''  # still in cooldown
         # cache entry expired, re-verify below
 
@@ -1182,7 +1189,7 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
     # For Dayton agents without a profileUrl, generate a candidate slug from
     # their name (firstname-lastname) and HEAD-request it against Lofty.
     # If it returns 200 the URL is committed; if 404 we leave profileUrl empty
-    # (next sync retries after the 24h cache cooldown).
+    # (next sync retries after the cache cooldown — see PROFILE_URL_404_COOLDOWN_SECS).
     #
     # CLEVELAND IS EXCLUDED — Cleveland uses a different agent-page system
     # where slugs don't resolve the same way. Cleveland profile URLs are
@@ -1494,23 +1501,55 @@ def write_report(flagged, merged, dry_run=False):
         }, f, indent=2)
     print(f"  No photo:      {photo_path}{dr_label} ({len(no_photo)} agents)")
 
-    # ── 3b. No-profile-URL report ──────────────────────────────────────────────
+    # ── 3b. No-profile-URL report (Dayton only) ────────────────────────────────
+    # Cleveland is excluded — Cleveland uses a different agent-page system
+    # where Lofty slugs don't resolve. Cleveland profile URL strategy is in
+    # the parking lot for a future build.
     purl_dir = os.path.join(REPORTS_DIR, 'no-profile-url')
     os.makedirs(purl_dir, exist_ok=True)
-    no_purl = [{'name': a['name'], 'email': a['email'], 'regions': a['regions'],
-                'team': a.get('team',''), 'source': a.get('source',''),
-                'boldtrailId': a.get('boldtrailId',''), 'loftyId': a.get('loftyId','')}
-               for a in merged if not a.get('profileUrl') and not a.get('hidden')]
+
+    def _is_cle(a):
+        if 'Cleveland' in a.get('regions', []):
+            return True
+        s = a.get('source', '')
+        return s == 'spreadsheet' or s.endswith('-cleveland')
+
+    no_purl = []
+    for a in merged:
+        if a.get('profileUrl'): continue
+        if a.get('hidden'):     continue
+        if _is_cle(a):          continue
+        no_purl.append({
+            'name':           a['name'],
+            'email':          a['email'],
+            'regions':        a['regions'],
+            'team':           a.get('team', ''),
+            'source':         a.get('source', ''),
+            'boldtrailId':    a.get('boldtrailId', ''),
+            'loftyId':        a.get('loftyId', ''),
+            # Auto-generated slug — what the admin should enter in Lofty's "Slug" field
+            'suggested_lofty_slug': slugify_name(a.get('name', '')),
+            'suggested_full_url':   f"{PROFILE_URL_BASE}/{slugify_name(a.get('name', ''))}",
+        })
+
     purl_path = os.path.join(purl_dir, f'no-profile-url-{ts}.json')
     with open(purl_path, 'w') as f:
         json.dump({
             'generated':   generated,
             'dry_run':     dry_run,
-            'description': 'Agents on site with no profile URL. Add agent to Lofty or set a custom slug to populate.',
+            'description': (
+                'Dayton agents on the site without a profile URL. To fix: '
+                'open Lofty admin, find the agent\'s "Slug" field, set it to '
+                'the value in `suggested_lofty_slug` (e.g. "nikole-locke"). '
+                'The next sync will HEAD-request the URL and, if it resolves, '
+                'auto-populate the agent\'s profileUrl. Cleveland agents are '
+                'excluded from this report since Cleveland uses a different '
+                'agent-page system.'
+            ),
             'count':       len(no_purl),
             'agents':      sorted(no_purl, key=lambda x: x['name'].lower()),
         }, f, indent=2)
-    print(f"  No profile URL:{purl_path}{dr_label} ({len(no_purl)} agents)")
+    print(f"  No profile URL:{purl_path}{dr_label} ({len(no_purl)} Dayton agents)")
 
     # ── 4. Flagged/junk report ─────────────────────────────────────────────────
     flagged_path = os.path.join(flag_dir, f'flagged-{ts}.json')
