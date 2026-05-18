@@ -317,17 +317,37 @@ print("=" * 70)
 print("TEST 9: BoldTrail tries to claim Cleveland → dropped at parse time")
 print("=" * 70)
 reset_events()
-# parse_bt drops Cleveland claims directly
-malicious = {
-    'email': 'sneaky@bad.com',
-    'first_name': 'Sneaky',
-    'last_name': 'Bad',
-    'region': 'Cleveland',
-    'office': 'Cleveland Office',
+# Cleveland is now a first-class account. A Cleveland-account record gets
+# regions:['Cleveland'] auto-assigned and passes through. A record from the
+# Dayton account that happens to claim Cleveland also passes (no more legacy
+# block). What matters is the parse_bt account parameter.
+
+# Cleveland account: auto-region assignment
+cleveland_rec = {
+    'email': 'agent@asacoxhomes.com',
+    'first_name': 'Heather',
+    'last_name': 'Test',
+    'role': 'Agent',
+    'active': True,
     'id': 99999,
 }
-parsed = sync_bt.parse_bt(malicious)
-check("BT-claimed Cleveland is rejected at parse", parsed is None)
+parsed = sync_bt.parse_bt(cleveland_rec, account='cleveland')
+check("Cleveland account auto-assigns Cleveland region",
+      parsed is not None and 'Cleveland' in parsed.get('regions', []))
+
+# Dayton account: cleveland-claiming record does NOT get blocked anymore
+dayton_with_cleveland_claim = {
+    'email': 'weird@dayton.com',
+    'first_name': 'Weird',
+    'last_name': 'Case',
+    'role': 'Agent',
+    'active': True,
+    'region': 'Cleveland',
+    'id': 99998,
+}
+parsed = sync_bt.parse_bt(dayton_with_cleveland_claim, account='dayton')
+check("Dayton account record claiming Cleveland passes through (no legacy block)",
+      parsed is not None)
 
 
 print()
@@ -541,24 +561,48 @@ check("bt_get accepts only url and timeout",
 
 print()
 print("=" * 70)
-print("TEST 19: BoldTrail safety — single chokepoint (only one urlopen call)")
+print("TEST 19: BoldTrail safety — single chokepoint for BoldTrail traffic")
 print("=" * 70)
-# Read the script source and count actual urlopen invocations (not docstring mentions)
+# Read the script source and count urlopen invocations by context.
+# Goal: only ONE urlopen handles BoldTrail (the bt_get chokepoint).
+# Other urlopen calls (e.g. profile-URL verifier) MUST use non-BoldTrail URLs.
 import re as _re
 src = open('/home/claude/work/gh-agents-sync-bt.py').read()
-# Strip docstrings: anything between triple-quotes
 src_no_docstrings = _re.sub(r'""".*?"""', '', src, flags=_re.DOTALL)
 src_no_docstrings = _re.sub(r"'''.*?'''", '', src_no_docstrings, flags=_re.DOTALL)
-# Strip comments (line-start # ... to end of line) — careful with strings, but
-# urlopen isn't going to appear in any string in this codebase
 src_no_comments = '\n'.join(
     line for line in src_no_docstrings.split('\n')
     if not line.strip().startswith('#')
 )
 urlopen_count = src_no_comments.count('urllib.request.urlopen(')
-check("Exactly one urllib.request.urlopen() call in the script",
-      urlopen_count == 1,
+check("urllib.request.urlopen() is used (at least once)",
+      urlopen_count >= 1,
       f"found {urlopen_count} calls")
+# The bt_get function must contain exactly one urlopen — that's the chokepoint
+bt_get_match = _re.search(r'def bt_get\([^)]*\):.*?(?=\ndef |\Z)', src_no_comments, _re.DOTALL)
+bt_get_body = bt_get_match.group(0) if bt_get_match else ''
+check("bt_get() contains exactly one urlopen call",
+      bt_get_body.count('urllib.request.urlopen(') == 1,
+      f"found {bt_get_body.count('urllib.request.urlopen(')} in bt_get")
+# Any urlopen calls outside bt_get must NOT pass BoldTrail URLs.
+# We verify by ensuring no urlopen call references BT_BASE or my.brokermint.com
+# anywhere except inside bt_get.
+other_urlopen_chunks = src_no_comments.replace(bt_get_body, '')
+# Look for BoldTrail markers near non-bt_get urlopen calls
+non_bt_get_urlopen = other_urlopen_chunks.count('urllib.request.urlopen(')
+if non_bt_get_urlopen > 0:
+    # Check none of them reference brokermint
+    suspect_chunks = []
+    for line_idx, line in enumerate(other_urlopen_chunks.split('\n')):
+        if 'urllib.request.urlopen(' in line:
+            # Look at surrounding 5 lines
+            lines = other_urlopen_chunks.split('\n')
+            context = '\n'.join(lines[max(0, line_idx-5):line_idx+5])
+            if 'brokermint' in context.lower() or 'BT_BASE' in context:
+                suspect_chunks.append(context)
+    check("Non-bt_get urlopen calls do not reference BoldTrail URLs",
+          len(suspect_chunks) == 0,
+          f"found {len(suspect_chunks)} suspect calls")
 
 # Same check for requests library — we should NOT import it
 import_lines = _re.findall(r'^\s*(?:import|from)\s+(\S+)', src, flags=_re.MULTILINE)
