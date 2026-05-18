@@ -640,7 +640,7 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
-    '272213',  # Constance Lowery — partner in joint listing "Connie Lowery & Deanna O'Diam. This hides her individdual agent card"
+    '272213',  # Constance Lowery — partner in joint listing "Connie Lowery & Deanna O'Diam" (preferred display: partnership card only)
     # NOTE: Vincent (VJ) Evans (btid 272587) was previously suppressed here
     # because he appears in both Dayton and Cleveland accounts as operations
     # infrastructure staff. We discovered that BoldTrail uses the SAME btid
@@ -733,6 +733,24 @@ def parse_bt(bt, account='dayton'):
     # Strip 0XX - prefix from first_name specifically
     first = re.sub(r'^0[0-9]+ - ', '', first).strip()
     last  = re.sub(r'^0[0-9]+ - ', '', last).strip()
+
+    # ── Preferred Name override ─────────────────────────────────────────────
+    # BoldTrail exposes a "Preferred Name" custom field (note: literal field
+    # name with space and capitals, not snake_case — it's an admin-defined
+    # custom field, not a built-in one).
+    # If set, this replaces the first name in the displayed agent name.
+    # Examples:
+    #   first_name="Mohammad", Preferred Name="Mo"      → display: "Mo Zahedi"
+    #   first_name="Tamara",   Preferred Name="Tami"    → display: "Tami Galdeen"
+    #   first_name="Mary",     Preferred Name="Elizabeth" → display: "Elizabeth Cooper"
+    # The "Preferred Name" field is single-name (first name only). Whatever
+    # the admin entered is used as-is, paired with the legal last name.
+    preferred = (bt.get('Preferred Name', '') or '').strip()
+    # Defensive: strip the same 0XX - prefix in case admin pattern-copied it
+    preferred = re.sub(r'^0[0-9]+ - ', '', preferred).strip()
+    if preferred:
+        first = preferred
+
     name  = f"{first} {last}".strip() or (bt.get('name', '') or '').strip()
     if not name: return None
     # Final pass in case the prefix was on the joined name field
