@@ -1571,6 +1571,9 @@ def write_report(flagged, merged, dry_run=False):
     print(f"  Cleveland-unmatched: {cle_path}{dr_label} ({len(CLEVELAND_UNMATCHED)} records)")
 
     # ── 3a. No-photo report ────────────────────────────────────────────────────
+    # BoldTrail is the primary source for agent photos. The Lofty scraper picks
+    # up any standard-template Lofty pages as a bonus, but admins should upload
+    # to BoldTrail to guarantee coverage.
     photo_dir  = os.path.join(REPORTS_DIR, 'no-photo')
     os.makedirs(photo_dir, exist_ok=True)
     no_photo = [{'name': a['name'], 'email': a['email'], 'regions': a['regions'],
@@ -1582,7 +1585,7 @@ def write_report(flagged, merged, dry_run=False):
         json.dump({
             'generated':   generated,
             'dry_run':     dry_run,
-            'description': 'Agents on site with no profile photo. Add a photo in Lofty (preferred) or BoldTrail to populate.',
+            'description': 'Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.',
             'count':       len(no_photo),
             'agents':      sorted(no_photo, key=lambda x: x['name'].lower()),
         }, f, indent=2)
