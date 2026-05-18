@@ -9,6 +9,11 @@
     "status": 404,
     "url": ""
   },
+  "alex-zaharieff": {
+    "checked_at": "2026-05-18T19:45:23.956127+00:00",
+    "status": 404,
+    "url": ""
+  },
   "anna-catanzaro": {
     "checked_at": "2026-05-18T18:51:23.201960+00:00",
     "status": 404,
@@ -66,6 +71,11 @@
   },
   "erika-deady": {
     "checked_at": "2026-05-18T18:51:28.462306+00:00",
+    "status": 404,
+    "url": ""
+  },
+  "evan-kloth": {
+    "checked_at": "2026-05-18T19:45:23.625463+00:00",
     "status": 404,
     "url": ""
   },
@@ -169,6 +179,11 @@
     "status": 404,
     "url": ""
   },
+  "mike-williams": {
+    "checked_at": "2026-05-18T19:45:24.319275+00:00",
+    "status": 404,
+    "url": ""
+  },
   "misty-vincent": {
     "checked_at": "2026-05-18T18:51:29.839169+00:00",
     "status": 404,
@@ -229,6 +244,11 @@
     "status": 404,
     "url": ""
   },
+  "teri-hobbs": {
+    "checked_at": "2026-05-18T19:45:24.592266+00:00",
+    "status": 404,
+    "url": ""
+  },
   "thomas-kretz": {
     "checked_at": "2026-05-18T18:51:27.694108+00:00",
     "status": 404,
@@ -239,8 +259,18 @@
     "status": 404,
     "url": ""
   },
+  "tom-kretz": {
+    "checked_at": "2026-05-18T19:45:24.984697+00:00",
+    "status": 404,
+    "url": ""
+  },
   "tracey-tanner": {
     "checked_at": "2026-05-18T18:51:29.531864+00:00",
+    "status": 404,
+    "url": ""
+  },
+  "zac-banks": {
+    "checked_at": "2026-05-18T19:45:25.375569+00:00",
     "status": 404,
     "url": ""
   },
