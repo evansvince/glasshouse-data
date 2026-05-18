@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-05-18T21:08:16.296131Z",
+  "mode": "LIVE",
+  "totalAttempted": 1,
+  "successful": 0,
+  "cached": 0,
+  "failed": 0,
+  "events": [
+    {
+      "name": "Scottie Fulhart",
+      "profileUrl": "https://glasshouserealty.com/scottie-fulhart",
+      "btid": "296298",
+      "attemptedAt": "2026-05-18T21:08:16.295904Z",
+      "status": "cached_negative",
+      "reason": "no_agent_card_div"
+    }
+  ]
+}
