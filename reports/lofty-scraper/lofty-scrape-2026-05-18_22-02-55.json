@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-05-18T22:02:55.296225Z",
+  "mode": "LIVE",
+  "totalAttempted": 3,
+  "successful": 2,
+  "cached": 0,
+  "failed": 0,
+  "events": [
+    {
+      "name": "Bobby Hopkins",
+      "profileUrl": "https://glasshouserealty.com/bobby-hopkins",
+      "btid": "285335",
+      "attemptedAt": "2026-05-18T22:02:51.943020Z",
+      "status": "success",
+      "photoUrl": "https://cdn.lofty.com/image/fs/web/202651/14/fc486404-1c75-4562-be62-01d976147321/w600_original_d4ed22fd-a327-4dd4-9bed-735fb84a1cd3-jpeg.webp"
+    },
+    {
+      "name": "Cortney Loyd",
+      "profileUrl": "https://glasshouserealty.com/cortney-loyd",
+      "btid": "272214",
+      "attemptedAt": "2026-05-18T22:02:53.628946Z",
+      "status": "success",
+      "photoUrl": "https://cdn.lofty.com/image/fs/user-info/202624/11/w600_original_0498bed6-6b54-4c07-9de6-9d22242e066d-jpeg.webp"
+    },
+    {
+      "name": "Scottie Fulhart",
+      "profileUrl": "https://glasshouserealty.com/scottie-fulhart",
+      "btid": "296298",
+      "attemptedAt": "2026-05-18T22:02:55.291773Z",
+      "status": "cached_negative",
+      "reason": "no_agent_card_div"
+    }
+  ]
+}
