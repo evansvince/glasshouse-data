@@ -663,18 +663,35 @@ PRESERVE_JOINT_EMAILS = {
 # (lead routing, transaction grouping, compensation, etc.) but don't want
 # their team name and logo visible on their public agent card.
 #
-# Add their BoldTrail id below. On every sync, their team field and teamLogo
-# will be blanked out before writing to agents.json. They still appear on
-# the public agent finder, but as a "solo agent" visually.
+# Two ways to hide:
 #
-# To hide a team assignment:
+# 1. HIDE_TEAM_NAMES — hide an entire team by name. Every agent whose
+#    BoldTrail `team` field matches one of these strings (case-insensitive,
+#    whitespace-normalized) has their team and teamLogo blanked. Scales
+#    automatically as the team grows.
+#
+# 2. HIDE_TEAM_BTIDS — hide a specific agent's team by their BoldTrail id.
+#    Use this for one-off exceptions when you want to hide a team for some
+#    agents but not others.
+#
+# To hide via team name (preferred for whole-team hiding):
+#   Add the team name string to HIDE_TEAM_NAMES below
+#
+# To hide via per-agent btid (for individual exceptions):
 #   1. Look up the agent's BoldTrail id from the API
-#   2. Add their btid here with a comment naming the agent
-#   3. Their existing team logo / team name is wiped on the next sync
+#   2. Add their btid to HIDE_TEAM_BTIDS with a comment naming them
 #
-# To restore visibility: remove the btid from this list and the team will
-# reappear on the next sync.
-# Each entry is on its own line so you can comment/uncomment individual agents.
+# In both cases: agents still appear on the public agent finder, just as
+# "solo agent" visually (no team name, no team logo).
+#
+# To restore visibility: remove the entry — team reappears on the next sync.
+
+HIDE_TEAM_NAMES = {
+    'K4 Management Group',  # Backend lead-routing team, not for public display
+}
+# Normalize HIDE_TEAM_NAMES once for matching (lowercase + trimmed whitespace)
+_HIDE_TEAM_NAMES_NORMALIZED = {n.strip().lower() for n in HIDE_TEAM_NAMES}
+
 HIDE_TEAM_BTIDS = {btid for btid in [
     # '272304',   # Laura Long — backend team only, don't show on card
     # '272456',   # Some Other Agent — example
@@ -778,11 +795,17 @@ def parse_bt(bt, account='dayton'):
     team   = bt.get('team') or bt.get('Team') or bt.get('team_name') or ''
     office = bt.get('office') or bt.get('office_name') or ''
 
-    # Hide-team override: agents listed in HIDE_TEAM_BTIDS have their team
-    # blanked on the public card (BoldTrail still tracks them internally).
+    # Hide-team override: two paths, applied in order
+    #   1. HIDE_TEAM_NAMES — whole-team hiding (preferred for K4-style cases
+    #      where the team is internal-only across all members)
+    #   2. HIDE_TEAM_BTIDS — per-agent override for one-off exceptions
+    # If either matches, team is blanked → renders as "Solo agent" on the card.
     btid_str = str(bt.get('id', ''))
-    if btid_str and btid_str in HIDE_TEAM_BTIDS:
-        team = ''  # blank team name → cards render as "Solo agent"
+    team_normalized = team.strip().lower()
+    if team_normalized and team_normalized in _HIDE_TEAM_NAMES_NORMALIZED:
+        team = ''
+    elif btid_str and btid_str in HIDE_TEAM_BTIDS:
+        team = ''
 
     if not regions and office:
         inferred = infer_region(office)
@@ -1196,10 +1219,15 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
             else:
                 agent['hidden'] = False
 
-            # [BUG-5] teamLogo: existing value always wins if it exists.
-            # Only fall through to TEAM_LOGOS dict if existing record has none.
-            if existing.get('teamLogo'):
+            # [BUG-5] teamLogo: existing value usually wins. EXCEPTION: if
+            # the incoming agent has team='' (hidden via HIDE_TEAM_NAMES or
+            # HIDE_TEAM_BTIDS), we must blank the teamLogo too — otherwise
+            # the old logo lingers on a card with no team name. Blanking team
+            # without blanking logo creates a worse visual than either alone.
+            if agent.get('team') and existing.get('teamLogo'):
                 agent['teamLogo'] = existing['teamLogo']
+            elif not agent.get('team'):
+                agent['teamLogo'] = ''
 
             # If existing record was previously soft-deleted but is back in BT,
             # clear the soft-delete state (reactivation).
