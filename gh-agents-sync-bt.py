@@ -145,6 +145,10 @@ JUNK_EMAIL_PATTERNS = [
     r'sample',
     r'demo@',
     r'dummy',
+    # Gmail plus-aliasing on @glasshouserealty addresses is a dev-test convention
+    # (e.g. cody+1@glasshouserealty.com, kailey+1@glasshouserealty.com).
+    # These are sandbox accounts, not real agents.
+    r'\+\d+@glasshouserealty\.com',
 ]
 JUNK_NAME_PATTERNS = [
     r'final test',
@@ -163,6 +167,9 @@ JUNK_NAME_PATTERNS = [
     r'jed helmers 2',
     r'jed helmers 1',
     r'john smith',
+    # Names starting with "testing" (e.g. "Testing ACH", "Testing: Team Lead")
+    # are BoldTrail sandbox records.
+    r'^testing\b',
 ]
 
 # Staff/internal accounts — excluded from site, not flagged as junk
@@ -626,7 +633,13 @@ SUPPRESS_BTIDS = {
     '272291',  # Kevin Jackson — partner in joint listing "Kevin & Lisa Jackson"
     '272311',  # Lisa Jackson  — partner in joint listing "Kevin & Lisa Jackson"
     '272228',  # Deanna O'Diam — partner in joint listing "Connie Lowery & Deanna O'Diam"
-    '272587',  # Vincent (VJ) Evans — Cleveland-account record (dev/infra); his real agent identity is in the Dayton account
+    # NOTE: Vincent (VJ) Evans (btid 272587) was previously suppressed here
+    # because he appears in both Dayton and Cleveland accounts as operations
+    # infrastructure staff. We discovered that BoldTrail uses the SAME btid
+    # for the same person across accounts, so the fetch-time dedup-by-btid
+    # already handles his case correctly. His Dayton record is the canonical
+    # one (fetched first); his Cleveland record is dropped at fetch.
+    # See MANUAL_BTID_PAIRINGS below for the Vince/Vincent name-pairing.
 }
 
 # Emails of joint-listing records in agents.json. The sync preserves these
@@ -1012,6 +1025,7 @@ MANUAL_BTID_PAIRINGS = {
     '272241': 'Fred Seeger',       # BoldTrail: Frederick Seeger
     '272581': 'Tim Young',         # BoldTrail: Timothy Young
     '272386': 'Sierrah Gunder',    # BoldTrail: Sierrah Hardy (married name)
+    '272587': 'Vince (VJ) Evans',  # BoldTrail: 001 - Vincent Evans (preferred name VJ)
 }
 
 
