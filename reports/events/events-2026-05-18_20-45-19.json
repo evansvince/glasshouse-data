@@ -1,0 +1,17 @@
+{
+  "generated": "2026-05-18T20:45:19.186352",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Constance Lowery",
+      "email": "conniedeanna@kunalpatelgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}

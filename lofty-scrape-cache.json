@@ -1,0 +1,19 @@
+{
+  "https://glasshouserealty.com/aaron-kroggel": {
+    "agentName": "Aaron Kroggel",
+    "photoUrl": null,
+    "reason": "non_lofty_image:https://cdn.chime.me/image/fs/user-info/2024725/21",
+    "scrapedAt": "2026-05-18T20:45:21.447358Z"
+  },
+  "https://glasshouserealty.com/lauren-rau": {
+    "agentName": "Lauren Rau",
+    "photoUrl": "https://cdn.lofty.com/image/fs/web/2026515/14/ef7f9be1-fbd5-4701-8d25-7c4986a48161/w600_original_e966dd49-b8b2-4873-a677-ca5ab77fd37b-jpeg.webp",
+    "scrapedAt": "2026-05-18T20:45:22.717806Z"
+  },
+  "https://glasshouserealty.com/scottie-fulhart": {
+    "agentName": "Scottie Fulhart",
+    "photoUrl": null,
+    "reason": "no_agent_card_div",
+    "scrapedAt": "2026-05-18T20:45:23.981053Z"
+  }
+}

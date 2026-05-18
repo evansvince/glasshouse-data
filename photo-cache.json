@@ -20,6 +20,13 @@
     "processed_at": "2026-05-18T14:19:11.075335+00:00",
     "source_size": 141698
   },
+  "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/606330.gif?v=1779134813": {
+    "boldtrailId": "296320",
+    "optimized_size": 51714,
+    "output_path": "agent-photos/296320.jpg",
+    "processed_at": "2026-05-18T20:45:21.365767+00:00",
+    "source_size": 2118099
+  },
   "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/609044.gif?v=1778704936": {
     "boldtrailId": "297962",
     "optimized_size": 110606,

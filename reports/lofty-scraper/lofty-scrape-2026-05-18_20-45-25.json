@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-05-18T20:45:25.171202Z",
+  "mode": "LIVE",
+  "totalAttempted": 3,
+  "successful": 1,
+  "cached": 0,
+  "failed": 0,
+  "events": [
+    {
+      "name": "Aaron Kroggel",
+      "profileUrl": "https://glasshouserealty.com/aaron-kroggel",
+      "btid": "272164",
+      "attemptedAt": "2026-05-18T20:45:21.447358Z",
+      "status": "no_photo_found",
+      "reason": "non_lofty_image:https://cdn.chime.me/image/fs/user-info/2024725/21"
+    },
+    {
+      "name": "Lauren Rau",
+      "profileUrl": "https://glasshouserealty.com/lauren-rau",
+      "btid": "297951",
+      "attemptedAt": "2026-05-18T20:45:22.717806Z",
+      "status": "success",
+      "photoUrl": "https://cdn.lofty.com/image/fs/web/2026515/14/ef7f9be1-fbd5-4701-8d25-7c4986a48161/w600_original_e966dd49-b8b2-4873-a677-ca5ab77fd37b-jpeg.webp"
+    },
+    {
+      "name": "Scottie Fulhart",
+      "profileUrl": "https://glasshouserealty.com/scottie-fulhart",
+      "btid": "296298",
+      "attemptedAt": "2026-05-18T20:45:23.981053Z",
+      "status": "no_photo_found",
+      "reason": "no_agent_card_div"
+    }
+  ]
+}
