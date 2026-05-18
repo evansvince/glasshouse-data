@@ -996,6 +996,41 @@ def load_existing(filepath):
     try:
         with open(filepath) as f:
             existing = json.load(f)
+
+        # [BUG-6] Deduplicate `existing` on load. Defensive cleanup for any
+        # historical duplicates that may have accumulated in agents.json.
+        #
+        # Duplicates can occur when:
+        #   - PRESERVE_JOINT_EMAILS preserves multiple BoldTrail records
+        #     sharing a joint email (the original bug)
+        #   - Early development test runs accidentally wrote duplicates
+        #     to production
+        #
+        # Strategy: group by a composite identity key (btid, loftyId, source).
+        # For each group, keep the FIRST occurrence; drop the rest.
+        # This is safe because: (1) duplicates are bit-identical by definition,
+        # (2) any genuine multi-record entries (joint listings) have distinct
+        # composite keys (different name or source).
+        seen_keys = set()
+        deduped = []
+        dupes_removed = 0
+        for a in existing:
+            # Composite identity key
+            key = (
+                str(a.get('boldtrailId', '')),
+                str(a.get('loftyId', '')),
+                a.get('source', ''),
+                a.get('name', '').strip().lower(),
+            )
+            if key in seen_keys:
+                dupes_removed += 1
+                continue
+            seen_keys.add(key)
+            deduped.append(a)
+        if dupes_removed:
+            print(f"  ⚠ Removed {dupes_removed} duplicate record(s) from existing data on load")
+        existing = deduped
+
         by_email = {a['email'].lower(): a for a in existing if a.get('email')}
         by_btid  = {str(a['boldtrailId']): a for a in existing if a.get('boldtrailId')}
         by_name  = {}
@@ -1314,8 +1349,13 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
             continue
         # Skip joint listings — preserved across syncs (no 1:1 BT match exists).
         # Carry the joint record forward into merged as-is.
+        # IMPORTANT: only preserve records with source='lofty' here. A BoldTrail
+        # record sharing a joint email belongs to a real individual (e.g. Constance
+        # Lowery within the "Connie Lowery & Deanna O'Diam" partnership) and should
+        # fall through to normal soft-delete logic — preserving it as a "joint"
+        # record creates a duplicate that survives forever.
         ex_email = (existing.get('email') or '').lower()
-        if ex_email in PRESERVE_JOINT_EMAILS:
+        if ex_email in PRESERVE_JOINT_EMAILS and existing.get('source') == 'lofty':
             merged.append(existing)
             continue
         # Skip if this exact existing record was matched by an incoming BT record
