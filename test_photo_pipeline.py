@@ -71,6 +71,27 @@ check('whitespace-only btid falls through to email',
 check('whitespace-only btid and email returns None',
       pipeline.agent_key({'boldtrailId': '   ', 'email': '   '}) is None)
 
+# REGRESSION: real-world agents.json sometimes has boldtrailId as int.
+# Production crash on 2026-05-19: `'int' object has no attribute 'strip'`.
+check('integer btid is coerced to string',
+      pipeline.agent_key({'boldtrailId': 272193}) == '272193')
+
+check('integer btid same key as string equivalent',
+      pipeline.agent_key({'boldtrailId': 272193}) ==
+      pipeline.agent_key({'boldtrailId': '272193'}))
+
+check('None btid + valid email falls through to email-hash',
+      pipeline.agent_key({'boldtrailId': None, 'email': 'a@b.com'})
+      .startswith('email-'))
+
+check('Non-str/non-int btid (e.g. dict) treated as missing',
+      pipeline.agent_key({'boldtrailId': {'nested': 1}, 'email': 'a@b.com'})
+      .startswith('email-'))
+
+check('Float-typed btid (defensive) treated as missing → email fallback',
+      pipeline.agent_key({'boldtrailId': 3.14, 'email': 'a@b.com'})
+      .startswith('email-'))
+
 
 # ── TEST 2: url_hash() ───────────────────────────────────────────────────────
 print('\n' + '=' * 70)
@@ -214,6 +235,46 @@ agent = make_agent(
 ok, reason = pipeline.needs_acquisition(agent, '99999')
 check('Photo URL points at file that no longer exists → re-acquire',
       ok is True and reason == 'no_self_hosted_photo')
+
+# REGRESSION: real agents.json had boldtrailId as int.
+# Pipeline crashed with AttributeError on first agent.
+# Test that needs_acquisition() doesn't blow up on non-string fields.
+agent_with_int_id = {
+    'name':                'Real World Agent',
+    'boldtrailId':         272193,  # INT, not string
+    'email':               'real@example.com',
+    'photo':               '',
+    'photoSource':         '',
+    'photoSourceHash':     '',
+    'boldtrailPhoto':      'https://s3.amazonaws.com/bucket/x.jpg',
+    'boldtrailAvatarAdded': True,
+    'profileUrl':          '',
+    'source':              'boldtrail',
+    'hidden':              False,
+}
+try:
+    key = pipeline.agent_key(agent_with_int_id)
+    ok, reason = pipeline.needs_acquisition(agent_with_int_id, key)
+    check('Integer boldtrailId does not crash needs_acquisition',
+          ok is True and reason == 'no_self_hosted_photo')
+except (AttributeError, TypeError) as e:
+    check('Integer boldtrailId does not crash needs_acquisition',
+          False, f'CRASHED: {type(e).__name__}: {e}')
+
+# Same for try_source_a — non-string boldtrailPhoto must not crash
+agent_with_dict_photo = {
+    'name':                'Weird Data',
+    'boldtrailId':         '999',
+    'boldtrailAvatarAdded': True,
+    'boldtrailPhoto':      None,  # not a string
+}
+try:
+    result = pipeline.try_source_a(agent_with_dict_photo)
+    check('Non-string boldtrailPhoto handled gracefully in try_source_a',
+          result['success'] is False and result['reason'] == 'no_bt_url')
+except (AttributeError, TypeError) as e:
+    check('Non-string boldtrailPhoto handled gracefully in try_source_a',
+          False, f'CRASHED: {type(e).__name__}: {e}')
 
 
 # ── TEST 4: in_cooldown() ────────────────────────────────────────────────────
