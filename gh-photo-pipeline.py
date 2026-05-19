@@ -199,6 +199,34 @@ def record_attempt(state, key, run_id, success, reason=''):
         }
 
 
+# Hosts whose URLs we trust as "working photos that should keep displaying."
+# Agents whose photo points at these hosts are NOT re-acquired just because
+# the URL isn't self-hosted yet. They're only replaced when BoldTrail has a
+# real photo to migrate them to (avatar_added=true).
+#
+# This implements the migration principle: "Keep existing Lofty/Chime photos
+# displaying until each agent migrates over to BoldTrail." That way the site
+# stays visually complete during the months-long migration window.
+EXISTING_PHOTO_HOSTS_TO_PRESERVE = ('cdn.lofty.com', 'cdn.chime.me')
+
+
+def _photo_is_external_but_working(url):
+    """
+    Return True if the URL is one of the trusted external photo hosts.
+    These photos have been displaying on the site historically; we should
+    not replace them with a self-hosted version unless we have something
+    genuinely better (i.e. BoldTrail has uploaded a real photo).
+
+    We are NOT validating reachability here — that would require an HTTP
+    HEAD call per agent per sync and would introduce another failure mode.
+    The premise is: these URLs were displaying when the agents.json was
+    last published, so until proven otherwise, treat them as working.
+    """
+    if not isinstance(url, str) or not url:
+        return False
+    return any(host in url for host in EXISTING_PHOTO_HOSTS_TO_PRESERVE)
+
+
 # ── ELIGIBILITY ──────────────────────────────────────────────────────────────
 def needs_acquisition(agent, key):
     """
@@ -206,9 +234,17 @@ def needs_acquisition(agent, key):
 
     Returns (yes, reason):
       ineligible reasons: hidden, soft_deleted, cleveland_excluded, no_key
-      acquire reasons:    no_self_hosted_photo, boldtrail_changed,
+      acquire reasons:    no_photo_at_all, boldtrail_changed,
                           upgrade_to_boldtrail
-      skip reason:        fresh
+      skip reasons:       fresh, external_working_photo
+
+    Migration philosophy (added 2026-05-19 after production-test feedback):
+      An agent whose photo points at cdn.lofty.com or cdn.chime.me is kept
+      as-is. We do NOT re-acquire just to migrate them to self-hosting.
+      They migrate to self-hosting naturally when:
+        - Admin uploads a photo to BoldTrail (avatar_added=true)
+        - The URL is replaced by something better
+      This keeps the site visually complete throughout the migration window.
     """
     if agent.get('hidden'):
         return False, 'hidden'
@@ -226,20 +262,41 @@ def needs_acquisition(agent, key):
     bt_added = bool(agent.get('boldtrailAvatarAdded'))
     bt_url = _safe_str(agent.get('boldtrailPhoto'))
 
-    # Photo missing OR pointing at external URL OR file is gone from disk
-    if not photo or not is_self_hosted(photo):
-        return True, 'no_self_hosted_photo'
-    if not os.path.exists(photo_file_path(key)):
-        return True, 'no_self_hosted_photo'
-
-    # BoldTrail has a photo — check if we need to re-acquire
+    # ── BoldTrail has a real photo: it always wins ──────────────────────────
+    # Whether the agent currently has nothing, an external URL, or even a
+    # self-hosted photo from Lofty — BoldTrail upload supersedes them all.
     if bt_added and bt_url:
         if photo_source != 'boldtrail':
             return True, 'upgrade_to_boldtrail'
         if photo_hash != url_hash(bt_url):
             return True, 'boldtrail_changed'
+        # photoSource=='boldtrail' AND hash matches AND file exists → fresh
+        if is_self_hosted(photo) and os.path.exists(photo_file_path(key)):
+            return False, 'fresh'
+        # File gone but BoldTrail still has the photo → re-acquire from BT
+        return True, 'boldtrail_changed'
 
-    return False, 'fresh'
+    # ── BoldTrail has nothing: respect what's already on the agent ──────────
+    # If they have a working external photo (Lofty/Chime CDN), keep it.
+    # Don't churn the site rewriting URLs to self-hosted just because.
+    if _photo_is_external_but_working(photo):
+        return False, 'external_working_photo'
+
+    # ── Self-hosted but file is gone from disk → re-acquire ─────────────────
+    if is_self_hosted(photo):
+        if os.path.exists(photo_file_path(key)):
+            return False, 'fresh'
+        return True, 'no_photo_at_all'
+
+    # ── Empty photo and BoldTrail has nothing → try Lofty bootstrap ─────────
+    # This covers brand-new agents and agents whose photo was previously
+    # cleared. Source B will scrape their Lofty profile page if profileUrl
+    # is set, otherwise they end up in the no-photo backlog.
+    if not photo:
+        return True, 'no_photo_at_all'
+
+    # ── Anything else (e.g. weird URL we don't recognize) → leave alone ─────
+    return False, 'unknown_external_url'
 
 
 # ── LOFTY PAGE PARSER ────────────────────────────────────────────────────────
@@ -662,17 +719,29 @@ def main():
             events.append(event)
             continue
 
-        # Source D: nothing worked
-        event['status'] = 'failed'
+        # Source D: nothing worked from a fresh acquisition.
+        # CRITICAL: do NOT clear an existing photo, even if it's an external
+        # third-party URL. The principle is "keep what works". A failed
+        # re-acquisition does NOT mean the existing URL is broken — Lofty
+        # might have been slow, the page parser might have a one-off issue,
+        # the network might have blipped. We must never make the site worse
+        # than it was before this pipeline ran.
+        #
+        # If the URL is genuinely broken (Carl Fisher class), it will get
+        # fixed when:
+        #   - Admin uploads a photo to BoldTrail (Source A acquires it)
+        #   - We later add an explicit health-check mechanism with
+        #     consecutive-failure thresholds
+        # Until either of those happens, the stale URL is still a better UX
+        # than initials. A possibly-broken photo > definitely no photo.
+        event['status'] = 'failed_kept_existing' if agent.get('photo') else 'failed_no_photo'
         if not args.dry_run:
-            if agent.get('photo') and not is_self_hosted(agent['photo']):
-                agent['photo']           = ''
-                agent['photoSource']     = ''
-                agent['photoSourceHash'] = ''
-                agents_updated += 1
             record_attempt(state, key, run_id, success=False,
                            reason=f'A:{result_a["reason"]},B:{result_b["reason"]}')
-        print(f'  [{i}/{len(work_queue)}] {name}: ✗ both sources failed')
+        if agent.get('photo'):
+            print(f'  [{i}/{len(work_queue)}] {name}: ⊙ both sources failed, kept existing photo')
+        else:
+            print(f'  [{i}/{len(work_queue)}] {name}: ✗ both sources failed, no photo to keep')
         events.append(event)
 
     # ── Phase 3: strip temp fields, write outputs ──────────────────────────
