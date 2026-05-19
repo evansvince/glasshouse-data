@@ -1,0 +1,20 @@
+{
+  "generated": "2026-05-19T18:09:12.075916",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Ashley Looper",
+      "email": "ashley.looper@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "office": "",
+      "boldtrailId": "298678",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}

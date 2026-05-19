@@ -1,0 +1,444 @@
+{
+  "generatedAt": "2026-05-19T18:09:26.363105Z",
+  "mode": "LIVE",
+  "totalEvents": 48,
+  "acquired_a": 8,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Abbe DeVore",
+      "key": "277847",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:15.221772Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/566092.gif?v=1776192967"
+    },
+    {
+      "name": "Adam Bauer",
+      "key": "272165",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:16.909597Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Alex Zaharieff",
+      "key": "272272",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:16.909633Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Angela Dom",
+      "key": "272176",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:16.909666Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517982.gif?v=1776192829"
+    },
+    {
+      "name": "Anna Catanzaro",
+      "key": "272178",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:17.551386Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Ashley Lesher",
+      "key": "295808",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:17.551424Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/605736.gif?v=1778867148"
+    },
+    {
+      "name": "Ashley Looper",
+      "key": "298678",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:18.129952Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Brian Budde",
+      "key": "272187",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:18.129987Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Brittany Singer",
+      "key": "275114",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:18.130002Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Chelsea Williams",
+      "key": "294172",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:18.130020Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/603233.gif?v=1778869993"
+    },
+    {
+      "name": "Danaisha Tate",
+      "key": "278010",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:19.699952Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "David Jenks",
+      "key": "272225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:19.699989Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "David Woodward",
+      "key": "272226",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:19.700001Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Emily Freiberger",
+      "key": "272234",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:19.700010Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518040.gif?v=1776192778"
+    },
+    {
+      "name": "Eric Loudenback",
+      "key": "272239",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173801Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Erika Deady",
+      "key": "277366",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173836Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Evan Kloth",
+      "key": "256293",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173846Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Hailey Cox",
+      "key": "275089",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173854Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Harley Wade",
+      "key": "272245",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173861Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Hayley Stewart",
+      "key": "272246",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173869Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jayvon Tate",
+      "key": "278681",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173876Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jennifer Martinez",
+      "key": "272263",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173883Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jeri Baumann",
+      "key": "272264",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173892Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jill Barhorst",
+      "key": "272268",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173899Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kasey Prikkel",
+      "key": "272281",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173907Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Keith Gabbard",
+      "key": "277381",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173914Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kerry Phillips",
+      "key": "272289",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173921Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kimberly Luehmann",
+      "key": "272295",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173929Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kristine Bertrand",
+      "key": "272299",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173945Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kunal Patel",
+      "key": "272300",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173954Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Lacey Watson",
+      "key": "272302",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173964Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Lauren Galdeen",
+      "key": "272305",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173971Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Madison Justice",
+      "key": "272316",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173979Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Mike Williams",
+      "key": "272337",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.173986Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Nikole Locke",
+      "key": "295685",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:21.173993Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/605598.gif?v=1778871040"
+    },
+    {
+      "name": "Rachel Dunham",
+      "key": "272360",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.778770Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Reena Patel",
+      "key": "272364",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:21.778805Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Ronette Davis",
+      "key": "297962",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:21.778815Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/609044.gif?v=1778704936"
+    },
+    {
+      "name": "Samantha Tschida",
+      "key": "272373",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:23.520386Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Scottie Fulhart",
+      "key": "296298",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:23.520421Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Sophia Luza",
+      "key": "272387",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:25.137697Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Stephanie Wunderlich",
+      "key": "272389",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:25.137714Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Susan Marra",
+      "key": "272395",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:25.137723Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Teri Hobbs",
+      "key": "272401",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:25.137731Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tia Turner",
+      "key": "272578",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:25.137739Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tom Kretz",
+      "key": "272405",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:25.137746Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tracey Tanner",
+      "key": "296320",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T18:09:25.137754Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/606330.gif?v=1779134813"
+    },
+    {
+      "name": "Zac Banks",
+      "key": "272590",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-05-19T18:09:26.357834Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed_no_photo"
+    }
+  ]
+}
