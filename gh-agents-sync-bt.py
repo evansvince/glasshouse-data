@@ -991,20 +991,25 @@ def backup(filepath, existing_count=0, new_count=0):
     shutil.copy2(filepath, dest)
     print(f"  Backed up → {dest} ({os.path.getsize(dest):,} bytes)")
 
-    # Decide if this backup should be committed
-    commit_worthy = False
+    # Always commit the backup. Originally this had threshold logic (only
+    # commit on first-of-day or 5%+ change) to avoid git noise from hourly
+    # cron. After production deploy of the photo pipeline, we decided every
+    # backup is worth committing because:
+    #   - Pipeline can make photo changes that aren't reflected in agent count
+    #   - Metadata sync can make field-level changes (region, team, name)
+    #     that are too subtle for a count-based heuristic
+    #   - Git noise is small (these are 175KB JSON files)
+    #   - Having a recoverable snapshot before every run > slightly cleaner git log
+    commit_worthy = True
     reason = ''
 
     if first_today:
-        commit_worthy = True
         reason = 'first sync of the day (UTC)'
-    elif existing_count > 0:
+    elif existing_count > 0 and new_count != existing_count:
         change_pct = abs(new_count - existing_count) / existing_count
-        if change_pct >= BACKUP_COMMIT_THRESHOLD_PCT:
-            commit_worthy = True
-            reason = f'significant change: {change_pct:.0%} (threshold: {BACKUP_COMMIT_THRESHOLD_PCT:.0%})'
-        else:
-            reason = f'routine sync, {change_pct:.1%} change (under {BACKUP_COMMIT_THRESHOLD_PCT:.0%} threshold)'
+        reason = f'agent count changed: {existing_count} → {new_count} ({change_pct:.1%})'
+    else:
+        reason = 'routine sync (every backup committed for safety)'
 
     if commit_worthy:
         print(f"  ✓ Backup will be COMMITTED to git: {reason}")
