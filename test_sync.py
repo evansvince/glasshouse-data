@@ -23,8 +23,19 @@ def reset_events():
     sync_bt.EVENTS['abort_reason'] = ''
 
 
-def make_bt_record(name, email, btid, photo='', team='', region='Dayton'):
-    """Simulate what parse_bt() would produce."""
+def make_bt_record(name, email, btid, photo='', team='', region='Dayton',
+                   avatar_added=None):
+    """
+    Simulate what parse_bt() would produce.
+
+    The avatar_added parameter mirrors BoldTrail's own signal for whether the
+    agent has uploaded a real photo (vs. the default placeholder). If the
+    test doesn't specify, we infer: avatar_added=True if a photo URL was
+    provided, False otherwise. Most existing tests pre-date this field, so
+    this default keeps them working without changes.
+    """
+    if avatar_added is None:
+        avatar_added = bool(photo)
     return {
         'email':          email,
         'name':           name,
@@ -38,6 +49,7 @@ def make_bt_record(name, email, btid, photo='', team='', region='Dayton'):
         'profileUrl':     '',
         'boldtrailId':    str(btid),
         'boldtrailPhoto': photo,
+        'boldtrailAvatarAdded': avatar_added,
         'loftyId':        '',
         'source':         'boldtrail',
     }
@@ -115,7 +127,10 @@ check("Alice's loftyId preserved", merged[0]['loftyId'] == "8001")
 check("Zero new agent events", len(sync_bt.EVENTS['new_agents']) == 0,
       f"got {len(sync_bt.EVENTS['new_agents'])}")
 check("Zero soft-deletes", len(sync_bt.EVENTS['soft_deletes']) == 0)
-check("boldtrailPhoto field stripped from output", 'boldtrailPhoto' not in merged[0])
+check("boldtrailPhoto retained in merge output for pipeline consumption",
+      'boldtrailPhoto' in merged[0],
+      "Pipeline reads this field from agents.json to decide acquisition. "
+      "Photo pipeline strips it when it writes agents.json.")
 
 
 print()
