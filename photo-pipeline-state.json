@@ -1,0 +1,245 @@
+{
+  "agentRetries": {
+    "256293": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173850Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272165": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:16.909626Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272178": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:17.551415Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272187": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:18.129997Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272225": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:19.699997Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272226": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:19.700006Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272239": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173829Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272245": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173865Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272246": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173872Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272263": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173887Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272264": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173895Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272268": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173903Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272272": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:16.909640Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272281": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173910Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272289": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173924Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272295": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173932Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272299": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173948Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272300": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173960Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272302": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173968Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272305": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173975Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272316": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173983Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272337": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173989Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272360": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.778798Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272364": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.778811Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272373": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:23.520414Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272387": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137708Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272389": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137719Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272395": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137728Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272401": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137735Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272405": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137750Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272578": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137743Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "272590": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:26.357859Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "275089": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173858Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "275114": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:18.130007Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "277366": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173842Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "277381": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173917Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "278010": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:19.699981Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "278681": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:21.173880Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    },
+    "296298": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:25.137664Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
+    },
+    "298678": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-05-19T18:09:18.129980Z",
+      "lastAttemptRun": 1,
+      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
+    }
+  },
+  "runCounter": 1
+}
