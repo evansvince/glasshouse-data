@@ -109,24 +109,23 @@ jobs:
         if: steps.mode.outputs.dry_run != 'true'
         run: pip install --quiet Pillow
 
-      - name: Optimize new BoldTrail photos
+      - name: Photo acquisition pipeline (TEST)
         if: steps.mode.outputs.dry_run != 'true'
         run: |
-          # Same incremental optimizer used in production, but pointed at
-          # agents-test.json. Caches in photo-cache.json so the second run
-          # only processes new/changed photos. Limit per-run prevents long syncs.
-          python3 gh-photo-optimizer.py --agents-file agents-test.json --limit 50 || true
-
-      - name: Scrape Lofty photos for agents missing headshots (TEST)
-        if: steps.mode.outputs.dry_run != 'true'
-        run: |
-          # Same Lofty scraper used in production, pointed at agents-test.json.
-          # Pulls headshots from Lofty agent profile pages for agents who have
-          # a profileUrl set but no photo. READ-only HTTP GETs against public
-          # pages. Cache (lofty-scrape-cache.json) is shared with production —
-          # safe because photo URLs are identical across both environments.
+          # Same unified pipeline used in production, pointed at agents-test.json.
+          #   - Source A: BoldTrail S3 (canonical, when avatar_added=true)
+          #   - Source B: Lofty page scrape (fallback)
+          #   - Source C: Keep existing self-hosted photo
+          #   - Source D: Initials placeholder
+          #
+          # State file (photo-pipeline-state.json) is shared with production —
+          # this is safe because the keys are agent IDs, not branch-specific.
+          # The pipeline reads/writes the state for retry cooldowns.
           # Failures here never block the sync — `|| true` keeps workflow going.
-          python3 gh-lofty-scraper.py --agents-file agents-test.json --limit 30 || true
+          python3 gh-photo-pipeline.py \
+            --agents-file agents-test.json \
+            --limit 50 \
+            || true
 
       - name: Belt-and-suspenders — verify live agents.json was not touched
         if: always()
@@ -149,12 +148,12 @@ jobs:
           git config user.email "sync-test@glasshouserealty.com"
           # Explicitly stage only test artifacts. agents.json is NEVER staged.
           git add agents-test.json reports/ 2>/dev/null || true
-          # Photo optimizer outputs + cache
-          git add agent-photos/ photo-cache.json 2>/dev/null || true
+          # Photo pipeline outputs (self-hosted photos + state + orphan marker)
+          git add agent-photos/ photo-pipeline-state.json .last-orphan-cleanup 2>/dev/null || true
           # Profile URL verification cache
           git add profile-url-cache.json 2>/dev/null || true
-          # Lofty scraper cache (shared with production — safe, photo URLs are identical)
-          git add lofty-scrape-cache.json 2>/dev/null || true
+          # NOTE: photo-cache.json, lofty-scrape-cache.json, photo-head-cache.json
+          # are no longer used. Pipeline replaces them with photo-pipeline-state.json.
           # Only stage backups/ if the script wrote BACKUP_COMMIT
           if [ -f BACKUP_COMMIT ]; then
             git add backups/ 2>/dev/null || true
