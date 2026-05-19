@@ -122,9 +122,11 @@ jobs:
           # this is safe because the keys are agent IDs, not branch-specific.
           # The pipeline reads/writes the state for retry cooldowns.
           # Failures here never block the sync — `|| true` keeps workflow going.
+          # No --limit for test run: process all eligible agents in one pass.
+          # With the migration-philosophy fix, most agents will be skipped
+          # (existing cdn.lofty.com / cdn.chime.me URLs are preserved).
           python3 gh-photo-pipeline.py \
             --agents-file agents-test.json \
-            --limit 50 \
             || true
 
       - name: Belt-and-suspenders — verify live agents.json was not touched
