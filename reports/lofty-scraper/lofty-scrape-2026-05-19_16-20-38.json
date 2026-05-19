@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-05-19T16:20:38.878548Z",
+  "mode": "LIVE",
+  "totalAttempted": 3,
+  "successful": 2,
+  "cached": 0,
+  "failed": 0,
+  "events": [
+    {
+      "name": "Kaitlyn Perkins",
+      "profileUrl": "https://glasshouserealty.com/kaitlyn-perkins",
+      "btid": "295578",
+      "attemptedAt": "2026-05-19T16:20:36.069724Z",
+      "status": "success",
+      "photoUrl": "https://cdn.lofty.com/image/fs/web/2026515/14/f8f8435f-978f-4c6b-9631-e5e0a1cea351/w600_original_92221642-4277-425a-977b-568b6b8a951a-jpeg.webp"
+    },
+    {
+      "name": "Misty Vincent",
+      "profileUrl": "https://glasshouserealty.com/misty-vincent",
+      "btid": "297995",
+      "attemptedAt": "2026-05-19T16:20:37.497416Z",
+      "status": "success",
+      "photoUrl": "https://cdn.chime.me/image/fs/sitebuild/2024511/7/w600_original_44808de0-8b88-4d0a-ae6a-09066c7ddf5f-png.webp"
+    },
+    {
+      "name": "Scottie Fulhart",
+      "profileUrl": "https://glasshouserealty.com/scottie-fulhart",
+      "btid": "296298",
+      "attemptedAt": "2026-05-19T16:20:38.874906Z",
+      "status": "cached_negative",
+      "reason": "no_agent_card_div"
+    }
+  ]
+}
