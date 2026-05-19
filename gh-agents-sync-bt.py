@@ -834,6 +834,13 @@ def parse_bt(bt, account='dayton'):
     if bt_photo and not re.match(r'^https?://', bt_photo):
         bt_photo = ''  # ignore relative paths or junk
 
+    # [Photo Pipeline] Capture avatar_added — BoldTrail's own signal for
+    # whether the agent has uploaded a real photo (vs. the default placeholder
+    # at /assets/empty-avatar.png). The photo pipeline uses this to decide
+    # whether to attempt Source A (BoldTrail S3 download). Default to False
+    # if missing; the pipeline will fall through to other sources.
+    bt_avatar_added = bool(bt.get('avatar_added', False))
+
     return {
         'email':       email,
         'name':        name,
@@ -846,7 +853,8 @@ def parse_bt(bt, account='dayton'):
         'photo':       '',           # filled by merge() — see priority chain
         'profileUrl':  '',
         'boldtrailId': str(bt.get('id', '')),
-        'boldtrailPhoto': bt_photo,  # held temporarily, used by merge()
+        'boldtrailPhoto': bt_photo,  # held temporarily, used by merge() & pipeline
+        'boldtrailAvatarAdded': bt_avatar_added,  # held temporarily, used by pipeline
         'loftyId':     '',
         # NOTE: hidden is intentionally NOT set here. Merge controls it.
         # New agents will have hidden=False; existing records keep their flag.
@@ -1157,26 +1165,42 @@ def find_existing(agent, by_email, by_btid, by_name):
 
 def pick_photo(existing, agent):
     """
-    [GAP-1] Photo priority chain:
-      1. Existing Lofty photo (cdn.lofty.com or cdn.chime.me)
-      2. Existing photo of any other source (manual upload, etc.)
-      3. Fresh BoldTrail photo from this sync
-      4. Existing photo even if unknown source (better than nothing)
-      5. Empty (placeholder will render client-side)
+    Determine which photo URL the agent.json record should hold AT THE END
+    OF THE METADATA SYNC. This is intentionally minimal in the new architecture:
+    we do not download or optimize here — the photo pipeline (gh-photo-pipeline.py)
+    runs after this sync and handles all acquisition, optimization, and self-hosting.
 
-    Note: Lofty photos always win because they're the polished headshots
-    agents have curated for the brokerage's Lofty profile. We never let
-    BoldTrail's photo overwrite a Lofty photo.
+    Behavior:
+      - If we already have a self-hosted photo URL from a prior pipeline run
+        (evansvince.github.io/...), preserve it. The pipeline will decide on
+        its next run whether to refresh (based on photoSourceHash vs new
+        BoldTrail URL hash).
+      - If we have an existing photo from any source, preserve it. The pipeline
+        will decide whether to replace it based on its source-priority rules.
+      - If we have nothing and BoldTrail has a real photo (avatar_added=true),
+        set the URL to the BoldTrail S3 URL. The pipeline will acquire it
+        on its next run.
+      - Otherwise: empty (frontend renders initials).
+
+    The pipeline OWNS the photo, photoSource, and photoSourceHash fields.
+    pick_photo just provides a reasonable starting state when a record is
+    first created. After the first pipeline run, the photo field is always
+    self-hosted (or empty if no source produced a photo).
     """
     existing_photo = (existing.get('photo') or '') if existing else ''
     bt_photo = agent.get('boldtrailPhoto', '') or ''
+    bt_added = agent.get('boldtrailAvatarAdded', False)
 
-    if existing_photo and ('cdn.lofty.com' in existing_photo or 'cdn.chime.me' in existing_photo):
-        return existing_photo   # Lofty wins — protect curated headshots
+    # Preserve any existing photo — the pipeline decides what to do with it
     if existing_photo:
-        return existing_photo   # any other existing photo beats a fresh BT pull
-    if bt_photo:
-        return bt_photo         # new agent or no existing photo — use BT
+        return existing_photo
+
+    # New agent or no existing photo: seed with BoldTrail URL if it has a real
+    # photo, so the pipeline knows to acquire it. Without this, a brand-new
+    # agent would have empty photo until the pipeline ran twice.
+    if bt_added and bt_photo:
+        return bt_photo
+
     return ''
 
 def merge(new_agents, by_email, by_btid, by_name, existing_all):
@@ -1204,8 +1228,26 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
 
         # Photo: priority chain (Lofty → manual → BT → none)
         agent['photo'] = pick_photo(existing, agent)
-        # boldtrailPhoto was a temporary field — strip it from the output
-        agent.pop('boldtrailPhoto', None)
+        # The boldtrailPhoto and boldtrailAvatarAdded fields are temporary —
+        # we keep them in the record while the photo pipeline runs (it reads
+        # them to decide on acquisition), then they get stripped from the
+        # final agents.json by stripping in the post-write phase. For now,
+        # leave them attached so the pipeline can see them.
+        # boldtrailPhoto and boldtrailAvatarAdded are stripped later in the
+        # finalization step before writing agents.json — see end of build_*.
+
+        # [Photo Pipeline] Preserve the pipeline's state fields from any
+        # existing record. The pipeline owns these and overwrites them on
+        # successful acquisition; until then, the metadata sync must not
+        # clobber them.
+        if existing:
+            agent['photoSource']     = existing.get('photoSource', '')
+            agent['photoSourceHash'] = existing.get('photoSourceHash', '')
+        else:
+            # New agent — empty defaults. The pipeline's first run will fill
+            # these in.
+            agent['photoSource']     = ''
+            agent['photoSourceHash'] = ''
 
         if existing:
             # Preserve fields the sync does not own
