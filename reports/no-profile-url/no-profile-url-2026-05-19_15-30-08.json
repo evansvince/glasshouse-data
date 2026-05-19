@@ -1,0 +1,533 @@
+{
+  "generated": "2026-05-19T15:30:08.010800",
+  "dry_run": false,
+  "description": "Dayton agents on the site without a profile URL. To fix: open Lofty admin, find the agent's \"Slug\" field, set it to the value in `suggested_lofty_slug` (e.g. \"nikole-locke\"). The next sync will HEAD-request the URL and, if it resolves, auto-populate the agent's profileUrl. Cleveland agents are excluded from this report since Cleveland uses a different agent-page system.",
+  "count": 40,
+  "agents": [
+    {
+      "name": "Adam Bauer",
+      "email": "adam.bauer77@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272165",
+      "loftyId": "",
+      "suggested_lofty_slug": "adam-bauer",
+      "suggested_full_url": "https://glasshouserealty.com/adam-bauer"
+    },
+    {
+      "name": "Alex Zaharieff",
+      "email": "j.alexz@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272272",
+      "loftyId": "",
+      "suggested_lofty_slug": "alex-zaharieff",
+      "suggested_full_url": "https://glasshouserealty.com/alex-zaharieff"
+    },
+    {
+      "name": "Anna Catanzaro",
+      "email": "ohiohomegirls@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272178",
+      "loftyId": "",
+      "suggested_lofty_slug": "anna-catanzaro",
+      "suggested_full_url": "https://glasshouserealty.com/anna-catanzaro"
+    },
+    {
+      "name": "Brian Budde",
+      "email": "buddebrian@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272187",
+      "loftyId": "",
+      "suggested_lofty_slug": "brian-budde",
+      "suggested_full_url": "https://glasshouserealty.com/brian-budde"
+    },
+    {
+      "name": "Brittany Singer",
+      "email": "brittanysinger.gh@outlook.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "LUX Elite Group",
+      "source": "boldtrail",
+      "boldtrailId": "275114",
+      "loftyId": "",
+      "suggested_lofty_slug": "brittany-singer",
+      "suggested_full_url": "https://glasshouserealty.com/brittany-singer"
+    },
+    {
+      "name": "Chelsea Williams",
+      "email": "closedwithchelsea@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "source": "boldtrail",
+      "boldtrailId": "294172",
+      "loftyId": "",
+      "suggested_lofty_slug": "chelsea-williams",
+      "suggested_full_url": "https://glasshouserealty.com/chelsea-williams"
+    },
+    {
+      "name": "Danaisha Tate",
+      "email": "dtate_realestate@yahoo.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "278010",
+      "loftyId": "",
+      "suggested_lofty_slug": "danaisha-tate",
+      "suggested_full_url": "https://glasshouserealty.com/danaisha-tate"
+    },
+    {
+      "name": "David Jenks",
+      "email": "info@davidjenks.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272225",
+      "loftyId": "",
+      "suggested_lofty_slug": "david-jenks",
+      "suggested_full_url": "https://glasshouserealty.com/david-jenks"
+    },
+    {
+      "name": "David Woodward",
+      "email": "david@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272226",
+      "loftyId": "",
+      "suggested_lofty_slug": "david-woodward",
+      "suggested_full_url": "https://glasshouserealty.com/david-woodward"
+    },
+    {
+      "name": "Eric Loudenback",
+      "email": "eloudenback@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272239",
+      "loftyId": "",
+      "suggested_lofty_slug": "eric-loudenback",
+      "suggested_full_url": "https://glasshouserealty.com/eric-loudenback"
+    },
+    {
+      "name": "Erika Deady",
+      "email": "eadeady5@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "277366",
+      "loftyId": "",
+      "suggested_lofty_slug": "erika-deady",
+      "suggested_full_url": "https://glasshouserealty.com/erika-deady"
+    },
+    {
+      "name": "Evan Kloth",
+      "email": "evan@z-kgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "source": "boldtrail",
+      "boldtrailId": "256293",
+      "loftyId": "",
+      "suggested_lofty_slug": "evan-kloth",
+      "suggested_full_url": "https://glasshouserealty.com/evan-kloth"
+    },
+    {
+      "name": "Hailey Cox",
+      "email": "haileycox2004@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Cox Team (Placeholder)",
+      "source": "boldtrail",
+      "boldtrailId": "275089",
+      "loftyId": "",
+      "suggested_lofty_slug": "hailey-cox",
+      "suggested_full_url": "https://glasshouserealty.com/hailey-cox"
+    },
+    {
+      "name": "Harley Wade",
+      "email": "harley@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272245",
+      "loftyId": "",
+      "suggested_lofty_slug": "harley-wade",
+      "suggested_full_url": "https://glasshouserealty.com/harley-wade"
+    },
+    {
+      "name": "Hayley Stewart",
+      "email": "hayley@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272246",
+      "loftyId": "",
+      "suggested_lofty_slug": "hayley-stewart",
+      "suggested_full_url": "https://glasshouserealty.com/hayley-stewart"
+    },
+    {
+      "name": "Jayvon Tate",
+      "email": "jayvon_tate@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "278681",
+      "loftyId": "",
+      "suggested_lofty_slug": "jayvon-tate",
+      "suggested_full_url": "https://glasshouserealty.com/jayvon-tate"
+    },
+    {
+      "name": "Jennifer Martinez",
+      "email": "soldbyjenniferm@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "source": "boldtrail",
+      "boldtrailId": "272263",
+      "loftyId": "",
+      "suggested_lofty_slug": "jennifer-martinez",
+      "suggested_full_url": "https://glasshouserealty.com/jennifer-martinez"
+    },
+    {
+      "name": "Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272264",
+      "loftyId": "",
+      "suggested_lofty_slug": "jeri-baumann",
+      "suggested_full_url": "https://glasshouserealty.com/jeri-baumann"
+    },
+    {
+      "name": "Jill Barhorst",
+      "email": "jillbsellshouses@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272268",
+      "loftyId": "",
+      "suggested_lofty_slug": "jill-barhorst",
+      "suggested_full_url": "https://glasshouserealty.com/jill-barhorst"
+    },
+    {
+      "name": "Kasey Prikkel",
+      "email": "kaseyprikkelrealestate@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272281",
+      "loftyId": "",
+      "suggested_lofty_slug": "kasey-prikkel",
+      "suggested_full_url": "https://glasshouserealty.com/kasey-prikkel"
+    },
+    {
+      "name": "Keith Gabbard",
+      "email": "keithgabbard.1@gmail.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "277381",
+      "loftyId": "",
+      "suggested_lofty_slug": "keith-gabbard",
+      "suggested_full_url": "https://glasshouserealty.com/keith-gabbard"
+    },
+    {
+      "name": "Kerry Phillips",
+      "email": "kerry@movewithkerry.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272289",
+      "loftyId": "",
+      "suggested_lofty_slug": "kerry-phillips",
+      "suggested_full_url": "https://glasshouserealty.com/kerry-phillips"
+    },
+    {
+      "name": "Kimberly Luehmann",
+      "email": "kimberlyl@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272295",
+      "loftyId": "",
+      "suggested_lofty_slug": "kimberly-luehmann",
+      "suggested_full_url": "https://glasshouserealty.com/kimberly-luehmann"
+    },
+    {
+      "name": "Kristine Bertrand",
+      "email": "onerealvalue@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272299",
+      "loftyId": "",
+      "suggested_lofty_slug": "kristine-bertrand",
+      "suggested_full_url": "https://glasshouserealty.com/kristine-bertrand"
+    },
+    {
+      "name": "Kunal Patel",
+      "email": "kunal@kunalpatelgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "source": "boldtrail",
+      "boldtrailId": "272300",
+      "loftyId": "",
+      "suggested_lofty_slug": "kunal-patel",
+      "suggested_full_url": "https://glasshouserealty.com/kunal-patel"
+    },
+    {
+      "name": "Lacey Watson",
+      "email": "laceywatsonre@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272302",
+      "loftyId": "",
+      "suggested_lofty_slug": "lacey-watson",
+      "suggested_full_url": "https://glasshouserealty.com/lacey-watson"
+    },
+    {
+      "name": "Lauren Galdeen",
+      "email": "listwithlaurengaldeen@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272305",
+      "loftyId": "",
+      "suggested_lofty_slug": "lauren-galdeen",
+      "suggested_full_url": "https://glasshouserealty.com/lauren-galdeen"
+    },
+    {
+      "name": "Madison Justice",
+      "email": "madison@navehometeam.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "Nave Home Team",
+      "source": "boldtrail",
+      "boldtrailId": "272316",
+      "loftyId": "",
+      "suggested_lofty_slug": "madison-justice",
+      "suggested_full_url": "https://glasshouserealty.com/madison-justice"
+    },
+    {
+      "name": "Mike Williams",
+      "email": "mike@cornerstonevetclinic.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272337",
+      "loftyId": "",
+      "suggested_lofty_slug": "mike-williams",
+      "suggested_full_url": "https://glasshouserealty.com/mike-williams"
+    },
+    {
+      "name": "Rachel Dunham",
+      "email": "rachel.dunham1@aim.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Tru Integrity Group",
+      "source": "boldtrail",
+      "boldtrailId": "272360",
+      "loftyId": "",
+      "suggested_lofty_slug": "rachel-dunham",
+      "suggested_full_url": "https://glasshouserealty.com/rachel-dunham"
+    },
+    {
+      "name": "Reena Patel",
+      "email": "reenapatelrealty@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272364",
+      "loftyId": "",
+      "suggested_lofty_slug": "reena-patel",
+      "suggested_full_url": "https://glasshouserealty.com/reena-patel"
+    },
+    {
+      "name": "Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272373",
+      "loftyId": "",
+      "suggested_lofty_slug": "samantha-tschida",
+      "suggested_full_url": "https://glasshouserealty.com/samantha-tschida"
+    },
+    {
+      "name": "Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272387",
+      "loftyId": "",
+      "suggested_lofty_slug": "sophia-luza",
+      "suggested_full_url": "https://glasshouserealty.com/sophia-luza"
+    },
+    {
+      "name": "Stephanie Wunderlich",
+      "email": "stephanie.t@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272389",
+      "loftyId": "",
+      "suggested_lofty_slug": "stephanie-wunderlich",
+      "suggested_full_url": "https://glasshouserealty.com/stephanie-wunderlich"
+    },
+    {
+      "name": "Susan Marra",
+      "email": "smarra@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272395",
+      "loftyId": "",
+      "suggested_lofty_slug": "susan-marra",
+      "suggested_full_url": "https://glasshouserealty.com/susan-marra"
+    },
+    {
+      "name": "Teri Hobbs",
+      "email": "teri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272401",
+      "loftyId": "",
+      "suggested_lofty_slug": "teri-hobbs",
+      "suggested_full_url": "https://glasshouserealty.com/teri-hobbs"
+    },
+    {
+      "name": "Tia Turner",
+      "email": "tia@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272578",
+      "loftyId": "",
+      "suggested_lofty_slug": "tia-turner",
+      "suggested_full_url": "https://glasshouserealty.com/tia-turner"
+    },
+    {
+      "name": "Tom Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272405",
+      "loftyId": "",
+      "suggested_lofty_slug": "tom-kretz",
+      "suggested_full_url": "https://glasshouserealty.com/tom-kretz"
+    },
+    {
+      "name": "Tracey Tanner",
+      "email": "buysellohio@keyswithtracey.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "296320",
+      "loftyId": "",
+      "suggested_lofty_slug": "tracey-tanner",
+      "suggested_full_url": "https://glasshouserealty.com/tracey-tanner"
+    },
+    {
+      "name": "Zac Banks",
+      "email": "zac@goodguyteam.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Good Guy Group",
+      "source": "boldtrail",
+      "boldtrailId": "272590",
+      "loftyId": "",
+      "suggested_lofty_slug": "zac-banks",
+      "suggested_full_url": "https://glasshouserealty.com/zac-banks"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "generatedAt": "2026-05-19T15:31:41.599776Z",
+  "mode": "LIVE",
+  "totalEvents": 50,
+  "acquired_a": 4,
+  "acquired_b": 40,
+  "kept_existing": 0,
+  "failed": 6,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Aaron Kroggel",
+      "key": "272164",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:09.562446Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024725/21/w600_original_0ccca011-7f9e-4017-8cdd-714d926bbf1c-png.webp"
+    },
+    {
+      "name": "Abbe DeVore",
+      "key": "277847",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:11.702967Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/566092.gif?v=1776192967"
+    },
+    {
+      "name": "Abbie Geise",
+      "key": "278329",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:13.370792Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/2026219/19/a32341f5-3ba0-4d5d-8874-1a2d60f926e9/w600_original_87185422-4bda-44c3-8c80-0e48252b2234-jpeg.webp"
+    },
+    {
+      "name": "Adam Bauer",
+      "key": "272165",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:15.428216Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed"
+    },
+    {
+      "name": "Alex Zaharieff",
+      "key": "272272",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:15.428247Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed"
+    },
+    {
+      "name": "Alicia McCluskey",
+      "key": "272166",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:15.428257Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024712/19/w600_original_fab87e8d-1629-441f-a81a-c89e4681948c-png.webp"
+    },
+    {
+      "name": "Alison North",
+      "key": "272167",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:17.430392Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024723/12/w600_original_1c923abb-6af3-467f-bff0-c659c5ae64a8-png.webp"
+    },
+    {
+      "name": "Allan Konnagan",
+      "key": "272168",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:19.468088Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024719/14/w600_original_dfd27aa8-b641-4f50-8038-d7f6f5d258de-png.webp"
+    },
+    {
+      "name": "Allen Blackburn",
+      "key": "288916",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:21.446211Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/2026424/17/a4fc0a48-1c95-4f62-ba3e-59a793fa0efe/w600_original_4d00dee5-604c-4444-b58a-c2a4468a6fe6-jpeg.webp"
+    },
+    {
+      "name": "Alyssa Smith",
+      "key": "272169",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:23.605698Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024722/20/w600_original_369778ca-077b-4707-a6a0-6ca83787a2b6-png.webp"
+    },
+    {
+      "name": "Amanda Landis",
+      "key": "272171",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:25.721371Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2025722/11/w600_original_d06a8def-b614-4169-8e68-70a3095be463-png.webp"
+    },
+    {
+      "name": "Amanda Stiles",
+      "key": "275095",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:27.846797Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/20251222/16/w600_original_1e52c5b3-0bfe-4bab-a702-9d1ea78fa73e-jpeg.webp"
+    },
+    {
+      "name": "Amy Cook",
+      "key": "272576",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:29.883567Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024719/16/w600_original_03fcf07f-b369-43aa-8250-365ecb75895e-png.webp"
+    },
+    {
+      "name": "Andrea Sorrell",
+      "key": "272173",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:32.890120Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2025128/11/w600_original_daf378e3-7cbf-41ed-8a19-e6aefdd0959c-jpeg.webp"
+    },
+    {
+      "name": "Angel Jones",
+      "key": "293536",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:34.982473Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/2026429/19/38328f74-b9a9-4d88-b1fc-23526a5e521b/w600_original_4dfdfe25-91c0-45b1-8ec1-937cc1eccb42-png.webp"
+    },
+    {
+      "name": "Angela Dom",
+      "key": "272176",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:36.974816Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517982.gif?v=1776192829"
+    },
+    {
+      "name": "Angela Elsass",
+      "key": "272175",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:37.650818Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024722/20/w600_original_a1e2ba2b-4483-4d58-bc88-7538d3caf9e7-png.webp"
+    },
+    {
+      "name": "Angelique Kabami",
+      "key": "272177",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:39.722956Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2025825/12/w600_original_09ff27c7-3f36-47c8-94e4-624278a752ce-png.webp"
+    },
+    {
+      "name": "Angie Chambers",
+      "key": "272174",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:41.804939Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2025321/0/w600_original_48b2c22b-1cf8-47d9-9450-a0ed2023601d-jpeg.webp"
+    },
+    {
+      "name": "Anna Catanzaro",
+      "key": "272178",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:44.256883Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed"
+    },
+    {
+      "name": "Annette Sand",
+      "key": "282330",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:44.256910Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/202633/14/bb4c4558-5f93-4431-bd62-4d3cfda523a2/w600_original_77b83789-3601-4bed-8ef2-be451c7d5056-jpeg.webp"
+    },
+    {
+      "name": "Annie Zheng",
+      "key": "272179",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:46.292003Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/202633/14/e01d07db-ed15-4f00-8e8a-348624a8f5fd/w600_original_33dd2bac-f7d9-4442-8e6e-ac2b72809b86-png.webp"
+    },
+    {
+      "name": "Ashley Bunch",
+      "key": "272180",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:48.336387Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2025127/11/w600_original_f55d0ce2-3be5-4eff-ae8f-3306d2c342cd-jpeg.webp"
+    },
+    {
+      "name": "Ashley Lesher",
+      "key": "295808",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T15:30:50.358794Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/605736.gif?v=1778867148"
+    },
+    {
+      "name": "Autumn Kern",
+      "key": "272181",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:51.021086Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024719/13/w600_original_f353b1ca-e5cc-4259-b35d-b30e5ae12acf-png.webp"
+    },
+    {
+      "name": "Ben Wourms",
+      "key": "272182",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:52.984957Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024930/16/w600_original_26186d63-df1c-431e-a1c6-cdbddeeb1ea6-png.webp"
+    },
+    {
+      "name": "Billie Bowling",
+      "key": "272183",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:55.180745Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/2026427/14/1c7e6793-362d-4350-a72a-3d00d5310984/w600_original_85e1c59a-4889-4826-bcb7-57b105641db4-png.webp"
+    },
+    {
+      "name": "Bobby Hopkins",
+      "key": "285335",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:57.455208Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/202651/14/fc486404-1c75-4562-be62-01d976147321/w600_original_d4ed22fd-a327-4dd4-9bed-735fb84a1cd3-jpeg.webp"
+    },
+    {
+      "name": "Bobby Williams",
+      "key": "272184",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:30:59.378384Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2025918/11/w600_original_7ce41a85-0f0f-48a9-9cc5-0f72c264d89c-jpeg.webp"
+    },
+    {
+      "name": "Bobi Gray",
+      "key": "272185",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:01.534377Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/202563/20/w600_original_d4af81ae-cc85-4681-99b6-e0ec5b8a3399-jpeg.webp"
+    },
+    {
+      "name": "Brandi Lawson",
+      "key": "272242",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:04.494093Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024812/13/w600_original_f9c3052b-281e-4873-ab33-5b9c28e20002-png.webp"
+    },
+    {
+      "name": "Brandon Gonzalez",
+      "key": "272186",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:06.553811Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024723/12/w600_original_3d5bb048-1b68-4373-8380-0b80d1f4c9c2-png.webp"
+    },
+    {
+      "name": "Brian Budde",
+      "key": "272187",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:08.584253Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed"
+    },
+    {
+      "name": "Brittany Carr",
+      "key": "272190",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:08.584281Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024719/16/w600_original_be42be2d-6b95-4555-b980-6ccfad13ae80-png.webp"
+    },
+    {
+      "name": "Brittany Collins",
+      "key": "279759",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:10.726126Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2026120/12/w600_original_23b21820-3026-47cc-8639-5d71dfa7b68e-jpeg.webp"
+    },
+    {
+      "name": "Brittany Hall",
+      "key": "272189",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:12.565227Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024712/17/w600_original_3d588825-2d88-4519-af6d-6e706f4e0106-png.webp"
+    },
+    {
+      "name": "Brittany Singer",
+      "key": "275114",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:14.567366Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "no_profile_url",
+      "status": "failed"
+    },
+    {
+      "name": "Brooke Bussard",
+      "key": "272191",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:14.567394Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024927/23/w600_original_267cdeb3-ffe2-4a3c-8e55-182b62e50969-png.webp"
+    },
+    {
+      "name": "Bryce Howard",
+      "key": "272192",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:17.375638Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/202535/12/w600_original_624f9c0e-3bfb-44f4-a1b2-e362555b593c-jpeg.webp"
+    },
+    {
+      "name": "Carl Fisher",
+      "key": "272193",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:19.650761Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024719/16/w600_original_287af2d8-a1fa-46e8-8b62-d415b36f4ff6-png.webp"
+    },
+    {
+      "name": "Casey Fisher",
+      "key": "272197",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:21.967423Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/202648/16/0289b0d8-32c8-436f-8795-e7c7cd223096/w600_original_80ec44d7-2ccd-44ba-8d0f-f02dc9bb6f76-jpeg.webp"
+    },
+    {
+      "name": "Casey Hartman",
+      "key": "272198",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:24.490344Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024719/16/w600_original_fb787c0a-e917-4e9f-b6ba-0f449be26f22-png.webp"
+    },
+    {
+      "name": "Casey Phelps",
+      "key": "272199",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:26.591056Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2025415/11/w600_original_107813db-2ccb-45d6-9a36-157637889f29-jpeg.webp"
+    },
+    {
+      "name": "Cassandra Cox Soto Estrada",
+      "key": "293489",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:28.481555Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "page_fetch_failed",
+      "status": "failed"
+    },
+    {
+      "name": "Cassie Gutt",
+      "key": "272200",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:29.627093Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/20241213/12/w600_original_36c013ae-b461-4ded-a0c7-8ac72096717d-png.webp"
+    },
+    {
+      "name": "Chad Diggs",
+      "key": "286309",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:31.804359Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/web/202633/14/ba3e6328-a4fd-4ae8-9614-4d22238379d8/w600_original_7345a478-3f71-48ee-909b-2a082699fbea-jpeg.webp"
+    },
+    {
+      "name": "Chance Kloecker",
+      "key": "272201",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:33.810559Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/202524/13/w600_original_f7ee5f99-268c-4a14-9140-4aea1390cbe0-jpeg.webp"
+    },
+    {
+      "name": "Chayse Eby",
+      "key": "279764",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:35.803273Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.lofty.com/image/fs/user-info/2026115/16/w600_original_d848c13f-1c19-4575-a034-8b83ff90f41d-jpeg.webp"
+    },
+    {
+      "name": "Chelsea Williams",
+      "key": "294172",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-05-19T15:31:37.734023Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/603233.gif?v=1778869993"
+    },
+    {
+      "name": "Chelsie Robertson",
+      "key": "272203",
+      "reason": "no_self_hosted_photo",
+      "attemptedAt": "2026-05-19T15:31:39.615421Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "success",
+      "source": "lofty",
+      "sourceUrl": "https://cdn.chime.me/image/fs/user-info/2024724/9/w600_original_44cb3210-5172-4d95-8f3d-905ddd2c9c17-png.webp"
+    }
+  ]
+}
