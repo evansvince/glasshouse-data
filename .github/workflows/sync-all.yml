@@ -29,7 +29,7 @@ on:
     # Agents: every hour 9am-6pm Ohio time, Mon-Fri (with DST buffer).
     # 13-23 UTC covers 9am-6pm EDT (summer) AND 8am-6pm EST (winter).
     # The extra hour in each season is harmless — sync is silent when nothing changes.
-    - cron: '0 13-23 * * 1-5'
+    - cron: '13 13-23 * * 1-5'
     # Sold data sync: still disabled. Uncomment when ready.
     # - cron: '0 7 * * *'
 
