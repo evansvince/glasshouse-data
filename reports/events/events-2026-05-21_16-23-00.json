@@ -1,0 +1,42 @@
+{
+  "generated": "2026-05-21T16:23:00.564107",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Brian Zimmerman",
+      "email": "zimmy@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "299615",
+      "has_photo": true
+    },
+    {
+      "name": "Amanda Dahmen",
+      "email": "amanda@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "299619",
+      "has_photo": true
+    },
+    {
+      "name": "Julie Young",
+      "email": "julie.young@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "299624",
+      "has_photo": true
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
