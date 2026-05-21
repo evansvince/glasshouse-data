@@ -284,26 +284,6 @@
     "hidden": false
   },
   {
-    "email": "amanda@glasshouserealty.com",
-    "name": "Amanda Dahmen",
-    "phone": "(937) 564-0904",
-    "title": "REALTOR\u00ae",
-    "team": "Ember & Elm",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299619.jpg",
-    "profileUrl": "",
-    "boldtrailId": "299619",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "8a3de5e55a10",
-    "hidden": false
-  },
-  {
     "email": "amanda@daytonrealestatecrush.com",
     "name": "Amanda Landis",
     "phone": "(937) 478-8767",
@@ -1007,26 +987,6 @@
     "hidden": false,
     "boldtrailId": 293419,
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
-  },
-  {
-    "email": "zimmy@glasshouserealty.com",
-    "name": "Brian Zimmerman",
-    "phone": "(937) 980-5009",
-    "title": "REALTOR\u00ae",
-    "team": "Ember & Elm",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299615.jpg",
-    "profileUrl": "",
-    "boldtrailId": "299615",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "96ef835610f0",
-    "hidden": false
   },
   {
     "email": "brianne.lee@glasshouserealty.com",
@@ -3100,26 +3060,6 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
-  },
-  {
-    "email": "julie.young@glasshouserealty.com",
-    "name": "Julie Young",
-    "phone": "",
-    "title": "REALTOR\u00ae",
-    "team": "Ember & Elm",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299624.jpg",
-    "profileUrl": "",
-    "boldtrailId": "299624",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "25efb139c529",
     "hidden": false
   },
   {
