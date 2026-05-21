@@ -162,12 +162,6 @@
       "lastAttemptRun": 13,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
-    "272395": {
-      "failureCount": 7,
-      "lastAttemptAt": "2026-05-21T16:23:08.809752Z",
-      "lastAttemptRun": 13,
-      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
-    },
     "272401": {
       "failureCount": 7,
       "lastAttemptAt": "2026-05-21T16:23:08.809760Z",
@@ -241,5 +235,5 @@
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     }
   },
-  "runCounter": 13
+  "runCounter": 14
 }
