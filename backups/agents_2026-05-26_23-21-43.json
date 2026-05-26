@@ -15,6 +15,8 @@
     "boldtrailId": "272164",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -28,11 +30,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202616/20/original_0012f94a-7eda-45be-b1bf-e89e93f75ecf.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/277847.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Abbe-DeVore/8889250",
     "boldtrailId": "277847",
     "loftyId": 8889250,
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8588d7b17cd7",
     "hidden": false
   },
   {
@@ -51,6 +55,8 @@
     "boldtrailId": "278329",
     "loftyId": 8900557,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -69,6 +75,8 @@
     "boldtrailId": "272165",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -137,6 +145,8 @@
     "boldtrailId": "272272",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -155,6 +165,8 @@
     "boldtrailId": "272166",
     "loftyId": 8718695,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -190,6 +202,8 @@
     "boldtrailId": "272167",
     "loftyId": 8728601,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -208,6 +222,8 @@
     "boldtrailId": "272168",
     "loftyId": 8726189,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -226,6 +242,8 @@
     "boldtrailId": "288916",
     "loftyId": 8922417,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -261,6 +279,28 @@
     "boldtrailId": "272169",
     "loftyId": 8728630,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "amanda@glasshouserealty.com",
+    "name": "Amanda Dahmen",
+    "phone": "(937) 564-0904",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299619.jpg",
+    "profileUrl": "",
+    "boldtrailId": "299619",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8a3de5e55a10",
     "hidden": false
   },
   {
@@ -279,6 +319,8 @@
     "boldtrailId": "272171",
     "loftyId": 8783439,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -297,6 +339,8 @@
     "boldtrailId": "275095",
     "loftyId": 8887043,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -331,6 +375,8 @@
     "boldtrailId": "272576",
     "loftyId": 8726258,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -385,6 +431,8 @@
     "boldtrailId": "272173",
     "loftyId": 8728609,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -420,6 +468,8 @@
     "boldtrailId": "293536",
     "loftyId": 8925952,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -433,11 +483,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202562/15/original_c9552c1f-f712-484f-a21e-2887ff4a81d8.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272176.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Angela-Dom/8728634",
     "boldtrailId": "272176",
     "loftyId": 8728634,
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "91087ee0ae91",
     "hidden": false
   },
   {
@@ -456,6 +508,8 @@
     "boldtrailId": "272175",
     "loftyId": 8728623,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -474,6 +528,8 @@
     "boldtrailId": "272177",
     "loftyId": 8856990,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -494,6 +550,8 @@
     "boldtrailId": "272174",
     "loftyId": 8726251,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -513,6 +571,8 @@
     "boldtrailId": "272178",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -531,6 +591,8 @@
     "boldtrailId": "282330",
     "loftyId": 8899596,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -550,6 +612,8 @@
     "boldtrailId": "272179",
     "loftyId": 8728625,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -585,6 +649,8 @@
     "boldtrailId": "272180",
     "loftyId": 8800018,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -620,6 +686,28 @@
     "boldtrailId": "295808",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "7f68058a9f5b",
+    "hidden": false
+  },
+  {
+    "email": "ashley.looper@glasshouserealty.com",
+    "name": "Ashley Looper",
+    "phone": "(937) 815-5388",
+    "title": "REALTOR\u00ae",
+    "team": "The Buckner Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "298678",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -655,6 +743,8 @@
     "boldtrailId": "272181",
     "loftyId": 8726186,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -706,6 +796,8 @@
     "boldtrailId": "272182",
     "loftyId": 8728610,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -741,6 +833,8 @@
     "boldtrailId": "272183",
     "loftyId": 8726238,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -759,6 +853,8 @@
     "boldtrailId": "285335",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -777,6 +873,8 @@
     "boldtrailId": "272184",
     "loftyId": 8783437,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -795,6 +893,8 @@
     "boldtrailId": "272185",
     "loftyId": 8838018,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -813,6 +913,8 @@
     "boldtrailId": "272242",
     "loftyId": 8697428,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -848,6 +950,8 @@
     "boldtrailId": "272186",
     "loftyId": 8728605,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -883,6 +987,8 @@
     "boldtrailId": "272187",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -901,6 +1007,26 @@
     "hidden": false,
     "boldtrailId": 293419,
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+  },
+  {
+    "email": "zimmy@glasshouserealty.com",
+    "name": "Brian Zimmerman",
+    "phone": "(937) 980-5009",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299615.jpg",
+    "profileUrl": "https://glasshouserealty.com/brian-zimmerman",
+    "boldtrailId": "299615",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "96ef835610f0",
+    "hidden": false
   },
   {
     "email": "brianne.lee@glasshouserealty.com",
@@ -937,6 +1063,8 @@
     "boldtrailId": "272190",
     "loftyId": 8774005,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -955,6 +1083,8 @@
     "boldtrailId": "279759",
     "loftyId": 8893076,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -973,6 +1103,8 @@
     "boldtrailId": "272189",
     "loftyId": 8718664,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -992,6 +1124,8 @@
     "boldtrailId": "275114",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1010,6 +1144,8 @@
     "boldtrailId": "272191",
     "loftyId": 8728600,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1028,6 +1164,8 @@
     "boldtrailId": "272192",
     "loftyId": 8810426,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1041,11 +1179,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/16/original_287ad2d8-a1fa-46e8-8b62-d415b36f4ff6.png",
+    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/16/w640_original_287af2d8-a1fa-46e8-8b62-d415b36f4ff6-png.webp",
     "profileUrl": "https://glasshouserealty.com/agents/Carl-Fisher/8726233",
     "boldtrailId": "272193",
     "loftyId": 8726233,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1064,6 +1204,8 @@
     "boldtrailId": "272197",
     "loftyId": 8718697,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1084,6 +1226,8 @@
     "boldtrailId": "272198",
     "loftyId": 8726244,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1102,6 +1246,8 @@
     "boldtrailId": "272199",
     "loftyId": 8817279,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1136,6 +1282,8 @@
     "boldtrailId": "272200",
     "loftyId": 8726195,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1154,6 +1302,8 @@
     "boldtrailId": "286309",
     "loftyId": 8903134,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1172,6 +1322,8 @@
     "boldtrailId": "272201",
     "loftyId": 8801859,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1220,6 +1372,8 @@
     "boldtrailId": "279764",
     "loftyId": 8891920,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1238,6 +1392,8 @@
     "boldtrailId": "294172",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "055f83ca5e44",
     "hidden": false
   },
   {
@@ -1256,6 +1412,8 @@
     "boldtrailId": "272203",
     "loftyId": 8728584,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1291,6 +1449,8 @@
     "boldtrailId": "272207",
     "loftyId": 8726192,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1309,6 +1469,8 @@
     "boldtrailId": "272208",
     "loftyId": 8726225,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1327,6 +1489,8 @@
     "boldtrailId": "272206",
     "loftyId": 8726283,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1364,6 +1528,8 @@
     "boldtrailId": "272210",
     "loftyId": 8726237,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1398,6 +1564,8 @@
     "boldtrailId": "272212",
     "loftyId": 8873116,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1416,6 +1584,8 @@
     "boldtrailId": "272211",
     "loftyId": 8774007,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1466,6 +1636,8 @@
     "boldtrailId": "272214",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1484,6 +1656,8 @@
     "boldtrailId": "272215",
     "loftyId": 8783440,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1502,6 +1676,8 @@
     "boldtrailId": "278010",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1554,6 +1730,8 @@
     "boldtrailId": "272217",
     "loftyId": 8728635,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1572,6 +1750,8 @@
     "boldtrailId": "272218",
     "loftyId": 8728596,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1590,6 +1770,8 @@
     "boldtrailId": "272219",
     "loftyId": 8728614,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1608,6 +1790,8 @@
     "boldtrailId": "272220",
     "loftyId": 8728602,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1626,6 +1810,8 @@
     "boldtrailId": "272223",
     "loftyId": 8728638,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1644,6 +1830,8 @@
     "boldtrailId": "272222",
     "loftyId": 8726273,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1662,6 +1850,8 @@
     "boldtrailId": "272225",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1680,6 +1870,8 @@
     "boldtrailId": "272224",
     "loftyId": 8810422,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1698,6 +1890,8 @@
     "boldtrailId": "272226",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1746,6 +1940,8 @@
     "boldtrailId": "272229",
     "loftyId": 8813946,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1832,6 +2028,8 @@
     "boldtrailId": "272230",
     "loftyId": 8798183,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1850,6 +2048,8 @@
     "boldtrailId": "272231",
     "loftyId": 8657925,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1868,6 +2068,8 @@
     "boldtrailId": "272232",
     "loftyId": 8773998,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1886,6 +2088,8 @@
     "boldtrailId": "272321",
     "loftyId": 8726284,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1904,6 +2108,8 @@
     "boldtrailId": "272233",
     "loftyId": 8718700,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1917,11 +2123,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202633/14/7ff3a422-6bf8-4d6e-b656-dfe2621140bf/original_5835dd3e-1c7c-4f70-b317-74610c2cedde.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272234.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Emily-Freiberger/8718705",
     "boldtrailId": "272234",
     "loftyId": 8718705,
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "bdc2e0248966",
     "hidden": false
   },
   {
@@ -1940,6 +2148,8 @@
     "boldtrailId": "272235",
     "loftyId": 8726279,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1958,6 +2168,8 @@
     "boldtrailId": "277346",
     "loftyId": 8896805,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1976,6 +2188,8 @@
     "boldtrailId": "272238",
     "loftyId": 8726270,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -1994,6 +2208,8 @@
     "boldtrailId": "272239",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2012,6 +2228,8 @@
     "boldtrailId": "272237",
     "loftyId": 8718699,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2030,6 +2248,8 @@
     "boldtrailId": "277366",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2048,6 +2268,8 @@
     "boldtrailId": "272240",
     "loftyId": 8726252,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2066,6 +2288,8 @@
     "boldtrailId": "256293",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2101,6 +2325,8 @@
     "boldtrailId": "272241",
     "loftyId": 8726264,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2136,6 +2362,8 @@
     "boldtrailId": "272365",
     "loftyId": 8728583,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2154,6 +2382,8 @@
     "boldtrailId": "275089",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2172,6 +2402,8 @@
     "boldtrailId": "272245",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2190,6 +2422,8 @@
     "boldtrailId": "272247",
     "loftyId": 8784459,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2208,6 +2442,8 @@
     "boldtrailId": "272246",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2226,6 +2462,8 @@
     "boldtrailId": "272249",
     "loftyId": 8844377,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2244,6 +2482,8 @@
     "boldtrailId": "272248",
     "loftyId": 8728594,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2296,6 +2536,8 @@
     "boldtrailId": "272252",
     "loftyId": 8726236,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2314,6 +2556,8 @@
     "boldtrailId": "272251",
     "loftyId": 8728624,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2349,6 +2593,8 @@
     "boldtrailId": "284103",
     "loftyId": 8898992,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2367,6 +2613,8 @@
     "boldtrailId": "272257",
     "loftyId": 8728582,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2385,6 +2633,8 @@
     "boldtrailId": "272256",
     "loftyId": 8726291,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2404,6 +2654,8 @@
     "boldtrailId": "275091",
     "loftyId": 8886958,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2422,6 +2674,8 @@
     "boldtrailId": "272258",
     "loftyId": 8796570,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2440,6 +2694,8 @@
     "boldtrailId": "278198",
     "loftyId": 8892978,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2475,6 +2731,8 @@
     "boldtrailId": "272253",
     "loftyId": 8829873,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2493,6 +2751,8 @@
     "boldtrailId": "278681",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2511,6 +2771,8 @@
     "boldtrailId": "272260",
     "loftyId": 8798185,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2529,6 +2791,8 @@
     "boldtrailId": "272263",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2547,6 +2811,8 @@
     "boldtrailId": "272261",
     "loftyId": 8726288,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2565,6 +2831,8 @@
     "boldtrailId": "272262",
     "loftyId": 8837698,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2583,6 +2851,8 @@
     "boldtrailId": "272264",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2601,6 +2871,8 @@
     "boldtrailId": "272266",
     "loftyId": 8728593,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2652,6 +2924,8 @@
     "boldtrailId": "272268",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2670,6 +2944,8 @@
     "boldtrailId": "272267",
     "loftyId": 8726197,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2688,6 +2964,8 @@
     "boldtrailId": "272254",
     "loftyId": 8726254,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2723,6 +3001,8 @@
     "boldtrailId": "272271",
     "loftyId": 8726276,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2741,6 +3021,8 @@
     "boldtrailId": "272270",
     "loftyId": 8894212,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2759,6 +3041,8 @@
     "boldtrailId": "272274",
     "loftyId": 8775229,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2777,6 +3061,8 @@
     "boldtrailId": "272275",
     "loftyId": 8874351,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2812,6 +3098,28 @@
     "boldtrailId": "272276",
     "loftyId": 8726230,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "julie.young@glasshouserealty.com",
+    "name": "Julie Young",
+    "phone": "",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299624.jpg",
+    "profileUrl": "",
+    "boldtrailId": "299624",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "25efb139c529",
     "hidden": false
   },
   {
@@ -2830,6 +3138,8 @@
     "boldtrailId": "272277",
     "loftyId": 8870111,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2848,6 +3158,8 @@
     "boldtrailId": "272278",
     "loftyId": 8782748,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2861,11 +3173,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://cdn.lofty.com/image/fs/web/2026515/14/f8f8435f-978f-4c6b-9631-e5e0a1cea351/w600_original_92221642-4277-425a-977b-568b6b8a951a-jpeg.webp",
+    "profileUrl": "https://glasshouserealty.com/kaitlyn-perkins",
     "boldtrailId": "295578",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2903,6 +3217,8 @@
     "boldtrailId": "272280",
     "loftyId": 8783446,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2921,6 +3237,8 @@
     "boldtrailId": "292991",
     "loftyId": 8923926,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2939,6 +3257,8 @@
     "boldtrailId": "272281",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2973,6 +3293,8 @@
     "boldtrailId": "272283",
     "loftyId": 8842406,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2991,6 +3313,8 @@
     "boldtrailId": "272282",
     "loftyId": 8800021,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3009,6 +3333,8 @@
     "boldtrailId": "272284",
     "loftyId": 8728632,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3046,6 +3372,8 @@
     "boldtrailId": "272286",
     "loftyId": 8797470,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3065,6 +3393,8 @@
     "boldtrailId": "277381",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3083,6 +3413,8 @@
     "boldtrailId": "272287",
     "loftyId": 8697426,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3117,6 +3449,8 @@
     "boldtrailId": "272288",
     "loftyId": 8774017,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3152,6 +3486,8 @@
     "boldtrailId": "272289",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3183,6 +3519,8 @@
     "boldtrailId": "272290",
     "loftyId": 8726269,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3201,6 +3539,8 @@
     "boldtrailId": "272294",
     "loftyId": 8718701,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3219,6 +3559,8 @@
     "boldtrailId": "272292",
     "loftyId": 8783445,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3237,6 +3579,8 @@
     "boldtrailId": "272296",
     "loftyId": 8750600,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3255,6 +3599,8 @@
     "boldtrailId": "272293",
     "loftyId": 8844373,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3273,6 +3619,8 @@
     "boldtrailId": "272295",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3308,6 +3656,8 @@
     "boldtrailId": "272297",
     "loftyId": 8743988,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3326,6 +3676,8 @@
     "boldtrailId": "272298",
     "loftyId": 8773999,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3359,6 +3711,8 @@
     "boldtrailId": "289596",
     "loftyId": 8923932,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3377,6 +3731,8 @@
     "boldtrailId": "272299",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3395,6 +3751,8 @@
     "boldtrailId": "272300",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3430,6 +3788,8 @@
     "boldtrailId": "272301",
     "loftyId": 8775230,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3448,6 +3808,8 @@
     "boldtrailId": "272302",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3466,6 +3828,8 @@
     "boldtrailId": "272304",
     "loftyId": 8730781,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3484,6 +3848,8 @@
     "boldtrailId": "272306",
     "loftyId": 8799573,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3502,6 +3868,8 @@
     "boldtrailId": "272305",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3520,6 +3888,8 @@
     "boldtrailId": "297951",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3538,6 +3908,8 @@
     "boldtrailId": "272307",
     "loftyId": 8842407,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3556,6 +3928,8 @@
     "boldtrailId": "282856",
     "loftyId": 8896806,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3593,6 +3967,8 @@
     "boldtrailId": "272308",
     "loftyId": 8851323,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3611,6 +3987,8 @@
     "boldtrailId": "272309",
     "loftyId": 8718659,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3646,6 +4024,8 @@
     "boldtrailId": "272310",
     "loftyId": 8657920,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3664,6 +4044,8 @@
     "boldtrailId": "272312",
     "loftyId": 8726261,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3682,6 +4064,8 @@
     "boldtrailId": "272313",
     "loftyId": 8923179,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3700,6 +4084,8 @@
     "boldtrailId": "272314",
     "loftyId": 8726190,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3736,6 +4122,8 @@
     "boldtrailId": "272316",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3773,6 +4161,8 @@
     "boldtrailId": "272318",
     "loftyId": 8726297,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3791,6 +4181,8 @@
     "boldtrailId": "272319",
     "loftyId": 8726248,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3826,6 +4218,8 @@
     "boldtrailId": "272322",
     "loftyId": 8925950,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3861,6 +4255,8 @@
     "boldtrailId": "272323",
     "loftyId": 8730783,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3879,6 +4275,8 @@
     "boldtrailId": "272324",
     "loftyId": 8827521,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3914,6 +4312,8 @@
     "boldtrailId": "277371",
     "loftyId": 8901694,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3952,6 +4352,8 @@
     "boldtrailId": "272328",
     "loftyId": 8802308,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3983,6 +4385,8 @@
     "boldtrailId": "272330",
     "loftyId": 8870110,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4001,6 +4405,8 @@
     "boldtrailId": "272329",
     "loftyId": 8718692,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4019,6 +4425,8 @@
     "boldtrailId": "272331",
     "loftyId": 8874352,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4037,6 +4445,8 @@
     "boldtrailId": "272333",
     "loftyId": 8726299,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4072,6 +4482,8 @@
     "boldtrailId": "272339",
     "loftyId": 8882075,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4107,6 +4519,8 @@
     "boldtrailId": "272340",
     "loftyId": 8728611,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4125,6 +4539,8 @@
     "boldtrailId": "272341",
     "loftyId": 8728588,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4143,6 +4559,8 @@
     "boldtrailId": "272343",
     "loftyId": 8728616,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4161,6 +4579,8 @@
     "boldtrailId": "272338",
     "loftyId": 8842896,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4179,6 +4599,8 @@
     "boldtrailId": "272337",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4197,6 +4619,8 @@
     "boldtrailId": "272345",
     "loftyId": 8726275,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4215,6 +4639,8 @@
     "boldtrailId": "272346",
     "loftyId": 8783441,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4233,6 +4659,8 @@
     "boldtrailId": "272332",
     "loftyId": 8697427,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4251,6 +4679,8 @@
     "boldtrailId": "272334",
     "loftyId": 8786016,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4280,11 +4710,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/297995.jpg",
+    "profileUrl": "https://glasshouserealty.com/misty-vincent",
     "boldtrailId": "297995",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "e0bc2f795fd0",
     "hidden": false
   },
   {
@@ -4303,6 +4735,8 @@
     "boldtrailId": "272347",
     "loftyId": 8726280,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4321,6 +4755,8 @@
     "boldtrailId": "272348",
     "loftyId": 8726229,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4339,6 +4775,8 @@
     "boldtrailId": "272349",
     "loftyId": 8897277,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4357,6 +4795,8 @@
     "boldtrailId": "272352",
     "loftyId": 8726294,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4375,6 +4815,8 @@
     "boldtrailId": "272351",
     "loftyId": 8726249,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4393,6 +4835,8 @@
     "boldtrailId": "272320",
     "loftyId": 8728599,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4428,6 +4872,8 @@
     "boldtrailId": "272336",
     "loftyId": 8726250,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4446,6 +4892,8 @@
     "boldtrailId": "272355",
     "loftyId": 8728615,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4464,6 +4912,8 @@
     "boldtrailId": "272354",
     "loftyId": 8657924,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4482,6 +4932,8 @@
     "boldtrailId": "272353",
     "loftyId": 8697430,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4500,6 +4952,8 @@
     "boldtrailId": "295685",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f23a266cfd05",
     "hidden": false
   },
   {
@@ -4518,6 +4972,8 @@
     "boldtrailId": "272357",
     "loftyId": 8726300,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4553,6 +5009,8 @@
     "boldtrailId": "272350",
     "loftyId": 8657919,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4571,6 +5029,8 @@
     "boldtrailId": "272360",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4589,6 +5049,8 @@
     "boldtrailId": "279798",
     "loftyId": 8894740,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4607,6 +5069,8 @@
     "boldtrailId": "272361",
     "loftyId": 8726303,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4625,6 +5089,8 @@
     "boldtrailId": "272362",
     "loftyId": 8728586,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4643,6 +5109,8 @@
     "boldtrailId": "272363",
     "loftyId": 8726271,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4661,6 +5129,8 @@
     "boldtrailId": "272577",
     "loftyId": 8726255,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4679,6 +5149,8 @@
     "boldtrailId": "272364",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4697,6 +5169,8 @@
     "boldtrailId": "272367",
     "loftyId": 8718662,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4732,6 +5206,8 @@
     "boldtrailId": "272368",
     "loftyId": 8726247,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4750,6 +5226,8 @@
     "boldtrailId": "272369",
     "loftyId": 8743984,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4800,6 +5278,8 @@
     "boldtrailId": "272370",
     "loftyId": 8917348,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4818,6 +5298,8 @@
     "boldtrailId": "297962",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0722e28ee7c0",
     "hidden": false
   },
   {
@@ -4836,6 +5318,8 @@
     "boldtrailId": "272371",
     "loftyId": 8820790,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4888,6 +5372,8 @@
     "boldtrailId": "272372",
     "loftyId": 8728626,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4907,6 +5393,8 @@
     "boldtrailId": "272373",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4925,6 +5413,8 @@
     "boldtrailId": "272376",
     "loftyId": 8730772,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4943,6 +5433,8 @@
     "boldtrailId": "272375",
     "loftyId": 8728612,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4961,6 +5453,8 @@
     "boldtrailId": "272377",
     "loftyId": 8726228,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4979,6 +5473,8 @@
     "boldtrailId": "272378",
     "loftyId": 8809965,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4997,6 +5493,8 @@
     "boldtrailId": "296298",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5015,6 +5513,8 @@
     "boldtrailId": "272379",
     "loftyId": 8816656,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5033,6 +5533,8 @@
     "boldtrailId": "272380",
     "loftyId": 8728627,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5051,6 +5553,8 @@
     "boldtrailId": "272381",
     "loftyId": 8726235,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5070,6 +5574,8 @@
     "boldtrailId": "272382",
     "loftyId": 8726199,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5088,6 +5594,8 @@
     "boldtrailId": "272383",
     "loftyId": 8728590,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5106,6 +5614,8 @@
     "boldtrailId": "272342",
     "loftyId": 8728607,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5175,6 +5685,8 @@
     "boldtrailId": "288182",
     "loftyId": 8916104,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5193,6 +5705,8 @@
     "boldtrailId": "272386",
     "loftyId": 8797471,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5211,6 +5725,8 @@
     "boldtrailId": "272387",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5297,6 +5813,8 @@
     "boldtrailId": "272391",
     "loftyId": 8782926,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5315,6 +5833,8 @@
     "boldtrailId": "272390",
     "loftyId": 8728587,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5333,6 +5853,8 @@
     "boldtrailId": "272392",
     "loftyId": 8801825,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5351,6 +5873,8 @@
     "boldtrailId": "272389",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5369,6 +5893,8 @@
     "boldtrailId": "272394",
     "loftyId": 8726290,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5416,11 +5942,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272395.jpg",
     "profileUrl": "",
     "boldtrailId": "272395",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "03583fdd0c54",
     "hidden": false
   },
   {
@@ -5439,6 +5967,8 @@
     "boldtrailId": "272396",
     "loftyId": 8726289,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5457,6 +5987,8 @@
     "boldtrailId": "272397",
     "loftyId": 8726282,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5475,6 +6007,8 @@
     "boldtrailId": "272398",
     "loftyId": 8837699,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5493,6 +6027,8 @@
     "boldtrailId": "272399",
     "loftyId": 8816652,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5528,6 +6064,8 @@
     "boldtrailId": "272402",
     "loftyId": 8844378,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5546,6 +6084,8 @@
     "boldtrailId": "272401",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5564,6 +6104,8 @@
     "boldtrailId": "272403",
     "loftyId": 8718698,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5582,6 +6124,8 @@
     "boldtrailId": "272404",
     "loftyId": 8726277,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5617,6 +6161,8 @@
     "boldtrailId": "272578",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5635,6 +6181,8 @@
     "boldtrailId": "272579",
     "loftyId": 8819807,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5653,6 +6201,8 @@
     "boldtrailId": "272580",
     "loftyId": 8728633,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5671,6 +6221,8 @@
     "boldtrailId": "272581",
     "loftyId": 8815828,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5689,6 +6241,8 @@
     "boldtrailId": "272582",
     "loftyId": 8726223,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5707,6 +6261,8 @@
     "boldtrailId": "272405",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5725,6 +6281,8 @@
     "boldtrailId": "272583",
     "loftyId": 8728636,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5743,6 +6301,8 @@
     "boldtrailId": "272597",
     "loftyId": 8726262,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5750,17 +6310,19 @@
     "name": "Tracey Tanner",
     "phone": "(937) 546-3332",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Dayton Real Estate Crush",
     "teamLogo": "",
     "regions": [
       "Dayton"
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/296320.jpg",
-    "profileUrl": "",
+    "profileUrl": "https://glasshouserealty.com/tracey-tanner",
     "boldtrailId": "296320",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "e66e8d131981",
     "hidden": false
   },
   {
@@ -5779,6 +6341,8 @@
     "boldtrailId": "277365",
     "loftyId": 8893267,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5797,6 +6361,8 @@
     "boldtrailId": "272584",
     "loftyId": 8718696,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5815,6 +6381,8 @@
     "boldtrailId": "272358",
     "loftyId": 8838016,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5850,6 +6418,8 @@
     "boldtrailId": "272586",
     "loftyId": 8728595,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5902,6 +6472,8 @@
     "boldtrailId": "272587",
     "loftyId": 8784458,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5920,6 +6492,8 @@
     "boldtrailId": "272588",
     "loftyId": 8801858,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5938,6 +6512,8 @@
     "boldtrailId": "272589",
     "loftyId": 8697431,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5956,6 +6532,8 @@
     "boldtrailId": "272590",
     "loftyId": "",
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5974,6 +6552,8 @@
     "boldtrailId": "272591",
     "loftyId": 8830277,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -5992,6 +6572,8 @@
     "boldtrailId": "272592",
     "loftyId": 8903146,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   }
 ]
