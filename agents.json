@@ -701,13 +701,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/298678.jpg",
     "profileUrl": "https://glasshouserealty.com/ashley-looper",
     "boldtrailId": "298678",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "156b2fe0f00b",
     "hidden": false
   },
   {
