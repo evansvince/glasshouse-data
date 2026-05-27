@@ -2243,13 +2243,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/277366.jpg",
     "profileUrl": "https://glasshouserealty.com/erika-deady",
     "boldtrailId": "277366",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "799bdbcfbd87",
     "hidden": false
   },
   {
@@ -3746,13 +3746,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272300.jpg",
     "profileUrl": "https://glasshouserealty.com/kunal-patel",
     "boldtrailId": "272300",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "a2d80259c1f1",
     "hidden": false
   },
   {
