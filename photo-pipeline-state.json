@@ -217,11 +217,11 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "299771": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-05-28T17:01:31.689759Z",
-      "lastAttemptRun": 36,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-05-28T22:04:29.677882Z",
+      "lastAttemptRun": 38,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     }
   },
-  "runCounter": 37
+  "runCounter": 38
 }
