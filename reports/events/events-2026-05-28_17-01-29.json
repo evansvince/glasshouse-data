@@ -1,0 +1,20 @@
+{
+  "generated": "2026-05-28T17:01:29.018710",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Sheila Pierson",
+      "email": "sheila@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "299771",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
