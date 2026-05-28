@@ -2155,7 +2155,7 @@
   {
     "email": "emily.tith@gmail.com",
     "name": "Emily Tith",
-    "phone": "(937) 947-0895",
+    "phone": "(937) 718-1828",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -4881,7 +4881,7 @@
     "name": "Niki Miller",
     "phone": "(937) 558-8072",
     "title": "REALTOR\u00ae",
-    "team": "Miller-Lavey Group",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -5573,6 +5573,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Shawn-Reese/8726199",
     "boldtrailId": "272382",
     "loftyId": 8726199,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "sheila@glasshouserealty.com",
+    "name": "Sheila Pierson",
+    "phone": "(937) 631-3312",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "299771",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
