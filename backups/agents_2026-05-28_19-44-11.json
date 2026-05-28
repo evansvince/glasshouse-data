@@ -284,6 +284,26 @@
     "hidden": false
   },
   {
+    "email": "amanda@glasshouserealty.com",
+    "name": "Amanda Dahmen",
+    "phone": "(937) 564-0904",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299619.jpg",
+    "profileUrl": "",
+    "boldtrailId": "299619",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8a3de5e55a10",
+    "hidden": false
+  },
+  {
     "email": "amanda@daytonrealestatecrush.com",
     "name": "Amanda Landis",
     "phone": "(937) 478-8767",
@@ -681,13 +701,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/298678.jpg",
+    "profileUrl": "https://glasshouserealty.com/ashley-looper",
     "boldtrailId": "298678",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "156b2fe0f00b",
     "hidden": false
   },
   {
@@ -987,6 +1007,26 @@
     "hidden": false,
     "boldtrailId": 293419,
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+  },
+  {
+    "email": "zimmy@glasshouserealty.com",
+    "name": "Brian Zimmerman",
+    "phone": "(937) 980-5009",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299615.jpg",
+    "profileUrl": "https://glasshouserealty.com/brian-zimmerman",
+    "boldtrailId": "299615",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "96ef835610f0",
+    "hidden": false
   },
   {
     "email": "brianne.lee@glasshouserealty.com",
@@ -2115,7 +2155,7 @@
   {
     "email": "emily.tith@gmail.com",
     "name": "Emily Tith",
-    "phone": "(937) 947-0895",
+    "phone": "(937) 718-1828",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -2203,13 +2243,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/277366.jpg",
+    "profileUrl": "https://glasshouserealty.com/erika-deady",
     "boldtrailId": "277366",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "799bdbcfbd87",
     "hidden": false
   },
   {
@@ -3063,6 +3103,26 @@
     "hidden": false
   },
   {
+    "email": "julie.young@glasshouserealty.com",
+    "name": "Julie Young",
+    "phone": "",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299624.jpg",
+    "profileUrl": "",
+    "boldtrailId": "299624",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "25efb139c529",
+    "hidden": false
+  },
+  {
     "email": "justin.ellis@glasshouserealty.com",
     "name": "Justin Ellis",
     "phone": "(937) 903-5352",
@@ -3686,13 +3746,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272300.jpg",
+    "profileUrl": "https://glasshouserealty.com/kunal-patel",
     "boldtrailId": "272300",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "a2d80259c1f1",
     "hidden": false
   },
   {
@@ -4650,13 +4710,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/sitebuild/2024511/7/w600_original_44808de0-8b88-4d0a-ae6a-09066c7ddf5f-png.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/297995.jpg",
     "profileUrl": "https://glasshouserealty.com/misty-vincent",
     "boldtrailId": "297995",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "e0bc2f795fd0",
     "hidden": false
   },
   {
@@ -4821,7 +4881,7 @@
     "name": "Niki Miller",
     "phone": "(937) 558-8072",
     "title": "REALTOR\u00ae",
-    "team": "Miller-Lavey Group",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -5519,6 +5579,26 @@
     "hidden": false
   },
   {
+    "email": "sheila@glasshouserealty.com",
+    "name": "Sheila Pierson",
+    "phone": "(937) 631-3312",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "299771",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "shelby@kunalpatelgroup.com",
     "name": "Shelby MacGregor",
     "phone": "(937) 626-6582",
@@ -5882,13 +5962,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272395.jpg",
     "profileUrl": "",
     "boldtrailId": "272395",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "03583fdd0c54",
     "hidden": false
   },
   {
