@@ -1,0 +1,20 @@
+{
+  "generated": "2026-05-29T19:39:24.839222",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Pilar Cason - Noland",
+      "email": "pilarsellshome@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300356",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
