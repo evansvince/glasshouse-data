@@ -2833,7 +2833,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-01T18:48:33.421974+00:00"
   },
   {
     "email": "jeri@glasshouserealty.com",
@@ -5015,7 +5016,7 @@
   },
   {
     "email": "pilarsellshome@gmail.com",
-    "name": "Pilar Cason - Noland",
+    "name": "Pilar Cason Noland",
     "phone": "(937) 212-4956",
     "title": "REALTOR\u00ae",
     "team": "",
@@ -5026,7 +5027,7 @@
     "office": "",
     "photo": "",
     "profileUrl": "",
-    "boldtrailId": "300356",
+    "boldtrailId": "300549",
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
@@ -5744,6 +5745,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Sierrah-Gunder/8797471",
     "boldtrailId": "272386",
     "loftyId": 8797471,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "sonu@glasshouserealty",
+    "name": "Sonu Singh",
+    "phone": "(513) 292-8344",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300610",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
