@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-01T22:16:02.028777",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Melissa Mullins",
+      "email": "melissa.mullins@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300637",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
