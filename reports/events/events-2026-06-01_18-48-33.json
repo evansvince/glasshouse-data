@@ -1,0 +1,29 @@
+{
+  "generated": "2026-06-01T18:48:33.422208",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Sonu Singh",
+      "email": "sonu@glasshouserealty",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300610",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Jenny Moore",
+      "email": "jenny@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
