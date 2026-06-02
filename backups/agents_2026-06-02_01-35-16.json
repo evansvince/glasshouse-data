@@ -701,13 +701,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/298678.jpg",
+    "profileUrl": "https://glasshouserealty.com/ashley-looper",
     "boldtrailId": "298678",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "156b2fe0f00b",
     "hidden": false
   },
   {
@@ -1020,7 +1020,7 @@
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299615.jpg",
-    "profileUrl": "",
+    "profileUrl": "https://glasshouserealty.com/brian-zimmerman",
     "boldtrailId": "299615",
     "loftyId": "",
     "source": "boldtrail",
@@ -2155,7 +2155,7 @@
   {
     "email": "emily.tith@gmail.com",
     "name": "Emily Tith",
-    "phone": "(937) 947-0895",
+    "phone": "(937) 718-1828",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -2243,13 +2243,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/277366.jpg",
+    "profileUrl": "https://glasshouserealty.com/erika-deady",
     "boldtrailId": "277366",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "799bdbcfbd87",
     "hidden": false
   },
   {
@@ -2833,7 +2833,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-01T18:48:33.421974+00:00"
   },
   {
     "email": "jeri@glasshouserealty.com",
@@ -3144,7 +3145,7 @@
   },
   {
     "email": "kailyn@glasshouserealty.com",
-    "name": "Kailyn Abell",
+    "name": "Kailyn Swarts",
     "phone": "(419) 889-4021",
     "title": "REALTOR\u00ae",
     "team": "The Buckner Group",
@@ -3746,13 +3747,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
-    "profileUrl": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272300.jpg",
+    "profileUrl": "https://glasshouserealty.com/kunal-patel",
     "boldtrailId": "272300",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "lofty",
+    "photoSourceHash": "a2d80259c1f1",
     "hidden": false
   },
   {
@@ -4450,6 +4451,26 @@
     "hidden": false
   },
   {
+    "email": "melissa.mullins@glasshouserealty.com",
+    "name": "Melissa Mullins",
+    "phone": "(937) 470-5135",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300637",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "loftyId": null,
     "name": "Melysa Frye",
     "title": "Agent",
@@ -4881,7 +4902,7 @@
     "name": "Niki Miller",
     "phone": "(937) 558-8072",
     "title": "REALTOR\u00ae",
-    "team": "Miller-Lavey Group",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -5008,6 +5029,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Paige-Denlinger/8657919",
     "boldtrailId": "272350",
     "loftyId": 8657919,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "pilarsellshome@gmail.com",
+    "name": "Pilar Cason Noland",
+    "phone": "(937) 212-4956",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300549",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -5579,6 +5620,26 @@
     "hidden": false
   },
   {
+    "email": "sheila@glasshouserealty.com",
+    "name": "Sheila Pierson",
+    "phone": "(937) 631-3312",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "299771",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "shelby@kunalpatelgroup.com",
     "name": "Shelby MacGregor",
     "phone": "(937) 626-6582",
@@ -5704,6 +5765,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Sierrah-Gunder/8797471",
     "boldtrailId": "272386",
     "loftyId": 8797471,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "sonu@glasshouserealty",
+    "name": "Sonu Singh",
+    "phone": "(513) 292-8344",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300610",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
