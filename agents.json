@@ -1009,7 +1009,7 @@
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
   },
   {
-    "email": "zimmy@glasshouserealty.com",
+    "email": "zimmyhomes@gmail.com",
     "name": "Brian Zimmerman",
     "phone": "(937) 980-5009",
     "title": "REALTOR\u00ae",
@@ -5035,26 +5035,6 @@
     "hidden": false
   },
   {
-    "email": "pilarsellshome@gmail.com",
-    "name": "Pilar Cason Noland",
-    "phone": "(937) 212-4956",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "300549",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": false
-  },
-  {
     "email": "rachel.dunham1@aim.com",
     "name": "Rachel Dunham",
     "phone": "(937) 269-6569",
@@ -6030,6 +6010,26 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "03583fdd0c54",
+    "hidden": false
+  },
+  {
+    "email": "pilarsellshome@gmail.com",
+    "name": "Susana Pilar Cason Noland",
+    "phone": "(937) 212-4956",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300549",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
