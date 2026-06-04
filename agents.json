@@ -634,6 +634,26 @@
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
   },
   {
+    "email": "ashlea.roe@glasshouserealty.com",
+    "name": "Ashlea Roe",
+    "phone": "(937) 789-7722",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300716",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "ashley@glasshouserealty.com",
     "name": "Ashley Bunch",
     "phone": "(937) 789-0179",
@@ -5751,26 +5771,6 @@
     "hidden": false
   },
   {
-    "email": "sunny@glasshouserealty",
-    "name": "Sonu Singh",
-    "phone": "(513) 292-8344",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "300610",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": false
-  },
-  {
     "email": "snluza9@gmail.com",
     "name": "Sophia Luza",
     "phone": "(614) 707-8725",
@@ -5953,6 +5953,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Sunnie-Shafer/8726290",
     "boldtrailId": "272394",
     "loftyId": 8726290,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "sunny@glasshouserealty",
+    "name": "Sunny Singh",
+    "phone": "(513) 292-8344",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300610",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
