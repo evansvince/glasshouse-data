@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04T19:30:13.748663",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Ashlea Roe",
+      "email": "ashlea.roe@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300716",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
