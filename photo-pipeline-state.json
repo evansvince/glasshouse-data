@@ -84,12 +84,6 @@
       "lastAttemptRun": 57,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
-    "272289": {
-      "failureCount": 29,
-      "lastAttemptAt": "2026-06-05T16:08:25.060886Z",
-      "lastAttemptRun": 57,
-      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
-    },
     "272295": {
       "failureCount": 29,
       "lastAttemptAt": "2026-06-05T16:08:25.060892Z",
@@ -217,9 +211,9 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "299771": {
-      "failureCount": 11,
-      "lastAttemptAt": "2026-06-04T23:21:57.298324Z",
-      "lastAttemptRun": 56,
+      "failureCount": 12,
+      "lastAttemptAt": "2026-06-05T18:06:09.733154Z",
+      "lastAttemptRun": 58,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300356": {
@@ -229,15 +223,15 @@
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300549": {
-      "failureCount": 7,
-      "lastAttemptAt": "2026-06-04T23:21:57.298345Z",
-      "lastAttemptRun": 56,
+      "failureCount": 8,
+      "lastAttemptAt": "2026-06-05T18:06:09.733182Z",
+      "lastAttemptRun": 58,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300610": {
-      "failureCount": 7,
-      "lastAttemptAt": "2026-06-04T23:21:57.298338Z",
-      "lastAttemptRun": 56,
+      "failureCount": 8,
+      "lastAttemptAt": "2026-06-05T18:06:09.733174Z",
+      "lastAttemptRun": 58,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300637": {
@@ -247,11 +241,11 @@
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300716": {
-      "failureCount": 2,
-      "lastAttemptAt": "2026-06-04T23:21:57.298207Z",
-      "lastAttemptRun": 56,
+      "failureCount": 3,
+      "lastAttemptAt": "2026-06-05T18:06:07.882336Z",
+      "lastAttemptRun": 58,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     }
   },
-  "runCounter": 57
+  "runCounter": 58
 }
