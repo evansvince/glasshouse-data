@@ -1,0 +1,126 @@
+{
+  "generated": "2026-06-05T23:23:13.684845",
+  "dry_run": false,
+  "description": "BoldTrail records excluded because role != 'Agent'. To allow a role on the site, add it to ALLOWED_ROLES in gh-agents-sync-bt.py.",
+  "allowed_roles": [
+    "agent",
+    "broker",
+    "team leader"
+  ],
+  "count": 18,
+  "by_role": {
+    "owner": 1,
+    "Office administrator": 13,
+    "Accountant": 4
+  },
+  "records": [
+    {
+      "name": "Hema Chhatani",
+      "email": "finance2@buildvessel.com",
+      "role": "Accountant",
+      "boldtrailId": "274172"
+    },
+    {
+      "name": "Scott Hetzler",
+      "email": "scott.hetzler@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "292809"
+    },
+    {
+      "name": "Shobha Kodag",
+      "email": "shobha@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "285923"
+    },
+    {
+      "name": "Sibu Janardhanan",
+      "email": "sibu@glasshouserealty.com",
+      "role": "Accountant",
+      "boldtrailId": "274163"
+    },
+    {
+      "name": "Abby Taylor",
+      "email": "abby@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "284625"
+    },
+    {
+      "name": "Cody Goodman",
+      "email": "codygoodmanhma@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "275338"
+    },
+    {
+      "name": "Cody Hemmelgarn",
+      "email": "cody@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "259197"
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "operations@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256585"
+    },
+    {
+      "name": "Glasshouse Admin",
+      "email": "admin@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "268791"
+    },
+    {
+      "name": "Jed Helmers",
+      "email": "jedhelmers+1@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "280273"
+    },
+    {
+      "name": "Jed Helmers 2",
+      "email": "jedhelmers+2@gmail.com",
+      "role": "Office administrator",
+      "boldtrailId": "280274"
+    },
+    {
+      "name": "Jessica Gonzalez",
+      "email": "jessica.gonzalez@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "284671"
+    },
+    {
+      "name": "Kailey Gilbert",
+      "email": "kailey@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256292"
+    },
+    {
+      "name": "Korrin Ziswiler",
+      "email": "korrin@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "284623"
+    },
+    {
+      "name": "Megan Lucking",
+      "email": "megan.lucking@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256586"
+    },
+    {
+      "name": "Melissa Miotti",
+      "email": "melissa@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "256290"
+    },
+    {
+      "name": "Processing Team",
+      "email": "processing@glasshouserealty.com",
+      "role": "Office administrator",
+      "boldtrailId": "277918"
+    },
+    {
+      "name": "Mo Zahedi",
+      "email": "boldtrail@glasshouserealty.com",
+      "role": "owner",
+      "boldtrailId": "254091"
+    }
+  ]
+}
