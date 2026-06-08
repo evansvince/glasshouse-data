@@ -2853,8 +2853,7 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-01T18:48:33.421974+00:00"
+    "hidden": false
   },
   {
     "email": "jeri@glasshouserealty.com",
