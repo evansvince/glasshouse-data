@@ -1,0 +1,14 @@
+{
+  "generated": "2026-06-08T16:52:43.897490",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": [
+    {
+      "name": "Jenny Moore",
+      "email": "jenny@glasshouserealty.com",
+      "softDeletedAt": "2026-06-01T18:48:33.421974+00:00"
+    }
+  ]
+}
