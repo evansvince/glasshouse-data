@@ -1,0 +1,17 @@
+{
+  "generated": "2026-06-10T16:43:54.972228",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "John Wendell",
+      "email": "john.wendell@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
