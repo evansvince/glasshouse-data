@@ -3043,7 +3043,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-10T16:43:54.972004+00:00"
   },
   {
     "email": "joshb@glasshouserealty.com",
