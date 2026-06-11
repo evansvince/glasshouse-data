@@ -211,9 +211,9 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "299771": {
-      "failureCount": 19,
-      "lastAttemptAt": "2026-06-10T19:44:17.404471Z",
-      "lastAttemptRun": 72,
+      "failureCount": 20,
+      "lastAttemptAt": "2026-06-11T01:35:57.471327Z",
+      "lastAttemptRun": 74,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300356": {
@@ -223,15 +223,15 @@
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300549": {
-      "failureCount": 15,
-      "lastAttemptAt": "2026-06-10T19:44:17.404490Z",
-      "lastAttemptRun": 72,
+      "failureCount": 16,
+      "lastAttemptAt": "2026-06-11T01:35:57.471347Z",
+      "lastAttemptRun": 74,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300610": {
-      "failureCount": 15,
-      "lastAttemptAt": "2026-06-10T19:44:17.404484Z",
-      "lastAttemptRun": 72,
+      "failureCount": 16,
+      "lastAttemptAt": "2026-06-11T01:35:57.471341Z",
+      "lastAttemptRun": 74,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300637": {
@@ -241,11 +241,11 @@
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300716": {
-      "failureCount": 10,
-      "lastAttemptAt": "2026-06-10T19:44:17.404357Z",
-      "lastAttemptRun": 72,
+      "failureCount": 11,
+      "lastAttemptAt": "2026-06-11T01:35:57.471211Z",
+      "lastAttemptRun": 74,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     }
   },
-  "runCounter": 73
+  "runCounter": 74
 }

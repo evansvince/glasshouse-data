@@ -634,6 +634,26 @@
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
   },
   {
+    "email": "ashlea.roe@glasshouserealty.com",
+    "name": "Ashlea Roe",
+    "phone": "(937) 789-7722",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300716",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "ashley@glasshouserealty.com",
     "name": "Ashley Bunch",
     "phone": "(937) 789-0179",
@@ -1009,7 +1029,7 @@
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
   },
   {
-    "email": "zimmy@glasshouserealty.com",
+    "email": "zimmyhomes@gmail.com",
     "name": "Brian Zimmerman",
     "phone": "(937) 980-5009",
     "title": "REALTOR\u00ae",
@@ -2833,8 +2853,7 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-01T18:48:33.421974+00:00"
+    "hidden": false
   },
   {
     "email": "jeri@glasshouserealty.com",
@@ -3024,7 +3043,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-10T16:43:54.972004+00:00"
   },
   {
     "email": "joshb@glasshouserealty.com",
@@ -3482,13 +3502,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272289.jpg",
     "profileUrl": "",
     "boldtrailId": "272289",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "137307d3e9a6",
     "hidden": false
   },
   {
@@ -4451,6 +4471,26 @@
     "hidden": false
   },
   {
+    "email": "melissa.mullins@glasshouserealty.com",
+    "name": "Melissa Mullins",
+    "phone": "(937) 470-5135",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300637",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "loftyId": null,
     "name": "Melysa Frye",
     "title": "Agent",
@@ -5009,26 +5049,6 @@
     "profileUrl": "https://glasshouserealty.com/agents/Paige-Denlinger/8657919",
     "boldtrailId": "272350",
     "loftyId": 8657919,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": false
-  },
-  {
-    "email": "pilarsellshome@gmail.com",
-    "name": "Pilar Cason Noland",
-    "phone": "(937) 212-4956",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "300549",
-    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -5751,26 +5771,6 @@
     "hidden": false
   },
   {
-    "email": "sonu@glasshouserealty",
-    "name": "Sonu Singh",
-    "phone": "(513) 292-8344",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "300610",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": false
-  },
-  {
     "email": "snluza9@gmail.com",
     "name": "Sophia Luza",
     "phone": "(614) 707-8725",
@@ -5959,6 +5959,26 @@
     "hidden": false
   },
   {
+    "email": "sunny@glasshouserealty.com",
+    "name": "Sunny Singh",
+    "phone": "(513) 292-8344",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300610",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "loftyId": null,
     "name": "Susan Chamberlain-Garbutt",
     "title": "Team Lead",
@@ -6010,6 +6030,26 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "03583fdd0c54",
+    "hidden": false
+  },
+  {
+    "email": "pilarsellshome@gmail.com",
+    "name": "Susana Pilar Cason Noland",
+    "phone": "(937) 212-4956",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "300549",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -6397,13 +6437,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2026121/9/original_f51ca0f3-ba1a-4e9d-91ba-59a97963b8b6.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/277365.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Tracy-Rife/8893267",
     "boldtrailId": "277365",
     "loftyId": 8893267,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "7168b2aeb88a",
     "hidden": false
   },
   {
