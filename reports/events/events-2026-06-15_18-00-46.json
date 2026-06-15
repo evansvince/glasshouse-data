@@ -1,0 +1,73 @@
+{
+  "generated": "2026-06-15T18:00:46.069615",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Sarah Page",
+      "email": "sarah.page@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    }
+  ],
+  "purges": [
+    {
+      "name": "Amy Fralick",
+      "email": "amy.fralick@outlook.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497588+00:00"
+    },
+    {
+      "name": "Brianne Lee",
+      "email": "brianne.lee@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497606+00:00"
+    },
+    {
+      "name": "Charles Robinson",
+      "email": "charlesrobinsonhomes@gmail.com",
+      "softDeletedAt": "2026-05-15T14:40:21.762035+00:00"
+    },
+    {
+      "name": "Cindy Menth",
+      "email": "gabbardgrouptc@gmail.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497697+00:00"
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "dawn@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T14:40:21.762056+00:00"
+    },
+    {
+      "name": "Kaitlyn Stewart",
+      "email": "kaitstewartrealty@gmail.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497642+00:00"
+    },
+    {
+      "name": "Kaylynn Burritt",
+      "email": "kaylynn@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497706+00:00"
+    },
+    {
+      "name": "Leslie Wade",
+      "email": "l.wade@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497656+00:00"
+    },
+    {
+      "name": "Maegan Benne",
+      "email": "maeganbennerealtor@gmail.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497662+00:00"
+    },
+    {
+      "name": "Maxwell Zukowitz",
+      "email": "max@daytonrealestatecrush.com",
+      "softDeletedAt": "2026-05-15T18:02:52.497712+00:00"
+    },
+    {
+      "name": "Megan Best",
+      "email": "meganbest@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T14:40:21.762087+00:00"
+    }
+  ],
+  "reactivated": []
+}
