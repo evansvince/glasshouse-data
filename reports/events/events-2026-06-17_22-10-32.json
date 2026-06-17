@@ -1,0 +1,14 @@
+{
+  "generated": "2026-06-17T22:10:32.957459",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Constance Lowery",
+      "email": "conniedeanna@kunalpatelgroup.com",
+      "softDeletedAt": "2026-05-18T19:45:25.644876+00:00"
+    }
+  ],
+  "reactivated": []
+}
