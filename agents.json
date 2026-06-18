@@ -2751,7 +2751,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-18T19:35:23.537200+00:00"
   },
   {
     "email": "jeri@glasshouserealty.com",
@@ -6241,7 +6242,7 @@
     "name": "Travis Wilt",
     "phone": "(937) 609-4678",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Zahedi Kloth Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
