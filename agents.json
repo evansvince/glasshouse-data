@@ -2711,7 +2711,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "4bba157d4fe6",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-22T21:12:15.002055+00:00"
   },
   {
     "email": "jen@daytonrealestatecrush.com",
@@ -4902,7 +4903,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-22T21:12:15.002101+00:00"
   },
   {
     "email": "shaffnerrandy@gmail.com",
