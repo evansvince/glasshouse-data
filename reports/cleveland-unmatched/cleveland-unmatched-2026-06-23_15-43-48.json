@@ -1,0 +1,107 @@
+{
+  "generated": "2026-06-23T15:43:48.282252",
+  "dry_run": true,
+  "description": "Cleveland spreadsheet records with no BoldTrail match. Currently preserved on the site. Review and decide which should be retained vs soft-deleted.",
+  "count": 11,
+  "records": [
+    {
+      "name": "Alaina DePalma",
+      "email": "",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Barb Rich",
+      "email": "",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Cassandra Cox Soto Estrada",
+      "email": "",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Chance Schrecengost",
+      "email": "",
+      "team": "The Sams Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Cody Goodman",
+      "email": "",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Geo Hertelendy",
+      "email": "",
+      "team": "Heather Young Real Estate Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Jessica Nahm",
+      "email": "",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Kelly Woodley",
+      "email": "",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Kristina Fetterman",
+      "email": "",
+      "team": "The Signature Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "spreadsheet"
+    },
+    {
+      "name": "Kyle Ward",
+      "email": "kyle.asacoxhomes@gmail.com",
+      "team": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Rosario Torres Bermudez",
+      "email": "rrealtorrosario@gmail.com",
+      "team": "Alyssa Christison Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    }
+  ]
+}
