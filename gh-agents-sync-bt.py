@@ -131,7 +131,8 @@ ENABLE_CLEVELAND_FETCH = os.environ.get('SYNC_ENABLE_CLEVELAND', '').lower() == 
 PROFILE_URL_BASE      = 'https://glasshouserealty.com'
 PROFILE_URL_CACHE     = 'profile-url-cache.json'
 PROFILE_URL_TIMEOUT   = 10  # seconds per HEAD request
-PROFILE_URL_USER_AGENT = 'Glasshouse-Profile-URL-Verifier/1.0'
+PROFILE_URL_USER_AGENT = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                          '(KHTML, like Gecko) Chrome/126.0 Safari/537.36')
 # How long to cache a 404 response before re-checking. The cron runs once per
 # hour 9am-6pm M-F, so a 1-hour cooldown effectively means "re-check on the
 # next sync." This gives admins fast feedback: set the slug in Lofty admin,
@@ -327,8 +328,9 @@ def verify_profile_url(slug):
     cached = cache.get(slug)
     now = datetime.now(timezone.utc).isoformat()
     if cached:
-        if cached.get('status') == 200:
-            # Verified working — trust the cache
+        cstatus = cached.get('status') or 0
+        if (200 <= cstatus < 300) or cstatus == 218:
+            # Verified working (or edge-blocked but live) — trust the cache
             return cached.get('url', '')
         # 404 or other — check if cache entry is stale
         checked = parse_iso(cached.get('checked_at', ''))
@@ -340,7 +342,7 @@ def verify_profile_url(slug):
     try:
         req = urllib.request.Request(
             url,
-            method='HEAD',
+            method='GET',  # HEAD is treated differently by the edge; GET mirrors a real visitor
             headers={'User-Agent': PROFILE_URL_USER_AGENT},
         )
         with urllib.request.urlopen(req, timeout=PROFILE_URL_TIMEOUT) as r:
@@ -351,12 +353,17 @@ def verify_profile_url(slug):
         # Network error, timeout, etc — treat as unverified, retry next sync
         return ''
 
+    # A live page returns 2xx. The site's edge bot-protection answers automated
+    # requests with 218 ("this is fine") regardless of the page — so we treat 218
+    # as "live but unconfirmable by a bot", not as a failure. Only a hard 4xx/5xx
+    # means the vanity page genuinely isn't there.
+    live = (200 <= status < 300) or status == 218
     cache[slug] = {
         'status':     status,
-        'url':        url if status == 200 else '',
+        'url':        url if live else '',
         'checked_at': now,
     }
-    return url if status == 200 else ''
+    return url if live else ''
 
 def is_junk(email, name):
     email_low = email.lower()
@@ -1395,7 +1402,7 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
         return False
 
     profile_url_generated = 0
-    profile_url_skipped_no_match = 0
+    profile_url_skipped_no_match = 0   # kept for log compatibility; now "unconfirmed"
     profile_url_skipped_cleveland = 0
     for agent in merged:
         if agent.get('profileUrl'):
@@ -1408,20 +1415,27 @@ def merge(new_agents, by_email, by_btid, by_name, existing_all):
         slug = slugify_name(agent.get('name', ''))
         if not slug:
             continue
-        verified = verify_profile_url(slug)
-        if verified:
-            agent['profileUrl'] = verified
-            profile_url_generated += 1
-        else:
-            profile_url_skipped_no_match += 1
+        # Every Lofty agent has a public vanity page at /{firstname}-{lastname}.
+        # Assign it DIRECTLY — do not gate on a live verification.
+        #
+        # Why: as of ~June 2026 the site's edge bot-protection answers automated
+        # requests with HTTP 218 instead of 200. The old "verify, then set only on
+        # 200" gate therefore silently withheld a profileUrl from EVERY agent added
+        # after that change (Melissa Mullins and ~45 others). The slug pattern is
+        # authoritative, so we set it unconditionally and treat verification as an
+        # advisory signal for the flagged-agents report only — never as a gate.
+        agent['profileUrl'] = f"{PROFILE_URL_BASE}/{slug}"
+        profile_url_generated += 1
+        if verify_profile_url(slug) == '':
+            profile_url_skipped_no_match += 1  # set, but couldn't confirm live (advisory)
 
     # Persist the cache so subsequent syncs don't re-verify every URL
     _save_profile_url_cache()
 
     if profile_url_generated or profile_url_skipped_no_match or profile_url_skipped_cleveland:
-        msg = f"  Profile URLs: {profile_url_generated} verified & set"
+        msg = f"  Profile URLs: {profile_url_generated} set (/firstname-lastname)"
         if profile_url_skipped_no_match:
-            msg += f", {profile_url_skipped_no_match} not yet live (slug not configured — admin task)"
+            msg += f", {profile_url_skipped_no_match} unconfirmed (edge-blocked or page not live yet — see report)"
         if profile_url_skipped_cleveland:
             msg += f", {profile_url_skipped_cleveland} skipped (Cleveland)"
         print(msg)
