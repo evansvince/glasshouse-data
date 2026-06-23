@@ -52,7 +52,14 @@ REPORT_DIR       = 'reports/photo-pipeline'
 MAX_DIMENSION    = 800
 TARGET_KB        = 150
 
-PHOTO_PUBLIC_BASE = 'https://evansvince.github.io/glasshouse-data/agent-photos'
+# Where self-hosted photos are served from. Default is GitHub Pages, which
+# serves the `main` branch -> correct for production. The TEST workflow
+# overrides this via the PHOTO_PUBLIC_BASE env var to point at the sync-testing
+# branch's raw URL, because photos committed on sync-testing are NOT served by
+# Pages (Pages only serves main), so test photo URLs would otherwise 404.
+PHOTO_PUBLIC_BASE = os.environ.get(
+    'PHOTO_PUBLIC_BASE',
+    'https://evansvince.github.io/glasshouse-data/agent-photos')
 LOFTY_CDN_HOSTS   = ('cdn.lofty.com', 'cdn.chime.me')
 
 DOWNLOAD_TIMEOUT = 30
@@ -131,9 +138,15 @@ def photo_public_url(key):
 
 
 def is_self_hosted(url):
+    # Recognize our self-hosted photos regardless of which host/branch serves
+    # them: GitHub Pages (evansvince.github.io/glasshouse-data/agent-photos/...)
+    # OR a raw branch URL (raw.githubusercontent.com/.../<branch>/agent-photos/).
+    # Matching on the path rather than an exact prefix means switching
+    # PHOTO_PUBLIC_BASE between prod and test does not make the freshness check
+    # treat an already-hosted photo as needing re-acquisition.
     if not isinstance(url, str) or not url:
         return False
-    return url.startswith(PHOTO_PUBLIC_BASE)
+    return 'glasshouse-data' in url and '/agent-photos/' in url
 
 
 # ── STATE ────────────────────────────────────────────────────────────────────
@@ -773,6 +786,27 @@ def main():
         else:
             print(f'  [{i}/{len(work_queue)}] {name}: ✗ both sources failed, no photo to keep')
         events.append(event)
+
+    # ── Normalize self-hosted photo URLs to the branch serving THIS checkout ──
+    # A photo file present in agent-photos/ in this checkout is served from the
+    # current PHOTO_PUBLIC_BASE (Pages/main in prod; the sync-testing raw URL in
+    # test). Point its URL there. Photos NOT present here (e.g. Dayton photos
+    # that live only on main during a test run) keep their existing URL, served
+    # from wherever they were committed. This makes the test page resolve
+    # Cleveland headshots without copying anything onto main.
+    url_normalized = 0
+    for a in agents:
+        m = re.search(r'/agent-photos/([^/]+)\.jpg', a.get('photo') or '')
+        if not m:
+            continue
+        fkey = m.group(1)
+        if os.path.exists(os.path.join(PHOTO_DIR, f'{fkey}.jpg')):
+            want = f'{PHOTO_PUBLIC_BASE}/{fkey}.jpg'
+            if a.get('photo') != want:
+                a['photo'] = want
+                url_normalized += 1
+    if url_normalized:
+        print(f'  Normalized {url_normalized} self-hosted photo URL(s) to current base')
 
     # ── Phase 3: strip temp fields, write outputs ──────────────────────────
     print(f'\n── Writing Outputs ────────────────────────────────────')
