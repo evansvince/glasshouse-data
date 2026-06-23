@@ -347,7 +347,7 @@ jobs:
         run: |
           git config user.name  "Glasshouse Sync Bot"
           git config user.email "sync@glasshouserealty.com"
-          git add sold-dayton.json backups/ 2>/dev/null || true
+          git add sold-dayton.json sold-dayton-geocache.json backups/ 2>/dev/null || true
           if git diff --staged --quiet; then echo "No changes"; exit 0; fi
           COUNT=$(python3 -c "import json; print(len(json.load(open('sold-dayton.json'))))")
           git commit -m "Auto-sync sold Dayton — ${COUNT} records [$(date -u '+%Y-%m-%d %H:%M UTC')]"
@@ -403,7 +403,7 @@ jobs:
         run: |
           git config user.name  "Glasshouse Sync Bot"
           git config user.email "sync@glasshouserealty.com"
-          git add sold-cleveland.json backups/ 2>/dev/null || true
+          git add sold-cleveland.json sold-cleveland-geocache.json backups/ 2>/dev/null || true
           if git diff --staged --quiet; then echo "No changes"; exit 0; fi
           COUNT=$(python3 -c "import json; print(len(json.load(open('sold-cleveland.json'))))")
           git commit -m "Auto-sync sold Cleveland — ${COUNT} records [$(date -u '+%Y-%m-%d %H:%M UTC')]"
