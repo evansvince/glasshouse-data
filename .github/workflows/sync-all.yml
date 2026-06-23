@@ -192,7 +192,7 @@ jobs:
             for attempt in 1 2 3 4 5; do
               if git push origin HEAD:main; then pushed=1; break; fi
               echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-              git pull --rebase origin main || { echo "rebase failed"; exit 1; }
+              git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
               sleep $((RANDOM % 4 + 1))
             done
             [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
@@ -242,7 +242,7 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then pushed=1; break; fi
             echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase origin main || { echo "rebase failed"; exit 1; }
+            git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
             sleep $((RANDOM % 4 + 1))
           done
           [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
@@ -383,7 +383,7 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then pushed=1; break; fi
             echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase origin main || { echo "rebase failed"; exit 1; }
+            git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
             sleep $((RANDOM % 4 + 1))
           done
           [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
@@ -451,7 +451,7 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then pushed=1; break; fi
             echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase origin main || { echo "rebase failed"; exit 1; }
+            git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
             sleep $((RANDOM % 4 + 1))
           done
           [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
