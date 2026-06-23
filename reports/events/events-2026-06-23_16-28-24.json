@@ -1,0 +1,104 @@
+{
+  "generated": "2026-06-23T16:28:24.645116",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Mary Johnson",
+      "email": "maryjrealtor@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "294696",
+      "has_photo": true
+    },
+    {
+      "name": "Veronica Plumb-Nelson",
+      "email": "veronica.plumbnelson@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Team Pizzo",
+      "office": "",
+      "boldtrailId": "298002",
+      "has_photo": true
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Alaina DePalma",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    },
+    {
+      "name": "Barb Rich",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    },
+    {
+      "name": "Cassandra Cox Soto Estrada",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    },
+    {
+      "name": "Chance Schrecengost",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "The Sams Group"
+    },
+    {
+      "name": "Cody Goodman",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    },
+    {
+      "name": "Geo Hertelendy",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Heather Young Real Estate Group"
+    },
+    {
+      "name": "Jessica Nahm",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    },
+    {
+      "name": "Kelly Woodley",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    },
+    {
+      "name": "Kristina Fetterman",
+      "email": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "The Signature Team"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
