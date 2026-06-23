@@ -23,6 +23,15 @@ name: Glasshouse Data Sync
 #     named PAUSE_SYNC exists in the repo root. Workflow doesn't need to
 #     check; the script handles it.
 # ─────────────────────────────────────────────────────────────────────────────
+# CHANGELOG (patch round 2, 2026-06-22) — Cleveland production enablement
+#   - SYNC_ENABLE_CLEVELAND now reads from a repo VARIABLE (default 'false') so
+#     the Cleveland (Asa Cox Homes) roster can be flipped on/off WITHOUT editing
+#     this file, and a scheduled run can never surprise-cutover. Do a manual
+#     dry_run=true first to review reports/cleveland-unmatched/ and preview the
+#     agent count BEFORE going live.
+#   - Photo pipeline now acquires Cleveland BoldTrail headshots (Source A only;
+#     Cleveland is never scraped from Lofty — it has no Lofty profile pages).
+# ─────────────────────────────────────────────────────────────────────────────
 
 on:
   schedule:
@@ -97,6 +106,20 @@ jobs:
         env:
           BOLDTRAIL_API_KEY:           ${{ secrets.BOLDTRAIL_API_KEY }}
           BOLDTRAIL_API_KEY_CLEVELAND: ${{ secrets.BOLDTRAIL_API_KEY_CLEVELAND }}
+          # Cleveland (Asa Cox Homes) BoldTrail roster is gated behind a repo
+          # VARIABLE so it can be flipped on/off without editing this file, and
+          # so a scheduled (cron) run can never surprise-cutover.
+          #   Turn ON:  repo → Settings → Secrets and variables → Actions →
+          #             Variables tab → New variable → SYNC_ENABLE_CLEVELAND = true
+          #   Safe rollout: with the variable ON, first use "Run workflow"
+          #             (workflow_dispatch) with dry_run=true. That writes
+          #             reports/cleveland-unmatched/ and previews the count
+          #             WITHOUT touching agents.json. Resolve any unmatched
+          #             spreadsheet records (MANUAL_BTID_PAIRINGS or align the
+          #             email in BoldTrail) until that report is clean, THEN let
+          #             the next live run bring Cleveland in.
+          #   Pause:    set the variable back to false (or delete it).
+          SYNC_ENABLE_CLEVELAND: ${{ vars.SYNC_ENABLE_CLEVELAND || 'false' }}
         run: |
           if [ "${{ steps.mode.outputs.dry_run }}" = "true" ]; then
             python3 gh-agents-sync-bt.py --dry-run 2>&1 | tee sync-output.txt
@@ -141,7 +164,10 @@ jobs:
           # Replaces gh-photo-optimizer.py and gh-lofty-scraper.py.
           # State file (photo-pipeline-state.json) tracks retry cooldowns.
           # Failures here never block the sync — `|| true` keeps workflow going.
-          # Dayton-only (Cleveland uses a different profile system, excluded).
+          # Cleveland (Asa Cox) agents are now Source-A eligible: when a headshot
+          # is uploaded to their BoldTrail account it is downloaded, optimized,
+          # and self-hosted just like Dayton. They are never scraped from Lofty
+          # (Source B) — they have no Lofty profile pages.
           #
           # No --limit: with migration philosophy, work queue is small per run.
           # Typical queue: ~50 agents (mix of new acquisitions + retries).
