@@ -107,13 +107,7 @@
       "lastAttemptAt": "2026-06-23T20:21:00.381549Z",
       "lastAttemptRun": 1,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
-    },
-    "300637": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-06-23T20:20:59.779715Z",
-      "lastAttemptRun": 1,
-      "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     }
   },
-  "runCounter": 1
+  "runCounter": 2
 }
