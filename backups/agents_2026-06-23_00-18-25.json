@@ -380,25 +380,6 @@
     "hidden": false
   },
   {
-    "email": "amy.fralick@outlook.com",
-    "name": "Amy Fralick",
-    "phone": "(937) 408-5368",
-    "title": "REALTOR\u00ae",
-    "team": "The Avenue Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024723/12/original_f88f71df-b5a0-4b1f-8508-b15c0886d8b8.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Amy-Fralick/8730780",
-    "boldtrailId": "272172",
-    "loftyId": 8730780,
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497588+00:00"
-  },
-  {
     "loftyId": null,
     "name": "Andrea Mathews",
     "title": "Agent",
@@ -1049,25 +1030,6 @@
     "hidden": false
   },
   {
-    "email": "brianne.lee@glasshouserealty.com",
-    "name": "Brianne Lee",
-    "phone": "(937) 618-1342",
-    "title": "REALTOR\u00ae",
-    "team": "LUX Elite Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025108/11/original_fb3ec39b-8ca0-4d59-a622-9efeb8578ba8.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Brianne-Lee/8873115",
-    "boldtrailId": "272188",
-    "loftyId": 8873115,
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497606+00:00"
-  },
-  {
     "email": "brittany@glasshouserealty.com",
     "name": "Brittany Carr",
     "phone": "(937) 558-8409",
@@ -1364,19 +1326,6 @@
     "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png"
   },
   {
-    "loftyId": 8844375,
-    "name": "Charles Robinson",
-    "title": "Agent",
-    "phone": "+1(937) 503-3725",
-    "email": "charlesrobinsonhomes@gmail.com",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025722/10/original_db6c43d6-33a7-4451-8954-7bbf622dccf3.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Charles-Robinson/8844375",
-    "regions": [],
-    "source": "lofty",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T14:40:21.762035+00:00"
-  },
-  {
     "email": "chayse.eby@glasshouserealty.com",
     "name": "Chayse Eby",
     "phone": "(937) 336-2114",
@@ -1514,25 +1463,6 @@
     "hidden": false
   },
   {
-    "email": "gabbardgrouptc@gmail.com",
-    "name": "Cindy Menth",
-    "phone": "",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Cincinnati"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "285285",
-    "loftyId": "",
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497697+00:00"
-  },
-  {
     "email": "clint@goodguyteam.com",
     "name": "Clinton Evans",
     "phone": "(937) 725-0147",
@@ -1622,25 +1552,6 @@
     "source": "lofty"
   },
   {
-    "email": "conniedeanna@kunalpatelgroup.com",
-    "name": "Constance Lowery",
-    "phone": "(937) 602-2164",
-    "title": "REALTOR\u00ae",
-    "team": "Kunal Patel Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025617/9/original_53696e17-6412-4829-9970-ee8130c91c97.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Connie-Lowery-Deanna-O-Diam/8838020",
-    "boldtrailId": "272213",
-    "loftyId": 8838020,
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-18T19:45:25.644876+00:00"
-  },
-  {
     "email": "loyd.cortney@gmail.com",
     "name": "Cortney Loyd",
     "phone": "(937) 776-4477",
@@ -1691,13 +1602,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/278010.jpg",
     "profileUrl": "",
     "boldtrailId": "278010",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8b2daabe2457",
     "hidden": false
   },
   {
@@ -1865,13 +1776,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272225.jpg",
     "profileUrl": "",
     "boldtrailId": "272225",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "351ba15e34c9",
     "hidden": false
   },
   {
@@ -1905,27 +1816,14 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272226.jpg",
     "profileUrl": "",
     "boldtrailId": "272226",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "37ac68fcf9d7",
     "hidden": false
-  },
-  {
-    "loftyId": 8774009,
-    "name": "Dawn Cordle",
-    "title": "Dayton Office Manager / Agent",
-    "phone": "+1(937) 329-1687",
-    "email": "dawn@glasshouserealty.com",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024722/20/original_b4f41481-efa0-4f30-a5a8-b0f508c16ecd.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Dawn-Cordle/8774009",
-    "regions": [],
-    "source": "lofty",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T14:40:21.762056+00:00"
   },
   {
     "loftyId": null,
@@ -2766,13 +2664,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/278681.jpg",
     "profileUrl": "",
     "boldtrailId": "278681",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "79cbc27de1e0",
     "hidden": false
   },
   {
@@ -2813,7 +2711,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "4bba157d4fe6",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-22T21:12:15.002055+00:00"
   },
   {
     "email": "jen@daytonrealestatecrush.com",
@@ -2853,7 +2752,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-18T19:35:23.537200+00:00"
   },
   {
     "email": "jeri@glasshouserealty.com",
@@ -3204,25 +3104,6 @@
     "hidden": false
   },
   {
-    "email": "kaitstewartrealty@gmail.com",
-    "name": "Kaitlyn Stewart",
-    "phone": "(937) 479-4142",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2026128/9/original_9951f837-5b81-4a55-a5a7-6d61d783d7bb.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Kait-Stewart/8894737",
-    "boldtrailId": "272279",
-    "loftyId": 8894737,
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497642+00:00"
-  },
-  {
     "email": "kara@glasshouserealty.com",
     "name": "Kara Buckner",
     "phone": "(937) 823-5151",
@@ -3357,25 +3238,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "kaylynn@glasshouserealty.com",
-    "name": "Kaylynn Burritt",
-    "phone": "(937) 479-2597",
-    "title": "REALTOR\u00ae",
-    "team": "The Buckner Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "272285",
-    "loftyId": "",
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497706+00:00"
   },
   {
     "email": "kd@navehometeam.com",
@@ -3954,25 +3816,6 @@
     "hidden": false
   },
   {
-    "email": "l.wade@glasshouserealty.com",
-    "name": "Leslie Wade",
-    "phone": "(937) 765-6959",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202623/13/original_e74b0f95-f4d2-48dc-9c04-249bb039b21d.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Leslie-Wade/8896809",
-    "boldtrailId": "278632",
-    "loftyId": 8896809,
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497656+00:00"
-  },
-  {
     "email": "libertie.brate3@gmail.com",
     "name": "Libertie Brate",
     "phone": "(513) 849-5955",
@@ -4148,25 +3991,6 @@
     "hidden": false
   },
   {
-    "email": "maeganbennerealtor@gmail.com",
-    "name": "Maegan Benne",
-    "phone": "(706) 840-2466",
-    "title": "REALTOR\u00ae",
-    "team": "The Avenue Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/202518/14/original_72582f4c-01bc-4913-901d-c4fc98f4f7e1.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Maegan-Benne/8728603",
-    "boldtrailId": "272317",
-    "loftyId": 8728603,
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497662+00:00"
-  },
-  {
     "email": "realmk90@gmail.com",
     "name": "Marcos Castellanos",
     "phone": "(765) 464-9563",
@@ -4338,26 +4162,6 @@
     "hidden": false
   },
   {
-    "email": "max@daytonrealestatecrush.com",
-    "name": "Maxwell Zukowitz",
-    "phone": "(937) 307-1556",
-    "title": "REALTOR\u00ae",
-    "team": "Dayton Real Estate Crush",
-    "teamLogo": "",
-    "regions": [
-      "Dayton",
-      "Cincinnati"
-    ],
-    "office": "",
-    "photo": "",
-    "profileUrl": "",
-    "boldtrailId": "272327",
-    "loftyId": "",
-    "source": "boldtrail",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T18:02:52.497712+00:00"
-  },
-  {
     "email": "meagan@glasshouserealty.com",
     "name": "Meagan Roderer",
     "phone": "(937) 654-2360",
@@ -4376,19 +4180,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "loftyId": 8726226,
-    "name": "Megan Best",
-    "title": "Agent",
-    "phone": "+1(937) 624-2089",
-    "email": "meganbest@glasshouserealty.com",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/16/original_0cc51432-0ce2-4b28-9ec0-d38cbff19bcd.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Megan-Best/8726226",
-    "regions": [],
-    "source": "lofty",
-    "hidden": true,
-    "softDeletedAt": "2026-05-15T14:40:21.762087+00:00"
   },
   {
     "email": "mmullins@glasshouserealty.com",
@@ -5112,7 +4903,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-22T21:12:15.002101+00:00"
   },
   {
     "email": "shaffnerrandy@gmail.com",
@@ -5476,7 +5268,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-15T18:00:46.069415+00:00"
   },
   {
     "email": "sarah@goodguyteam.com",
@@ -5670,13 +5463,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024723/13/original_564cb140-0c53-4a15-bcb2-7e2fdc243592.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272342.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Michelle-Sukola/8728607",
     "boldtrailId": "272342",
     "loftyId": 8728607,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "6409e64df345",
     "hidden": false
   },
   {
@@ -6337,13 +6130,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/15/original_47584e58-d8b6-4b8c-8fa1-f9a73d14aa3e.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272582.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Todd-Brandewie/8726223",
     "boldtrailId": "272582",
     "loftyId": 8726223,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8ad56e9db03f",
     "hidden": false
   },
   {
@@ -6451,7 +6244,7 @@
     "name": "Travis Wilt",
     "phone": "(937) 609-4678",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Zahedi Kloth Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
