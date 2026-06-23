@@ -80,21 +80,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "moralesadrain28@gmail.com",
     "name": "Adrain Morales",
+    "phone": "(440) 296-6012",
     "title": "Agent",
     "team": "Team Keener",
-    "phone": "(440) 296-6012",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1-fGP7nziyhWhqr38SjnCCyu-8WQzDzBO",
-    "profileUrl": "https://www.zillow.com/profile/moralesadrain28",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293418,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293418.jpg",
+    "profileUrl": "https://www.zillow.com/profile/moralesadrain28",
+    "boldtrailId": "293418",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "4ab95fa6e132",
+    "hidden": false
   },
   {
     "loftyId": null,
@@ -110,24 +113,28 @@
     ],
     "source": "spreadsheet",
     "hidden": true,
-    "boldtrailId": 293485
+    "boldtrailId": 293485,
+    "softDeletedAt": "2026-06-23T16:28:24.644836+00:00"
   },
   {
-    "loftyId": null,
+    "email": "prezaalejandro30@gmail.com",
     "name": "Alejandro Preza Razo",
+    "phone": "(440) 251-8852",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(440) 251-8852",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1hECNRlSBsCFcbpb2__OCm0kFoz6Uxc2o",
-    "profileUrl": "https://www.zillow.com/profile/prezaalejandro30",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293039,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293039.jpg",
+    "profileUrl": "https://www.zillow.com/profile/prezaalejandro30",
+    "boldtrailId": "293039",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5e8bbd111961",
+    "hidden": false
   },
   {
     "email": "j.alexz@outlook.com",
@@ -170,21 +177,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "alisabaldwin.asacoxhomes@gmail.com",
     "name": "Alisa Baldwin",
+    "phone": "(216) 855-8609",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 855-8609",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/10bN-UWsKIhfIqJ2k0Heo47Jec1qut0oc",
-    "profileUrl": "https://www.zillow.com/profile/alisabaldwin%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293088,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293088.jpg",
+    "profileUrl": "https://www.zillow.com/profile/alisabaldwin%20asacoxhomes",
+    "boldtrailId": "293088",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "c5d2b43d5379",
+    "hidden": false
   },
   {
     "email": "alisonnorthrealtor@gmail.com",
@@ -247,21 +257,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "alyssa.christison@glasshouserealty.com",
     "name": "Alyssa Christison",
+    "phone": "(440) 231-1159",
     "title": "Team Lead",
     "team": "Alyssa Christison Team",
-    "phone": "(440) 231-1159",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1YVB_tvmktFJxXBvNlGo69t3q1hApYFHH",
-    "profileUrl": "https://www.zillow.com/profile/Alyssaasacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Christison_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293035,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Christison_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293035.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Alyssaasacoxhomes",
+    "boldtrailId": "293035",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2637bff46b62",
+    "hidden": false
   },
   {
     "email": "alyssasmith245@yahoo.com",
@@ -344,20 +357,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "amanda.wilkins@glasshouserealty.com",
     "name": "Amanda Wilkins",
+    "phone": "(440) 789-3012",
     "title": "Agent",
     "team": "The Signature Team",
-    "phone": "(440) 789-3012",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/16COw9lWg5U79XHAC52M8Lo20bCVtx4gn",
-    "profileUrl": "https://www.zillow.com/profile/amandarayewilkins",
+    "teamLogo": "",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293091
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293091.jpg",
+    "profileUrl": "https://www.zillow.com/profile/amandarayewilkins",
+    "boldtrailId": "293091",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "041625a703ea",
+    "hidden": false
   },
   {
     "email": "amycookrealty@gmail.com",
@@ -380,21 +397,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "andrea.mathews@glasshouserealty.com",
     "name": "Andrea Mathews",
+    "phone": "(216) 570-3041",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 570-3041",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1AyqUAPoCJna9L3P6ZJG-EsMt-QypEC5u",
-    "profileUrl": "https://www.zillow.com/profile/andreaasacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293092,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293092.jpg",
+    "profileUrl": "https://www.zillow.com/profile/andreaasacoxhomes",
+    "boldtrailId": "293092",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "a0c44c45f4d7",
+    "hidden": false
   },
   {
     "email": "andrea_sorrell@yahoo.com",
@@ -417,21 +437,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "angeledgerealtor@gmail.com",
     "name": "Angel Edge",
+    "phone": "(216) 835-1708",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 835-1708",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1q5s2wcAUZ2O6TsGXK9bI3sTlDuMfMjZr",
-    "profileUrl": "https://www.zillow.com/profile/angelj1974",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293121,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293121.jpg",
+    "profileUrl": "https://www.zillow.com/profile/angelj1974",
+    "boldtrailId": "293121",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "61c2091463e5",
+    "hidden": false
   },
   {
     "email": "angel.jones@glasshouserealty.com",
@@ -598,21 +621,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "asa.cox@glasshouserealty.com",
     "name": "Asa Cox",
+    "phone": "(440) 479-3100",
     "title": "Team Lead",
     "team": "Asa Cox Homes",
-    "phone": "(440) 479-3100",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/11-vQC4qd9S-eRZWb1gNFQKSfFksEbcub",
-    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293487,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293487.jpg",
+    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
+    "boldtrailId": "293487",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "50eb2a82e959",
+    "hidden": false
   },
   {
     "email": "ashlea.roe@glasshouserealty.com",
@@ -655,21 +681,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Ashley Hershberger",
+    "email": "ashley.herschberger@glasshouserealty.com",
+    "name": "Ashley Herschberger",
+    "phone": "(330) 641-8590",
     "title": "Agent",
     "team": "Team Keener",
-    "phone": "(330) 641-8590",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1-fPtbM4efRvKS8HqZ8EsTJ7J5IxrzvnZ",
-    "profileUrl": "https://www.zillow.com/profile/sellwithashleyh",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293094,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293094.jpg",
+    "profileUrl": "https://www.zillow.com/profile/sellwithashleyh",
+    "boldtrailId": "293094",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "93b4be30d2e2",
+    "hidden": false
   },
   {
     "email": "lesherrealty@gmail.com",
@@ -712,21 +741,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "ashley.stubbs@glasshouserealty.com",
     "name": "Ashley Stubbs",
+    "phone": "(216) 906-0525",
     "title": "Agent",
     "team": "The Sams Group",
-    "phone": "(216) 906-0525",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1rY4NZeyCjwsBczjFBJcky6aeb0p4fUMT",
-    "profileUrl": "https://www.zillow.com/profile/ashleystubbs%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293096,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293096.jpg",
+    "profileUrl": "https://www.zillow.com/profile/ashleystubbs%20asacoxhomes",
+    "boldtrailId": "293096",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "b1ffb8f62efd",
+    "hidden": false
   },
   {
     "email": "autumn@glasshouserealty.com",
@@ -749,21 +781,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "autumnsrealtor@gmail.com",
     "name": "Autumn Skoczen",
+    "phone": "(330) 701-2836",
     "title": "Agent",
     "team": "Labbato Group",
-    "phone": "(330) 701-2836",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1OG1Gcuncsf8IVUIJsACma6aGYpo0gUe5",
-    "profileUrl": "https://www.zillow.com/profile/autumnskoczen",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293123,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293123.jpg",
+    "profileUrl": "https://www.zillow.com/profile/autumnskoczen",
+    "boldtrailId": "293123",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ae50b24a345b",
+    "hidden": false
   },
   {
     "loftyId": null,
@@ -779,7 +814,8 @@
     ],
     "source": "spreadsheet",
     "hidden": true,
-    "boldtrailId": 293488
+    "boldtrailId": 293488,
+    "softDeletedAt": "2026-06-23T16:28:24.644856+00:00"
   },
   {
     "email": "ben@dreamx.homes",
@@ -802,21 +838,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "billkirk.realtor@gmail.com",
     "name": "Bill Kirk",
+    "phone": "(310) 849-6225",
     "title": "Agent",
     "team": "The Sams Group",
-    "phone": "(310) 849-6225",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1k-zxTo4cLLLtIrG8ITVU057zomLxjtZh",
-    "profileUrl": "https://www.zillow.com/profile/billkirk%20realtor",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293124,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293124.jpg",
+    "profileUrl": "https://www.zillow.com/profile/billkirk%20realtor",
+    "boldtrailId": "293124",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "aca42a04d935",
+    "hidden": false
   },
   {
     "email": "billie@glasshouserealty.com",
@@ -919,21 +958,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "brandonammons.asacoxhomes@gmail.com",
     "name": "Brandon Ammons",
+    "phone": "(440) 453-7285",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(440) 453-7285",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1vJYOvQK-ChSVYB3JpHAUVsbOUwqS1mDM",
-    "profileUrl": "https://www.zillow.com/profile/brandonammons%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293127,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293127.jpg",
+    "profileUrl": "https://www.zillow.com/profile/brandonammons%20asacoxhomes",
+    "boldtrailId": "293127",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "85becc251d71",
+    "hidden": false
   },
   {
     "email": "brandongonzalezre@gmail.com",
@@ -956,21 +998,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "brenda.gadowski@glasshouserealty.com",
     "name": "Brenda Gadowski",
+    "phone": "(216) 789-9057",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 789-9057",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1Fp6tg39P3iuOlmbF6ZcOms4o6nbc1J6r",
-    "profileUrl": "https://www.zillow.com/profile/brendag%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293097,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293097.jpg",
+    "profileUrl": "https://www.zillow.com/profile/brendag%20asacoxhomes",
+    "boldtrailId": "293097",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2f54c9d4ec47",
+    "hidden": false
   },
   {
     "email": "buddebrian@gmail.com",
@@ -993,21 +1038,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "bevansproperties@gmail.com",
     "name": "Brian Evans",
+    "phone": "(216) 282-5075",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 282-5075",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1nRjOLuCxaZuLLsO5zvjJwQaC4T_uzOTl",
-    "profileUrl": "https://www.zillow.com/profile/bevansproperties",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293419,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293419.jpg",
+    "profileUrl": "https://www.zillow.com/profile/bevansproperties",
+    "boldtrailId": "293419",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "a442c3cd6f23",
+    "hidden": false
   },
   {
     "email": "zimmyhomes@gmail.com",
@@ -1245,8 +1293,9 @@
       "Cleveland"
     ],
     "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293489
+    "hidden": true,
+    "boldtrailId": 293489,
+    "softDeletedAt": "2026-06-23T16:28:24.644868+00:00"
   },
   {
     "email": "cassie.gutt@gmail.com",
@@ -1323,7 +1372,8 @@
     "source": "spreadsheet",
     "hidden": true,
     "boldtrailId": 293420,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png"
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png",
+    "softDeletedAt": "2026-06-23T16:28:24.644872+00:00"
   },
   {
     "email": "chayse.eby@glasshouserealty.com",
@@ -1386,23 +1436,6 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Chris Dunne",
-    "title": "Agent",
-    "team": "The Blair Team",
-    "phone": "",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1yY0PBrEFzRCZ1yWBXB23LDDPc-qGdizR",
-    "profileUrl": "https://www.zillow.com/profile/ChrisDunneRealty",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 295644,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png"
-  },
-  {
     "email": "endreshomes@gmail.com",
     "name": "Chris Endres",
     "phone": "(937) 367-0779",
@@ -1463,6 +1496,26 @@
     "hidden": false
   },
   {
+    "email": "chris.dunne@glasshouserealty.com",
+    "name": "Christopher Dunne",
+    "phone": "",
+    "title": "Agent",
+    "team": "The Blair Team",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/295644.jpg",
+    "profileUrl": "https://www.zillow.com/profile/ChrisDunneRealty",
+    "boldtrailId": "295644",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ce3444d9afeb",
+    "hidden": false
+  },
+  {
     "email": "clint@goodguyteam.com",
     "name": "Clinton Evans",
     "phone": "(937) 725-0147",
@@ -1495,8 +1548,9 @@
       "Cleveland"
     ],
     "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293496
+    "hidden": true,
+    "boldtrailId": 293496,
+    "softDeletedAt": "2026-06-23T16:28:24.644878+00:00"
   },
   {
     "email": "colleen.curtis@glasshouserealty.com",
@@ -1592,6 +1646,26 @@
     "hidden": false
   },
   {
+    "email": "dan.kanuk@glasshouserealty.com",
+    "name": "Dan Kanuk",
+    "phone": "(440) 279-7439",
+    "title": "Agent",
+    "team": "Asa Cox Homes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293100.jpg",
+    "profileUrl": "https://www.zillow.com/profile/dan%20asacoxhomes",
+    "boldtrailId": "293100",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f14170b7ab24",
+    "hidden": false
+  },
+  {
     "email": "dtate_realestate@yahoo.com",
     "name": "Danaisha Tate",
     "phone": "(505) 385-1152",
@@ -1612,38 +1686,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Daniel Kanuk",
-    "title": "Agent",
-    "team": "Asa Cox Homes",
-    "phone": "(440) 279-7439",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1gXkn36riKKZ2Sylo41_Q7MgjBFVktzpi",
-    "profileUrl": "https://www.zillow.com/profile/dan%20asacoxhomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293100,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
-  },
-  {
-    "loftyId": null,
+    "email": "daniel.labbato@glasshouserealty.com",
     "name": "Daniel Labbato",
+    "phone": "(440) 212-9669",
     "title": "Team Lead",
     "team": "Labbato Group",
-    "phone": "(440) 212-9669",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1qpUgEGxAcRzcK7pWFw5Tbf_VbNk4pUCb",
-    "profileUrl": "https://www.zillow.com/profile/daniellabbato",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293102,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293102.jpg",
+    "profileUrl": "https://www.zillow.com/profile/daniellabbato",
+    "boldtrailId": "293102",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "89cc703f33c4",
+    "hidden": false
   },
   {
     "email": "daniellerchapman@att.net",
@@ -1826,21 +1886,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "dean.meder@glasshouserealty.com",
     "name": "Dean Meder",
+    "phone": "(440) 503-4488",
     "title": "Agent",
     "team": "Heather Young Real Estate Group",
-    "phone": "(440) 503-4488",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1fyNWkxkNzijS-wjYhztND1AEF8XKbLRs",
-    "profileUrl": "https://www.zillow.com/profile/Dean%20Meder",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293104,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293104.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Dean%20Meder",
+    "boldtrailId": "293104",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8bcda5112f1b",
+    "hidden": false
   },
   {
     "email": "deannechester75@gmail.com",
@@ -1863,72 +1926,84 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "deb.fabian@glasshouserealty.com",
     "name": "Deb Fabian",
+    "phone": "(216) 513-8021",
     "title": "Agent",
     "team": "Heather Young Real Estate Group",
-    "phone": "(216) 513-8021",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1EX3oRs622R_XzsV54twgV9Zdt--MDyyC",
-    "profileUrl": "https://www.zillow.com/profile/debfabian%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293105,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293105.jpg",
+    "profileUrl": "https://www.zillow.com/profile/debfabian%20asacoxhomes",
+    "boldtrailId": "293105",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "864c025caee4",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "deborahkidd84@gmail.com",
     "name": "Deborah Kidd",
+    "phone": "(216) 905-5433",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 905-5433",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1w6tH5l02-yqkBqkMZGh9wZBLIy9QDKtD",
-    "profileUrl": "https://www.zillow.com/profile/deborahasacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293440,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293440.jpg",
+    "profileUrl": "https://www.zillow.com/profile/deborahasacoxhomes",
+    "boldtrailId": "293440",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "011be88491f5",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "debra.pizzo@glasshouserealty.com",
     "name": "Debra Pizzo",
+    "phone": "(440) 954-2472",
     "title": "Team Lead",
     "team": "Team Pizzo",
-    "phone": "(440) 954-2472",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1xtRoTuljDPqf8liult7uH9d35Hg29zKv",
-    "profileUrl": "https://www.zillow.com/profile/Welcomes%20You%20Home",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Pizzo_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293037,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Pizzo_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293037.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Welcomes%20You%20Home",
+    "boldtrailId": "293037",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "9132070f2e8a",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "denise.asacoxhomes@gmail.com",
     "name": "Denise Smith",
+    "phone": "(440) 227-3252",
     "title": "Team Lead",
     "team": "The Legacy Group",
-    "phone": "(440) 227-3252",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1vYaSz0FUIXXSBkF3dv2K8YTHXs8qH0yc",
-    "profileUrl": "https://www.zillow.com/profile/Denise%20AsaCoxHomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Legacy_Team_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293442,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Legacy_Team_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293442.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Denise%20AsaCoxHomes",
+    "boldtrailId": "293442",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "4fbb8efe5d83",
+    "hidden": false
   },
   {
     "email": "devinb@glasshouserealty.com",
@@ -2211,21 +2286,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "frank.slemc@glasshouserealty.com",
     "name": "Frank Slemc",
+    "phone": "(440) 476-6400",
     "title": "Team Lead",
     "team": "The Slemc Team",
-    "phone": "(440) 476-6400",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1_755ywKS--r0P7uYL6Z-6KvZXIly51-b",
-    "profileUrl": "https://www.zillow.com/profile/frankslemc",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Slemc_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293107,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Slemc_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293107.jpg",
+    "profileUrl": "https://www.zillow.com/profile/frankslemc",
+    "boldtrailId": "293107",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "efe0a80a9257",
+    "hidden": false
   },
   {
     "email": "fseeger13@gmail.com",
@@ -2262,7 +2340,8 @@
     "source": "spreadsheet",
     "hidden": true,
     "boldtrailId": 293441,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
+    "softDeletedAt": "2026-06-23T16:28:24.644894+00:00"
   },
   {
     "email": "gina@glasshouserealty.com",
@@ -2405,38 +2484,44 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "realtorheatheryoung@gmail.com",
     "name": "Heather Young",
+    "phone": "(440) 759-7189",
     "title": "Team Lead",
     "team": "Heather Young Real Estate Group",
-    "phone": "(440) 759-7189",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1neTBVIb9Sse15YYydj6cXg5cyZRoNh2l",
-    "profileUrl": "https://www.zillow.com/profile/Heather_Young",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293446,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293446.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Heather_Young",
+    "boldtrailId": "293446",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "68d650ea009b",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "realtorjaceyoung@gmail.com",
     "name": "Jace Young",
+    "phone": "(440) 384-0718",
     "title": "Agent",
     "team": "Heather Young Real Estate Group",
-    "phone": "(440) 384-0718",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1fWB_aPYQ3lsdA-erBfhflV291mnkVXkP",
-    "profileUrl": "https://www.zillow.com/profile/realtorjaceyoung",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293447,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293447.jpg",
+    "profileUrl": "https://www.zillow.com/profile/realtorjaceyoung",
+    "boldtrailId": "293447",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2846dd5dbc77",
+    "hidden": false
   },
   {
     "email": "jackiedaycooper@gmail.com",
@@ -2479,21 +2564,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "closewithcramer@gmail.com",
     "name": "Jacob Cramer",
+    "phone": "(330) 690-1536",
     "title": "Agent",
     "team": "The Blair Team",
-    "phone": "(330) 690-1536",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1uQXjLHB1lBL9ifpe3P8rcMC91wvnjpH0",
-    "profileUrl": "https://www.zillow.com/profile/closewithcramer",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293448,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293448.jpg",
+    "profileUrl": "https://www.zillow.com/profile/closewithcramer",
+    "boldtrailId": "293448",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "a3dae0f59a62",
+    "hidden": false
   },
   {
     "email": "jmillerresales@gmail.com",
@@ -2617,21 +2705,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "jasonharmrealestate@gmail.com",
     "name": "Jason Harm",
+    "phone": "(440) 361-9937",
     "title": "Agent",
     "team": "Team Keener",
-    "phone": "(440) 361-9937",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1Gx5aqVPhN6O8_NQqpk4f3ZEJ2VpcTk23",
-    "profileUrl": "https://www.zillow.com/profile/jasonharmrealestate",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293450,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293450.jpg",
+    "profileUrl": "https://www.zillow.com/profile/jasonharmrealestate",
+    "boldtrailId": "293450",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "b8f4d0043c6b",
+    "hidden": false
   },
   {
     "email": "jaysampsonrea@gmail.com",
@@ -2809,24 +2900,28 @@
     ],
     "source": "spreadsheet",
     "hidden": true,
-    "boldtrailId": 293490
+    "boldtrailId": 293490,
+    "softDeletedAt": "2026-06-23T16:28:24.644908+00:00"
   },
   {
-    "loftyId": null,
+    "email": "jessie.asacoxhomes@gmail.com",
     "name": "Jessie Keener",
+    "phone": "(440) 725-5620",
     "title": "Team Lead",
     "team": "Team Keener",
-    "phone": "(440) 725-5620",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1HA3n5bb8gAAm6D4Bb3WTCSXMr4e_dHQ7",
-    "profileUrl": "https://www.zillow.com/profile/jessieasacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293452,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team_Keener_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293452.jpg",
+    "profileUrl": "https://www.zillow.com/profile/jessieasacoxhomes",
+    "boldtrailId": "293452",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "1dbc34e17158",
+    "hidden": false
   },
   {
     "email": "jillbsellshouses@gmail.com",
@@ -2889,23 +2984,6 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Johine Sams",
-    "title": "Team Lead",
-    "team": "The Sams Group",
-    "phone": "(440) 725-0735",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1K1Po3g9a2pHslgT-lF4M92Ai43ARKhXM",
-    "profileUrl": "https://www.zillow.com/profile/JohnieSams",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293109,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png"
-  },
-  {
     "email": "johnd@glasshouserealty.com",
     "name": "John Dayspring",
     "phone": "(937) 232-3525",
@@ -2945,6 +3023,26 @@
     "photoSourceHash": "",
     "hidden": true,
     "softDeletedAt": "2026-06-10T16:43:54.972004+00:00"
+  },
+  {
+    "email": "johnie.asacoxhomes@gmail.com",
+    "name": "Johnie Sams",
+    "phone": "(440) 725-0735",
+    "title": "Team Lead",
+    "team": "The Sams Group",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293109.jpg",
+    "profileUrl": "https://www.zillow.com/profile/JohnieSams",
+    "boldtrailId": "293109",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d29eed7bbf1e",
+    "hidden": false
   },
   {
     "email": "joshb@glasshouserealty.com",
@@ -2987,21 +3085,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "julianedge2269@gmail.com",
     "name": "Julian Edge",
+    "phone": "(216) 240-7967",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 240-7967",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1kHegPnG-jIs6NmQCE0gitvhqLmwBfwkP",
-    "profileUrl": "https://www.zillow.com/profile/JulianEdge216",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293454,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293454.jpg",
+    "profileUrl": "https://www.zillow.com/profile/JulianEdge216",
+    "boldtrailId": "293454",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "12405e5d9c14",
+    "hidden": false
   },
   {
     "email": "julie@goodguyteam.com",
@@ -3164,20 +3265,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "realtorklb@gmail.com",
     "name": "Kathleen Bartos",
+    "phone": "(440) 821-2269",
     "title": "Agent",
     "team": "The Bartos Team",
-    "phone": "(440) 821-2269",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1tCK7HH_8M96bkPVGajiEpR8MtzvKihMg",
-    "profileUrl": "https://www.zillow.com/profile/realtorklb",
+    "teamLogo": "",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293455
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293455.jpg",
+    "profileUrl": "https://www.zillow.com/profile/realtorklb",
+    "boldtrailId": "293455",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2369e94a6aa5",
+    "hidden": false
   },
   {
     "email": "katiekeegan@glasshouserealty.com",
@@ -3313,8 +3418,9 @@
       "Cleveland"
     ],
     "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293491
+    "hidden": true,
+    "boldtrailId": 293491,
+    "softDeletedAt": "2026-06-23T16:28:24.644920+00:00"
   },
   {
     "email": "kendra.osborne2@gmail.com",
@@ -3337,21 +3443,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "kerri.blair@glasshouserealty.com",
     "name": "Kerri Blair",
+    "phone": "(330) 388-3899",
     "title": "Team Lead",
     "team": "The Blair Team",
-    "phone": "(330) 388-3899",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1NiJkBrF8f1UQwWanUJUFQX4F1Joz6asL",
-    "profileUrl": "https://www.zillow.com/profile/Kerri%20Blair",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293395,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293395.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Kerri%20Blair",
+    "boldtrailId": "293395",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "49d45d2994fd",
+    "hidden": false
   },
   {
     "email": "kerry@movewithkerry.com",
@@ -3467,6 +3576,26 @@
     "hidden": false
   },
   {
+    "email": "kim.raico@glasshouserealty.com",
+    "name": "Kim Raico",
+    "phone": "(440) 983-7785",
+    "title": "Agent",
+    "team": "Chamberlain Dream Team",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Chamberlain_Dream_Team_Logos_White_Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293396.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Kimraico%20asacoxhomes",
+    "boldtrailId": "293396",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "a40e7edcbe67",
+    "hidden": false
+  },
+  {
     "email": "kimrobinson@glasshouserealty.com",
     "name": "Kim Robinson",
     "phone": "(937) 469-3143",
@@ -3505,23 +3634,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "loftyId": null,
-    "name": "Kimberly Raico",
-    "title": "Agent",
-    "team": "Chamberlain Dream Team",
-    "phone": "(440) 983-7785",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1qUwLqSHvbRphg1_xWlW70upB1txiWT7L",
-    "profileUrl": "https://www.zillow.com/profile/Kimraico%20asacoxhomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293396,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Chamberlain_Dream_Team_Logos_White_Background.png"
   },
   {
     "email": "kirsten@glasshouserealty.com",
@@ -3576,7 +3688,8 @@
       "Cleveland"
     ],
     "source": "spreadsheet",
-    "hidden": true
+    "hidden": true,
+    "softDeletedAt": "2026-06-23T16:28:24.644928+00:00"
   },
   {
     "email": "kristina.mckenzie@glasshouserealty.com",
@@ -3639,21 +3752,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "kylah.anthony@glasshouserealty.com",
     "name": "Kylah Anthony",
+    "phone": "(216) 785-5576",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 785-5576",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1mvFa_-Y-Om7QsMDaSmjo0rPF5qVlWqJ-",
-    "profileUrl": "https://www.zillow.com/profile/Kylah%20Anthony",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293397,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293397.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Kylah%20Anthony",
+    "boldtrailId": "293397",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8ed713671f04",
+    "hidden": false
   },
   {
     "email": "kyra@glasshouserealty.com",
@@ -3856,21 +3972,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "lisa.alsaedi@glasshouserealty.com",
     "name": "Lisa Al-Saedi",
+    "phone": "(440) 844-3663",
     "title": "Agent",
     "team": "Team Pizzo",
-    "phone": "(440) 844-3663",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1rtUflh1gPqCnad4tD7GnI5BRKigsIKox",
-    "profileUrl": "https://www.zillow.com/profile/lisaalsaedi%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Pizzo_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293398,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Pizzo_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293398.jpg",
+    "profileUrl": "https://www.zillow.com/profile/lisaalsaedi%20asacoxhomes",
+    "boldtrailId": "293398",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "96421832841c",
+    "hidden": false
   },
   {
     "email": "lisa@gorismaygroup.com",
@@ -3953,21 +4072,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "madiera.mccorkle@glasshouserealty.com",
     "name": "Madiera McCorkle",
+    "phone": "(440) 591-2212",
     "title": "Agent",
     "team": "Heather Young Real Estate Group",
-    "phone": "(440) 591-2212",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1YKYRgFrC0BI5-rsCsWk88STuVDUwcPUC",
-    "profileUrl": "https://www.zillow.com/profile/MadieraAsaCoxHomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293399,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293399.jpg",
+    "profileUrl": "https://www.zillow.com/profile/MadieraAsaCoxHomes",
+    "boldtrailId": "293399",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "9bf5c792dde7",
+    "hidden": false
   },
   {
     "email": "madison@navehometeam.com",
@@ -4031,21 +4153,44 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Mary Rodenbucher",
-    "title": "Agent",
-    "team": "The Blair Team",
-    "phone": "(330) 209-8219",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1yh9A3izK2ok7lBH5rkfWHGpU-UaqhIeH",
-    "profileUrl": "https://www.zillow.com/profile/realtormary445",
+    "email": "maryjrealtor@gmail.com",
+    "name": "Mary Johnson",
+    "phone": "(216) 400-1299",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293458,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/294696.jpg",
+    "profileUrl": "",
+    "boldtrailId": "294696",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "e7504a89aa43",
+    "hidden": false
+  },
+  {
+    "email": "realtormary445@gmail.com",
+    "name": "Mary Rodenbucher",
+    "phone": "(330) 209-8219",
+    "title": "Agent",
+    "team": "The Blair Team",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293458.jpg",
+    "profileUrl": "https://www.zillow.com/profile/realtormary445",
+    "boldtrailId": "293458",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2cd104275d5e",
+    "hidden": false
   },
   {
     "email": "mary@glasshouserealty.com",
@@ -4068,21 +4213,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "mroseteoli@gmail.com",
     "name": "Maryrose Teoli",
+    "phone": "(313) 590-8360",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(313) 590-8360",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/19KsGlof4ankPXghR6H4Kx0702-Y0u6uX",
-    "profileUrl": "https://www.zillow.com/profile/mroseteoli",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293400,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293400.jpg",
+    "profileUrl": "https://www.zillow.com/profile/mroseteoli",
+    "boldtrailId": "293400",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f042d931e88d",
+    "hidden": false
   },
   {
     "email": "matt@glasshouserealty.com",
@@ -4125,21 +4273,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Matthew Osolin",
+    "email": "matt.asacoxhomes@gmail.com",
+    "name": "Matt Osolin",
+    "phone": "(440) 487-5562",
     "title": "Agent",
     "team": "Labbato Group",
-    "phone": "(440) 487-5562",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1YiM_UrdqggDhUX90WTqmy8XUUKLvPS-a",
-    "profileUrl": "https://www.zillow.com/profile/matt%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293460,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293460.jpg",
+    "profileUrl": "https://www.zillow.com/profile/matt%20asacoxhomes",
+    "boldtrailId": "293460",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "35d022b6f241",
+    "hidden": false
   },
   {
     "email": "matthew.watercutter@glasshouserealty.com",
@@ -4282,21 +4433,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "melysa.asacoxhomes@gmail.com",
     "name": "Melysa Frye",
+    "phone": "(440) 251-0279",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(440) 251-0279",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1udiWgFn-zoS0BacE21IHKcDawsZbLvsB",
-    "profileUrl": "https://www.zillow.com/profile/melysa%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293461,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293461.jpg",
+    "profileUrl": "https://www.zillow.com/profile/melysa%20asacoxhomes",
+    "boldtrailId": "293461",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "20e7cffc9082",
+    "hidden": false
   },
   {
     "email": "mike@navehometeam.com",
@@ -4319,21 +4473,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "michael.bradley@glasshouserealty.com",
     "name": "Michael Bradley",
+    "phone": "(330) 604-7726",
     "title": "Agent",
     "team": "The Blair Team",
-    "phone": "(330) 604-7726",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1kiuvpPu5mLbz0ublj3fWdHhlLb8Bfte1",
-    "profileUrl": "https://www.zillow.com/profile/michaelbradl1",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293401,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293401.jpg",
+    "profileUrl": "https://www.zillow.com/profile/michaelbradl1",
+    "boldtrailId": "293401",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "dc42d159e445",
+    "hidden": false
   },
   {
     "email": "micheleorealtor@gmail.com",
@@ -4516,20 +4673,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "missy.asacoxhomes@gmail.com",
     "name": "Missy Zink",
+    "phone": "",
     "title": "Team Agent",
     "team": "Admin Team",
-    "phone": "(440) 417-4340",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1XPenvzKpr98LrljY7t9IOr2AyzXWeCQO",
-    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
+    "teamLogo": "",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293493
+    "office": "",
+    "photo": "https://lh3.googleusercontent.com/d/1XPenvzKpr98LrljY7t9IOr2AyzXWeCQO",
+    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
+    "boldtrailId": "287022",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": true
   },
   {
     "email": "misty@glasshouserealty.com",
@@ -4672,21 +4833,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "nicole.cole@glasshouserealty.com",
     "name": "Nicole Cole",
+    "phone": "(330) 617-2724",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(330) 617-2724",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1mMKJIwcHLGwrYquIg7by_SOyKb50_jqk",
-    "profileUrl": "https://www.zillow.com/profile/nicole%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293402,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293402.jpg",
+    "profileUrl": "https://www.zillow.com/profile/nicole%20asacoxhomes",
+    "boldtrailId": "293402",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "b42789b58c73",
+    "hidden": false
   },
   {
     "email": "nicole@homewithhartman.com",
@@ -4809,21 +4973,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "paigebutz.realtor@gmail.com",
     "name": "Paige Butz",
+    "phone": "(330) 608-7649",
     "title": "Agent",
     "team": "The Blair Team",
-    "phone": "(330) 608-7649",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1yFCpT-K5cjf-Yv8VWxH5NVqom3svvkHO",
-    "profileUrl": "https://www.zillow.com/profile/paigebutz%20realtor",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293462,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293462.jpg",
+    "profileUrl": "https://www.zillow.com/profile/paigebutz%20realtor",
+    "boldtrailId": "293462",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "76132e66b306",
+    "hidden": false
   },
   {
     "email": "paige@kunalpatelgroup.com",
@@ -5007,21 +5174,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "richardbevilaquajr@gmail.com",
     "name": "Richard Bevilaqua",
+    "phone": "(440) 364-5354",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(440) 364-5354",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1EB9a_0c246bqYtOYJ2zvACQbfTS2ygG0",
-    "profileUrl": "https://www.zillow.com/profile/Richard%20R%20Bevilaqua%20",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293464,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293464.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Richard%20R%20Bevilaqua%20",
+    "boldtrailId": "293464",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "bd79eca1db86",
+    "hidden": false
   },
   {
     "email": "rick@glasshouserealty.com",
@@ -5064,36 +5234,44 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Rivka Linkov",
+    "email": "homesbyrivka@gmail.com",
+    "name": "Riv Linkov",
+    "phone": "(216) 954-0925",
     "title": "Agent",
     "team": "The Signature Team",
-    "phone": "(216) 954-0925",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/13GeiQXU9cW6iVs3lhx07HxeHQk-fWHQu",
-    "profileUrl": "https://www.zillow.com/profile/homesbyrivka",
+    "teamLogo": "",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293465
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293465.jpg",
+    "profileUrl": "https://www.zillow.com/profile/homesbyrivka",
+    "boldtrailId": "293465",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8028686d7501",
+    "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Rob Bartos",
+    "email": "letrobhelp@gmail.com",
+    "name": "Robert Bartos",
+    "phone": "(440) 829-4932",
     "title": "Agent",
     "team": "The Bartos Team",
-    "phone": "(440) 829-4932",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1HvF5ZqkjmrigrRosf17vgezIZ-UJ__Xo",
-    "profileUrl": "https://www.zillow.com/profile/LetRobHelp",
+    "teamLogo": "",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293466
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293466.jpg",
+    "profileUrl": "https://www.zillow.com/profile/LetRobHelp",
+    "boldtrailId": "293466",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "c3bc7aa6972e",
+    "hidden": false
   },
   {
     "email": "burns22.1974@gmail.com",
@@ -5156,38 +5334,44 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "ruth.asacoxhomes@gmail.com",
     "name": "Ruth Sprecher",
+    "phone": "(216) 702-3702",
     "title": "Agent",
     "team": "Heather Young Real Estate Group",
-    "phone": "(216) 702-3702",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1wzoV30HjdOodgDaL677nrpgjFMQsQQ7M",
-    "profileUrl": "https://www.zillow.com/profile/ruth%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293405,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293405.jpg",
+    "profileUrl": "https://www.zillow.com/profile/ruth%20asacoxhomes",
+    "boldtrailId": "293405",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "e30fe9bcd83a",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "ryanb.asacoxhomes@gmail.com",
     "name": "Ryan Bass",
+    "phone": "(440) 520-8133",
     "title": "Agent",
     "team": "The Legacy Group",
-    "phone": "(440) 520-8133",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1Y8d-sIyW_aMcgrGX2AEQEAfV0AzehHZB",
-    "profileUrl": "https://www.zillow.com/profile/Denise%20AsaCoxHomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Legacy_Team_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293467,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Legacy_Team_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293467.jpg",
+    "profileUrl": "https://www.zillow.com/profile/Denise%20AsaCoxHomes",
+    "boldtrailId": "293467",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "1abfc5b6135d",
+    "hidden": false
   },
   {
     "email": "sellwithsallyo@gmail.com",
@@ -5473,55 +5657,64 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "shelly.asacoxhomes@gmail.com",
     "name": "Shelly Staley",
+    "phone": "(440) 346-4972",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(440) 346-4972",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1p9_wfVG7zkSmv1BGosgot0uIkPOtocgi",
-    "profileUrl": "https://www.zillow.com/profile/shelly%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293406,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293406.jpg",
+    "profileUrl": "https://www.zillow.com/profile/shelly%20asacoxhomes",
+    "boldtrailId": "293406",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "b5ae621ca28c",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "shirley.slemc@glasshouserealty.com",
     "name": "Shirley Slemc",
+    "phone": "(216) 780-0156",
     "title": "Agent",
     "team": "The Slemc Team",
-    "phone": "(216) 780-0156",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1wAQAq4qDBV84oh5jTZVptVy2KM5zR3TA",
-    "profileUrl": "https://www.zillow.com/profile/frankslemc",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Slemc_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293407,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Slemc_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293407.jpg",
+    "profileUrl": "https://www.zillow.com/profile/frankslemc",
+    "boldtrailId": "293407",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "21d02bb5e027",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "shuronda.treece@glasshouserealty.com",
     "name": "Shuronda Treece",
+    "phone": "(216) 820-5827",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 820-5827",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1v-eoqw0Fc7gjtQr2ja7_5Ldg4-Bpc3xW",
-    "profileUrl": "https://www.zillow.com/profile/shurondatree",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293409,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293409.jpg",
+    "profileUrl": "https://www.zillow.com/profile/shurondatree",
+    "boldtrailId": "293409",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "52ffcc587c30",
+    "hidden": false
   },
   {
     "email": "shyanna@glasshouserealty.com",
@@ -5584,72 +5777,84 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "spencer.barlow@glasshouserealty.com",
     "name": "Spencer Barlow",
+    "phone": "(801) 554-8213",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(801) 554-8213",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/14ge1ThTyJMFH__LZptr8Lfe1Pviqa7u1",
-    "profileUrl": "https://www.zillow.com/profile/SpencerBarlow",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293410,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293410.jpg",
+    "profileUrl": "https://www.zillow.com/profile/SpencerBarlow",
+    "boldtrailId": "293410",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "203749b01747",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "stacypandy.asacoxhomes@gmail.com",
     "name": "Stacy Pandy",
+    "phone": "(440) 328-6422",
     "title": "Team Lead",
     "team": "Stacy Pandy Real Estate Group",
-    "phone": "(440) 328-6422",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1y_9O85pFDBiFVVsls9YmeqxvTMxb2hFY",
-    "profileUrl": "https://www.zillow.com/profile/stacypandy4",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Pandy_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293470,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Pandy_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293470.jpg",
+    "profileUrl": "https://www.zillow.com/profile/stacypandy4",
+    "boldtrailId": "293470",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "aa3f34bc4a2a",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "stacyp.asacoxhomes@gmail.com",
     "name": "Stacy Pena",
+    "phone": "(216) 409-5261",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 409-5261",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1nCEV6j3QU4n6BxyVq4RXg1GfxA1FzDmE",
-    "profileUrl": "https://www.zillow.com/profile/stacypasacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293412,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293412.jpg",
+    "profileUrl": "https://www.zillow.com/profile/stacypasacoxhomes",
+    "boldtrailId": "293412",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "047cc41c60c7",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "stefani.collier@glasshouserealty.com",
     "name": "Stefani Collier",
+    "phone": "(216) 205-5173",
     "title": "Agent",
     "team": "Stacy Pandy Real Estate Group",
-    "phone": "(216) 205-5173",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1ufZMv2wL7rQ1c465sS_8c7sL98uUdEy8",
-    "profileUrl": "https://www.zillow.com/profile/stefani%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Pandy_Team_Logo_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293413,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Pandy_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293413.jpg",
+    "profileUrl": "https://www.zillow.com/profile/stefani%20asacoxhomes",
+    "boldtrailId": "293413",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "c3af7efb78f3",
+    "hidden": false
   },
   {
     "email": "ball.stephanie@gmail.com",
@@ -5772,38 +5977,44 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "susan.asacoxhomes@gmail.com",
     "name": "Susan Chamberlain-Garbutt",
+    "phone": "(440) 228-9317",
     "title": "Team Lead",
     "team": "Chamberlain Dream Team",
-    "phone": "(440) 228-9317",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1hcYVTkI4nDuSvRnTIfKiBKNU-Qhdx6eH",
-    "profileUrl": "https://www.zillow.com/profile/susan%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Chamberlain_Dream_Team_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293414,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Chamberlain_Dream_Team_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293414.jpg",
+    "profileUrl": "https://www.zillow.com/profile/susan%20asacoxhomes",
+    "boldtrailId": "293414",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "384513fafd4b",
+    "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "susanjohnson.asacoxhomes@gmail.com",
     "name": "Susan Johnson",
+    "phone": "(216) 401-4422",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 401-4422",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1Y7BRS0hldZyEdjfasNv7wF0vs_XmfYez",
-    "profileUrl": "https://www.zillow.com/profile/susanjohnson%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293471,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293471.jpg",
+    "profileUrl": "https://www.zillow.com/profile/susanjohnson%20asacoxhomes",
+    "boldtrailId": "293471",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2ee84d1f83bd",
+    "hidden": false
   },
   {
     "email": "smarra@glasshouserealty.com",
@@ -5926,21 +6137,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "ctedsell@gmail.com",
     "name": "Ted Czalkiewicz",
+    "phone": "(216) 215-6150",
     "title": "Team Lead",
     "team": "GPS Real Estate Group",
-    "phone": "(216) 215-6150",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1NhkGUCxfvMT8YMqB591VFq_HlUlcvO7D",
-    "profileUrl": "https://www.zillow.com/profile/ctedsell1",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/GPS_TEAM_WHITE_BACKGROUND.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293472,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/GPS_TEAM_WHITE_BACKGROUND.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293472.jpg",
+    "profileUrl": "https://www.zillow.com/profile/ctedsell1",
+    "boldtrailId": "293472",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d3d1fdc48484",
+    "hidden": false
   },
   {
     "email": "tggroupohio@gmail.com",
@@ -6023,21 +6237,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "tia.tasca@glasshouserealty.com",
     "name": "Tia Tasca",
+    "phone": "(440) 667-1892",
     "title": "Agent",
     "team": "Team Pizzo",
-    "phone": "(440) 667-1892",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/14X0SH6DFO6pAxeSXMkG8Nq8raqrXCROy",
-    "profileUrl": "https://www.zillow.com/profile/tia%20asacoxhomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Pizzo_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293415,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Pizzo_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293415.jpg",
+    "profileUrl": "https://www.zillow.com/profile/tia%20asacoxhomes",
+    "boldtrailId": "293415",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f025933aaf1c",
+    "hidden": false
   },
   {
     "email": "tia@glasshouserealty.com",
@@ -6280,21 +6497,24 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "tricie.asacoxhomes@gmail.com",
     "name": "Tricie James",
+    "phone": "(216) 215-4049",
     "title": "Agent",
     "team": "Asa Cox Homes",
-    "phone": "(216) 215-4049",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1hLTIxt_GUH6DPbXXy6wkqDAipjbX5UCB",
-    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293474,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293474.jpg",
+    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
+    "boldtrailId": "293474",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "99c24018ecd8",
+    "hidden": false
   },
   {
     "email": "tyler@hickshomegroup.com",
@@ -6317,38 +6537,64 @@
     "hidden": false
   },
   {
-    "loftyId": null,
+    "email": "jonesvernard814@gmail.com",
     "name": "Vernard Jones",
+    "phone": "(216) 466-2818",
     "title": "Agent",
     "team": "The Sams Group",
-    "phone": "(216) 466-2818",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/16OqwumFKOdQT_5P_Ax0vTtunIsywqufY",
-    "profileUrl": "https://www.zillow.com/profile/jonesvernard814",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293416,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293416.jpg",
+    "profileUrl": "https://www.zillow.com/profile/jonesvernard814",
+    "boldtrailId": "293416",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f64a39fa0483",
+    "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Vicki Lucarelli",
-    "title": "Agent",
-    "team": "Stacy Pandy Real Estate Group",
-    "phone": "(440) 225-6518",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1p81--ge9jcZlXzmoVti2ti5sQkkl7xwn",
-    "profileUrl": "https://www.zillow.com/profile/vickilucarel",
+    "email": "veronica.plumbnelson@glasshouserealty.com",
+    "name": "Veronica Plumb-Nelson",
+    "phone": "(440) 221-2640",
+    "title": "REALTOR\u00ae",
+    "team": "Team Pizzo",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The Pizzo Team White Background.png",
     "regions": [
       "Cleveland"
     ],
-    "source": "spreadsheet",
-    "hidden": false,
-    "boldtrailId": 293476,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Pandy_Team_Logo_White_Background.png"
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/298002.jpg",
+    "profileUrl": "",
+    "boldtrailId": "298002",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "57fe98559f69",
+    "hidden": false
+  },
+  {
+    "email": "vickilucarelli.asacoxhomes@gmail.com",
+    "name": "Vicki Lucarelli",
+    "phone": "(440) 225-6518",
+    "title": "Agent",
+    "team": "Stacy Pandy Real Estate Group",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Pandy_Team_Logo_White_Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293476.jpg",
+    "profileUrl": "https://www.zillow.com/profile/vickilucarel",
+    "boldtrailId": "293476",
+    "loftyId": null,
+    "source": "boldtrail-cleveland",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ebe9e4c21a7f",
+    "hidden": false
   },
   {
     "email": "evansvince1@gmail.com",
