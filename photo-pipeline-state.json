@@ -98,7 +98,11 @@
     },
     "299771": {
       "failureCount": 37,
+<<<<<<< Updated upstream
       "lastAttemptAt": "2026-06-23T18:09:26.220010Z",
+=======
+      "lastAttemptAt": "2026-06-23T18:09:54.839114Z",
+>>>>>>> Stashed changes
       "lastAttemptRun": 108,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
@@ -110,13 +114,21 @@
     },
     "300549": {
       "failureCount": 33,
+<<<<<<< Updated upstream
       "lastAttemptAt": "2026-06-23T18:09:26.220030Z",
+=======
+      "lastAttemptAt": "2026-06-23T18:09:54.839135Z",
+>>>>>>> Stashed changes
       "lastAttemptRun": 108,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
     "300610": {
       "failureCount": 33,
+<<<<<<< Updated upstream
       "lastAttemptAt": "2026-06-23T18:09:26.220023Z",
+=======
+      "lastAttemptAt": "2026-06-23T18:09:54.839127Z",
+>>>>>>> Stashed changes
       "lastAttemptRun": 108,
       "lastFailedReason": "A:avatar_added_false,B:no_profile_url"
     },
