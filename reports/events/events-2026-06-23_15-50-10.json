@@ -1,0 +1,199 @@
+{
+  "generated": "2026-06-23T15:50:10.376554",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Brian Zimmerman",
+      "email": "zimmyhomes@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "299615",
+      "has_photo": true
+    },
+    {
+      "name": "Amanda Dahmen",
+      "email": "amanda@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "299619",
+      "has_photo": true
+    },
+    {
+      "name": "Julie Young",
+      "email": "julie.young@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "299624",
+      "has_photo": true
+    },
+    {
+      "name": "Sheila Pierson",
+      "email": "sheila@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "299771",
+      "has_photo": false
+    },
+    {
+      "name": "Susana Pilar Cason Noland",
+      "email": "pilarsellshome@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300549",
+      "has_photo": false
+    },
+    {
+      "name": "Sunny Singh",
+      "email": "sunny@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300610",
+      "has_photo": false
+    },
+    {
+      "name": "Melissa Mullins",
+      "email": "melissa.mullins@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300637",
+      "has_photo": false
+    },
+    {
+      "name": "Ashlea Roe",
+      "email": "ashlea.roe@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "300716",
+      "has_photo": true
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Jennifer Martinez",
+      "email": "soldbyjenniferm@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush"
+    },
+    {
+      "name": "Jenny Moore",
+      "email": "jenny@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "John Wendell",
+      "email": "john.wendell@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Ranae Kocsis",
+      "email": "ranae@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Sarah Page",
+      "email": "sarah.page@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    }
+  ],
+  "purges": [
+    {
+      "name": "Amy Fralick",
+      "email": "amy.fralick@outlook.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000130+00:00"
+    },
+    {
+      "name": "Brianne Lee",
+      "email": "brianne.lee@glasshouserealty.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000152+00:00"
+    },
+    {
+      "name": "Charles Robinson",
+      "email": "charlesrobinsonhomes@gmail.com",
+      "softDeletedAt": "2026-05-15T14:05:43.219363+00:00"
+    },
+    {
+      "name": "Cindy Menth",
+      "email": "gabbardgrouptc@gmail.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000258+00:00"
+    },
+    {
+      "name": "Constance Lowery",
+      "email": "conniedeanna@kunalpatelgroup.com",
+      "softDeletedAt": "2026-05-18T20:45:19.186101+00:00"
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "dawn@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T14:05:43.219383+00:00"
+    },
+    {
+      "name": "Kaitlyn Stewart",
+      "email": "kaitstewartrealty@gmail.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000192+00:00"
+    },
+    {
+      "name": "Kaylynn Burritt",
+      "email": "kaylynn@glasshouserealty.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000268+00:00"
+    },
+    {
+      "name": "Leslie Wade",
+      "email": "l.wade@glasshouserealty.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000206+00:00"
+    },
+    {
+      "name": "Maegan Benne",
+      "email": "maeganbennerealtor@gmail.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000215+00:00"
+    },
+    {
+      "name": "Maxwell Zukowitz",
+      "email": "max@daytonrealestatecrush.com",
+      "softDeletedAt": "2026-05-18T14:19:07.000275+00:00"
+    },
+    {
+      "name": "Megan Best",
+      "email": "meganbest@glasshouserealty.com",
+      "softDeletedAt": "2026-05-15T14:05:43.219413+00:00"
+    }
+  ],
+  "reactivated": []
+}
