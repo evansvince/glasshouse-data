@@ -57,6 +57,17 @@ on:
         type: choice
         options: ['true', 'false']
 
+# ── Single-flight guard ───────────────────────────────────────────────────────
+# Only one run of this workflow touches the repo at a time. Without this, a
+# scheduled run and a manual run (or two scheduled runs) could execute together,
+# both rewrite agents.json / profile-url-cache.json, and collide on push. The
+# old --autostash rebase then left Git conflict markers (<<<<<<< / >>>>>>>)
+# inside the JSON files, corrupting them. Queue runs instead of cancelling so a
+# manual sync is never silently dropped.
+concurrency:
+  group: glasshouse-data-sync
+  cancel-in-progress: false
+
 jobs:
 
   # ── AGENTS ─────────────────────────────────────────────────────────────────
@@ -192,7 +203,13 @@ jobs:
             for attempt in 1 2 3 4 5; do
               if git push origin HEAD:main; then pushed=1; break; fi
               echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-              git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+              # Drop --autostash: at push time everything is already committed, so a
+              # conflict surfaces as a rebase failure we can abort cleanly instead of
+              # silently leaving <<<<<<< / >>>>>>> markers inside the JSON data files.
+              git pull --rebase origin main || { echo "rebase conflict — aborting"; git rebase --abort 2>/dev/null || true; exit 1; }
+              if grep -rlE '^(<<<<<<<|>>>>>>>|=======$)' --include='*.json' --include='*.yml' . ; then
+                echo "ERROR: conflict markers found after rebase — refusing to push corrupted files"; exit 1
+              fi
               sleep $((RANDOM % 4 + 1))
             done
             [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
@@ -242,7 +259,13 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then pushed=1; break; fi
             echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+            # Drop --autostash: at push time everything is already committed, so a
+            # conflict surfaces as a rebase failure we can abort cleanly instead of
+            # silently leaving <<<<<<< / >>>>>>> markers inside the JSON data files.
+            git pull --rebase origin main || { echo "rebase conflict — aborting"; git rebase --abort 2>/dev/null || true; exit 1; }
+            if grep -rlE '^(<<<<<<<|>>>>>>>|=======$)' --include='*.json' --include='*.yml' . ; then
+              echo "ERROR: conflict markers found after rebase — refusing to push corrupted files"; exit 1
+            fi
             sleep $((RANDOM % 4 + 1))
           done
           [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
@@ -383,7 +406,13 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then pushed=1; break; fi
             echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+            # Drop --autostash: at push time everything is already committed, so a
+            # conflict surfaces as a rebase failure we can abort cleanly instead of
+            # silently leaving <<<<<<< / >>>>>>> markers inside the JSON data files.
+            git pull --rebase origin main || { echo "rebase conflict — aborting"; git rebase --abort 2>/dev/null || true; exit 1; }
+            if grep -rlE '^(<<<<<<<|>>>>>>>|=======$)' --include='*.json' --include='*.yml' . ; then
+              echo "ERROR: conflict markers found after rebase — refusing to push corrupted files"; exit 1
+            fi
             sleep $((RANDOM % 4 + 1))
           done
           [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
@@ -451,7 +480,13 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then pushed=1; break; fi
             echo "push rejected (attempt $attempt) — rebasing onto origin/main"
-            git pull --rebase --autostash origin main || { echo "rebase failed"; exit 1; }
+            # Drop --autostash: at push time everything is already committed, so a
+            # conflict surfaces as a rebase failure we can abort cleanly instead of
+            # silently leaving <<<<<<< / >>>>>>> markers inside the JSON data files.
+            git pull --rebase origin main || { echo "rebase conflict — aborting"; git rebase --abort 2>/dev/null || true; exit 1; }
+            if grep -rlE '^(<<<<<<<|>>>>>>>|=======$)' --include='*.json' --include='*.yml' . ; then
+              echo "ERROR: conflict markers found after rebase — refusing to push corrupted files"; exit 1
+            fi
             sleep $((RANDOM % 4 + 1))
           done
           [ "$pushed" = 1 ] || { echo "push failed after 5 attempts"; exit 1; }
