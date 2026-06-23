@@ -117,6 +117,12 @@ jobs:
 
       - name: Photo acquisition pipeline (TEST → agents-test.json)
         if: steps.mode.outputs.dry_run != 'true'
+        env:
+          # Photos committed on sync-testing are NOT served by GitHub Pages
+          # (Pages serves main only), so the default github.io URLs would 404 on
+          # the test page. Serve test photos from the sync-testing branch's raw
+          # URL instead. Production leaves this unset and uses the Pages default.
+          PHOTO_PUBLIC_BASE: 'https://raw.githubusercontent.com/evansvince/glasshouse-data/sync-testing/agent-photos'
         run: |
           # Mirror production: the unified pipeline owns every photo end-to-end,
           # replacing the legacy optimizer + Lofty scraper here so TEST matches
