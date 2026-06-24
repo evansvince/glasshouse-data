@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-06-24T21:42:12.512149Z",
+  "mode": "LIVE",
+  "totalEvents": 18,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Adam Bauer",
+      "key": "272165",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:52.037926Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Alex Zaharieff",
+      "key": "272272",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:53.093098Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Brian Budde",
+      "key": "272187",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:54.155949Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Eric Loudenback",
+      "key": "272239",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:55.212813Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Evan Kloth",
+      "key": "256293",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:56.263546Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jeri Baumann",
+      "key": "272264",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:57.363525Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jill Barhorst",
+      "key": "272268",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:58.403733Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Keith Gabbard",
+      "key": "277381",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:41:59.441199Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kimberly Luehmann",
+      "key": "272295",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:00.497001Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Kristine Bertrand",
+      "key": "272299",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:01.564818Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Mike Williams",
+      "key": "272337",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:02.962045Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Samantha Tschida",
+      "key": "272373",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:04.923289Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Sheila Pierson",
+      "key": "299771",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:06.239548Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Sophia Luza",
+      "key": "272387",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:07.291557Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Sunny Singh",
+      "key": "300610",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:08.346199Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Teri Hobbs",
+      "key": "272401",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:09.393320Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tia Turner",
+      "key": "272578",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:10.425905Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tom Kretz",
+      "key": "272405",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-06-24T21:42:11.475244Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    }
+  ]
+}
