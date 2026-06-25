@@ -3085,6 +3085,26 @@
     "hidden": false
   },
   {
+    "email": "jdstrader01@gmail.com",
+    "name": "Josh Strader",
+    "phone": "(937) 510-3578",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cincinnati"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/josh-strader",
+    "boldtrailId": "302753",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "julianedge2269@gmail.com",
     "name": "Julian Edge",
     "phone": "(216) 240-7967",
@@ -5472,8 +5492,7 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-15T18:00:46.069415+00:00"
+    "hidden": false
   },
   {
     "email": "sarah@goodguyteam.com",
@@ -6517,6 +6536,26 @@
     "hidden": false
   },
   {
+    "email": "tritny06@gmail.com",
+    "name": "Tritny Bontrager",
+    "phone": "(567) 356-1384",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/302264.jpg",
+    "profileUrl": "https://glasshouserealty.com/tritny-bontrager",
+    "boldtrailId": "302264",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ad33818239f4",
+    "hidden": false
+  },
+  {
     "email": "tyler@hickshomegroup.com",
     "name": "Tyler Hicks",
     "phone": "(937) 321-0569",
@@ -6644,6 +6683,7 @@
     "team": "LUX Elite Group",
     "teamLogo": "",
     "regions": [
+      "Cincinnati",
       "Dayton"
     ],
     "office": "",

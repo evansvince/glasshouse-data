@@ -139,6 +139,11 @@
     "status": 404,
     "url": ""
   },
+  "josh-strader": {
+    "checked_at": "2026-06-25T19:55:17.807054+00:00",
+    "status": 218,
+    "url": "https://glasshouserealty.com/josh-strader"
+  },
   "julie-young": {
     "checked_at": "2026-06-23T18:09:23.727764+00:00",
     "status": 218,
@@ -323,6 +328,11 @@
     "checked_at": "2026-05-19T16:20:30.423592+00:00",
     "status": 200,
     "url": "https://glasshouserealty.com/tracey-tanner"
+  },
+  "tritny-bontrager": {
+    "checked_at": "2026-06-25T19:55:17.465434+00:00",
+    "status": 218,
+    "url": "https://glasshouserealty.com/tritny-bontrager"
   },
   "zac-banks": {
     "checked_at": "2026-06-23T18:09:23.432702+00:00",
