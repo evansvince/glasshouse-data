@@ -5492,7 +5492,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-25T21:01:37.899005+00:00"
   },
   {
     "email": "sarah@goodguyteam.com",
