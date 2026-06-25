@@ -1,0 +1,17 @@
+{
+  "generated": "2026-06-25T21:01:37.899148",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Sarah Page",
+      "email": "sarah.page@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
