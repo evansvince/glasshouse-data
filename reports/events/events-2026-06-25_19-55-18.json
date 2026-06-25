@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-25T19:55:18.074778",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Tritny Bontrager",
+      "email": "tritny06@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "302264",
+      "has_photo": true
+    },
+    {
+      "name": "Josh Strader",
+      "email": "jdstrader01@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "302753",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": [
+    {
+      "name": "Sarah Page",
+      "email": "sarah.page@glasshouserealty.com",
+      "softDeletedAt": "2026-06-15T18:00:46.069415+00:00"
+    }
+  ]
+}
