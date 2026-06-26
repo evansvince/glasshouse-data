@@ -1,0 +1,7 @@
+{
+  "generated": "2026-06-26T23:20:56.511672",
+  "dry_run": false,
+  "description": "Dayton agents on the site without a profile URL. To fix: open Lofty admin, find the agent's \"Slug\" field, set it to the value in `suggested_lofty_slug` (e.g. \"nikole-locke\"). The next sync will HEAD-request the URL and, if it resolves, auto-populate the agent's profileUrl. Cleveland agents are excluded from this report since Cleveland uses a different agent-page system.",
+  "count": 0,
+  "agents": []
+}
