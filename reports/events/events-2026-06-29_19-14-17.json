@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-29T19:14:17.637186",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Timothy Williams",
+      "email": "time@kunalpatelgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "office": "",
+      "boldtrailId": "303292",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
