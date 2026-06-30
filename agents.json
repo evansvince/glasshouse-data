@@ -6074,7 +6074,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "03583fdd0c54",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-30T20:15:35.874929+00:00"
   },
   {
     "email": "talia@daytonrealestatecrush.com",
@@ -6357,7 +6358,7 @@
     "hidden": false
   },
   {
-    "email": "time@kunalpatelgroup.com",
+    "email": "tim@kunalpatelgroup.com",
     "name": "Timothy Williams",
     "phone": "(937) 270-0049",
     "title": "REALTOR\u00ae",
