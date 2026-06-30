@@ -1,0 +1,17 @@
+{
+  "generated": "2026-06-30T20:15:35.875063",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Susan Marra",
+      "email": "smarra@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
