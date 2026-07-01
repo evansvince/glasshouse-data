@@ -671,13 +671,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2025127/11/original_f55d0ce2-3be5-4eff-ae8f-3306d2c342cd.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272180.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Ashley-Bunch/8800018",
     "boldtrailId": "272180",
     "loftyId": 8800018,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "424fd3f7d272",
     "hidden": false
   },
   {
