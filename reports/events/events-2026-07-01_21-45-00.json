@@ -1,0 +1,20 @@
+{
+  "generated": "2026-07-01T21:45:00.427879",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Michelle Litherland-Lowe",
+      "email": "michelle.litherland-lowe@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "303648",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
