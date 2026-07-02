@@ -121,11 +121,11 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "303648": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-07-01T21:45:04.713617Z",
-      "lastAttemptRun": 34,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-07-02T15:28:18.254952Z",
+      "lastAttemptRun": 36,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 35
+  "runCounter": 36
 }
