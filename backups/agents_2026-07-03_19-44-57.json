@@ -671,13 +671,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2025127/11/original_f55d0ce2-3be5-4eff-ae8f-3306d2c342cd.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272180.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Ashley-Bunch/8800018",
     "boldtrailId": "272180",
     "loftyId": 8800018,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "424fd3f7d272",
     "hidden": false
   },
   {
@@ -4553,6 +4553,26 @@
     "hidden": false
   },
   {
+    "email": "michelle.litherland-lowe@glasshouserealty.com",
+    "name": "Michelle Litherland-Lowe",
+    "phone": "(239) 565-7382",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/michelle-litherland-lowe",
+    "boldtrailId": "303648",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "mmcbride@glasshouserealty.com",
     "name": "Michelle McBride",
     "phone": "(513) 835-5359",
@@ -5492,7 +5512,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-25T21:01:37.899005+00:00"
   },
   {
     "email": "sarah@goodguyteam.com",
@@ -6073,7 +6094,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "03583fdd0c54",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-30T20:15:35.874929+00:00"
   },
   {
     "email": "talia@daytonrealestatecrush.com",
@@ -6350,6 +6372,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Tim-Young/8815828",
     "boldtrailId": "272581",
     "loftyId": 8815828,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "tim@kunalpatelgroup.com",
+    "name": "Timothy Williams",
+    "phone": "(937) 270-0049",
+    "title": "REALTOR\u00ae",
+    "team": "Kunal Patel Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/timothy-williams",
+    "boldtrailId": "303292",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
