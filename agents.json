@@ -337,6 +337,26 @@
     "hidden": false
   },
   {
+    "email": "amanda.prosowski@gmail.com",
+    "name": "Amanda Prosowski",
+    "phone": "(216) 647-8434",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "304077",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "amandaohiohomes@gmail.com",
     "name": "Amanda Stiles",
     "phone": "(937) 901-4669",
@@ -554,6 +574,26 @@
     "boldtrailId": "272174",
     "loftyId": 8726251,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "angie.jinna@gmail.com",
+    "name": "Angie Jinna",
+    "phone": "(216) 576-9906",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "304067",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
