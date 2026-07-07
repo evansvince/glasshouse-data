@@ -1,0 +1,31 @@
+{
+  "generated": "2026-07-07T18:15:31.223604",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Angie Jinna",
+      "email": "angie.jinna@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "304067",
+      "has_photo": false
+    },
+    {
+      "name": "Amanda Prosowski",
+      "email": "amanda.prosowski@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "304077",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
