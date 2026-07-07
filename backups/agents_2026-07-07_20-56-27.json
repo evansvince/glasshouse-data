@@ -337,6 +337,26 @@
     "hidden": false
   },
   {
+    "email": "amanda.prosowski@gmail.com",
+    "name": "Amanda Prosowski",
+    "phone": "(216) 647-8434",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "304077",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "amandaohiohomes@gmail.com",
     "name": "Amanda Stiles",
     "phone": "(937) 901-4669",
@@ -559,6 +579,26 @@
     "hidden": false
   },
   {
+    "email": "angie.jinna@gmail.com",
+    "name": "Angie Jinna",
+    "phone": "(216) 576-9906",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "304067",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "ohiohomegirls@gmail.com",
     "name": "Anna Catanzaro",
     "phone": "(937) 450-0523",
@@ -671,13 +711,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2025127/11/original_f55d0ce2-3be5-4eff-ae8f-3306d2c342cd.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272180.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Ashley-Bunch/8800018",
     "boldtrailId": "272180",
     "loftyId": 8800018,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "424fd3f7d272",
     "hidden": false
   },
   {
@@ -3207,7 +3247,7 @@
   {
     "email": "kaitlyn.perkins@glasshouserealty.com",
     "name": "Kaitlyn Perkins",
-    "phone": "",
+    "phone": "(937) 603-2465",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -3215,13 +3255,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026515/14/f8f8435f-978f-4c6b-9631-e5e0a1cea351/w600_original_92221642-4277-425a-977b-568b6b8a951a-jpeg.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/295578.jpg",
     "profileUrl": "https://glasshouserealty.com/kaitlyn-perkins",
     "boldtrailId": "295578",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "a9eb4efb7836",
     "hidden": false
   },
   {
@@ -4547,6 +4587,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Michelle-Johansen/8728588",
     "boldtrailId": "272341",
     "loftyId": 8728588,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "michelle.litherland-lowe@glasshouserealty.com",
+    "name": "Michelle Litherland-Lowe",
+    "phone": "(239) 565-7382",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/michelle-litherland-lowe",
+    "boldtrailId": "303648",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -6074,7 +6134,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "03583fdd0c54",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-06-30T20:15:35.874929+00:00"
   },
   {
     "email": "talia@daytonrealestatecrush.com",
@@ -6357,7 +6418,7 @@
     "hidden": false
   },
   {
-    "email": "time@kunalpatelgroup.com",
+    "email": "tim@kunalpatelgroup.com",
     "name": "Timothy Williams",
     "phone": "(937) 270-0049",
     "title": "REALTOR\u00ae",
