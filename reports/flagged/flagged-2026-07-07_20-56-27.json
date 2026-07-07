@@ -1,0 +1,3483 @@
+{
+  "generated": "2026-07-07T20:56:27.179460",
+  "dry_run": false,
+  "summary": {
+    "total_from_boldtrail": 366,
+    "live_on_site": 327,
+    "hidden_on_site": 16,
+    "excluded_no_region": 15,
+    "excluded_junk": 8,
+    "missing_data": 260,
+    "potential_duplicates": 0,
+    "included_in_site": 343,
+    "missing_region": 15,
+    "new_agents": 0,
+    "soft_deletes": 0,
+    "purges": 0,
+    "reactivated": 0
+  },
+  "junk_accounts": [
+    {
+      "name": "Crush Team Manager",
+      "email": "admin@daytonrealestatecrush.com",
+      "boldtrailId": "272216",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "staff/internal account: admin@daytonrealestatecrush",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "Patterson Office Manager",
+      "email": "patterson@glasshouserealty.com",
+      "boldtrailId": "272359",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "staff/internal account: patterson@glasshouserealty",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "Sibu Janardhanan",
+      "email": "sibu@buildvessel.com",
+      "boldtrailId": "272385",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "staff/internal account: sibu@buildvessel",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "Zahedi Kloth Group Inc",
+      "email": "admin@z-kgroup.com",
+      "boldtrailId": "272593",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "staff/internal account: admin@z-kgroup",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "John Smith",
+      "email": "john.smith@glasshouserealty.com",
+      "boldtrailId": "280104",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "name matches junk pattern: john smith",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "Test CC",
+      "email": "zillowteam@glasshouserealty.com",
+      "boldtrailId": "301278",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "email matches junk pattern: zillowteam",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "Testing ACH",
+      "email": "cody+1@glasshouserealty.com",
+      "boldtrailId": "290876",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "email matches junk pattern: \\+\\d+@glasshouserealty\\.com",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    },
+    {
+      "name": "Testing: Team Lead",
+      "email": "cody+2@glasshouserealty.com",
+      "boldtrailId": "290879",
+      "flag": "JUNK_ACCOUNT",
+      "reason": "email matches junk pattern: \\+\\d+@glasshouserealty\\.com",
+      "action": "Excluded from agents.json. Review in BoldTrail BackOffice."
+    }
+  ],
+  "potential_duplicates": [],
+  "missing_data": [
+    {
+      "name": "Evan Kloth",
+      "email": "evan@z-kgroup.com",
+      "boldtrailId": "256293",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Aaron Kroggel",
+      "email": "aaron@glasshouserealty.com",
+      "boldtrailId": "272164",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Adam Bauer",
+      "email": "adam.bauer77@gmail.com",
+      "boldtrailId": "272165",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Alicia McCluskey",
+      "email": "aliciamccluskey.realestate@gmail.com",
+      "boldtrailId": "272166",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Alison North",
+      "email": "alisonnorthrealtor@gmail.com",
+      "boldtrailId": "272167",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Allan Konnagan",
+      "email": "allan@glasshouserealty.com",
+      "boldtrailId": "272168",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Alyssa Smith",
+      "email": "alyssasmith245@yahoo.com",
+      "boldtrailId": "272169",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Amanda Landis",
+      "email": "amanda@daytonrealestatecrush.com",
+      "boldtrailId": "272171",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Andrea Sorrell",
+      "email": "andrea_sorrell@yahoo.com",
+      "boldtrailId": "272173",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Angie Chambers",
+      "email": "angie.chambers937@gmail.com",
+      "boldtrailId": "272174",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati",
+        "Columbus"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Angela Elsass",
+      "email": "angelaelsass@yahoo.com",
+      "boldtrailId": "272175",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Angela Dom",
+      "email": "angeladom@glasshouserealty.com",
+      "boldtrailId": "272176",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Angelique Kabami",
+      "email": "angelique@glasshouserealty.com",
+      "boldtrailId": "272177",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Anna Catanzaro",
+      "email": "ohiohomegirls@gmail.com",
+      "boldtrailId": "272178",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Annie Zheng",
+      "email": "anniezrealtor@gmail.com",
+      "boldtrailId": "272179",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ashley Bunch",
+      "email": "ashley@glasshouserealty.com",
+      "boldtrailId": "272180",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Autumn Kern",
+      "email": "autumn@glasshouserealty.com",
+      "boldtrailId": "272181",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ben Wourms",
+      "email": "ben@dreamx.homes",
+      "boldtrailId": "272182",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Billie Bowling",
+      "email": "billie@glasshouserealty.com",
+      "boldtrailId": "272183",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Bobby Williams",
+      "email": "rdwill80@gmail.com",
+      "boldtrailId": "272184",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "Tru Integrity Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Bobi Gray",
+      "email": "bobi@bobigray.com",
+      "boldtrailId": "272185",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brandon Gonzalez",
+      "email": "brandongonzalezre@gmail.com",
+      "boldtrailId": "272186",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brian Budde",
+      "email": "buddebrian@gmail.com",
+      "boldtrailId": "272187",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brittany Hall",
+      "email": "brittany.hall0119@gmail.com",
+      "boldtrailId": "272189",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brittany Carr",
+      "email": "brittany@glasshouserealty.com",
+      "boldtrailId": "272190",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Carr's Real Estate Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brooke Bussard",
+      "email": "brooklynne@glasshouserealty.com",
+      "boldtrailId": "272191",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Bryce Howard",
+      "email": "brycehoward1880@gmail.com",
+      "boldtrailId": "272192",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Envision Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Carl Fisher",
+      "email": "cdfisher53@gmail.com",
+      "boldtrailId": "272193",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Casey Fisher",
+      "email": "clyfisher5@gmail.com",
+      "boldtrailId": "272197",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Casey Hartman",
+      "email": "casey@glasshouserealty.com",
+      "boldtrailId": "272198",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati",
+        "Columbus"
+      ],
+      "team": "Home With Hartman",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Casey Phelps",
+      "email": "casey.phelps@glasshouserealty.com",
+      "boldtrailId": "272199",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Cassie Gutt",
+      "email": "cassie.gutt@gmail.com",
+      "boldtrailId": "272200",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "Good Guy Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chance Kloecker",
+      "email": "homeswithck@gmail.com",
+      "boldtrailId": "272201",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chelsie Robertson",
+      "email": "chelsie@glasshouserealty.com",
+      "boldtrailId": "272203",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chrissie Pennington",
+      "email": "chrissie@daytonrealestatecrush.com",
+      "boldtrailId": "272206",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush - Team Leads",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chris Endres",
+      "email": "endreshomes@gmail.com",
+      "boldtrailId": "272207",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Endres Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chris Uphus",
+      "email": "chris@z-kgroup.com",
+      "boldtrailId": "272208",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Clinton Evans",
+      "email": "clint@goodguyteam.com",
+      "boldtrailId": "272210",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Good Guy Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Colleen Maiden",
+      "email": "colleen@glasshouserealty.com",
+      "boldtrailId": "272211",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Colleen Curtis",
+      "email": "colleen.curtis@glasshouserealty.com",
+      "boldtrailId": "272212",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "LUX Elite Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Cortney Loyd",
+      "email": "loyd.cortney@gmail.com",
+      "boldtrailId": "272214",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Courtney Long",
+      "email": "courtneyllong2@gmail.com",
+      "boldtrailId": "272215",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Danielle Chapman",
+      "email": "daniellerchapman@att.net",
+      "boldtrailId": "272217",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Danielle Steward",
+      "email": "danielle@glasshouserealty.com",
+      "boldtrailId": "272218",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Danyell DeYoung",
+      "email": "danyelldeyoungrealtor@gmail.com",
+      "boldtrailId": "272219",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Dara Errett",
+      "email": "dara@daraerrett.com",
+      "boldtrailId": "272220",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Avenue Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "David Hochwalt",
+      "email": "hochwalt@gmail.com",
+      "boldtrailId": "272222",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "David Guyton",
+      "email": "david.guyton@glasshouserealty.com",
+      "boldtrailId": "272223",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "David Scott II",
+      "email": "davidscottlistings@gmail.com",
+      "boldtrailId": "272224",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "David Jenks",
+      "email": "info@davidjenks.com",
+      "boldtrailId": "272225",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "David Woodward",
+      "email": "david@glasshouserealty.com",
+      "boldtrailId": "272226",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Deanne Chester",
+      "email": "deannechester75@gmail.com",
+      "boldtrailId": "272229",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Devin Booher",
+      "email": "devinb@glasshouserealty.com",
+      "boldtrailId": "272230",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Don Lewis",
+      "email": "don@premierteamrealtors.com",
+      "boldtrailId": "272231",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Dustin Carr",
+      "email": "dustin@glasshouserealty.com",
+      "boldtrailId": "272232",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Carr's Real Estate Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Emily Flohre",
+      "email": "emilyflohre@glasshouserealty.com",
+      "boldtrailId": "272233",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Emily Freiberger",
+      "email": "emily@glasshouserealty.com",
+      "boldtrailId": "272234",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Emily Skardon",
+      "email": "emilys@glasshouserealty.com",
+      "boldtrailId": "272235",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Eric Weimer",
+      "email": "eric@glasshouserealty.com",
+      "boldtrailId": "272237",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Eric Credit",
+      "email": "ericcredit@glasshouserealty.com",
+      "boldtrailId": "272238",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Eric Loudenback",
+      "email": "eloudenback@gmail.com",
+      "boldtrailId": "272239",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Erin Wertalik Eads",
+      "email": "erin@glasshouserealty.com",
+      "boldtrailId": "272240",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Fred Seeger",
+      "email": "fseeger13@gmail.com",
+      "boldtrailId": "272241",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brandi Lawson",
+      "email": "brandilawsonrealtor@gmail.com",
+      "boldtrailId": "272242",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Harley Wade",
+      "email": "harley@glasshouserealty.com",
+      "boldtrailId": "272245",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Hayley Stewart",
+      "email": "hayley@glasshouserealty.com",
+      "boldtrailId": "272246",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Hayley Evans",
+      "email": "hayleycoyle1@gmail.com",
+      "boldtrailId": "272247",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Heather Simmons",
+      "email": "buydayton@gmail.com",
+      "boldtrailId": "272248",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Heather Daley",
+      "email": "heather@daytonrealestatecrush.com",
+      "boldtrailId": "272249",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jackie Hoying",
+      "email": "jackie.hoying@gmail.com",
+      "boldtrailId": "272251",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jackie Day Cooper",
+      "email": "jackiedaycooper@gmail.com",
+      "boldtrailId": "272252",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jay Sampson",
+      "email": "jaysampsonrea@gmail.com",
+      "boldtrailId": "272253",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Endres Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jim Foster",
+      "email": "jim@glasshouserealty.com",
+      "boldtrailId": "272254",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Goris May Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "James Ricker",
+      "email": "james@daytonrealestatecrush.com",
+      "boldtrailId": "272256",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "James Gray",
+      "email": "james@graygroupohio.com",
+      "boldtrailId": "272257",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Janice Collinsworth",
+      "email": "janice.diane10@gmail.com",
+      "boldtrailId": "272258",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jennie Ewald",
+      "email": "jewaldrealtor@gmail.com",
+      "boldtrailId": "272260",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jennifer Schiavone",
+      "email": "jen@daytonrealestatecrush.com",
+      "boldtrailId": "272261",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "boldtrailId": "272264",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jessica Bettinger",
+      "email": "realestatedarling@gmail.com",
+      "boldtrailId": "272266",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jill Freytag",
+      "email": "jill@premierteamrealtors.com",
+      "boldtrailId": "272267",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jill Barhorst",
+      "email": "jillbsellshouses@gmail.com",
+      "boldtrailId": "272268",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "John Dayspring",
+      "email": "johnd@glasshouserealty.com",
+      "boldtrailId": "272271",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Alex Zaharieff",
+      "email": "j.alexz@outlook.com",
+      "boldtrailId": "272272",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Josh Burritt",
+      "email": "joshb@glasshouserealty.com",
+      "boldtrailId": "272274",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Josh Lewis",
+      "email": "joshua.lewis@glasshouserealty.com",
+      "boldtrailId": "272275",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Julie Harris",
+      "email": "julie@goodguyteam.com",
+      "boldtrailId": "272276",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Good Guy Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Justin Ellis",
+      "email": "justin.ellis@glasshouserealty.com",
+      "boldtrailId": "272277",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kailyn Swarts",
+      "email": "kailyn@glasshouserealty.com",
+      "boldtrailId": "272278",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kara Buckner",
+      "email": "kara@glasshouserealty.com",
+      "boldtrailId": "272280",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kasey Prikkel",
+      "email": "kaseyprikkelrealestate@gmail.com",
+      "boldtrailId": "272281",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Katie Overholtz",
+      "email": "katie@glasshouserealty.com",
+      "boldtrailId": "272282",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Katie Keegan",
+      "email": "katiekeegan@glasshouserealty.com",
+      "boldtrailId": "272283",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kayli Anderson",
+      "email": "closewithkayli@gmail.com",
+      "boldtrailId": "272284",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "KD Nave",
+      "email": "kd@navehometeam.com",
+      "boldtrailId": "272286",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Nave Home Team",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kellan Oxley",
+      "email": "kellan@glasshouserealty.com",
+      "boldtrailId": "272287",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kendra Osborne",
+      "email": "kendra.osborne2@gmail.com",
+      "boldtrailId": "272288",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kerry Phillips",
+      "email": "kerry@movewithkerry.com",
+      "boldtrailId": "272289",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kevin Troidl",
+      "email": "kevin@glasshouserealty.com",
+      "boldtrailId": "272290",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati",
+        "Columbus"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kim Hetzer",
+      "email": "kim@glasshouserealty.com",
+      "boldtrailId": "272292",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kim Robinson",
+      "email": "kimrobinson@glasshouserealty.com",
+      "boldtrailId": "272293",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kim Harris",
+      "email": "kimrharris4@gmail.com",
+      "boldtrailId": "272294",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kimberly Luehmann",
+      "email": "kimberlyl@glasshouserealty.com",
+      "boldtrailId": "272295",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kim Kretz",
+      "email": "kim.a.kretz@gmail.com",
+      "boldtrailId": "272296",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kirsten Woods",
+      "email": "kirsten@glasshouserealty.com",
+      "boldtrailId": "272297",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kori Shelton",
+      "email": "ksheltonsoldit@gmail.com",
+      "boldtrailId": "272298",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kristine Bertrand",
+      "email": "onerealvalue@gmail.com",
+      "boldtrailId": "272299",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kunal Patel",
+      "email": "kunal@kunalpatelgroup.com",
+      "boldtrailId": "272300",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kyra Buckner",
+      "email": "kyra@glasshouserealty.com",
+      "boldtrailId": "272301",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lacey Watson",
+      "email": "laceywatsonre@gmail.com",
+      "boldtrailId": "272302",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Laura Long",
+      "email": "laurabathlong@outlook.com",
+      "boldtrailId": "272304",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "LUX Elite Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lauren Galdeen",
+      "email": "listwithlaurengaldeen@gmail.com",
+      "boldtrailId": "272305",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lauren Dillon",
+      "email": "lauren.dillonrealtor@gmail.com",
+      "boldtrailId": "272306",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Envision Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lauren Stroud",
+      "email": "laurenstroud.gh@outlook.com",
+      "boldtrailId": "272307",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Libertie Brate",
+      "email": "libertie.brate3@gmail.com",
+      "boldtrailId": "272308",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "The Envision Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lilibeth Simon",
+      "email": "lilibeth.simon81@gmail.com",
+      "boldtrailId": "272309",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lisa Goris May",
+      "email": "lisa@gorismaygroup.com",
+      "boldtrailId": "272310",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Goris May Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lori Lyons",
+      "email": "lorilyons@glasshouserealty.com",
+      "boldtrailId": "272312",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lorisa Motko",
+      "email": "lorisa@glasshouserealty.com",
+      "boldtrailId": "272313",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lorka Munoz Daugherty",
+      "email": "lorkamunoz@gmail.com",
+      "boldtrailId": "272314",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Madison Justice",
+      "email": "madison@navehometeam.com",
+      "boldtrailId": "272316",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "Nave Home Team",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Marcos Castellanos",
+      "email": "realmk90@gmail.com",
+      "boldtrailId": "272318",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Maria Blake",
+      "email": "jmhomes@mail.com",
+      "boldtrailId": "272319",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nickie Moreno",
+      "email": "nickiemoreno@outlook.com",
+      "boldtrailId": "272320",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Elizabeth Cooper",
+      "email": "elizabeth@daytonrealestatecrush.com",
+      "boldtrailId": "272321",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush - Team Leads",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Mary Smith",
+      "email": "mary@glasshouserealty.com",
+      "boldtrailId": "272322",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Matt Allen",
+      "email": "matt@glasshouserealty.com",
+      "boldtrailId": "272323",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Matt Bublitz",
+      "email": "mattbublitzhomes@gmail.com",
+      "boldtrailId": "272324",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Meagan Roderer",
+      "email": "meagan@glasshouserealty.com",
+      "boldtrailId": "272328",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Megan Reed",
+      "email": "movewithmeganreed@gmail.com",
+      "boldtrailId": "272329",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Megan Mullins",
+      "email": "mmullins@glasshouserealty.com",
+      "boldtrailId": "272330",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Meghan Boehmer",
+      "email": "meghanb@glasshouserealty.com",
+      "boldtrailId": "272331",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Missy Sansabrino",
+      "email": "missysans@gmail.com",
+      "boldtrailId": "272332",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush - Team Leads",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Melissa Cleary",
+      "email": "yourclearchoicerealtor@gmail.com",
+      "boldtrailId": "272333",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Missy Trumbull",
+      "email": "missy.trumbull@gmail.com",
+      "boldtrailId": "272334",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nicole Peacock",
+      "email": "nicole@homewithhartman.com",
+      "boldtrailId": "272336",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Home With Hartman",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Mike Williams",
+      "email": "mike@cornerstonevetclinic.com",
+      "boldtrailId": "272337",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Mike Lucking",
+      "email": "mlucking@glasshouserealty.com",
+      "boldtrailId": "272338",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Michael Baker",
+      "email": "mike@navehometeam.com",
+      "boldtrailId": "272339",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Nave Home Team",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Michele Oman",
+      "email": "micheleorealtor@gmail.com",
+      "boldtrailId": "272340",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Michelle Johansen",
+      "email": "michelle@glasshouserealty.com",
+      "boldtrailId": "272341",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shelley Sukola",
+      "email": "shelley@glasshouserealty.com",
+      "boldtrailId": "272342",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Michelle McBride",
+      "email": "mmcbride@glasshouserealty.com",
+      "boldtrailId": "272343",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Mileah Roper",
+      "email": "mileah@glasshouserealty.com",
+      "boldtrailId": "272345",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Miranda Gibson",
+      "email": "mirandaroberts56@gmail.com",
+      "boldtrailId": "272346",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Tru Integrity Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Molly Kyne",
+      "email": "mmkyne@gmail.com",
+      "boldtrailId": "272347",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Monica Evans",
+      "email": "monica@goodguyteam.com",
+      "boldtrailId": "272348",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Good Guy Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Mustafa Shamuratov",
+      "email": "mustafa.shamuratov1@gmail.com",
+      "boldtrailId": "272349",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Paige Denlinger",
+      "email": "paige@kunalpatelgroup.com",
+      "boldtrailId": "272350",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nick Harrist",
+      "email": "nick@glasshouserealty.com",
+      "boldtrailId": "272351",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nick Franks",
+      "email": "nick@daytonrealestatecrush.com",
+      "boldtrailId": "272352",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nikki Loudenback",
+      "email": "nikkirealtor71@gmail.com",
+      "boldtrailId": "272353",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nikki Harris",
+      "email": "nikki@glasshouserealty.com",
+      "boldtrailId": "272354",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Niki Miller",
+      "email": "nikimillerrealtor@gmail.com",
+      "boldtrailId": "272355",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Osman Bayraktar",
+      "email": "osman@glasshouserealty.com",
+      "boldtrailId": "272357",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tricia Reynolds",
+      "email": "tricia@glasshouserealty.com",
+      "boldtrailId": "272358",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rachel Dunham",
+      "email": "rachel.dunham1@aim.com",
+      "boldtrailId": "272360",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Tru Integrity Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Randy Shaffner",
+      "email": "shaffnerrandy@gmail.com",
+      "boldtrailId": "272362",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rebecca Clemens",
+      "email": "homesaleswithbecca@gmail.com",
+      "boldtrailId": "272363",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Reena Patel",
+      "email": "reenapatelrealty@gmail.com",
+      "boldtrailId": "272364",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Gina Landis",
+      "email": "gina@glasshouserealty.com",
+      "boldtrailId": "272365",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rhonda Cox",
+      "email": "rhondacox2020@outlook.com",
+      "boldtrailId": "272367",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Cox Team (Placeholder)",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rick Carr",
+      "email": "rick@glasshouserealty.com",
+      "boldtrailId": "272368",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Carr's Real Estate Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rita O'Leary",
+      "email": "rita@glasshouserealty.com",
+      "boldtrailId": "272369",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rodney Washburn",
+      "email": "burns22.1974@gmail.com",
+      "boldtrailId": "272370",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ronnie Menachem",
+      "email": "ronnie@glasshouserealty.com",
+      "boldtrailId": "272371",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sally Ostendorf",
+      "email": "sellwithsallyo@gmail.com",
+      "boldtrailId": "272372",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "boldtrailId": "272373",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sarah Lyons",
+      "email": "soldbysarahlyons@gmail.com",
+      "boldtrailId": "272376",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sarah Treon",
+      "email": "sarah@goodguyteam.com",
+      "boldtrailId": "272377",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Good Guy Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Scott Strayer",
+      "email": "scott@strayerinvestments.com",
+      "boldtrailId": "272378",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shannon Barker",
+      "email": "shannon@glasshouserealty.com",
+      "boldtrailId": "272379",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shari Stover",
+      "email": "sharistover22@yahoo.com",
+      "boldtrailId": "272380",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shauna Boeke",
+      "email": "shauna@glasshouserealty.com",
+      "boldtrailId": "272381",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shawn Reese",
+      "email": "shawn@gorismaygroup.com",
+      "boldtrailId": "272382",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "Goris May Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shelby MacGregor",
+      "email": "shelby@kunalpatelgroup.com",
+      "boldtrailId": "272383",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sierrah Hardy",
+      "email": "hardyhomesgroup@gmail.com",
+      "boldtrailId": "272386",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "boldtrailId": "272387",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Stephanie Wunderlich",
+      "email": "stephanie.t@glasshouserealty.com",
+      "boldtrailId": "272389",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Stephanie Dickerson",
+      "email": "stephanie.d@glasshouserealty.com",
+      "boldtrailId": "272390",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Stephanie Ball",
+      "email": "ball.stephanie@gmail.com",
+      "boldtrailId": "272391",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Tru Integrity Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Stephanie Stepp",
+      "email": "soldwithstepp@gmail.com",
+      "boldtrailId": "272392",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sunnie Shafer",
+      "email": "sunnie@daytonrealestatecrush.com",
+      "boldtrailId": "272394",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Talia Caldwell",
+      "email": "talia@daytonrealestatecrush.com",
+      "boldtrailId": "272396",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tami Galdeen",
+      "email": "tami@daytonrealestatecrush.com",
+      "boldtrailId": "272397",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush - Team Leads",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tan Gray",
+      "email": "tan@tangrayrealtor.com",
+      "boldtrailId": "272398",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tasha Batsche",
+      "email": "tasha@glasshouserealty.com",
+      "boldtrailId": "272399",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Teri Hobbs",
+      "email": "teri@glasshouserealty.com",
+      "boldtrailId": "272401",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Teresa Gustafson",
+      "email": "tggroupohio@gmail.com",
+      "boldtrailId": "272402",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Terri Johnson",
+      "email": "terrijohnson1164@gmail.com",
+      "boldtrailId": "272403",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Home With Hartman",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Terry Mull",
+      "email": "terryjmull@gmail.com",
+      "boldtrailId": "272404",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tom Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "boldtrailId": "272405",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Amy Cook",
+      "email": "amycookrealty@gmail.com",
+      "boldtrailId": "272576",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Rebecca Quinones",
+      "email": "moverebecca@gmail.com",
+      "boldtrailId": "272577",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tia Turner",
+      "email": "tia@glasshouserealty.com",
+      "boldtrailId": "272578",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tiffany Hatfield",
+      "email": "tiffany@remodelwithcc.com",
+      "boldtrailId": "272579",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tim Dahlinghaus",
+      "email": "tim.dahlinghaus@gmail.com",
+      "boldtrailId": "272580",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tim Young",
+      "email": "tim.young@glasshouserealty.com",
+      "boldtrailId": "272581",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Todd Brandewie",
+      "email": "todd@glasshouserealty.com",
+      "boldtrailId": "272582",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tonya Thomason",
+      "email": "tonyat@glasshouserealty.com",
+      "boldtrailId": "272583",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Travis Wilt",
+      "email": "mtgwinc@gmail.com",
+      "boldtrailId": "272584",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tyler Hicks",
+      "email": "tyler@hickshomegroup.com",
+      "boldtrailId": "272586",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "VJ Evans",
+      "email": "evansvince1@gmail.com",
+      "boldtrailId": "272587",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Wes Durkle",
+      "email": "durklewr@yahoo.com",
+      "boldtrailId": "272588",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Xanni Burton",
+      "email": "xanni.burton@outlook.com",
+      "boldtrailId": "272589",
+      "office": "",
+      "regions": [
+        "Cincinnati",
+        "Dayton"
+      ],
+      "team": "LUX Elite Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Zac Banks",
+      "email": "zac@goodguyteam.com",
+      "boldtrailId": "272590",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Good Guy Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Zach Lucking",
+      "email": "luckingza@glasshouserealty.com",
+      "boldtrailId": "272591",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Zachary Thurston",
+      "email": "thurstonzachary.12.26.96@gmail.com",
+      "boldtrailId": "272592",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tracey Birri",
+      "email": "tracey@traceybirri.com",
+      "boldtrailId": "272597",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Hailey Cox",
+      "email": "haileycox2004@gmail.com",
+      "boldtrailId": "275089",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Cox Team (Placeholder)",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jamie Gabbard",
+      "email": "jamie@jamiegabbard.com",
+      "boldtrailId": "275091",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "Jamie Gabbard Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Amanda Stiles",
+      "email": "amandaohiohomes@gmail.com",
+      "boldtrailId": "275095",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Jamie Gabbard Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brittany Singer",
+      "email": "brittanysinger.gh@outlook.com",
+      "boldtrailId": "275114",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "LUX Elite Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Emily Tith",
+      "email": "emily.tith@gmail.com",
+      "boldtrailId": "277346",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tracy Rife",
+      "email": "tracy@glasshouserealty.com",
+      "boldtrailId": "277365",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Erika Deady",
+      "email": "eadeady5@gmail.com",
+      "boldtrailId": "277366",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Matthew Watercutter",
+      "email": "matthew.watercutter@glasshouserealty.com",
+      "boldtrailId": "277371",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Keith Gabbard",
+      "email": "keithgabbard.1@gmail.com",
+      "boldtrailId": "277381",
+      "office": "",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Abbe DeVore",
+      "email": "abbe@glasshouserealty.com",
+      "boldtrailId": "277847",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Envision Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Danaisha Tate",
+      "email": "dtate_realestate@yahoo.com",
+      "boldtrailId": "278010",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jared Wamsley",
+      "email": "jared@wamsleygroup.com",
+      "boldtrailId": "278198",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Abbie Geise",
+      "email": "a.geise@glasshouserealty.com",
+      "boldtrailId": "278329",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jayvon Tate",
+      "email": "jayvon_tate@glasshouserealty.com",
+      "boldtrailId": "278681",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brittany Collins",
+      "email": "brittany.collins29@outlook.com",
+      "boldtrailId": "279759",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chayse Eby",
+      "email": "chayse.eby@glasshouserealty.com",
+      "boldtrailId": "279764",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "RaeAnn Prculovski",
+      "email": "raeannp.realtor@gmail.com",
+      "boldtrailId": "279798",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Annette Sand",
+      "email": "thehatladyrealtor@gmail.com",
+      "boldtrailId": "282330",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "LeaAnn Taylor",
+      "email": "email@listwithleaann.com",
+      "boldtrailId": "282856",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Jacob Miller",
+      "email": "jmillerresales@gmail.com",
+      "boldtrailId": "284103",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Bobby Hopkins",
+      "email": "bobby@glasshouserealty.com",
+      "boldtrailId": "285335",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chad Diggs",
+      "email": "cdiggs@ct83development.com",
+      "boldtrailId": "286309",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Shyanna Baker",
+      "email": "shyanna@glasshouserealty.com",
+      "boldtrailId": "288182",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Allen Blackburn",
+      "email": "allenblackburn2014@gmail.com",
+      "boldtrailId": "288916",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kristina McKenzie",
+      "email": "kristina.mckenzie@glasshouserealty.com",
+      "boldtrailId": "289596",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kara Ware",
+      "email": "sold@karaware.com",
+      "boldtrailId": "292991",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Angel Jones",
+      "email": "angel.jones@glasshouserealty.com",
+      "boldtrailId": "293536",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Chelsea Williams",
+      "email": "closedwithchelsea@gmail.com",
+      "boldtrailId": "294172",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Kaitlyn Perkins",
+      "email": "kaitlyn.perkins@glasshouserealty.com",
+      "boldtrailId": "295578",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Nikole Locke",
+      "email": "nlockerealtor@gmail.com",
+      "boldtrailId": "295685",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ashley Lesher",
+      "email": "lesherrealty@gmail.com",
+      "boldtrailId": "295808",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Scottie Fulhart",
+      "email": "soldwithscottie@gmail.com",
+      "boldtrailId": "296298",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tracey Tanner",
+      "email": "buysellohio@keyswithtracey.com",
+      "boldtrailId": "296320",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Lauren Rau",
+      "email": "laurenraucre@gmail.com",
+      "boldtrailId": "297951",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ronette Davis",
+      "email": "ronette@glasshouserealty.com",
+      "boldtrailId": "297962",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Misty Vincent",
+      "email": "misty@glasshouserealty.com",
+      "boldtrailId": "297995",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ashley Looper",
+      "email": "ashley.looper@glasshouserealty.com",
+      "boldtrailId": "298678",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Brian Zimmerman",
+      "email": "zimmyhomes@gmail.com",
+      "boldtrailId": "299615",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Amanda Dahmen",
+      "email": "amanda@glasshouserealty.com",
+      "boldtrailId": "299619",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Julie Young",
+      "email": "julie.young@glasshouserealty.com",
+      "boldtrailId": "299624",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sheila Pierson",
+      "email": "sheila@glasshouserealty.com",
+      "boldtrailId": "299771",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Pilar Cason - Noland",
+      "email": "pilarsellshome@gmail.com",
+      "boldtrailId": "300549",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Sunny Singh",
+      "email": "sunny@glasshouserealty.com",
+      "boldtrailId": "300610",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Melissa Mullins",
+      "email": "melissa.mullins@glasshouserealty.com",
+      "boldtrailId": "300637",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Ashlea Roe",
+      "email": "ashlea.roe@glasshouserealty.com",
+      "boldtrailId": "300716",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Tritny Bontrager",
+      "email": "tritny06@gmail.com",
+      "boldtrailId": "302264",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Josh Strader",
+      "email": "jdstrader01@gmail.com",
+      "boldtrailId": "302753",
+      "office": "",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Timothy Williams",
+      "email": "tim@kunalpatelgroup.com",
+      "boldtrailId": "303292",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "flag": "MISSING_DATA",
+      "reason": "no_office",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Michelle Litherland-Lowe",
+      "email": "michelle.litherland-lowe@glasshouserealty.com",
+      "boldtrailId": "303648",
+      "office": "",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_office, no_team",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Missy Zink",
+      "email": "missy.asacoxhomes@gmail.com",
+      "boldtrailId": "287022",
+      "office": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "flag": "MISSING_DATA",
+      "reason": "no_phone",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    },
+    {
+      "name": "Christopher Dunne",
+      "email": "chris.dunne@glasshouserealty.com",
+      "boldtrailId": "295644",
+      "office": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "The Blair Team",
+      "flag": "MISSING_DATA",
+      "reason": "no_phone",
+      "action": "Agent shown on site. Update their profile in BoldTrail."
+    }
+  ]
+}
