@@ -1,0 +1,20 @@
+{
+  "generated": "2026-07-09T21:39:53.711208",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Matt Badger",
+      "email": "badger.m@sbcglobal.net",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "303951",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
