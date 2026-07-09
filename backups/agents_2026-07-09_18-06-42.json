@@ -337,6 +337,26 @@
     "hidden": false
   },
   {
+    "email": "amanda.prosowski@gmail.com",
+    "name": "Amanda Prosowski",
+    "phone": "(216) 647-8434",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "304077",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "amandaohiohomes@gmail.com",
     "name": "Amanda Stiles",
     "phone": "(937) 901-4669",
@@ -554,6 +574,26 @@
     "boldtrailId": "272174",
     "loftyId": 8726251,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "angie.jinna@gmail.com",
+    "name": "Angie Jinna",
+    "phone": "(216) 576-9906",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "304067",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
@@ -3207,7 +3247,7 @@
   {
     "email": "kaitlyn.perkins@glasshouserealty.com",
     "name": "Kaitlyn Perkins",
-    "phone": "",
+    "phone": "(937) 603-2465",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -3215,13 +3255,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026515/14/f8f8435f-978f-4c6b-9631-e5e0a1cea351/w600_original_92221642-4277-425a-977b-568b6b8a951a-jpeg.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/295578.jpg",
     "profileUrl": "https://glasshouserealty.com/kaitlyn-perkins",
     "boldtrailId": "295578",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "a9eb4efb7836",
     "hidden": false
   },
   {
@@ -3423,7 +3463,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-08T17:49:43.015168+00:00"
   },
   {
     "loftyId": null,
@@ -4553,6 +4594,26 @@
     "hidden": false
   },
   {
+    "email": "michelle.litherland-lowe@glasshouserealty.com",
+    "name": "Michelle Litherland-Lowe",
+    "phone": "(239) 565-7382",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/michelle-litherland-lowe",
+    "boldtrailId": "303648",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "mmcbride@glasshouserealty.com",
     "name": "Michelle McBride",
     "phone": "(513) 835-5359",
@@ -5540,7 +5601,7 @@
     "name": "Scottie Fulhart",
     "phone": "(937) 602-4455",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Dayton Real Estate Crush",
     "teamLogo": "",
     "regions": [
       "Dayton"
