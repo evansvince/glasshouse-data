@@ -1,0 +1,274 @@
+{
+  "generated": "2026-07-10T23:11:17.933935",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 24,
+  "agents": [
+    {
+      "name": "Adam Bauer",
+      "email": "adam.bauer77@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272165",
+      "loftyId": ""
+    },
+    {
+      "name": "Alex Zaharieff",
+      "email": "j.alexz@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272272",
+      "loftyId": ""
+    },
+    {
+      "name": "Amanda Prosowski",
+      "email": "amanda.prosowski@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "304077",
+      "loftyId": ""
+    },
+    {
+      "name": "Angie Jinna",
+      "email": "angie.jinna@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "304067",
+      "loftyId": ""
+    },
+    {
+      "name": "Brian Budde",
+      "email": "buddebrian@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272187",
+      "loftyId": ""
+    },
+    {
+      "name": "Eric Loudenback",
+      "email": "eloudenback@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272239",
+      "loftyId": ""
+    },
+    {
+      "name": "Evan Kloth",
+      "email": "evan@z-kgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Zahedi Kloth Group",
+      "source": "boldtrail",
+      "boldtrailId": "256293",
+      "loftyId": ""
+    },
+    {
+      "name": "Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272264",
+      "loftyId": ""
+    },
+    {
+      "name": "Jill Barhorst",
+      "email": "jillbsellshouses@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272268",
+      "loftyId": ""
+    },
+    {
+      "name": "Josh Strader",
+      "email": "jdstrader01@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "302753",
+      "loftyId": ""
+    },
+    {
+      "name": "Keith Gabbard",
+      "email": "keithgabbard.1@gmail.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "277381",
+      "loftyId": ""
+    },
+    {
+      "name": "Kimberly Luehmann",
+      "email": "kimberlyl@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272295",
+      "loftyId": ""
+    },
+    {
+      "name": "Kristine Bertrand",
+      "email": "onerealvalue@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272299",
+      "loftyId": ""
+    },
+    {
+      "name": "Matt Badger",
+      "email": "matt.badger@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "303951",
+      "loftyId": ""
+    },
+    {
+      "name": "Michelle Litherland-Lowe",
+      "email": "michelle.litherland-lowe@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "303648",
+      "loftyId": ""
+    },
+    {
+      "name": "Mike Williams",
+      "email": "mike@cornerstonevetclinic.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272337",
+      "loftyId": ""
+    },
+    {
+      "name": "Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272373",
+      "loftyId": ""
+    },
+    {
+      "name": "Sheila Pierson",
+      "email": "sheila@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "299771",
+      "loftyId": ""
+    },
+    {
+      "name": "Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272387",
+      "loftyId": ""
+    },
+    {
+      "name": "Sunny Singh",
+      "email": "sunny@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "300610",
+      "loftyId": ""
+    },
+    {
+      "name": "Teri Hobbs",
+      "email": "teri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272401",
+      "loftyId": ""
+    },
+    {
+      "name": "Tia Turner",
+      "email": "tia@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272578",
+      "loftyId": ""
+    },
+    {
+      "name": "Timothy Williams",
+      "email": "tim@kunalpatelgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "source": "boldtrail",
+      "boldtrailId": "303292",
+      "loftyId": ""
+    },
+    {
+      "name": "Tom Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272405",
+      "loftyId": ""
+    }
+  ]
+}
