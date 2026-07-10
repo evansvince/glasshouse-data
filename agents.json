@@ -3044,27 +3044,6 @@
     "hidden": false
   },
   {
-    "email": "john.wendell@glasshouserealty.com",
-    "name": "John Wendell",
-    "phone": "(757) 679-5087",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2026126/11/original_b23b3d4d-268e-4241-afd0-8afd835c3ed4.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/John-Wendell/8894212",
-    "boldtrailId": "272270",
-    "loftyId": 8894212,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-10T16:43:54.972004+00:00"
-  },
-  {
     "email": "johnie.asacoxhomes@gmail.com",
     "name": "Johnie Sams",
     "phone": "(440) 725-0735",
@@ -4314,7 +4293,7 @@
     "hidden": false
   },
   {
-    "email": "badger.m@sbcglobal.net",
+    "email": "matt.badger@glasshouserealty.com",
     "name": "Matt Badger",
     "phone": "(937) 360-6191",
     "title": "REALTOR\u00ae",
