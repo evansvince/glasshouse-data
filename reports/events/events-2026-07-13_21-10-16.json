@@ -1,0 +1,17 @@
+{
+  "generated": "2026-07-13T21:10:16.203296",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Nicole Cole",
+      "email": "nicole.cole@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Asa Cox Homes"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
