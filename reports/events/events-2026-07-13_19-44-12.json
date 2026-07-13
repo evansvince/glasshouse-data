@@ -1,0 +1,14 @@
+{
+  "generated": "2026-07-13T19:44:12.892415",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": [
+    {
+      "name": "Kellan Oxley",
+      "email": "kellan@glasshouserealty.com",
+      "softDeletedAt": "2026-07-08T17:49:43.015168+00:00"
+    }
+  ]
+}
