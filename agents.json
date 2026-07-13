@@ -4929,7 +4929,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "b42789b58c73",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-13T21:10:16.203137+00:00"
   },
   {
     "email": "nicole@homewithhartman.com",
