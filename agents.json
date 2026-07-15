@@ -838,7 +838,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "ae50b24a345b",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
   },
   {
     "loftyId": null,
