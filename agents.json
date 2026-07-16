@@ -1684,7 +1684,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-16T16:39:40.381236+00:00"
   },
   {
     "email": "dan.kanuk@glasshouserealty.com",
