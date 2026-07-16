@@ -1,0 +1,17 @@
+{
+  "generated": "2026-07-16T15:11:22.699833",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Kellan Oxley",
+      "email": "kellan@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
