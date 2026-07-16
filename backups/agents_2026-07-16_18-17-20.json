@@ -337,7 +337,7 @@
     "hidden": false
   },
   {
-    "email": "amanda.prosowski@gmail.com",
+    "email": "amanda.prosowski@glasshouserealty.com",
     "name": "Amanda Prosowski",
     "phone": "(216) 647-8434",
     "title": "REALTOR\u00ae",
@@ -838,7 +838,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "ae50b24a345b",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
   },
   {
     "loftyId": null,
@@ -1683,7 +1684,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-16T16:39:40.381236+00:00"
   },
   {
     "email": "dan.kanuk@glasshouserealty.com",
@@ -2326,7 +2328,7 @@
     "hidden": false
   },
   {
-    "email": "frank.slemc@glasshouserealty.com",
+    "email": "frankslemc@gmail.com",
     "name": "Frank Slemc",
     "phone": "(440) 476-6400",
     "title": "Team Lead",
@@ -2911,7 +2913,7 @@
     "name": "Jessica Bettinger",
     "phone": "(937) 972-3737",
     "title": "REALTOR\u00ae",
-    "team": "Dayton Real Estate Crush",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -3042,27 +3044,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "john.wendell@glasshouserealty.com",
-    "name": "John Wendell",
-    "phone": "(757) 679-5087",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2026126/11/original_b23b3d4d-268e-4241-afd0-8afd835c3ed4.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/John-Wendell/8894212",
-    "boldtrailId": "272270",
-    "loftyId": 8894212,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-10T16:43:54.972004+00:00"
   },
   {
     "email": "johnie.asacoxhomes@gmail.com",
@@ -3464,7 +3445,7 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": true,
-    "softDeletedAt": "2026-07-08T17:49:43.015168+00:00"
+    "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
   },
   {
     "loftyId": null,
@@ -4314,7 +4295,7 @@
     "hidden": false
   },
   {
-    "email": "badger.m@sbcglobal.net",
+    "email": "matt.badger@glasshouserealty.com",
     "name": "Matt Badger",
     "phone": "(937) 360-6191",
     "title": "REALTOR\u00ae",
@@ -4616,7 +4597,7 @@
   {
     "email": "michelle.litherland-lowe@glasshouserealty.com",
     "name": "Michelle Litherland-Lowe",
-    "phone": "(239) 565-7382",
+    "phone": "(937) 993-5512",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -4951,7 +4932,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "b42789b58c73",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-13T21:10:16.203137+00:00"
   },
   {
     "email": "nicole@homewithhartman.com",
