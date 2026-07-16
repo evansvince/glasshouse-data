@@ -3443,7 +3443,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
   },
   {
     "loftyId": null,
