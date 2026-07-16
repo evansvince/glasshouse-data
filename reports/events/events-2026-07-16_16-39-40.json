@@ -1,0 +1,17 @@
+{
+  "generated": "2026-07-16T16:39:40.381454",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Courtney Long",
+      "email": "courtneyllong2@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
