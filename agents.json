@@ -347,13 +347,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/304077.jpg",
     "profileUrl": "",
     "boldtrailId": "304077",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "07e72c00b265",
     "hidden": false
   },
   {
@@ -589,13 +589,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/304067.jpg",
     "profileUrl": "",
     "boldtrailId": "304067",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ca75e4c35159",
     "hidden": false
   },
   {
