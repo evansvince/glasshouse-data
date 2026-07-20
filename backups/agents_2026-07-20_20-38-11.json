@@ -337,7 +337,7 @@
     "hidden": false
   },
   {
-    "email": "amanda.prosowski@gmail.com",
+    "email": "amanda.prosowski@glasshouserealty.com",
     "name": "Amanda Prosowski",
     "phone": "(216) 647-8434",
     "title": "REALTOR\u00ae",
@@ -347,13 +347,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/304077.jpg",
     "profileUrl": "",
     "boldtrailId": "304077",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "07e72c00b265",
     "hidden": false
   },
   {
@@ -589,13 +589,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/304067.jpg",
     "profileUrl": "",
     "boldtrailId": "304067",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ca75e4c35159",
     "hidden": false
   },
   {
@@ -838,7 +838,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "ae50b24a345b",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
   },
   {
     "loftyId": null,
@@ -1683,7 +1684,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-16T16:39:40.381236+00:00"
   },
   {
     "email": "dan.kanuk@glasshouserealty.com",
@@ -2866,27 +2868,6 @@
     "hidden": false
   },
   {
-    "email": "jenny@glasshouserealty.com",
-    "name": "Jenny Moore",
-    "phone": "(937) 367-3888",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025626/10/original_9f72341e-acd3-4497-ac2d-4a08e40096a9.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Jenny-Moore/8837698",
-    "boldtrailId": "272262",
-    "loftyId": 8837698,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-18T19:35:23.537200+00:00"
-  },
-  {
     "email": "jeri@glasshouserealty.com",
     "name": "Jeri Baumann",
     "phone": "(937) 418-6273",
@@ -2911,7 +2892,7 @@
     "name": "Jessica Bettinger",
     "phone": "(937) 972-3737",
     "title": "REALTOR\u00ae",
-    "team": "Dayton Real Estate Crush",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -3442,7 +3423,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
   },
   {
     "loftyId": null,
@@ -4529,7 +4511,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-20T15:19:22.296838+00:00"
   },
   {
     "email": "michael.bradley@glasshouserealty.com",
