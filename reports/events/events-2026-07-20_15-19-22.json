@@ -1,0 +1,23 @@
+{
+  "generated": "2026-07-20T15:19:22.297015",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Michael Baker",
+      "email": "mike@navehometeam.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Nave Home Team"
+    }
+  ],
+  "purges": [
+    {
+      "name": "Jenny Moore",
+      "email": "jenny@glasshouserealty.com",
+      "softDeletedAt": "2026-06-18T19:35:23.537200+00:00"
+    }
+  ],
+  "reactivated": []
+}
