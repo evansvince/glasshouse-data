@@ -1,0 +1,138 @@
+{
+  "generated": "2026-07-22T16:44:47.292878",
+  "dry_run": false,
+  "description": "Agents excluded from site \u2014 no region in BoldTrail. Assign a region to make them visible.",
+  "count": 13,
+  "agents": [
+    {
+      "name": "Carol Ilg",
+      "email": "rlilg@netzero.com",
+      "boldtrailId": "272194",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Carr's Real Estate Group",
+      "email": "carrgroup@glasshouserealty.com",
+      "boldtrailId": "272195",
+      "office": "",
+      "team": "Carr's Real Estate Group",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Carrie Flinders",
+      "email": "cflindersatgh@gmail.com",
+      "boldtrailId": "272196",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Cassandra Cox",
+      "email": "cassandrac.sotoestrada@gmail.com",
+      "boldtrailId": "285155",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Centerville Office Manager",
+      "email": "lisamay83@yahoo.com",
+      "boldtrailId": "272204",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Dawn Cordle",
+      "email": "dawn@glasshouserealty.com",
+      "boldtrailId": "269011",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Hannah Lavey",
+      "email": "hannah@glasshouserealty.com",
+      "boldtrailId": "272244",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Hope Conway",
+      "email": "hopedlconway@gmail.com",
+      "boldtrailId": "305951",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Matt Echols",
+      "email": "matthewechols1@gmail.com",
+      "boldtrailId": "272325",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Mike Ford",
+      "email": "mike@fordsquared.com",
+      "boldtrailId": "277373",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Stephanie Greene",
+      "email": "stephgsells@gmail.com",
+      "boldtrailId": "302106",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Troy Goffe",
+      "email": "troygoffe28@gmail.com",
+      "boldtrailId": "272585",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    },
+    {
+      "name": "Zane Keadle",
+      "email": "zanekeadlesold@gmail.com",
+      "boldtrailId": "272594",
+      "office": "",
+      "team": "",
+      "flag": "NO_REGION",
+      "reason": "No region assigned in BoldTrail",
+      "action": "Excluded from site. Assign a region in BoldTrail to make visible."
+    }
+  ]
+}
