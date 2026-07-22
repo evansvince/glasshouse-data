@@ -1,0 +1,19 @@
+{
+  "generated": "2026-07-22T22:14:06.015216",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Jennifer Martinez",
+      "email": "soldbyjenniferm@gmail.com",
+      "softDeletedAt": "2026-06-22T21:12:15.002055+00:00"
+    },
+    {
+      "name": "Ranae Kocsis",
+      "email": "ranae@glasshouserealty.com",
+      "softDeletedAt": "2026-06-22T21:12:15.002101+00:00"
+    }
+  ],
+  "reactivated": []
+}
