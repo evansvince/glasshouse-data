@@ -1,0 +1,26 @@
+{
+  "generated": "2026-07-23T21:18:35.791568",
+  "dry_run": false,
+  "description": "Cleveland spreadsheet records with no BoldTrail match. Currently preserved on the site. Review and decide which should be retained vs soft-deleted.",
+  "count": 2,
+  "records": [
+    {
+      "name": "Autumn Skoczen",
+      "email": "autumnsrealtor@gmail.com",
+      "team": "Labbato Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Nicole Cole",
+      "email": "nicole.cole@glasshouserealty.com",
+      "team": "Asa Cox Homes",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    }
+  ]
+}
