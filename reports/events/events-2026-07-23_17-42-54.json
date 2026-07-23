@@ -1,0 +1,54 @@
+{
+  "generated": "2026-07-23T17:42:54.787175",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Alaina DePalma",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644836+00:00"
+    },
+    {
+      "name": "Barb Rich",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644856+00:00"
+    },
+    {
+      "name": "Cassandra Cox Soto Estrada",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644868+00:00"
+    },
+    {
+      "name": "Chance Schrecengost",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644872+00:00"
+    },
+    {
+      "name": "Cody Goodman",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644878+00:00"
+    },
+    {
+      "name": "Geo Hertelendy",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644894+00:00"
+    },
+    {
+      "name": "Jessica Nahm",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644908+00:00"
+    },
+    {
+      "name": "Kelly Woodley",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644920+00:00"
+    },
+    {
+      "name": "Kristina Fetterman",
+      "email": "",
+      "softDeletedAt": "2026-06-23T16:28:24.644928+00:00"
+    }
+  ],
+  "reactivated": []
+}
