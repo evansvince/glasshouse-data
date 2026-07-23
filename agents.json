@@ -100,23 +100,6 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Alaina DePalma",
-    "title": "Team Agent",
-    "team": "Admin Team",
-    "phone": "(440) 478-9758",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1OyZIJVxIda9EKgSOCLjYXzMbWgZufkNt",
-    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293485,
-    "softDeletedAt": "2026-06-23T16:28:24.644836+00:00"
-  },
-  {
     "email": "prezaalejandro30@gmail.com",
     "name": "Alejandro Preza Razo",
     "phone": "(440) 251-8852",
@@ -842,23 +825,6 @@
     "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
   },
   {
-    "loftyId": null,
-    "name": "Barb Rich",
-    "title": "Team Agent",
-    "team": "Admin Team",
-    "phone": "(440) 391-7427",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1Jl5djGumW2prArBMEiW4dKi6G1wHQ04M",
-    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293488,
-    "softDeletedAt": "2026-06-23T16:28:24.644856+00:00"
-  },
-  {
     "email": "ben@dreamx.homes",
     "name": "Ben Wourms",
     "phone": "(937) 567-2135",
@@ -1322,23 +1288,6 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Cassandra Cox Soto Estrada",
-    "title": "Team Agent",
-    "team": "Admin Team",
-    "phone": "(440) 221-9344",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1VpoGdndnVyuE2H9kWAC3N-5cmoIrkLoE",
-    "profileUrl": "https://www.zillow.com/profile/cassandra%20asacoxhomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293489,
-    "softDeletedAt": "2026-06-23T16:28:24.644868+00:00"
-  },
-  {
     "email": "cassie.gutt@gmail.com",
     "name": "Cassie Gutt",
     "phone": "(513) 850-4867",
@@ -1397,24 +1346,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "loftyId": null,
-    "name": "Chance Schrecengost",
-    "title": "Agent",
-    "team": "The Sams Group",
-    "phone": "(216) 533-4223",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1-_pEX63g0NCpwzeuiPxPD9WnO49m9DFd",
-    "profileUrl": "https://www.zillow.com/profile/Chance%20Schrecengost",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293420,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/The_Sams_Team_White_Background.png",
-    "softDeletedAt": "2026-06-23T16:28:24.644872+00:00"
   },
   {
     "email": "chayse.eby@glasshouserealty.com",
@@ -1575,23 +1506,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "loftyId": null,
-    "name": "Cody Goodman",
-    "title": "Team Agent",
-    "team": "Admin Team",
-    "phone": "(440) 749-5718",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1CvYHBuuQ4SxYqYFjWPasIliKbU_NB61E",
-    "profileUrl": "https://www.zillow.com/profile/%20Cody%20Goodman%20",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293496,
-    "softDeletedAt": "2026-06-23T16:28:24.644878+00:00"
   },
   {
     "email": "colleen.curtis@glasshouserealty.com",
@@ -2368,24 +2282,6 @@
     "hidden": false
   },
   {
-    "loftyId": null,
-    "name": "Geo Hertelendy",
-    "title": "Agent",
-    "team": "Heather Young Real Estate Group",
-    "phone": "(216) 266-7676",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1cRikV_nuaX-3QZZabG0bAjkRVrfn8Ub3",
-    "profileUrl": "https://www.zillow.com/profile/movewithgeo",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293441,
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
-    "softDeletedAt": "2026-06-23T16:28:24.644894+00:00"
-  },
-  {
     "email": "gina@glasshouserealty.com",
     "name": "Gina Landis",
     "phone": "(937) 623-9441",
@@ -2885,23 +2781,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "loftyId": null,
-    "name": "Jessica Nahm",
-    "title": "Team Agent",
-    "team": "Admin Team",
-    "phone": "(440) 655-2582",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1b2h1hIf745yjS-hr2BXc21kBxZ3dhwFc",
-    "profileUrl": "https://www.zillow.com/profile/AsaCoxHomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293490,
-    "softDeletedAt": "2026-06-23T16:28:24.644908+00:00"
   },
   {
     "email": "jessie.asacoxhomes@gmail.com",
@@ -3406,23 +3285,6 @@
     "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
   },
   {
-    "loftyId": null,
-    "name": "Kelly Woodley",
-    "title": "Team Agent",
-    "team": "Admin Team",
-    "phone": "(440) 622-3537",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1fKCLXrNPUfXmewKwRBu5hfpRc7Txnwk5",
-    "profileUrl": "https://www.zillow.com/profile/Kellyasacoxhomes",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "boldtrailId": 293491,
-    "softDeletedAt": "2026-06-23T16:28:24.644920+00:00"
-  },
-  {
     "email": "kendra.osborne2@gmail.com",
     "name": "Kendra Osborne",
     "phone": "(937) 681-7065",
@@ -3674,22 +3536,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "loftyId": null,
-    "name": "Kristina Fetterman",
-    "title": "Team Lead",
-    "team": "The Signature Team",
-    "phone": "",
-    "email": "",
-    "photo": "https://lh3.googleusercontent.com/d/1cCB39EEcpqVe21cq7PBMyJOBkhUQyA1b",
-    "profileUrl": "https://www.zillow.com/profile/kristinafetterman",
-    "regions": [
-      "Cleveland"
-    ],
-    "source": "spreadsheet",
-    "hidden": true,
-    "softDeletedAt": "2026-06-23T16:28:24.644928+00:00"
   },
   {
     "email": "kristina.mckenzie@glasshouserealty.com",
