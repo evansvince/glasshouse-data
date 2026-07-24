@@ -1,0 +1,20 @@
+{
+  "generated": "2026-07-24T20:38:22.165690",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Hope Conway",
+      "email": "hopedlconway@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Envision Group",
+      "office": "",
+      "boldtrailId": "305951",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
