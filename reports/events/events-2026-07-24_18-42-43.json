@@ -1,0 +1,20 @@
+{
+  "generated": "2026-07-24T18:42:43.221561",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Amber Parks",
+      "email": "parksae3@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "306245",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
