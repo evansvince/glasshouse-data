@@ -380,7 +380,7 @@
     "hidden": false
   },
   {
-    "email": "parksae3@gmail.com",
+    "email": "amber.parks@glasshouserealty.com",
     "name": "Amber Parks",
     "phone": "(937) 765-0773",
     "title": "REALTOR\u00ae",
@@ -3105,7 +3105,7 @@
   {
     "email": "kaitlyn.perkins@glasshouserealty.com",
     "name": "Kaitlyn Perkins",
-    "phone": "(937) 603-2465",
+    "phone": "(937) 212-7336",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -4096,7 +4096,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-27T19:49:45.222891+00:00"
   },
   {
     "email": "mroseteoli@gmail.com",
@@ -5360,27 +5361,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "sarah.page@glasshouserealty.com",
-    "name": "Sarah Page",
-    "phone": "(937) 206-1298",
-    "title": "REALTOR\u00ae",
-    "team": "The Avenue Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024819/10/original_577cf47f-7550-406f-b590-2e236605cc83.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Sarah-Page/8728612",
-    "boldtrailId": "272375",
-    "loftyId": 8728612,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-06-25T21:01:37.899005+00:00"
   },
   {
     "email": "sarah@goodguyteam.com",
