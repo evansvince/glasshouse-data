@@ -1,0 +1,23 @@
+{
+  "generated": "2026-07-27T19:49:45.223041",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Mary Smith",
+      "email": "mary@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [
+    {
+      "name": "Sarah Page",
+      "email": "sarah.page@glasshouserealty.com",
+      "softDeletedAt": "2026-06-25T21:01:37.899005+00:00"
+    }
+  ],
+  "reactivated": []
+}
