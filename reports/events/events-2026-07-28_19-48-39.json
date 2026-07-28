@@ -1,0 +1,20 @@
+{
+  "generated": "2026-07-28T19:48:39.601517",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Erin Rogers",
+      "email": "erin.rogers@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "306524",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
