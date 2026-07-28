@@ -121,15 +121,15 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "303648": {
-      "failureCount": 55,
-      "lastAttemptAt": "2026-07-27T21:21:31.659443Z",
-      "lastAttemptRun": 142,
+      "failureCount": 56,
+      "lastAttemptAt": "2026-07-28T15:30:00.366748Z",
+      "lastAttemptRun": 144,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "303951": {
-      "failureCount": 40,
-      "lastAttemptAt": "2026-07-27T21:21:30.615568Z",
-      "lastAttemptRun": 142,
+      "failureCount": 41,
+      "lastAttemptAt": "2026-07-28T15:29:59.163887Z",
+      "lastAttemptRun": 144,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "305951": {
@@ -139,11 +139,11 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "306245": {
-      "failureCount": 5,
-      "lastAttemptAt": "2026-07-27T21:21:29.569995Z",
-      "lastAttemptRun": 142,
+      "failureCount": 6,
+      "lastAttemptAt": "2026-07-28T15:29:57.940245Z",
+      "lastAttemptRun": 144,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 143
+  "runCounter": 144
 }
