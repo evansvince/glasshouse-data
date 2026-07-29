@@ -1,0 +1,17 @@
+{
+  "generated": "2026-07-29T17:33:22.012177",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "David Woodward",
+      "email": "david@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
