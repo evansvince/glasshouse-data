@@ -5945,27 +5945,6 @@
     "hidden": false
   },
   {
-    "email": "smarra@glasshouserealty.com",
-    "name": "Susan Marra",
-    "phone": "(937) 298-3702",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272395.jpg",
-    "profileUrl": "https://glasshouserealty.com/susan-marra",
-    "boldtrailId": "272395",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "03583fdd0c54",
-    "hidden": true,
-    "softDeletedAt": "2026-06-30T20:15:35.874929+00:00"
-  },
-  {
     "email": "talia@daytonrealestatecrush.com",
     "name": "Talia Caldwell",
     "phone": "(740) 707-1673",
