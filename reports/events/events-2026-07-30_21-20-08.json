@@ -1,0 +1,14 @@
+{
+  "generated": "2026-07-30T21:20:08.683715",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Susan Marra",
+      "email": "smarra@glasshouserealty.com",
+      "softDeletedAt": "2026-06-30T20:15:35.874929+00:00"
+    }
+  ],
+  "reactivated": []
+}
