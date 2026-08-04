@@ -1,0 +1,20 @@
+{
+  "generated": "2026-08-04T21:32:14.067370",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Rob Dickerson",
+      "email": "robadickerson@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "office": "",
+      "boldtrailId": "306884",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
