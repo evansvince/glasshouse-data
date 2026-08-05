@@ -140,6 +140,27 @@
     "hidden": false
   },
   {
+    "email": "alexisbecker.re@gmail.com",
+    "name": "Alexis Becker",
+    "phone": "(440) 452-1463",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "306900",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": true,
+    "softDeletedAt": "2026-08-04T15:32:50.113669+00:00"
+  },
+  {
     "email": "aliciamccluskey.realestate@gmail.com",
     "name": "Alicia McCluskey",
     "phone": "(937) 422-5531",
@@ -1226,6 +1247,26 @@
     "hidden": false
   },
   {
+    "email": "calvin.watkins@glasshouserealty.com",
+    "name": "Calvin Watkins",
+    "phone": "(937) 751-6923",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/calvin-watkins",
+    "boldtrailId": "306924",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "cdfisher53@gmail.com",
     "name": "Carl Fisher",
     "phone": "(937) 716-4358",
@@ -1859,7 +1900,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "37ac68fcf9d7",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-07-29T17:33:22.011954+00:00"
   },
   {
     "email": "dean.meder@glasshouserealty.com",
@@ -2232,13 +2274,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306524.jpg",
     "profileUrl": "https://glasshouserealty.com/erin-rogers",
     "boldtrailId": "306524",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ca8b305657a5",
     "hidden": false
   },
   {
@@ -5202,6 +5244,26 @@
     "hidden": false
   },
   {
+    "email": "robadickerson@gmail.com",
+    "name": "Rob Dickerson",
+    "phone": "(937) 307-4796",
+    "title": "REALTOR\u00ae",
+    "team": "The Buckner Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/rob-dickerson",
+    "boldtrailId": "306884",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "letrobhelp@gmail.com",
     "name": "Robert Bartos",
     "phone": "(440) 829-4932",
@@ -5942,27 +6004,6 @@
     "photoSource": "boldtrail",
     "photoSourceHash": "2ee84d1f83bd",
     "hidden": false
-  },
-  {
-    "email": "smarra@glasshouserealty.com",
-    "name": "Susan Marra",
-    "phone": "(937) 298-3702",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272395.jpg",
-    "profileUrl": "https://glasshouserealty.com/susan-marra",
-    "boldtrailId": "272395",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "03583fdd0c54",
-    "hidden": true,
-    "softDeletedAt": "2026-06-30T20:15:35.874929+00:00"
   },
   {
     "email": "talia@daytonrealestatecrush.com",
