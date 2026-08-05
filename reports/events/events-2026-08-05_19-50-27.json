@@ -1,0 +1,20 @@
+{
+  "generated": "2026-08-05T19:50:27.555149",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "307268",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
