@@ -825,6 +825,26 @@
     "hidden": false
   },
   {
+    "email": "austin.zeleny@glasshouserealty.com",
+    "name": "Austin Zeleny",
+    "phone": "(440) 231-3154",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "307268",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "autumn@glasshouserealty.com",
     "name": "Autumn Kern",
     "phone": "(937) 951-5443",
