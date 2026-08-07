@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-07T00:11:52.165770",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Amber Parks",
+      "email": "amber.parks@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
