@@ -157,7 +157,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-04T15:32:50.113669+00:00"
   },
   {
     "email": "aliciamccluskey.realestate@gmail.com",
@@ -250,13 +251,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026424/17/a4fc0a48-1c95-4f62-ba3e-59a793fa0efe/original_4d00dee5-604c-4444-b58a-c2a4468a6fe6.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/288916.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Allen-Blackburn/8922417",
     "boldtrailId": "288916",
     "loftyId": 8922417,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0aac6a7f8588",
     "hidden": false
   },
   {
@@ -417,7 +418,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-07T00:11:52.165534+00:00"
   },
   {
     "email": "amycookrealty@gmail.com",
@@ -824,6 +826,26 @@
     "hidden": false
   },
   {
+    "email": "austin.zeleny@glasshouserealty.com",
+    "name": "Austin Zeleny",
+    "phone": "(440) 231-3154",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "307268",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "autumn@glasshouserealty.com",
     "name": "Autumn Kern",
     "phone": "(937) 951-5443",
@@ -949,7 +971,7 @@
     "name": "Bobby Williams",
     "phone": "(513) 258-5688",
     "title": "REALTOR\u00ae",
-    "team": "Tru Integrity Group",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Cincinnati"
@@ -2273,13 +2295,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306524.jpg",
     "profileUrl": "https://glasshouserealty.com/erin-rogers",
     "boldtrailId": "306524",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ca8b305657a5",
     "hidden": false
   },
   {
@@ -3054,13 +3076,13 @@
       "Cincinnati"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/302753.jpg",
     "profileUrl": "https://glasshouserealty.com/josh-strader",
     "boldtrailId": "302753",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "53f3e90793b3",
     "hidden": false
   },
   {
@@ -4211,13 +4233,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/303951.jpg",
     "profileUrl": "https://glasshouserealty.com/matt-badger",
     "boldtrailId": "303951",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "606e4fca304d",
     "hidden": false
   },
   {
@@ -4873,13 +4895,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202534/13/original_15c56152-edf4-4c5d-9c02-1f5ee0f46147.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272355.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Niki-Miller/8728615",
     "boldtrailId": "272355",
     "loftyId": 8728615,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "12346d82e7a5",
     "hidden": false
   },
   {
@@ -5240,6 +5262,26 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "8028686d7501",
+    "hidden": false
+  },
+  {
+    "email": "robadickerson@gmail.com",
+    "name": "Rob Dickerson",
+    "phone": "(937) 307-4796",
+    "title": "REALTOR\u00ae",
+    "team": "The Buckner Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/rob-dickerson",
+    "boldtrailId": "306884",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
