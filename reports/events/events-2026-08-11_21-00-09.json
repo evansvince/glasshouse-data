@@ -1,0 +1,31 @@
+{
+  "generated": "2026-08-11T21:00:09.415955",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Joe Willen",
+      "email": "joewillenrealtor@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "307787",
+      "has_photo": false
+    },
+    {
+      "name": "Haley Connors",
+      "email": "haley.connors@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "307791",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
