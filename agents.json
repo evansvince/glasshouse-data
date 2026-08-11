@@ -2425,6 +2425,26 @@
     "hidden": false
   },
   {
+    "email": "haley.connors@glasshouserealty.com",
+    "name": "Haley Connors",
+    "phone": "(216) 925-7265",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "307791",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "harley@glasshouserealty.com",
     "name": "Harley Wade",
     "phone": "(937) 609-4786",
@@ -2980,6 +3000,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Jim-Foster/8726254",
     "boldtrailId": "272254",
     "loftyId": 8726254,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "joewillenrealtor@gmail.com",
+    "name": "Joe Willen",
+    "phone": "",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/joe-willen",
+    "boldtrailId": "307787",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
