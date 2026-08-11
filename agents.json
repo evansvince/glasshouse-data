@@ -2555,13 +2555,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/305951.jpg",
     "profileUrl": "https://glasshouserealty.com/hope-conway",
     "boldtrailId": "305951",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0a330c7b377d",
     "hidden": false
   },
   {
