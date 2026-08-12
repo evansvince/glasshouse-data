@@ -1,0 +1,14 @@
+{
+  "generated": "2026-08-12T21:58:32.100498",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Nicole Cole",
+      "email": "nicole.cole@glasshouserealty.com",
+      "softDeletedAt": "2026-07-13T21:10:16.203137+00:00"
+    }
+  ],
+  "reactivated": []
+}
