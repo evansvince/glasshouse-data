@@ -971,7 +971,7 @@
     "name": "Bobby Williams",
     "phone": "(513) 258-5688",
     "title": "REALTOR\u00ae",
-    "team": "Tru Integrity Group",
+    "team": "",
     "teamLogo": "",
     "regions": [
       "Cincinnati"
@@ -2425,6 +2425,26 @@
     "hidden": false
   },
   {
+    "email": "haley.connors@glasshouserealty.com",
+    "name": "Haley Connors",
+    "phone": "(216) 925-7265",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "307791",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "harley@glasshouserealty.com",
     "name": "Harley Wade",
     "phone": "(937) 609-4786",
@@ -2555,13 +2575,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/305951.jpg",
     "profileUrl": "https://glasshouserealty.com/hope-conway",
     "boldtrailId": "305951",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0a330c7b377d",
     "hidden": false
   },
   {
@@ -2980,6 +3000,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Jim-Foster/8726254",
     "boldtrailId": "272254",
     "loftyId": 8726254,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "joewillenrealtor@gmail.com",
+    "name": "Joe Willen",
+    "phone": "",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/joe-willen",
+    "boldtrailId": "307787",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -4784,6 +4824,26 @@
     "hidden": false
   },
   {
+    "email": "nicholas.bernard@glasshouserealty.com",
+    "name": "Nicholas Bernard",
+    "phone": "(216) 952-3491",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "307770",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "nick@daytonrealestatecrush.com",
     "name": "Nick Franks",
     "phone": "(937) 510-6164",
@@ -5026,7 +5086,7 @@
   },
   {
     "email": "pilarsellshome@gmail.com",
-    "name": "Pilar Cason - Noland",
+    "name": "Pilar Cason-Noland",
     "phone": "(937) 212-4956",
     "title": "REALTOR\u00ae",
     "team": "",
@@ -5036,7 +5096,7 @@
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/300549.jpg",
-    "profileUrl": "https://glasshouserealty.com/susana-pilar-cason-noland",
+    "profileUrl": "https://glasshouserealty.com/pilar-cason-noland",
     "boldtrailId": "300549",
     "loftyId": "",
     "source": "boldtrail",

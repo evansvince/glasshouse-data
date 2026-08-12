@@ -4904,27 +4904,6 @@
     "hidden": false
   },
   {
-    "email": "nicole.cole@glasshouserealty.com",
-    "name": "Nicole Cole",
-    "phone": "(330) 617-2724",
-    "title": "Agent",
-    "team": "Asa Cox Homes",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293402.jpg",
-    "profileUrl": "https://www.zillow.com/profile/nicole%20asacoxhomes",
-    "boldtrailId": "293402",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "b42789b58c73",
-    "hidden": true,
-    "softDeletedAt": "2026-07-13T21:10:16.203137+00:00"
-  },
-  {
     "email": "nicole@homewithhartman.com",
     "name": "Nicole Peacock",
     "phone": "(937) 238-2906",
