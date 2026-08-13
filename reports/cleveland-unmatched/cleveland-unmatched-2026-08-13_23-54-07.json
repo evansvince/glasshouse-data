@@ -1,0 +1,26 @@
+{
+  "generated": "2026-08-13T23:54:07.616091",
+  "dry_run": false,
+  "description": "Cleveland spreadsheet records with no BoldTrail match. Currently preserved on the site. Review and decide which should be retained vs soft-deleted.",
+  "count": 2,
+  "records": [
+    {
+      "name": "Alexis Becker",
+      "email": "alexisbecker.re@gmail.com",
+      "team": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Autumn Skoczen",
+      "email": "autumnsrealtor@gmail.com",
+      "team": "Labbato Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    }
+  ]
+}
