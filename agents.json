@@ -866,27 +866,6 @@
     "hidden": false
   },
   {
-    "email": "autumnsrealtor@gmail.com",
-    "name": "Autumn Skoczen",
-    "phone": "(330) 701-2836",
-    "title": "Agent",
-    "team": "Labbato Group",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293123.jpg",
-    "profileUrl": "https://www.zillow.com/profile/autumnskoczen",
-    "boldtrailId": "293123",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "ae50b24a345b",
-    "hidden": true,
-    "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
-  },
-  {
     "email": "ben@dreamx.homes",
     "name": "Ben Wourms",
     "phone": "(937) 567-2135",
