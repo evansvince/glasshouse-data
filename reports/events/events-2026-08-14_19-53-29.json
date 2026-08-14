@@ -1,0 +1,14 @@
+{
+  "generated": "2026-08-14T19:53:29.139660",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": [
+    {
+      "name": "Amber Parks",
+      "email": "ambersellsohio@gmail.com",
+      "softDeletedAt": "2026-08-07T00:11:52.165534+00:00"
+    }
+  ]
+}
