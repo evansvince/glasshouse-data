@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-14T23:32:47.245499",
+  "dry_run": false,
+  "description": "Cleveland spreadsheet records with no BoldTrail match. Currently preserved on the site. Review and decide which should be retained vs soft-deleted.",
+  "count": 1,
+  "records": [
+    {
+      "name": "Alexis Becker",
+      "email": "alexisbecker.re@gmail.com",
+      "team": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    }
+  ]
+}
