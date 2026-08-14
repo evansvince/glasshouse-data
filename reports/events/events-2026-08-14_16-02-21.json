@@ -1,0 +1,14 @@
+{
+  "generated": "2026-08-14T16:02:21.672589",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Autumn Skoczen",
+      "email": "autumnsrealtor@gmail.com",
+      "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
+    }
+  ],
+  "reactivated": []
+}
