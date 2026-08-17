@@ -1,0 +1,20 @@
+{
+  "generated": "2026-08-17T14:39:47.119468",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Tony Jollay",
+      "email": "tony.jollay@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "308149",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
