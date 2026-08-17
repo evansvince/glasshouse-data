@@ -401,7 +401,7 @@
     "hidden": false
   },
   {
-    "email": "amber.parks@glasshouserealty.com",
+    "email": "ambersellsohio@gmail.com",
     "name": "Amber Parks",
     "phone": "(937) 765-0773",
     "title": "REALTOR\u00ae",
@@ -418,8 +418,7 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-07T00:11:52.165534+00:00"
+    "hidden": false
   },
   {
     "email": "amycookrealty@gmail.com",
@@ -864,27 +863,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "autumnsrealtor@gmail.com",
-    "name": "Autumn Skoczen",
-    "phone": "(330) 701-2836",
-    "title": "Agent",
-    "team": "Labbato Group",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293123.jpg",
-    "profileUrl": "https://www.zillow.com/profile/autumnskoczen",
-    "boldtrailId": "293123",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "ae50b24a345b",
-    "hidden": true,
-    "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
   },
   {
     "email": "ben@dreamx.homes",
@@ -1663,27 +1641,6 @@
     "hidden": false
   },
   {
-    "email": "courtneyllong2@gmail.com",
-    "name": "Courtney Long",
-    "phone": "(937) 776-4812",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024114/14/original_bc3f5b75-99b3-466a-9f0c-b38b4fc2236b.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Courtney-Long/8783440",
-    "boldtrailId": "272215",
-    "loftyId": 8783440,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-16T16:39:40.381236+00:00"
-  },
-  {
     "email": "dan.kanuk@glasshouserealty.com",
     "name": "Dan Kanuk",
     "phone": "(440) 279-7439",
@@ -2435,13 +2392,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307791.jpg",
     "profileUrl": "",
     "boldtrailId": "307791",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0ea73068ec57",
     "hidden": false
   },
   {
@@ -3008,7 +2965,7 @@
   {
     "email": "joewillenrealtor@gmail.com",
     "name": "Joe Willen",
-    "phone": "",
+    "phone": "(937) 681-1320",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -3425,27 +3382,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "kellan@glasshouserealty.com",
-    "name": "Kellan Oxley",
-    "phone": "(937) 477-1019",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/20241210/16/original_32d73325-1b6f-4ad7-b993-685173b26dbf.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Kellan-Oxley/8697426",
-    "boldtrailId": "272287",
-    "loftyId": 8697426,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
   },
   {
     "email": "kendra.osborne2@gmail.com",
@@ -4904,27 +4840,6 @@
     "hidden": false
   },
   {
-    "email": "nicole.cole@glasshouserealty.com",
-    "name": "Nicole Cole",
-    "phone": "(330) 617-2724",
-    "title": "Agent",
-    "team": "Asa Cox Homes",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293402.jpg",
-    "profileUrl": "https://www.zillow.com/profile/nicole%20asacoxhomes",
-    "boldtrailId": "293402",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "b42789b58c73",
-    "hidden": true,
-    "softDeletedAt": "2026-07-13T21:10:16.203137+00:00"
-  },
-  {
     "email": "nicole@homewithhartman.com",
     "name": "Nicole Peacock",
     "phone": "(937) 238-2906",
@@ -5096,7 +5011,7 @@
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/300549.jpg",
-    "profileUrl": "https://glasshouserealty.com/susana-pilar-cason-noland",
+    "profileUrl": "https://glasshouserealty.com/pilar-cason-noland",
     "boldtrailId": "300549",
     "loftyId": "",
     "source": "boldtrail",
@@ -5747,7 +5662,27 @@
     "hidden": false
   },
   {
-    "email": "shirley.slemc@glasshouserealty.com",
+    "email": "sellwithshelly.rs@gmail.com",
+    "name": "Shelly Stroud",
+    "phone": "(937) 302-9210",
+    "title": "REALTOR\u00ae",
+    "team": "LUX Elite Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/shelly-stroud",
+    "boldtrailId": "306560",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "shirleyslemc@gmail.com",
     "name": "Shirley Slemc",
     "phone": "(216) 780-0156",
     "title": "Agent",
@@ -6420,6 +6355,26 @@
     "photo": "",
     "profileUrl": "https://glasshouserealty.com/tom-kretz",
     "boldtrailId": "272405",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "tony.jollay@glasshouserealty.com",
+    "name": "Tony Jollay",
+    "phone": "(937) 470-6169",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/tony-jollay",
+    "boldtrailId": "308149",
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
