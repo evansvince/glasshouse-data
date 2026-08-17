@@ -1,0 +1,20 @@
+{
+  "generated": "2026-08-17T19:36:55.457371",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Matt Echols",
+      "email": "matthewechols1@gmail.com",
+      "regions": [
+        "North"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "272325",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
