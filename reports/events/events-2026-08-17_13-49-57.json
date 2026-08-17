@@ -1,0 +1,19 @@
+{
+  "generated": "2026-08-17T13:49:57.274219",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Courtney Long",
+      "email": "courtneyllong2@gmail.com",
+      "softDeletedAt": "2026-07-16T16:39:40.381236+00:00"
+    },
+    {
+      "name": "Kellan Oxley",
+      "email": "kellan@glasshouserealty.com",
+      "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
+    }
+  ],
+  "reactivated": []
+}
