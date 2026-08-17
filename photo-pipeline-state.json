@@ -55,9 +55,9 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "272325": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-08-17T19:37:00.946953Z",
-      "lastAttemptRun": 246,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-08-17T21:36:40.786305Z",
+      "lastAttemptRun": 248,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "272337": {
@@ -121,15 +121,15 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "303648": {
-      "failureCount": 107,
-      "lastAttemptAt": "2026-08-17T19:37:02.165143Z",
-      "lastAttemptRun": 246,
+      "failureCount": 108,
+      "lastAttemptAt": "2026-08-17T21:36:44.046988Z",
+      "lastAttemptRun": 248,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "306245": {
-      "failureCount": 30,
-      "lastAttemptAt": "2026-08-17T19:36:58.573406Z",
-      "lastAttemptRun": 246,
+      "failureCount": 31,
+      "lastAttemptAt": "2026-08-17T21:36:36.091838Z",
+      "lastAttemptRun": 248,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "306560": {
@@ -139,9 +139,9 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "306884": {
-      "failureCount": 37,
-      "lastAttemptAt": "2026-08-17T19:37:03.357115Z",
-      "lastAttemptRun": 246,
+      "failureCount": 38,
+      "lastAttemptAt": "2026-08-17T21:36:46.260240Z",
+      "lastAttemptRun": 248,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "306924": {
@@ -151,9 +151,9 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "307787": {
-      "failureCount": 20,
-      "lastAttemptAt": "2026-08-17T19:36:59.743272Z",
-      "lastAttemptRun": 246,
+      "failureCount": 21,
+      "lastAttemptAt": "2026-08-17T21:36:38.440098Z",
+      "lastAttemptRun": 248,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "308149": {
@@ -163,5 +163,5 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 247
+  "runCounter": 248
 }
