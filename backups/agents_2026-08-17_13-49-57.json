@@ -401,7 +401,7 @@
     "hidden": false
   },
   {
-    "email": "amber.parks@glasshouserealty.com",
+    "email": "ambersellsohio@gmail.com",
     "name": "Amber Parks",
     "phone": "(937) 765-0773",
     "title": "REALTOR\u00ae",
@@ -418,8 +418,7 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-07T00:11:52.165534+00:00"
+    "hidden": false
   },
   {
     "email": "amycookrealty@gmail.com",
@@ -864,27 +863,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "autumnsrealtor@gmail.com",
-    "name": "Autumn Skoczen",
-    "phone": "(330) 701-2836",
-    "title": "Agent",
-    "team": "Labbato Group",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293123.jpg",
-    "profileUrl": "https://www.zillow.com/profile/autumnskoczen",
-    "boldtrailId": "293123",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "ae50b24a345b",
-    "hidden": true,
-    "softDeletedAt": "2026-07-15T14:59:39.807425+00:00"
   },
   {
     "email": "ben@dreamx.homes",
@@ -2435,13 +2413,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307791.jpg",
     "profileUrl": "",
     "boldtrailId": "307791",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0ea73068ec57",
     "hidden": false
   },
   {
@@ -3008,7 +2986,7 @@
   {
     "email": "joewillenrealtor@gmail.com",
     "name": "Joe Willen",
-    "phone": "",
+    "phone": "(937) 681-1320",
     "title": "REALTOR\u00ae",
     "team": "",
     "teamLogo": "",
@@ -4904,27 +4882,6 @@
     "hidden": false
   },
   {
-    "email": "nicole.cole@glasshouserealty.com",
-    "name": "Nicole Cole",
-    "phone": "(330) 617-2724",
-    "title": "Agent",
-    "team": "Asa Cox Homes",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293402.jpg",
-    "profileUrl": "https://www.zillow.com/profile/nicole%20asacoxhomes",
-    "boldtrailId": "293402",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "b42789b58c73",
-    "hidden": true,
-    "softDeletedAt": "2026-07-13T21:10:16.203137+00:00"
-  },
-  {
     "email": "nicole@homewithhartman.com",
     "name": "Nicole Peacock",
     "phone": "(937) 238-2906",
@@ -5086,7 +5043,7 @@
   },
   {
     "email": "pilarsellshome@gmail.com",
-    "name": "Pilar Cason - Noland",
+    "name": "Pilar Cason-Noland",
     "phone": "(937) 212-4956",
     "title": "REALTOR\u00ae",
     "team": "",
@@ -5096,7 +5053,7 @@
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/300549.jpg",
-    "profileUrl": "https://glasshouserealty.com/susana-pilar-cason-noland",
+    "profileUrl": "https://glasshouserealty.com/pilar-cason-noland",
     "boldtrailId": "300549",
     "loftyId": "",
     "source": "boldtrail",
@@ -5747,7 +5704,7 @@
     "hidden": false
   },
   {
-    "email": "shirley.slemc@glasshouserealty.com",
+    "email": "shirleyslemc@gmail.com",
     "name": "Shirley Slemc",
     "phone": "(216) 780-0156",
     "title": "Agent",

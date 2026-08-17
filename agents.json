@@ -1641,27 +1641,6 @@
     "hidden": false
   },
   {
-    "email": "courtneyllong2@gmail.com",
-    "name": "Courtney Long",
-    "phone": "(937) 776-4812",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024114/14/original_bc3f5b75-99b3-466a-9f0c-b38b4fc2236b.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Courtney-Long/8783440",
-    "boldtrailId": "272215",
-    "loftyId": 8783440,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-16T16:39:40.381236+00:00"
-  },
-  {
     "email": "dan.kanuk@glasshouserealty.com",
     "name": "Dan Kanuk",
     "phone": "(440) 279-7439",
@@ -3403,27 +3382,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "kellan@glasshouserealty.com",
-    "name": "Kellan Oxley",
-    "phone": "(937) 477-1019",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/20241210/16/original_32d73325-1b6f-4ad7-b993-685173b26dbf.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Kellan-Oxley/8697426",
-    "boldtrailId": "272287",
-    "loftyId": 8697426,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-16T15:11:22.699704+00:00"
   },
   {
     "email": "kendra.osborne2@gmail.com",
