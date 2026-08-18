@@ -2159,7 +2159,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-18T16:45:34.846457+00:00"
   },
   {
     "email": "ericcredit@glasshouserealty.com",
