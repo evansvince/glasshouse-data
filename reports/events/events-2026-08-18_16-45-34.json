@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-18T16:45:34.846656",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Emily Tith",
+      "email": "emily.tith@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
