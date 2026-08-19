@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-19T16:43:24.251491",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Kristina McKenzie",
+      "email": "kristina.mckenzie@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
