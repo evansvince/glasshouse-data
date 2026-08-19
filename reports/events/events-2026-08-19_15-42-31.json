@@ -1,0 +1,14 @@
+{
+  "generated": "2026-08-19T15:42:31.635870",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Michael Baker",
+      "email": "mike@navehometeam.com",
+      "softDeletedAt": "2026-07-20T15:19:22.296838+00:00"
+    }
+  ],
+  "reactivated": []
+}
