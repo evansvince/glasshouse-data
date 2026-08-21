@@ -10,13 +10,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024725/21/w600_original_0ccca011-7f9e-4017-8cdd-714d926bbf1c-png.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272164.jpg",
     "profileUrl": "https://glasshouserealty.com/aaron-kroggel",
     "boldtrailId": "272164",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5b05b0fea1fa",
     "hidden": false
   },
   {
@@ -2293,13 +2293,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/256293.jpg",
     "profileUrl": "https://glasshouserealty.com/evan-kloth",
     "boldtrailId": "256293",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "dc4f6575a557",
     "hidden": false
   },
   {
@@ -2974,13 +2974,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307787.jpg",
     "profileUrl": "https://glasshouserealty.com/joe-willen",
     "boldtrailId": "307787",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "fa3f3e9a9fae",
     "hidden": false
   },
   {
@@ -3655,7 +3655,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-19T16:43:24.251338+00:00"
   },
   {
     "email": "onerealvalue@gmail.com",
@@ -3772,6 +3773,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Laura-Long/8730781",
     "boldtrailId": "272304",
     "loftyId": 8730781,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "laura.sowards@glasshouserealty.com",
+    "name": "Laura Sowards",
+    "phone": "(937) 470-1898",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/laura-sowards",
+    "boldtrailId": "308357",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -4440,27 +4461,6 @@
     "hidden": false
   },
   {
-    "email": "mike@navehometeam.com",
-    "name": "Michael Baker",
-    "phone": "(937) 631-7529",
-    "title": "REALTOR\u00ae",
-    "team": "Nave Home Team",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/20251124/17/original_6bb6e160-f55f-4696-9fc5-f659af48b355.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Michael-Baker-III/8882075",
-    "boldtrailId": "272339",
-    "loftyId": 8882075,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-20T15:19:22.296838+00:00"
-  },
-  {
     "email": "michael.bradley@glasshouserealty.com",
     "name": "Michael Bradley",
     "phone": "(330) 604-7726",
@@ -5005,7 +5005,7 @@
     "name": "Paige Denlinger",
     "phone": "(937) 901-3985",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Kunal Patel Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
