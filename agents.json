@@ -157,8 +157,7 @@
     "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-04T15:32:50.113669+00:00"
+    "hidden": false
   },
   {
     "email": "aliciamccluskey.realestate@gmail.com",
