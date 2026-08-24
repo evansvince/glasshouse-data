@@ -10,13 +10,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024725/21/w600_original_0ccca011-7f9e-4017-8cdd-714d926bbf1c-png.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272164.jpg",
     "profileUrl": "https://glasshouserealty.com/aaron-kroggel",
     "boldtrailId": "272164",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5b05b0fea1fa",
     "hidden": false
   },
   {
@@ -157,8 +157,7 @@
     "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-04T15:32:50.113669+00:00"
+    "hidden": false
   },
   {
     "email": "aliciamccluskey.realestate@gmail.com",
@@ -1256,13 +1255,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306924.jpg",
     "profileUrl": "https://glasshouserealty.com/calvin-watkins",
     "boldtrailId": "306924",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d1e520fd2cc4",
     "hidden": false
   },
   {
@@ -2293,13 +2292,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/256293.jpg",
     "profileUrl": "https://glasshouserealty.com/evan-kloth",
     "boldtrailId": "256293",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "dc4f6575a557",
     "hidden": false
   },
   {
@@ -2974,13 +2973,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307787.jpg",
     "profileUrl": "https://glasshouserealty.com/joe-willen",
     "boldtrailId": "307787",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "fa3f3e9a9fae",
     "hidden": false
   },
   {
@@ -6393,13 +6392,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/308149.jpg",
     "profileUrl": "https://glasshouserealty.com/tony-jollay",
     "boldtrailId": "308149",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "58fdca4bab94",
     "hidden": false
   },
   {
