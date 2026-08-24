@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-24T15:51:42.361145",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Sally Ostendorf",
+      "email": "sellwithsallyo@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
