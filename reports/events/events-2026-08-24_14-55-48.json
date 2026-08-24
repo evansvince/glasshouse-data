@@ -1,0 +1,14 @@
+{
+  "generated": "2026-08-24T14:55:48.186467",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": [
+    {
+      "name": "Alexis Becker",
+      "email": "alexisbecker.re@gmail.com",
+      "softDeletedAt": "2026-08-04T15:32:50.113669+00:00"
+    }
+  ]
+}
