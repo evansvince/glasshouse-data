@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-25T18:55:53.698676",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Rebecca Clemens",
+      "email": "homesaleswithbecca@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
