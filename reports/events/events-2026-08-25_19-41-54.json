@@ -1,0 +1,17 @@
+{
+  "generated": "2026-08-25T19:41:54.578083",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
