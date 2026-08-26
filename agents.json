@@ -2860,8 +2860,7 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-25T19:41:54.577889+00:00"
+    "hidden": false
   },
   {
     "email": "realestatedarling@gmail.com",
