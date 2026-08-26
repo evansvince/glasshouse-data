@@ -1,0 +1,14 @@
+{
+  "generated": "2026-08-26T23:26:53.464632",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Mary Smith",
+      "email": "mary@glasshouserealty.com",
+      "softDeletedAt": "2026-07-27T19:49:45.222891+00:00"
+    }
+  ],
+  "reactivated": []
+}
