@@ -4790,13 +4790,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307770.jpg",
     "profileUrl": "",
     "boldtrailId": "307770",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "017626509404",
     "hidden": false
   },
   {
