@@ -4159,27 +4159,6 @@
     "hidden": false
   },
   {
-    "email": "mary@glasshouserealty.com",
-    "name": "Mary Smith",
-    "phone": "(740) 656-1561",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026427/17/2afd8e4c-8a0a-4e30-81d9-b80d64ca129f/original_f3cb2a55-5ecd-4a4f-bf35-7e0006d507d9.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Mary-Smith/8925950",
-    "boldtrailId": "272322",
-    "loftyId": 8925950,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-27T19:49:45.222891+00:00"
-  },
-  {
     "email": "mroseteoli@gmail.com",
     "name": "Maryrose Teoli",
     "phone": "(313) 590-8360",
