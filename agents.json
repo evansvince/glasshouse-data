@@ -924,6 +924,26 @@
     "hidden": false
   },
   {
+    "email": "robjmurrayjr@gmail.com",
+    "name": "Bob Murray",
+    "phone": "(937) 312-5523",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/bob-murray",
+    "boldtrailId": "309733",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "bobby@glasshouserealty.com",
     "name": "Bobby Hopkins",
     "phone": "(937) 760-3125",
