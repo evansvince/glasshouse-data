@@ -150,15 +150,14 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306900.jpg",
     "profileUrl": "",
     "boldtrailId": "306900",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-04T15:32:50.113669+00:00"
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0a153f2d0d5c",
+    "hidden": false
   },
   {
     "email": "aliciamccluskey.realestate@gmail.com",
@@ -919,6 +918,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Billie-Bowling/8726238",
     "boldtrailId": "272183",
     "loftyId": 8726238,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "robjmurrayjr@gmail.com",
+    "name": "Bob Murray",
+    "phone": "(937) 312-5523",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/bob-murray",
+    "boldtrailId": "309733",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -4160,27 +4179,6 @@
     "hidden": false
   },
   {
-    "email": "mary@glasshouserealty.com",
-    "name": "Mary Smith",
-    "phone": "(740) 656-1561",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026427/17/2afd8e4c-8a0a-4e30-81d9-b80d64ca129f/original_f3cb2a55-5ecd-4a4f-bf35-7e0006d507d9.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Mary-Smith/8925950",
-    "boldtrailId": "272322",
-    "loftyId": 8925950,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-27T19:49:45.222891+00:00"
-  },
-  {
     "email": "mroseteoli@gmail.com",
     "name": "Maryrose Teoli",
     "phone": "(313) 590-8360",
@@ -4791,13 +4789,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307770.jpg",
     "profileUrl": "",
     "boldtrailId": "307770",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "017626509404",
     "hidden": false
   },
   {
@@ -5118,7 +5116,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-25T18:55:53.698524+00:00"
   },
   {
     "email": "moverebecca@gmail.com",
@@ -5418,7 +5417,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-24T15:51:42.360993+00:00"
   },
   {
     "email": "chasewithtschida@gmail.com",
@@ -5693,13 +5693,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306560.jpg",
     "profileUrl": "https://glasshouserealty.com/shelly-stroud",
     "boldtrailId": "306560",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d47b111aae17",
     "hidden": false
   },
   {
