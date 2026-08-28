@@ -1,0 +1,26 @@
+{
+  "generated": "2026-08-28T23:00:13.204974",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Jessica Fischkelta",
+      "email": "jessica.fischkelta@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Ember & Elm",
+      "office": "",
+      "boldtrailId": "309921",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "David Woodward",
+      "email": "david@glasshouserealty.com",
+      "softDeletedAt": "2026-07-29T17:33:22.011954+00:00"
+    }
+  ],
+  "reactivated": []
+}
