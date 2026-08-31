@@ -1,0 +1,31 @@
+{
+  "generated": "2026-08-31T19:29:32.175202",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Leah Stathopoulos",
+      "email": "yvonneleah348@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "310956",
+      "has_photo": false
+    },
+    {
+      "name": "Angela Johnson France",
+      "email": "homes@angelafrance.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "310979",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
