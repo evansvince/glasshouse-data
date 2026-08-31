@@ -560,6 +560,26 @@
     "hidden": false
   },
   {
+    "email": "homes@angelafrance.com",
+    "name": "Angela Johnson France",
+    "phone": "(937) 725-5875",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/angela-johnson-france",
+    "boldtrailId": "310979",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "angelique@glasshouserealty.com",
     "name": "Angelique Kabami",
     "phone": "(616) 323-4381",
@@ -3917,6 +3937,26 @@
     "hidden": false
   },
   {
+    "email": "yvonneleah348@gmail.com",
+    "name": "Leah Stathopoulos",
+    "phone": "",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/leah-stathopoulos",
+    "boldtrailId": "310956",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "libertie.brate3@gmail.com",
     "name": "Libertie Brate",
     "phone": "(513) 849-5955",
@@ -5992,13 +6032,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/300610.jpg",
     "profileUrl": "https://glasshouserealty.com/sunny-singh",
     "boldtrailId": "300610",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "de8c775763c7",
     "hidden": false
   },
   {
