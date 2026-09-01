@@ -561,7 +561,7 @@
   },
   {
     "email": "homes@angelafrance.com",
-    "name": "Angela Johnson France",
+    "name": "Angela France",
     "phone": "(937) 725-5875",
     "title": "REALTOR\u00ae",
     "team": "",
@@ -944,7 +944,7 @@
     "hidden": false
   },
   {
-    "email": "robjmurrayjr@gmail.com",
+    "email": "bobmurray@glasshouserealty.com",
     "name": "Bob Murray",
     "phone": "(937) 312-5523",
     "title": "REALTOR\u00ae",
@@ -3937,23 +3937,23 @@
     "hidden": false
   },
   {
-    "email": "yvonneleah348@gmail.com",
+    "email": "leah.stathopoulos@glasshouserealty.com",
     "name": "Leah Stathopoulos",
     "phone": "",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "The Buckner Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/310956.jpg",
     "profileUrl": "https://glasshouserealty.com/leah-stathopoulos",
     "boldtrailId": "310956",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "29ab1f562506",
     "hidden": false
   },
   {
