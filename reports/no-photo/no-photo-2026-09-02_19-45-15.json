@@ -1,0 +1,297 @@
+{
+  "generated": "2026-09-02T19:45:15.415570",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 26,
+  "agents": [
+    {
+      "name": "Adam Bauer",
+      "email": "adam.bauer77@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272165",
+      "loftyId": ""
+    },
+    {
+      "name": "Alex Zaharieff",
+      "email": "j.alexz@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272272",
+      "loftyId": ""
+    },
+    {
+      "name": "Amber Parks",
+      "email": "ambersellsohio@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "306245",
+      "loftyId": ""
+    },
+    {
+      "name": "Angela France",
+      "email": "homes@angelafrance.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "310979",
+      "loftyId": ""
+    },
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "307268",
+      "loftyId": ""
+    },
+    {
+      "name": "Bob Murray",
+      "email": "bobmurray@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "309733",
+      "loftyId": ""
+    },
+    {
+      "name": "Brian Budde",
+      "email": "buddebrian@gmail.com",
+      "regions": [
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272187",
+      "loftyId": ""
+    },
+    {
+      "name": "Eric Loudenback",
+      "email": "eloudenback@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272239",
+      "loftyId": ""
+    },
+    {
+      "name": "Jeri Baumann",
+      "email": "jeri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272264",
+      "loftyId": ""
+    },
+    {
+      "name": "Jessica Fischkelta",
+      "email": "jessica.fischkelta@glasshouserealty.com",
+      "regions": [
+        "Dayton",
+        "North"
+      ],
+      "team": "Ember & Elm",
+      "source": "boldtrail",
+      "boldtrailId": "309921",
+      "loftyId": ""
+    },
+    {
+      "name": "Jill Barhorst",
+      "email": "jillbsellshouses@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272268",
+      "loftyId": ""
+    },
+    {
+      "name": "Keith Gabbard",
+      "email": "keithgabbard.1@gmail.com",
+      "regions": [
+        "Dayton",
+        "Cincinnati"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "277381",
+      "loftyId": ""
+    },
+    {
+      "name": "Kimberly Luehmann",
+      "email": "kimberlyl@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272295",
+      "loftyId": ""
+    },
+    {
+      "name": "Kristine Bertrand",
+      "email": "onerealvalue@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272299",
+      "loftyId": ""
+    },
+    {
+      "name": "Laura Sowards",
+      "email": "laura.sowards@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "308357",
+      "loftyId": ""
+    },
+    {
+      "name": "Matt Echols",
+      "email": "matthewechols1@gmail.com",
+      "regions": [
+        "North"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272325",
+      "loftyId": ""
+    },
+    {
+      "name": "Michelle Litherland-Lowe",
+      "email": "michelle.litherland-lowe@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "303648",
+      "loftyId": ""
+    },
+    {
+      "name": "Mike Williams",
+      "email": "mike@cornerstonevetclinic.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272337",
+      "loftyId": ""
+    },
+    {
+      "name": "Rob Dickerson",
+      "email": "robadickerson@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Buckner Group",
+      "source": "boldtrail",
+      "boldtrailId": "306884",
+      "loftyId": ""
+    },
+    {
+      "name": "Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272373",
+      "loftyId": ""
+    },
+    {
+      "name": "Sheila Pierson",
+      "email": "sheila@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "299771",
+      "loftyId": ""
+    },
+    {
+      "name": "Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272387",
+      "loftyId": ""
+    },
+    {
+      "name": "Teri Hobbs",
+      "email": "teri@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272401",
+      "loftyId": ""
+    },
+    {
+      "name": "Tia Turner",
+      "email": "tia@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272578",
+      "loftyId": ""
+    },
+    {
+      "name": "Timothy Williams",
+      "email": "tim@kunalpatelgroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Kunal Patel Group",
+      "source": "boldtrail",
+      "boldtrailId": "303292",
+      "loftyId": ""
+    },
+    {
+      "name": "Tom Kretz",
+      "email": "thomas.j.kretz@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272405",
+      "loftyId": ""
+    }
+  ]
+}
