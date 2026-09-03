@@ -560,6 +560,26 @@
     "hidden": false
   },
   {
+    "email": "homes@angelafrance.com",
+    "name": "Angela France",
+    "phone": "(937) 725-5875",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/angela-johnson-france",
+    "boldtrailId": "310979",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "angelique@glasshouserealty.com",
     "name": "Angelique Kabami",
     "phone": "(616) 323-4381",
@@ -918,6 +938,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Billie-Bowling/8726238",
     "boldtrailId": "272183",
     "loftyId": 8726238,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "bobmurray@glasshouserealty.com",
+    "name": "Bob Murray",
+    "phone": "(937) 312-5523",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/bob-murray",
+    "boldtrailId": "309733",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -1858,27 +1898,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "david@glasshouserealty.com",
-    "name": "David Woodward",
-    "phone": "(937) 591-1427",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272226.jpg",
-    "profileUrl": "https://glasshouserealty.com/david-woodward",
-    "boldtrailId": "272226",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "37ac68fcf9d7",
-    "hidden": true,
-    "softDeletedAt": "2026-07-29T17:33:22.011954+00:00"
   },
   {
     "email": "dean.meder@glasshouserealty.com",
@@ -2877,6 +2896,27 @@
     "profileUrl": "https://glasshouserealty.com/agents/Jessica-Bettinger/8728593",
     "boldtrailId": "272266",
     "loftyId": 8728593,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "jessica.fischkelta@glasshouserealty.com",
+    "name": "Jessica Fischkelta",
+    "phone": "(937) 605-2760",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton",
+      "North"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/jessica-fischkelta",
+    "boldtrailId": "309921",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -3898,6 +3938,26 @@
     "hidden": false
   },
   {
+    "email": "leah.stathopoulos@glasshouserealty.com",
+    "name": "Leah Stathopoulos",
+    "phone": "(937) 212-4711",
+    "title": "REALTOR\u00ae",
+    "team": "The Buckner Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/310956.jpg",
+    "profileUrl": "https://glasshouserealty.com/leah-stathopoulos",
+    "boldtrailId": "310956",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "29ab1f562506",
+    "hidden": false
+  },
+  {
     "email": "libertie.brate3@gmail.com",
     "name": "Libertie Brate",
     "phone": "(513) 849-5955",
@@ -4157,27 +4217,6 @@
     "photoSource": "boldtrail",
     "photoSourceHash": "2cd104275d5e",
     "hidden": false
-  },
-  {
-    "email": "mary@glasshouserealty.com",
-    "name": "Mary Smith",
-    "phone": "(740) 656-1561",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026427/17/2afd8e4c-8a0a-4e30-81d9-b80d64ca129f/original_f3cb2a55-5ecd-4a4f-bf35-7e0006d507d9.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Mary-Smith/8925950",
-    "boldtrailId": "272322",
-    "loftyId": 8925950,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-07-27T19:49:45.222891+00:00"
   },
   {
     "email": "mroseteoli@gmail.com",
@@ -4790,13 +4829,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307770.jpg",
     "profileUrl": "",
     "boldtrailId": "307770",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "017626509404",
     "hidden": false
   },
   {
@@ -5117,7 +5156,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-08-25T18:55:53.698524+00:00"
   },
   {
     "email": "moverebecca@gmail.com",
@@ -5993,13 +6033,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/300610.jpg",
     "profileUrl": "https://glasshouserealty.com/sunny-singh",
     "boldtrailId": "300610",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "de8c775763c7",
     "hidden": false
   },
   {
