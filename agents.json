@@ -561,7 +561,7 @@
   },
   {
     "email": "homes@angelafrance.com",
-    "name": "Angela France",
+    "name": "Angela Johnson France",
     "phone": "(937) 725-5875",
     "title": "REALTOR\u00ae",
     "team": "",
@@ -570,13 +570,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/310979.jpg",
     "profileUrl": "https://glasshouserealty.com/angela-johnson-france",
     "boldtrailId": "310979",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "7991a208dc14",
     "hidden": false
   },
   {
