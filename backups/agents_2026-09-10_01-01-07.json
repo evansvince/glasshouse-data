@@ -560,6 +560,26 @@
     "hidden": false
   },
   {
+    "email": "homes@angelafrance.com",
+    "name": "Angela Johnson France",
+    "phone": "(937) 725-5875",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/310979.jpg",
+    "profileUrl": "https://glasshouserealty.com/angela-johnson-france",
+    "boldtrailId": "310979",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5182ab2e626b",
+    "hidden": false
+  },
+  {
     "email": "angelique@glasshouserealty.com",
     "name": "Angelique Kabami",
     "phone": "(616) 323-4381",
@@ -924,7 +944,7 @@
     "hidden": false
   },
   {
-    "email": "robjmurrayjr@gmail.com",
+    "email": "bobmurray@glasshouserealty.com",
     "name": "Bob Murray",
     "phone": "(937) 312-5523",
     "title": "REALTOR\u00ae",
@@ -1878,27 +1898,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "david@glasshouserealty.com",
-    "name": "David Woodward",
-    "phone": "(937) 591-1427",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272226.jpg",
-    "profileUrl": "https://glasshouserealty.com/david-woodward",
-    "boldtrailId": "272226",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "37ac68fcf9d7",
-    "hidden": true,
-    "softDeletedAt": "2026-07-29T17:33:22.011954+00:00"
   },
   {
     "email": "dean.meder@glasshouserealty.com",
@@ -2897,6 +2896,27 @@
     "profileUrl": "https://glasshouserealty.com/agents/Jessica-Bettinger/8728593",
     "boldtrailId": "272266",
     "loftyId": 8728593,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "jessica.fischkelta@glasshouserealty.com",
+    "name": "Jessica Fischkelta",
+    "phone": "(937) 605-2760",
+    "title": "REALTOR\u00ae",
+    "team": "Ember & Elm",
+    "teamLogo": "",
+    "regions": [
+      "Dayton",
+      "North"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/jessica-fischkelta",
+    "boldtrailId": "309921",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -3915,6 +3935,26 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "leah.stathopoulos@glasshouserealty.com",
+    "name": "Leah Stathopoulos",
+    "phone": "(937) 212-4711",
+    "title": "REALTOR\u00ae",
+    "team": "The Buckner Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/310956.jpg",
+    "profileUrl": "https://glasshouserealty.com/leah-stathopoulos",
+    "boldtrailId": "310956",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "29ab1f562506",
     "hidden": false
   },
   {
@@ -5993,13 +6033,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/300610.jpg",
     "profileUrl": "https://glasshouserealty.com/sunny-singh",
     "boldtrailId": "300610",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "de8c775763c7",
     "hidden": false
   },
   {
