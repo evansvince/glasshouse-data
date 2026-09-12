@@ -561,7 +561,7 @@
   },
   {
     "email": "homes@angelafrance.com",
-    "name": "Angela France",
+    "name": "Angela Johnson France",
     "phone": "(937) 725-5875",
     "title": "REALTOR\u00ae",
     "team": "",
@@ -570,13 +570,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/310979.jpg",
     "profileUrl": "https://glasshouserealty.com/angela-johnson-france",
     "boldtrailId": "310979",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5182ab2e626b",
     "hidden": false
   },
   {
@@ -2909,7 +2909,8 @@
     "team": "Ember & Elm",
     "teamLogo": "",
     "regions": [
-      "Dayton"
+      "Dayton",
+      "North"
     ],
     "office": "",
     "photo": "",
@@ -3939,7 +3940,7 @@
   {
     "email": "leah.stathopoulos@glasshouserealty.com",
     "name": "Leah Stathopoulos",
-    "phone": "",
+    "phone": "(937) 212-4711",
     "title": "REALTOR\u00ae",
     "team": "The Buckner Group",
     "teamLogo": "",
