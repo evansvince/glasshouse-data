@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-14T22:26:51.313933",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Jana Gruber",
+      "email": "jana.gruber@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "312106",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
