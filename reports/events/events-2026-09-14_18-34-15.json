@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-14T18:34:15.373651",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Jenny Moore",
+      "email": "jenny@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "272262",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
