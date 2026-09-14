@@ -2862,6 +2862,26 @@
     "hidden": false
   },
   {
+    "email": "jenny@glasshouserealty.com",
+    "name": "Jenny Moore",
+    "phone": "(937) 367-3888",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/jenny-moore",
+    "boldtrailId": "272262",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "jeri@glasshouserealty.com",
     "name": "Jeri Baumann",
     "phone": "(937) 418-6273",
