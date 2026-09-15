@@ -1,0 +1,64 @@
+{
+  "generated": "2026-09-15T01:23:44.098779",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 5,
+  "agents": [
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "307268",
+      "loftyId": ""
+    },
+    {
+      "name": "Jana Gruber",
+      "email": "jana.gruber@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "312106",
+      "loftyId": ""
+    },
+    {
+      "name": "Samantha Tschida",
+      "email": "chasewithtschida@gmail.com",
+      "regions": [
+        "Dayton",
+        "Columbus"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272373",
+      "loftyId": ""
+    },
+    {
+      "name": "Sheila Pierson",
+      "email": "sheila@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "299771",
+      "loftyId": ""
+    },
+    {
+      "name": "Sophia Luza",
+      "email": "snluza9@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272387",
+      "loftyId": ""
+    }
+  ]
+}
