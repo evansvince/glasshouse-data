@@ -157,7 +157,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "0a153f2d0d5c",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-16T17:36:20.807123+00:00"
   },
   {
     "email": "aliciamccluskey.realestate@gmail.com",
@@ -1917,7 +1918,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "8bcda5112f1b",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-16T17:36:20.807163+00:00"
   },
   {
     "email": "deannechester75@gmail.com",
@@ -2385,7 +2387,7 @@
     "name": "Hailey Cox",
     "phone": "(937) 689-9748",
     "title": "REALTOR\u00ae",
-    "team": "Cox Team (Placeholder)",
+    "team": "The Rhonda Cox Team",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -5244,7 +5246,7 @@
     "name": "Rhonda Cox",
     "phone": "(937) 677-2847",
     "title": "REALTOR\u00ae",
-    "team": "Cox Team (Placeholder)",
+    "team": "The Rhonda Cox Team",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -5390,13 +5392,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026324/14/bbb079cb-9d4d-4b95-9fc0-0e04c19b764f/original_6d31d71e-a3d0-4636-8bec-92c35e1ccde5.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272370.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Rodney-Washburn/8917348",
     "boldtrailId": "272370",
     "loftyId": 8917348,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "4e4c8641d286",
     "hidden": false
   },
   {
@@ -5512,13 +5514,13 @@
       "Columbus"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272373.jpg",
     "profileUrl": "https://glasshouserealty.com/samantha-tschida",
     "boldtrailId": "272373",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "ff4e91c96e0c",
     "hidden": false
   },
   {
@@ -5693,13 +5695,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/299771.jpg",
     "profileUrl": "https://glasshouserealty.com/sheila-pierson",
     "boldtrailId": "299771",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d226b75e592e",
     "hidden": false
   },
   {
@@ -5873,13 +5875,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272387.jpg",
     "profileUrl": "https://glasshouserealty.com/sophia-luza",
     "boldtrailId": "272387",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8f51cb252355",
     "hidden": false
   },
   {
