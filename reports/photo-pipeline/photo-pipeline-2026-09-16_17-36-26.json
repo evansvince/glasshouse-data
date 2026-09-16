@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-09-16T17:36:26.971243Z",
+  "mode": "LIVE",
+  "totalEvents": 4,
+  "acquired_a": 4,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Rodney Washburn",
+      "key": "272370",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-16T17:36:24.390638Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518176.gif?v=1789579541"
+    },
+    {
+      "name": "Samantha Tschida",
+      "key": "272373",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-16T17:36:25.050616Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518179.gif?v=1789579559"
+    },
+    {
+      "name": "Sheila Pierson",
+      "key": "299771",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-16T17:36:25.739577Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/611783.gif?v=1789579579"
+    },
+    {
+      "name": "Sophia Luza",
+      "key": "272387",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-16T17:36:26.305507Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518193.gif?v=1789579619"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "generated": "2026-09-16T17:36:20.807367",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Alexis Becker",
+      "email": "alexisbecker.re@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Dean Meder",
+      "email": "dean.meder@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Heather Young Real Estate Group"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
