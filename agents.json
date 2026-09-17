@@ -2162,27 +2162,6 @@
     "hidden": false
   },
   {
-    "email": "emily.tith@gmail.com",
-    "name": "Emily Tith",
-    "phone": "(937) 718-1828",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026414/15/3c427805-1caf-431d-a429-98e73a5e0422/original_83b857c8-45b7-46d6-8691-0b01b63d8cda.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Emily-Tith/8896805",
-    "boldtrailId": "277346",
-    "loftyId": 8896805,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-18T16:45:34.846457+00:00"
-  },
-  {
     "email": "ericcredit@glasshouserealty.com",
     "name": "Eric Credit",
     "phone": "(937) 232-9199",
