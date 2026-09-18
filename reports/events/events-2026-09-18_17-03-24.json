@@ -1,0 +1,14 @@
+{
+  "generated": "2026-09-18T17:03:24.167278",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Kristina McKenzie",
+      "email": "kristina.mckenzie@glasshouserealty.com",
+      "softDeletedAt": "2026-08-19T16:43:24.251338+00:00"
+    }
+  ],
+  "reactivated": []
+}
