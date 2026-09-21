@@ -1,0 +1,29 @@
+{
+  "generated": "2026-09-21T18:38:03.815800",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Shelby Swihart",
+      "email": "shelby@dreamhomeohio.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "313358",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Chelsea Williams",
+      "email": "closedwithchelsea@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
