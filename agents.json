@@ -1485,7 +1485,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "055f83ca5e44",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-21T18:38:03.815474+00:00"
   },
   {
     "email": "chelsie@glasshouserealty.com",
@@ -5677,6 +5678,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Shelby-MacGregor/8728590",
     "boldtrailId": "272383",
     "loftyId": 8728590,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "shelby@dreamhomeohio.com",
+    "name": "Shelby Swihart",
+    "phone": "(937) 238-9271",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/shelby-swihart",
+    "boldtrailId": "313358",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
