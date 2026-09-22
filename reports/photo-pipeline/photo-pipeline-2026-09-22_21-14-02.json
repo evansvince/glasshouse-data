@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-09-22T21:14:02.224876Z",
+  "mode": "LIVE",
+  "totalEvents": 2,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Samantha Tschida",
+      "key": "272373",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-09-22T21:13:59.286912Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518179.gif?v=1790105380"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-22T21:14:00.920968Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    }
+  ]
+}
