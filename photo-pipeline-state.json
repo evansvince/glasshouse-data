@@ -1,11 +1,11 @@
 {
   "agentRetries": {
     "313358": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-09-21T18:38:07.760776Z",
-      "lastAttemptRun": 377,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-09-22T01:34:45.139863Z",
+      "lastAttemptRun": 379,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 378
+  "runCounter": 379
 }
