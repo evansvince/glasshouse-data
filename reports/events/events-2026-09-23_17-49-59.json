@@ -1,0 +1,26 @@
+{
+  "generated": "2026-09-23T17:49:59.451500",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Claudia Tapia",
+      "email": "tapiaclaudia.realtor@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "313708",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Sally Ostendorf",
+      "email": "sellwithsallyo@gmail.com",
+      "softDeletedAt": "2026-08-24T15:51:42.360993+00:00"
+    }
+  ],
+  "reactivated": []
+}
