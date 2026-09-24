@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-24T17:50:31.561272Z",
+  "mode": "LIVE",
+  "totalEvents": 1,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-24T17:50:31.555532Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
