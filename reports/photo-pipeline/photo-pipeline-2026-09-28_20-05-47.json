@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-28T20:05:47.140959Z",
+  "mode": "LIVE",
+  "totalEvents": 2,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Sheila Pierson",
+      "key": "299771",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-09-28T20:05:46.461760Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/611783.gif?v=1790606870"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-28T20:05:47.136224Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
