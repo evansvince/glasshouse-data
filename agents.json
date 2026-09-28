@@ -5638,7 +5638,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "d226b75e592e",
+    "photoSourceHash": "3a4573ba0e14",
     "hidden": false
   },
   {
@@ -6342,6 +6342,26 @@
     "hidden": false
   },
   {
+    "email": "tim@kunalpatelgroup.com",
+    "name": "Tim Williams",
+    "phone": "(937) 270-0049",
+    "title": "REALTOR\u00ae",
+    "team": "Kunal Patel Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/303292.jpg",
+    "profileUrl": "https://glasshouserealty.com/timothy-williams",
+    "boldtrailId": "303292",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5d6d017aecc3",
+    "hidden": false
+  },
+  {
     "email": "tim.young@glasshouserealty.com",
     "name": "Tim Young",
     "phone": "(937) 718-4240",
@@ -6359,26 +6379,6 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
-  },
-  {
-    "email": "tim@kunalpatelgroup.com",
-    "name": "Timothy Williams",
-    "phone": "(937) 270-0049",
-    "title": "REALTOR\u00ae",
-    "team": "Kunal Patel Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/303292.jpg",
-    "profileUrl": "https://glasshouserealty.com/timothy-williams",
-    "boldtrailId": "303292",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "5d6d017aecc3",
     "hidden": false
   },
   {
