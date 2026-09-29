@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-29T22:56:29.769786Z",
+  "mode": "LIVE",
+  "totalEvents": 3,
+  "acquired_a": 2,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Katie Keegan",
+      "key": "272283",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-29T22:56:27.949843Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518089.gif?v=1790708092"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-29T22:56:28.204647Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Zane Keadle",
+      "key": "272594",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-29T22:56:29.237125Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518406.gif?v=1790707827"
+    }
+  ]
+}

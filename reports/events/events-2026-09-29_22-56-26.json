@@ -1,0 +1,29 @@
+{
+  "generated": "2026-09-29T22:56:26.318545",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Zane Keadle",
+      "email": "zanekeadlesold@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "272594",
+      "has_photo": true
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Angel Edge",
+      "email": "angeledgerealtor@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Asa Cox Homes"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
