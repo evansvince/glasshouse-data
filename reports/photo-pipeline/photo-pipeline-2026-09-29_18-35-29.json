@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-09-29T18:35:29.569136Z",
+  "mode": "LIVE",
+  "totalEvents": 2,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Angelique Kabami",
+      "key": "272177",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-29T18:35:28.912166Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517983.gif?v=1790705314"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-29T18:35:29.563077Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}

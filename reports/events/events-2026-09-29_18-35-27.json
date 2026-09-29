@@ -1,0 +1,17 @@
+{
+  "generated": "2026-09-29T18:35:27.034076",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Vernard Jones",
+      "email": "jonesvernard814@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "The Sams Group"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
