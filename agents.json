@@ -591,13 +591,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025825/12/original_09ff27c7-3f36-47c8-94e4-624278a752ce.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272177.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Angelique-Kabami/8856990",
     "boldtrailId": "272177",
     "loftyId": 8856990,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8f4f67543e66",
     "hidden": false
   },
   {
@@ -6639,7 +6639,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "f64a39fa0483",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-29T18:35:27.033930+00:00"
   },
   {
     "email": "veronica.plumbnelson@glasshouserealty.com",
