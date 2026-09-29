@@ -498,7 +498,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "61c2091463e5",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-29T22:56:26.318271+00:00"
   },
   {
     "email": "angel.jones@glasshouserealty.com",
@@ -3375,13 +3376,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025711/12/original_6d89cde1-0acc-49e4-80bc-1c2590c0df0a.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272283.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Katie-Keegan/8842406",
     "boldtrailId": "272283",
     "loftyId": 8842406,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2dcc49f5d229",
     "hidden": false
   },
   {
@@ -6801,6 +6802,26 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "zanekeadlesold@gmail.com",
+    "name": "Zane Keadle",
+    "phone": "(937) 474-4513",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272594.jpg",
+    "profileUrl": "https://glasshouserealty.com/zane-keadle",
+    "boldtrailId": "272594",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "61ccda1ab1c1",
     "hidden": false
   }
 ]
