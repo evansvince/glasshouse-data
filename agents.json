@@ -936,13 +936,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026427/14/1c7e6793-362d-4350-a72a-3d00d5310984/original_85e1c59a-4889-4826-bcb7-57b105641db4.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272183.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Billie-Bowling/8726238",
     "boldtrailId": "272183",
     "loftyId": 8726238,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "1f0784eb4e3a",
     "hidden": false
   },
   {
@@ -976,13 +976,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202651/14/fc486404-1c75-4562-be62-01d976147321/w600_original_d4ed22fd-a327-4dd4-9bed-735fb84a1cd3-jpeg.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/285335.jpg",
     "profileUrl": "https://glasshouserealty.com/bobby-hopkins",
     "boldtrailId": "285335",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5e63144e626f",
     "hidden": false
   },
   {
@@ -1257,13 +1257,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024927/23/original_267cdeb3-ffe2-4a3c-8e55-182b62e50969.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272191.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Brooklynne-Bussard/8728600",
     "boldtrailId": "272191",
     "loftyId": 8728600,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "679f2dfbdecf",
     "hidden": false
   },
   {
@@ -1277,13 +1277,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202535/12/original_624f9c0e-3bfb-44f4-a1b2-e362555b593c.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272192.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Bryce-Howard/8810426",
     "boldtrailId": "272192",
     "loftyId": 8810426,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "3f753fa70091",
     "hidden": false
   },
   {
@@ -1317,13 +1317,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/16/w640_original_287af2d8-a1fa-46e8-8b62-d415b36f4ff6-png.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272193.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Carl-Fisher/8726233",
     "boldtrailId": "272193",
     "loftyId": 8726233,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "6d958106d264",
     "hidden": false
   },
   {
@@ -1337,13 +1337,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202648/16/0289b0d8-32c8-436f-8795-e7c7cd223096/original_80ec44d7-2ccd-44ba-8d0f-f02dc9bb6f76.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272197.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Casey-Fisher/8718697",
     "boldtrailId": "272197",
     "loftyId": 8718697,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "121dc9dca678",
     "hidden": false
   },
   {
@@ -6458,6 +6458,26 @@
     "boldtrailId": "272583",
     "loftyId": 8728636,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "torreyaseltine@yahoo.com",
+    "name": "Torrey Aseltine",
+    "phone": "(419) 559-1190",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "314584",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
