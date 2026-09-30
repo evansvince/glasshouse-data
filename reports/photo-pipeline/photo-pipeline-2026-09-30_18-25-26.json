@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-09-30T18:25:26.068928Z",
+  "mode": "LIVE",
+  "totalEvents": 9,
+  "acquired_a": 8,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Alicia McCluskey",
+      "key": "272166",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:21.836411Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517972.gif?v=1790791880"
+    },
+    {
+      "name": "Allan Konnagan",
+      "key": "272168",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:22.043462Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517974.gif?v=1790780612"
+    },
+    {
+      "name": "Amanda Landis",
+      "key": "272171",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:22.438887Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517977.gif?v=1790791104"
+    },
+    {
+      "name": "Autumn Kern",
+      "key": "272181",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:22.690755Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517987.gif?v=1790780093"
+    },
+    {
+      "name": "Chance Kloecker",
+      "key": "272201",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:22.966584Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518007.gif?v=1790780330"
+    },
+    {
+      "name": "Gina Landis",
+      "key": "272365",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:23.189557Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518171.gif?v=1790791953"
+    },
+    {
+      "name": "Kim Kretz",
+      "key": "272296",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:23.542863Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518102.gif?v=1790780816"
+    },
+    {
+      "name": "Molly Kyne",
+      "key": "272347",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T18:25:24.577689Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518153.gif?v=1790790811"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-30T18:25:25.013831Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    }
+  ]
+}
