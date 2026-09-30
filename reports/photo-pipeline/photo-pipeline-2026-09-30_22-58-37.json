@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-09-30T22:58:37.989719Z",
+  "mode": "LIVE",
+  "totalEvents": 7,
+  "acquired_a": 6,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Billie Bowling",
+      "key": "272183",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T22:58:34.424837Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517989.gif?v=1790793576"
+    },
+    {
+      "name": "Bobby Hopkins",
+      "key": "285335",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T22:58:35.232875Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/590552.gif?v=1790793664"
+    },
+    {
+      "name": "Brooke Bussard",
+      "key": "272191",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T22:58:36.075282Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517997.gif?v=1790794890"
+    },
+    {
+      "name": "Bryce Howard",
+      "key": "272192",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T22:58:36.537970Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517998.gif?v=1790794914"
+    },
+    {
+      "name": "Carl Fisher",
+      "key": "272193",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T22:58:37.228971Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517999.gif?v=1790794952"
+    },
+    {
+      "name": "Casey Fisher",
+      "key": "272197",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-09-30T22:58:37.553209Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518003.gif?v=1790796277"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-09-30T22:58:37.984628Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}

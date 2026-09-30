@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-30T22:58:31.376589",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Torrey Aseltine",
+      "email": "torreyaseltine@yahoo.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "314584",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
