@@ -171,13 +171,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024712/19/original_fab87e8d-1629-441f-a81a-c89e4681948c.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272166.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Alicia-McCluskey/8718695",
     "boldtrailId": "272166",
     "loftyId": 8718695,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d438e44d53ae",
     "hidden": false
   },
   {
@@ -231,13 +231,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/14/original_dfd27aa8-b641-4f50-8038-d7f6f5d258de.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272168.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Allan-Konnagan/8726189",
     "boldtrailId": "272168",
     "loftyId": 8726189,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "9e75a0b92b63",
     "hidden": false
   },
   {
@@ -331,13 +331,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025722/11/original_d06a8def-b614-4169-8e68-70a3095be463.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272171.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Amanda-Landis/8783439",
     "boldtrailId": "272171",
     "loftyId": 8783439,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "b2fa9c3c841b",
     "hidden": false
   },
   {
@@ -498,7 +498,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "61c2091463e5",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-29T22:56:26.318271+00:00"
   },
   {
     "email": "angel.jones@glasshouserealty.com",
@@ -591,13 +592,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025825/12/original_09ff27c7-3f36-47c8-94e4-624278a752ce.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272177.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Angelique-Kabami/8856990",
     "boldtrailId": "272177",
     "loftyId": 8856990,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "8f4f67543e66",
     "hidden": false
   },
   {
@@ -875,13 +876,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/13/original_f353b1ca-e5cc-4259-b35d-b30e5ae12acf.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272181.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Autumn-Kern/8726186",
     "boldtrailId": "272181",
     "loftyId": 8726186,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "fe685f31c5ee",
     "hidden": false
   },
   {
@@ -935,13 +936,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026427/14/1c7e6793-362d-4350-a72a-3d00d5310984/original_85e1c59a-4889-4826-bcb7-57b105641db4.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272183.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Billie-Bowling/8726238",
     "boldtrailId": "272183",
     "loftyId": 8726238,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "1f0784eb4e3a",
     "hidden": false
   },
   {
@@ -975,13 +976,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202651/14/fc486404-1c75-4562-be62-01d976147321/w600_original_d4ed22fd-a327-4dd4-9bed-735fb84a1cd3-jpeg.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/285335.jpg",
     "profileUrl": "https://glasshouserealty.com/bobby-hopkins",
     "boldtrailId": "285335",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5e63144e626f",
     "hidden": false
   },
   {
@@ -1256,13 +1257,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024927/23/original_267cdeb3-ffe2-4a3c-8e55-182b62e50969.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272191.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Brooklynne-Bussard/8728600",
     "boldtrailId": "272191",
     "loftyId": 8728600,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "679f2dfbdecf",
     "hidden": false
   },
   {
@@ -1276,13 +1277,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202535/12/original_624f9c0e-3bfb-44f4-a1b2-e362555b593c.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272192.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Bryce-Howard/8810426",
     "boldtrailId": "272192",
     "loftyId": 8810426,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "3f753fa70091",
     "hidden": false
   },
   {
@@ -1316,13 +1317,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/16/w640_original_287af2d8-a1fa-46e8-8b62-d415b36f4ff6-png.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272193.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Carl-Fisher/8726233",
     "boldtrailId": "272193",
     "loftyId": 8726233,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "6d958106d264",
     "hidden": false
   },
   {
@@ -1336,13 +1337,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202648/16/0289b0d8-32c8-436f-8795-e7c7cd223096/original_80ec44d7-2ccd-44ba-8d0f-f02dc9bb6f76.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272197.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Casey-Fisher/8718697",
     "boldtrailId": "272197",
     "loftyId": 8718697,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "121dc9dca678",
     "hidden": false
   },
   {
@@ -1438,13 +1439,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/202524/13/original_f7ee5f99-268c-4a14-9140-4aea1390cbe0.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272201.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Chance-Kloecker/8801859",
     "boldtrailId": "272201",
     "loftyId": 8801859,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "24a9b11d53a1",
     "hidden": false
   },
   {
@@ -1485,7 +1486,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "055f83ca5e44",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-21T18:38:03.815474+00:00"
   },
   {
     "email": "chelsie@glasshouserealty.com",
@@ -1585,6 +1587,26 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "ce3444d9afeb",
+    "hidden": false
+  },
+  {
+    "email": "tapiaclaudia.realtor@gmail.com",
+    "name": "Claudia Tapia",
+    "phone": "(440) 867-5838",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "313708",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -2162,27 +2184,6 @@
     "hidden": false
   },
   {
-    "email": "emily.tith@gmail.com",
-    "name": "Emily Tith",
-    "phone": "(937) 718-1828",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026414/15/3c427805-1caf-431d-a429-98e73a5e0422/original_83b857c8-45b7-46d6-8691-0b01b63d8cda.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Emily-Tith/8896805",
-    "boldtrailId": "277346",
-    "loftyId": 8896805,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-18T16:45:34.846457+00:00"
-  },
-  {
     "email": "ericcredit@glasshouserealty.com",
     "name": "Eric Credit",
     "phone": "(937) 232-9199",
@@ -2373,13 +2374,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024722/20/original_3ec07d8e-354a-4c34-9acb-7f7c0b31c450.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272365.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Gina-Landis/8728583",
     "boldtrailId": "272365",
     "loftyId": 8728583,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "88b27ce50e41",
     "hidden": false
   },
   {
@@ -3375,13 +3376,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025711/12/original_6d89cde1-0acc-49e4-80bc-1c2590c0df0a.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272283.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Katie-Keegan/8842406",
     "boldtrailId": "272283",
     "loftyId": 8842406,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2dcc49f5d229",
     "hidden": false
   },
   {
@@ -3609,13 +3610,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024826/15/original_952290d8-4823-438d-946d-062fa7f239d0.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272296.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Kim-Kretz/8750600",
     "boldtrailId": "272296",
     "loftyId": 8750600,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5182a2f4c906",
     "hidden": false
   },
   {
@@ -3717,27 +3718,6 @@
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
-  },
-  {
-    "email": "kristina.mckenzie@glasshouserealty.com",
-    "name": "Kristina McKenzie",
-    "phone": "(937) 829-9507",
-    "title": "REALTOR\u00ae",
-    "team": "The Buckner Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026417/12/2f8ad066-ae03-4127-8620-ad3cafde5c76/original_bc1bc9e3-3867-40c4-b551-ea50e10fd537.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Kristina-McKenzie/8923932",
-    "boldtrailId": "289596",
-    "loftyId": 8923932,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-19T16:43:24.251338+00:00"
   },
   {
     "email": "onerealvalue@gmail.com",
@@ -4811,13 +4791,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024721/18/original_49920ac6-20ed-45d6-aeb3-03faf55d536c.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272347.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Molly-Kyne/8726280",
     "boldtrailId": "272347",
     "loftyId": 8726280,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "e3f6b66213c7",
     "hidden": false
   },
   {
@@ -5181,27 +5161,6 @@
     "hidden": false
   },
   {
-    "email": "homesaleswithbecca@gmail.com",
-    "name": "Rebecca Clemens",
-    "phone": "(937) 654-0346",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024721/18/original_fc3bcd97-97d1-4a23-a325-021d7bf8c419.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Rebecca-Clemens/8726271",
-    "boldtrailId": "272363",
-    "loftyId": 8726271,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-25T18:55:53.698524+00:00"
-  },
-  {
     "email": "moverebecca@gmail.com",
     "name": "Rebecca Quinones",
     "phone": "(850) 374-2943",
@@ -5482,27 +5441,6 @@
     "hidden": false
   },
   {
-    "email": "sellwithsallyo@gmail.com",
-    "name": "Sally Ostendorf",
-    "phone": "(937) 710-0300",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/20241119/17/original_5a47a165-cc5c-4cc8-918f-07c4d808667e.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Sally-Ostendorf/8728626",
-    "boldtrailId": "272372",
-    "loftyId": 8728626,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-08-24T15:51:42.360993+00:00"
-  },
-  {
     "email": "chasewithtschida@gmail.com",
     "name": "Samantha Tschida",
     "phone": "(937) 605-6858",
@@ -5520,7 +5458,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "ff4e91c96e0c",
+    "photoSourceHash": "6839c626dfba",
     "hidden": false
   },
   {
@@ -5701,7 +5639,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "d226b75e592e",
+    "photoSourceHash": "3a4573ba0e14",
     "hidden": false
   },
   {
@@ -5719,6 +5657,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Shelby-MacGregor/8728590",
     "boldtrailId": "272383",
     "loftyId": 8728590,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "shelby@dreamhomeohio.com",
+    "name": "Shelby Swihart",
+    "phone": "(937) 238-9271",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/shelby-swihart",
+    "boldtrailId": "313358",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
@@ -6172,7 +6130,7 @@
     "team": "",
     "teamLogo": "",
     "regions": [
-      "Dayton"
+      "Dayton / Cincinnati"
     ],
     "office": "",
     "photo": "https://cdn.lofty.com/image/fs/user-info/2025626/10/original_23119d4e-13c9-46d9-8d9e-0d784085e22b.jpeg",
@@ -6385,6 +6343,26 @@
     "hidden": false
   },
   {
+    "email": "tim@kunalpatelgroup.com",
+    "name": "Tim Williams",
+    "phone": "(937) 270-0049",
+    "title": "REALTOR\u00ae",
+    "team": "Kunal Patel Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/303292.jpg",
+    "profileUrl": "https://glasshouserealty.com/timothy-williams",
+    "boldtrailId": "303292",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5d6d017aecc3",
+    "hidden": false
+  },
+  {
     "email": "tim.young@glasshouserealty.com",
     "name": "Tim Young",
     "phone": "(937) 718-4240",
@@ -6402,26 +6380,6 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
-  },
-  {
-    "email": "tim@kunalpatelgroup.com",
-    "name": "Timothy Williams",
-    "phone": "(937) 270-0049",
-    "title": "REALTOR\u00ae",
-    "team": "Kunal Patel Group",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/303292.jpg",
-    "profileUrl": "https://glasshouserealty.com/timothy-williams",
-    "boldtrailId": "303292",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "5d6d017aecc3",
     "hidden": false
   },
   {
@@ -6500,6 +6458,26 @@
     "boldtrailId": "272583",
     "loftyId": 8728636,
     "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "torreyaseltine@yahoo.com",
+    "name": "Torrey Aseltine",
+    "phone": "(419) 559-1190",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "314584",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
     "hidden": false
@@ -6682,7 +6660,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "f64a39fa0483",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-09-29T18:35:27.033930+00:00"
   },
   {
     "email": "veronica.plumbnelson@glasshouserealty.com",
@@ -6843,6 +6822,26 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "zanekeadlesold@gmail.com",
+    "name": "Zane Keadle",
+    "phone": "(937) 474-4513",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272594.jpg",
+    "profileUrl": "https://glasshouserealty.com/zane-keadle",
+    "boldtrailId": "272594",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "61ccda1ab1c1",
     "hidden": false
   }
 ]
