@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-02T18:22:15.823118Z",
+  "mode": "LIVE",
+  "totalEvents": 5,
+  "acquired_a": 3,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Angel Jones",
+      "key": "293536",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-02T18:22:11.437758Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/602442.gif?v=1790962105"
+    },
+    {
+      "name": "Holly Garner",
+      "key": "314693",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-02T18:22:12.129407Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Michelle Johansen",
+      "key": "272341",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-02T18:22:13.227360Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518147.gif?v=1790961842"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-02T18:22:14.269647Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Terri Johnson",
+      "key": "272403",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-02T18:22:15.404483Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518209.gif?v=1790961968"
+    }
+  ]
+}

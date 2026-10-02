@@ -1,0 +1,29 @@
+{
+  "generated": "2026-10-02T18:22:09.574380",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Holly Garner",
+      "email": "holly.garner@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "314693",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Teresa Gustafson",
+      "email": "tggroupohio@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
