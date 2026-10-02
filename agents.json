@@ -512,13 +512,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026427/17/b2d487ee-1b66-40e4-bae3-b0692e1a9c61/original_19131c78-0d56-4d5c-89bb-a9c7bbff1830.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293536.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Angel-Jones/8925952",
     "boldtrailId": "293536",
     "loftyId": 8925952,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "90b25890dbb3",
     "hidden": false
   },
   {
@@ -2541,6 +2541,26 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "68d650ea009b",
+    "hidden": false
+  },
+  {
+    "email": "holly.garner@glasshouserealty.com",
+    "name": "Holly Garner",
+    "phone": "(937) 516-2224",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/holly-garner",
+    "boldtrailId": "314693",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -4571,13 +4591,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2025113/14/original_3f93e295-a5d1-4b63-b1c6-a048c3f444ed.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272341.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Michelle-Johansen/8728588",
     "boldtrailId": "272341",
     "loftyId": 8728588,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "72aa37adb5da",
     "hidden": false
   },
   {
@@ -6200,7 +6220,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-02T18:22:09.574152+00:00"
   },
   {
     "email": "teri@glasshouserealty.com",
@@ -6233,13 +6254,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202542/11/original_02a47bc2-b19d-40c0-be08-fc8bfb5eddd7.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272403.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Terri-Johnson/8718698",
     "boldtrailId": "272403",
     "loftyId": 8718698,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f82d0d2f62d8",
     "hidden": false
   },
   {
