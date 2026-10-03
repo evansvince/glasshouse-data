@@ -1,17 +1,17 @@
 {
   "agentRetries": {
     "313358": {
-      "failureCount": 14,
-      "lastAttemptAt": "2026-10-02T18:22:15.404454Z",
-      "lastAttemptRun": 403,
+      "failureCount": 15,
+      "lastAttemptAt": "2026-10-03T01:53:40.075553Z",
+      "lastAttemptRun": 405,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "314693": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-10-02T18:22:13.227334Z",
-      "lastAttemptRun": 403,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-10-03T01:53:38.800708Z",
+      "lastAttemptRun": 405,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 404
+  "runCounter": 405
 }
