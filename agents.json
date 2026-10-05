@@ -1086,6 +1086,26 @@
     "hidden": false
   },
   {
+    "email": "brandon.mccloud@gmail.com",
+    "name": "Brandon McCloud",
+    "phone": "(513) 304-1076",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/brandon-mccloud",
+    "boldtrailId": "315089",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "brenda.gadowski@glasshouserealty.com",
     "name": "Brenda Gadowski",
     "phone": "(216) 789-9057",
@@ -2554,13 +2574,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/314693.jpg",
     "profileUrl": "https://glasshouserealty.com/holly-garner",
     "boldtrailId": "314693",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "03a3dd2d4f2d",
     "hidden": false
   },
   {
