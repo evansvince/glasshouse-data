@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-10-06T18:53:13.143742Z",
+  "mode": "LIVE",
+  "totalEvents": 3,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Brandon McCloud",
+      "key": "315089",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-06T18:53:11.276756Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/641499.gif?v=1791304037"
+    },
+    {
+      "name": "Jodi Trammell",
+      "key": "315165",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-06T18:53:11.860145Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-06T18:53:13.136707Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}

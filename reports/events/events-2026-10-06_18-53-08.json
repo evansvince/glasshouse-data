@@ -1,0 +1,20 @@
+{
+  "generated": "2026-10-06T18:53:08.954940",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Jodi Trammell",
+      "email": "trammell.jodi@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Envision Group",
+      "office": "",
+      "boldtrailId": "315165",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
