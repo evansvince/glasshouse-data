@@ -1096,13 +1096,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/315089.jpg",
     "profileUrl": "https://glasshouserealty.com/brandon-mccloud",
     "boldtrailId": "315089",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "7cbfbbd0424e",
     "hidden": false
   },
   {
@@ -3080,6 +3080,26 @@
     "profileUrl": "https://glasshouserealty.com/agents/Jim-Foster/8726254",
     "boldtrailId": "272254",
     "loftyId": 8726254,
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
+    "email": "trammell.jodi@gmail.com",
+    "name": "Jodi Trammell",
+    "phone": "(937) 260-8729",
+    "title": "REALTOR\u00ae",
+    "team": "The Envision Group",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/jodi-trammell",
+    "boldtrailId": "315165",
+    "loftyId": "",
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
