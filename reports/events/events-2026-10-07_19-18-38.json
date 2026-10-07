@@ -1,0 +1,17 @@
+{
+  "generated": "2026-10-07T19:18:38.424954",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Brandi Lawson",
+      "email": "brandilawsonrealtor@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
