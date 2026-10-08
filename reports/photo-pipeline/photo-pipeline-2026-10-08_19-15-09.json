@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-10-08T19:15:09.827604Z",
+  "mode": "LIVE",
+  "totalEvents": 3,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Carol Ilg",
+      "key": "272194",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-08T19:15:07.375125Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jodi Trammell",
+      "key": "315165",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-08T19:15:08.602236Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-08T19:15:08.602248Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    }
+  ]
+}

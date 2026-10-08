@@ -1,0 +1,29 @@
+{
+  "generated": "2026-10-08T19:15:05.730434",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Carol Ilg",
+      "email": "rlilg@netzero.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "272194",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Sunnie Shafer",
+      "email": "sunnie@daytonrealestatecrush.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Dayton Real Estate Crush"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
