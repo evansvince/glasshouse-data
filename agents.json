@@ -730,7 +730,7 @@
     "name": "Ashlea Roe",
     "phone": "(937) 789-7722",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "The Envision Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -1345,6 +1345,26 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "6d958106d264",
+    "hidden": false
+  },
+  {
+    "email": "rlilg@netzero.com",
+    "name": "Carol Ilg",
+    "phone": "(937) 725-1981",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/carol-ilg",
+    "boldtrailId": "272194",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
@@ -3087,7 +3107,7 @@
     "hidden": false
   },
   {
-    "email": "trammell.jodi@gmail.com",
+    "email": "joditrammel.realtor@gmail.com",
     "name": "Jodi Trammell",
     "phone": "(937) 260-8729",
     "title": "REALTOR\u00ae",
@@ -6081,7 +6101,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-08T19:15:05.730279+00:00"
   },
   {
     "email": "sunny@glasshouserealty.com",
