@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-10-09T00:18:13.979409Z",
+  "mode": "LIVE",
+  "totalEvents": 5,
+  "acquired_a": 3,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 2,
+  "events": [
+    {
+      "name": "Carol Ilg",
+      "key": "272194",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-09T00:18:12.627407Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "David Hochwalt",
+      "key": "272222",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-09T00:18:12.627422Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518028.gif?v=1791489392"
+    },
+    {
+      "name": "Jodi Trammell",
+      "key": "315165",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-09T00:18:13.205107Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/641587.gif?v=1791489109"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-09T00:18:13.636808Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Tyler Hicks",
+      "key": "272586",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-09T00:18:13.636832Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518398.gif?v=1791489743"
+    }
+  ]
+}
