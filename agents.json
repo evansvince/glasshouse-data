@@ -2966,6 +2966,26 @@
     "hidden": false
   },
   {
+    "email": "jeramy@thehydengroup.com",
+    "name": "Jeramy Hyden",
+    "phone": "(937) 776-3104",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/jeramy-hyden",
+    "boldtrailId": "316004",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "jeri@glasshouserealty.com",
     "name": "Jeri Baumann",
     "phone": "(937) 418-6273",
@@ -3107,7 +3127,7 @@
     "hidden": false
   },
   {
-    "email": "joditrammel.realtor@gmail.com",
+    "email": "joditrammell.realtor@gmail.com",
     "name": "Jodi Trammell",
     "phone": "(937) 260-8729",
     "title": "REALTOR\u00ae",
