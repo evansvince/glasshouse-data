@@ -1,0 +1,44 @@
+{
+  "generated": "2026-10-09T18:46:36.347294",
+  "dry_run": false,
+  "description": "Cleveland spreadsheet records with no BoldTrail match. Currently preserved on the site. Review and decide which should be retained vs soft-deleted.",
+  "count": 4,
+  "records": [
+    {
+      "name": "Alexis Becker",
+      "email": "alexisbecker.re@gmail.com",
+      "team": "",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Angel Edge",
+      "email": "angeledgerealtor@gmail.com",
+      "team": "Asa Cox Homes",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Dean Meder",
+      "email": "dean.meder@glasshouserealty.com",
+      "team": "Heather Young Real Estate Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Vernard Jones",
+      "email": "jonesvernard814@gmail.com",
+      "team": "The Sams Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    }
+  ]
+}

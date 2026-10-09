@@ -1,0 +1,20 @@
+{
+  "generated": "2026-10-09T18:46:36.347294",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Jeramy Hyden",
+      "email": "jeramy@thehydengroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "316004",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
