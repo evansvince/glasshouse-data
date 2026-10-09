@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-10-09T23:12:15.334571Z",
+  "mode": "LIVE",
+  "totalEvents": 3,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 3,
+  "events": [
+    {
+      "name": "Carol Ilg",
+      "key": "272194",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-09T23:12:15.327022Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Jeramy Hyden",
+      "key": "316004",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-09T23:12:15.327038Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-09T23:12:15.327047Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
