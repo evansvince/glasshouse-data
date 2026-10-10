@@ -1,0 +1,74 @@
+{
+  "generated": "2026-10-10T02:19:07.299773",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 6,
+  "agents": [
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "307268",
+      "loftyId": ""
+    },
+    {
+      "name": "Carol Ilg",
+      "email": "rlilg@netzero.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "272194",
+      "loftyId": ""
+    },
+    {
+      "name": "Claudia Tapia",
+      "email": "tapiaclaudia.realtor@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "313708",
+      "loftyId": ""
+    },
+    {
+      "name": "Jeramy Hyden",
+      "email": "jeramy@thehydengroup.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "316004",
+      "loftyId": ""
+    },
+    {
+      "name": "Shelby Swihart",
+      "email": "shelby@dreamhomeohio.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "313358",
+      "loftyId": ""
+    },
+    {
+      "name": "Torrey Aseltine",
+      "email": "torreyaseltine@yahoo.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "314584",
+      "loftyId": ""
+    }
+  ]
+}
