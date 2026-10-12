@@ -962,7 +962,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "01c2b4ed82cb",
+    "photoSourceHash": "96486400a7d3",
     "hidden": false
   },
   {
@@ -1358,13 +1358,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272194.jpg",
     "profileUrl": "https://glasshouserealty.com/carol-ilg",
     "boldtrailId": "272194",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "bf6a35399cb6",
     "hidden": false
   },
   {
@@ -1964,6 +1964,26 @@
     "hidden": false
   },
   {
+    "email": "david@glasshouserealty.com",
+    "name": "David Woodward",
+    "phone": "(937) 591-1427",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272226.jpg",
+    "profileUrl": "https://glasshouserealty.com/david-woodward",
+    "boldtrailId": "272226",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "37ac68fcf9d7",
+    "hidden": false
+  },
+  {
     "email": "dean.meder@glasshouserealty.com",
     "name": "Dean Meder",
     "phone": "(440) 503-4488",
@@ -2462,6 +2482,26 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "0ea73068ec57",
+    "hidden": false
+  },
+  {
+    "email": "hannah@glasshouserealty.com",
+    "name": "Hannah Lavey",
+    "phone": "(937) 489-9622",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272244.jpg",
+    "profileUrl": "https://glasshouserealty.com/hannah-lavey",
+    "boldtrailId": "272244",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "9e76e57e1f06",
     "hidden": false
   },
   {
@@ -2976,13 +3016,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/316004.jpg",
     "profileUrl": "https://glasshouserealty.com/jeramy-hyden",
     "boldtrailId": "316004",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "badfd835050f",
     "hidden": false
   },
   {
@@ -4459,7 +4499,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "35d022b6f241",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-12T21:42:34.967986+00:00"
   },
   {
     "email": "matthew.watercutter@glasshouserealty.com",
