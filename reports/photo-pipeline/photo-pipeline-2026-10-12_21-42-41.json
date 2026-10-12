@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-10-12T21:42:41.425256Z",
+  "mode": "LIVE",
+  "totalEvents": 6,
+  "acquired_a": 5,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Bob Murray",
+      "key": "309733",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-12T21:42:37.930399Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/632919.gif?v=1791815050"
+    },
+    {
+      "name": "Carol Ilg",
+      "key": "272194",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-12T21:42:38.248541Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518000.gif?v=1791811676"
+    },
+    {
+      "name": "David Woodward",
+      "key": "272226",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-12T21:42:38.454074Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518032.gif?v=1781202867"
+    },
+    {
+      "name": "Hannah Lavey",
+      "key": "272244",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-12T21:42:39.923659Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518050.gif?v=1791834220"
+    },
+    {
+      "name": "Jeramy Hyden",
+      "key": "316004",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-12T21:42:41.103879Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/642631.gif?v=1791826599"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-12T21:42:41.419517Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}

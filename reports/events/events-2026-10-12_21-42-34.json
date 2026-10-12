@@ -1,0 +1,40 @@
+{
+  "generated": "2026-10-12T21:42:34.968208",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "David Woodward",
+      "email": "david@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "272226",
+      "has_photo": true
+    },
+    {
+      "name": "Hannah Lavey",
+      "email": "hannah@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "272244",
+      "has_photo": true
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Matt Osolin",
+      "email": "matt.asacoxhomes@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Labbato Group"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
