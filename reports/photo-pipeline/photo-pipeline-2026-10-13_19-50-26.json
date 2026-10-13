@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-10-13T19:50:26.085285Z",
+  "mode": "LIVE",
+  "totalEvents": 12,
+  "acquired_a": 11,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Abbie Geise",
+      "key": "278329",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:22.414648Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/567311.gif?v=1791902027"
+    },
+    {
+      "name": "Alyssa Smith",
+      "key": "272169",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:23.145504Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517975.gif?v=1791902243"
+    },
+    {
+      "name": "Angela Elsass",
+      "key": "272175",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:23.358298Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517981.gif?v=1791902070"
+    },
+    {
+      "name": "Annie Zheng",
+      "key": "272179",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:23.663551Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517985.gif?v=1791902135"
+    },
+    {
+      "name": "Claudia Tapia",
+      "key": "313708",
+      "reason": "cleveland_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:23.913624Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/639278.gif?v=1791898816"
+    },
+    {
+      "name": "Jill Barhorst",
+      "key": "272268",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-13T19:50:24.245693Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518074.gif?v=1791901885"
+    },
+    {
+      "name": "Matt Echols",
+      "key": "272325",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-13T19:50:24.655303Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518131.gif?v=1791901961"
+    },
+    {
+      "name": "Missy Trumbull",
+      "key": "272334",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:25.137308Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518140.gif?v=1791902216"
+    },
+    {
+      "name": "Nikki Loudenback",
+      "key": "272353",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:25.354947Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518159.gif?v=1791902107"
+    },
+    {
+      "name": "Shari Stover",
+      "key": "272380",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:25.648619Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518186.gif?v=1791902192"
+    },
+    {
+      "name": "Shelby Swihart",
+      "key": "313358",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-13T19:50:25.822903Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Tim Dahlinghaus",
+      "key": "272580",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-13T19:50:25.822928Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518392.gif?v=1791901999"
+    }
+  ]
+}
