@@ -1,0 +1,17 @@
+{
+  "generated": "2026-10-14T21:36:44.382460",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Shelby Swihart",
+      "email": "shelby@dreamhomeohio.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
