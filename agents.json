@@ -5823,7 +5823,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-14T21:36:44.382298+00:00"
   },
   {
     "email": "shelley@glasshouserealty.com",
