@@ -140,27 +140,6 @@
     "hidden": false
   },
   {
-    "email": "alexisbecker.re@gmail.com",
-    "name": "Alexis Becker",
-    "phone": "(440) 452-1463",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306900.jpg",
-    "profileUrl": "",
-    "boldtrailId": "306900",
-    "loftyId": "",
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "0a153f2d0d5c",
-    "hidden": true,
-    "softDeletedAt": "2026-09-16T17:36:20.807123+00:00"
-  },
-  {
     "email": "aliciamccluskey.realestate@gmail.com",
     "name": "Alicia McCluskey",
     "phone": "(937) 422-5531",
@@ -821,8 +800,8 @@
     "boldtrailId": "298678",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "lofty",
-    "photoSourceHash": "156b2fe0f00b",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "36f5ccef0b13",
     "hidden": false
   },
   {
@@ -1983,27 +1962,6 @@
     "photoSource": "boldtrail",
     "photoSourceHash": "37ac68fcf9d7",
     "hidden": false
-  },
-  {
-    "email": "dean.meder@glasshouserealty.com",
-    "name": "Dean Meder",
-    "phone": "(440) 503-4488",
-    "title": "Agent",
-    "team": "Heather Young Real Estate Group",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Heather_Young_Team_Logo_White_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293104.jpg",
-    "profileUrl": "https://www.zillow.com/profile/Dean%20Meder",
-    "boldtrailId": "293104",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "8bcda5112f1b",
-    "hidden": true,
-    "softDeletedAt": "2026-09-16T17:36:20.807163+00:00"
   },
   {
     "email": "deannechester75@gmail.com",
