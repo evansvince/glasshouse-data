@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-16T17:21:51.070816Z",
+  "mode": "LIVE",
+  "totalEvents": 1,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Torrey Aseltine",
+      "key": "314584",
+      "reason": "cleveland_boldtrail",
+      "attemptedAt": "2026-10-16T17:21:50.206742Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/640635.gif?v=1792160504"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "generated": "2026-10-16T17:21:46.693167",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Ryan Kirkwood",
+      "email": "ryankirkwoodrealty@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "GPS Real Estate Team",
+      "office": "",
+      "boldtrailId": "317708",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Haley Connors",
+      "email": "haley.connors@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
