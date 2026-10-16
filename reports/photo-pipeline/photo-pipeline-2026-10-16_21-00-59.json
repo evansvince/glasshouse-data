@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-16T21:00:59.276477Z",
+  "mode": "LIVE",
+  "totalEvents": 1,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Ashley Looper",
+      "key": "298678",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-16T21:00:58.419365Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/610406.gif?v=1792179332"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "generated": "2026-10-16T21:00:56.915767",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Alexis Becker",
+      "email": "alexisbecker.re@gmail.com",
+      "softDeletedAt": "2026-09-16T17:36:20.807123+00:00"
+    },
+    {
+      "name": "Dean Meder",
+      "email": "dean.meder@glasshouserealty.com",
+      "softDeletedAt": "2026-09-16T17:36:20.807163+00:00"
+    }
+  ],
+  "reactivated": []
+}

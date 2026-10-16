@@ -1,0 +1,30 @@
+{
+  "generated": "2026-10-16T21:00:56.915767",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 2,
+  "agents": [
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "307268",
+      "loftyId": ""
+    },
+    {
+      "name": "Ryan Kirkwood",
+      "email": "ryankirkwoodrealty@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "GPS Real Estate Team",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "317708",
+      "loftyId": ""
+    }
+  ]
+}
