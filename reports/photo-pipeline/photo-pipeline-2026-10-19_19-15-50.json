@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-19T19:15:50.661409Z",
+  "mode": "LIVE",
+  "totalEvents": 4,
+  "acquired_a": 4,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Abbe DeVore",
+      "key": "277847",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-19T19:15:48.338874Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/566092.gif?v=1792426414"
+    },
+    {
+      "name": "Alex Zaharieff",
+      "key": "272272",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-19T19:15:49.021526Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518078.gif?v=1792432614"
+    },
+    {
+      "name": "Andrea Mathews",
+      "key": "293092",
+      "reason": "cleveland_boldtrail",
+      "attemptedAt": "2026-10-19T19:15:49.709782Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/601829.gif?v=1792433022"
+    },
+    {
+      "name": "Kailyn Swarts",
+      "key": "272278",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-19T19:15:50.262846Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518084.gif?v=1792434023"
+    }
+  ]
+}
