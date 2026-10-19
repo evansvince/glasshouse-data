@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-19T23:34:47.356639Z",
+  "mode": "LIVE",
+  "totalEvents": 2,
+  "acquired_a": 2,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Hayley Stewart",
+      "key": "272246",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-19T23:34:46.631995Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518052.gif?v=1792437942"
+    },
+    {
+      "name": "Josh Strader",
+      "key": "302753",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-19T23:34:47.004897Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/619605.gif?v=1792438037"
+    }
+  ]
+}
