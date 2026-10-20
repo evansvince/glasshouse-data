@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-20T21:33:13.044427Z",
+  "mode": "LIVE",
+  "totalEvents": 1,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Todd Brandewie",
+      "key": "272582",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-20T21:33:12.207732Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518394.gif?v=1792529768"
+    }
+  ]
+}
