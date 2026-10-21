@@ -1490,27 +1490,6 @@
     "hidden": false
   },
   {
-    "email": "closedwithchelsea@gmail.com",
-    "name": "Chelsea Williams",
-    "phone": "(937) 232-1610",
-    "title": "REALTOR\u00ae",
-    "team": "Dayton Real Estate Crush",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/294172.jpg",
-    "profileUrl": "https://glasshouserealty.com/chelsea-williams",
-    "boldtrailId": "294172",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "055f83ca5e44",
-    "hidden": true,
-    "softDeletedAt": "2026-09-21T18:38:03.815474+00:00"
-  },
-  {
     "email": "chelsie@glasshouserealty.com",
     "name": "Chelsie Robertson",
     "phone": "(937) 308-9164",
@@ -2702,7 +2681,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "a3dae0f59a62",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-21T21:35:46.935324+00:00"
   },
   {
     "email": "jmillerresales@gmail.com",
@@ -2803,7 +2783,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "a5f2ec483966",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-21T21:35:46.935336+00:00"
   },
   {
     "email": "janice.diane10@gmail.com",
