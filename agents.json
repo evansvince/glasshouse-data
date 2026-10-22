@@ -972,7 +972,8 @@
     "team": "",
     "teamLogo": "",
     "regions": [
-      "Cincinnati"
+      "Cincinnati",
+      "Dayton"
     ],
     "office": "",
     "photo": "https://cdn.lofty.com/image/fs/user-info/2025918/11/original_7ce41a85-0f0f-48a9-9cc5-0f72c264d89c.jpeg",
@@ -1295,7 +1296,8 @@
     "team": "",
     "teamLogo": "",
     "regions": [
-      "Dayton"
+      "Dayton",
+      "Columbus"
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/306924.jpg",
@@ -1790,7 +1792,8 @@
     "team": "",
     "teamLogo": "",
     "regions": [
-      "Cincinnati"
+      "Cincinnati",
+      "Dayton"
     ],
     "office": "",
     "photo": "https://cdn.chime.me/image/fs/user-info/2025115/13/original_d43d86d2-b61f-4f5a-9be9-0258f1e4b13e.png",
@@ -1850,7 +1853,8 @@
     "team": "",
     "teamLogo": "",
     "regions": [
-      "Dayton"
+      "Dayton",
+      "Columbus"
     ],
     "office": "",
     "photo": "https://cdn.chime.me/image/fs/user-info/2024115/16/original_0d9e16a0-26c4-47e6-be73-94772f74c8d4.png",
@@ -5967,6 +5971,26 @@
     "hidden": false
   },
   {
+    "email": "soldbystacybam@gmail.com",
+    "name": "Stacy Bambakidis",
+    "phone": "(571) 277-3802",
+    "title": "REALTOR\u00ae",
+    "team": "Bambakidis Placeholder",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/stacy-bambakidis",
+    "boldtrailId": "318225",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "stacypandy.asacoxhomes@gmail.com",
     "name": "Stacy Pandy",
     "phone": "(440) 328-6422",
@@ -6736,7 +6760,8 @@
     "team": "",
     "teamLogo": "",
     "regions": [
-      "Dayton"
+      "Dayton",
+      "Columbus"
     ],
     "office": "",
     "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272586.jpg",
