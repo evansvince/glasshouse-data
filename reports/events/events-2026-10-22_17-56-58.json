@@ -1,0 +1,20 @@
+{
+  "generated": "2026-10-22T17:56:58.636059",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Stacy Bambakidis",
+      "email": "soldbystacybam@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Bambakidis Placeholder",
+      "office": "",
+      "boldtrailId": "318225",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
