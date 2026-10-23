@@ -1,0 +1,20 @@
+{
+  "generated": "2026-10-23T21:20:13.997717",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Latisha Anderson",
+      "email": "latisha@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "318754",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
