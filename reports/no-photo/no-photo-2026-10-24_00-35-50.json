@@ -1,0 +1,52 @@
+{
+  "generated": "2026-10-24T00:35:50.314610",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 4,
+  "agents": [
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "307268",
+      "loftyId": ""
+    },
+    {
+      "name": "Latisha Anderson",
+      "email": "latisha@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "318754",
+      "loftyId": ""
+    },
+    {
+      "name": "Ryan Kirkwood",
+      "email": "ryankirkwoodrealty@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "GPS Real Estate Team",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "317708",
+      "loftyId": ""
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "email": "soldbystacybam@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "Bambakidis Placeholder",
+      "source": "boldtrail",
+      "boldtrailId": "318225",
+      "loftyId": ""
+    }
+  ]
+}

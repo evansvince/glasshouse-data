@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-10-24T00:35:51.729615Z",
+  "mode": "LIVE",
+  "totalEvents": 2,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 2,
+  "events": [
+    {
+      "name": "Latisha Anderson",
+      "key": "318754",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-24T00:35:51.725697Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-24T00:35:51.725710Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
