@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-10-26T23:49:17.787251Z",
+  "mode": "LIVE",
+  "totalEvents": 4,
+  "acquired_a": 3,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Aaron Kroggel",
+      "key": "272164",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-26T23:49:15.770466Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517970.gif?v=1793042235"
+    },
+    {
+      "name": "Don Lewis",
+      "key": "272231",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-26T23:49:16.243233Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518037.gif?v=1793042281"
+    },
+    {
+      "name": "Kim Hetzer",
+      "key": "272292",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-26T23:49:16.816224Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518098.gif?v=1793042402"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-26T23:49:17.675473Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
