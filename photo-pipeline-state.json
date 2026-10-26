@@ -7,17 +7,11 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "318225": {
-      "failureCount": 3,
-      "lastAttemptAt": "2026-10-23T21:20:17.655557Z",
-      "lastAttemptRun": 443,
-      "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
-    },
-    "318754": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-10-23T21:20:16.599961Z",
-      "lastAttemptRun": 443,
+      "failureCount": 4,
+      "lastAttemptAt": "2026-10-26T19:13:31.915733Z",
+      "lastAttemptRun": 445,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 444
+  "runCounter": 445
 }

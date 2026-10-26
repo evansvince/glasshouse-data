@@ -16,7 +16,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "b0c515010984",
+    "photoSourceHash": "9c992f8bb8df",
     "hidden": false
   },
   {
@@ -3916,13 +3916,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/318754.jpg",
     "profileUrl": "https://glasshouserealty.com/latisha-anderson",
     "boldtrailId": "318754",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "c771c09427fe",
     "hidden": false
   },
   {
@@ -3936,13 +3936,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024723/12/original_cbe7503b-e84a-4faa-98fc-a8f8f4e58323.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272304.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Laura-Long/8730781",
     "boldtrailId": "272304",
     "loftyId": 8730781,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "c8feded7d944",
     "hidden": false
   },
   {
@@ -6463,13 +6463,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025422/8/original_6f1889c6-688b-44bf-814b-b3c1c0019e4d.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272579.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Tiffany-Hatfield/8819807",
     "boldtrailId": "272579",
     "loftyId": 8819807,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "295e5e7081ea",
     "hidden": false
   },
   {
@@ -6570,6 +6570,26 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "49630556c5b7",
+    "hidden": false
+  },
+  {
+    "email": "tomi.cangelo@glasshouserealty.com",
+    "name": "Tomi Cangelo",
+    "phone": "(440) 789-0280",
+    "title": "REALTOR\u00ae",
+    "team": "The Legacy Team",
+    "teamLogo": "",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "319201",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
     "hidden": false
   },
   {
