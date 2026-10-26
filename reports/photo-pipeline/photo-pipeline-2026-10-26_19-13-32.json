@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-26T19:13:32.344600Z",
+  "mode": "LIVE",
+  "totalEvents": 5,
+  "acquired_a": 4,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Aaron Kroggel",
+      "key": "272164",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-10-26T19:13:28.071985Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517970.gif?v=1793041313"
+    },
+    {
+      "name": "Latisha Anderson",
+      "key": "318754",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-26T19:13:28.451485Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/646045.gif?v=1793019153"
+    },
+    {
+      "name": "Laura Long",
+      "key": "272304",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-26T19:13:29.282932Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518110.gif?v=1793041127"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-26T19:13:30.710288Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tiffany Hatfield",
+      "key": "272579",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-26T19:13:31.915756Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518391.gif?v=1793041062"
+    }
+  ]
+}

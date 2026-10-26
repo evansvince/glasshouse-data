@@ -1,0 +1,20 @@
+{
+  "generated": "2026-10-26T19:13:24.804409",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Tomi Cangelo",
+      "email": "tomi.cangelo@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "The Legacy Team",
+      "office": "",
+      "boldtrailId": "319201",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
