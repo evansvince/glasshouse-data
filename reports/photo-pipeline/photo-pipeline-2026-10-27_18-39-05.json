@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-10-27T18:39:05.162125Z",
+  "mode": "LIVE",
+  "totalEvents": 5,
+  "acquired_a": 4,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Cortney Loyd",
+      "key": "272214",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-27T18:39:02.404417Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518020.gif?v=1793113163"
+    },
+    {
+      "name": "Josh Lewis",
+      "key": "272275",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-27T18:39:02.818154Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518081.gif?v=1793108613"
+    },
+    {
+      "name": "Mike Lucking",
+      "key": "272338",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-10-27T18:39:03.127354Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518144.gif?v=1793113559"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-10-27T18:39:03.684100Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Tomi Cangelo",
+      "key": "319201",
+      "reason": "cleveland_boldtrail",
+      "attemptedAt": "2026-10-27T18:39:04.861496Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/646673.gif?v=1793122562"
+    }
+  ]
+}
