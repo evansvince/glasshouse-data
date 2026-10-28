@@ -1,0 +1,29 @@
+{
+  "generated": "2026-10-28T18:48:09.875440",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Caleb Woodland",
+      "email": "calebwoodlandrealestate@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "319233",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Kim Robinson",
+      "email": "kimrobinson@glasshouserealty.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
