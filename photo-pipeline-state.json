@@ -11,7 +11,13 @@
       "lastAttemptAt": "2026-10-28T02:08:50.193858Z",
       "lastAttemptRun": 449,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
+    },
+    "319233": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-10-28T18:48:12.917022Z",
+      "lastAttemptRun": 450,
+      "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 449
+  "runCounter": 450
 }

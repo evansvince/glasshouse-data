@@ -1289,6 +1289,26 @@
     "hidden": false
   },
   {
+    "email": "calebwoodlandrealestate@outlook.com",
+    "name": "Caleb Woodland",
+    "phone": "(937) 215-8255",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/caleb-woodland",
+    "boldtrailId": "319233",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "calvin.watkins@glasshouserealty.com",
     "name": "Calvin Watkins",
     "phone": "(937) 751-6923",
@@ -3743,7 +3763,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-28T18:48:09.875313+00:00"
   },
   {
     "email": "kimberlyl@glasshouserealty.com",
