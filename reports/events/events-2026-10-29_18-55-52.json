@@ -1,0 +1,14 @@
+{
+  "generated": "2026-10-29T18:55:52.563100",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Vernard Jones",
+      "email": "jonesvernard814@gmail.com",
+      "softDeletedAt": "2026-09-29T18:35:27.033930+00:00"
+    }
+  ],
+  "reactivated": []
+}
