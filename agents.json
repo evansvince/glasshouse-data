@@ -460,27 +460,6 @@
     "hidden": false
   },
   {
-    "email": "angeledgerealtor@gmail.com",
-    "name": "Angel Edge",
-    "phone": "(216) 835-1708",
-    "title": "Agent",
-    "team": "Asa Cox Homes",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/ACH_Logos_White_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293121.jpg",
-    "profileUrl": "https://www.zillow.com/profile/angelj1974",
-    "boldtrailId": "293121",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "61c2091463e5",
-    "hidden": true,
-    "softDeletedAt": "2026-09-29T22:56:26.318271+00:00"
-  },
-  {
     "email": "angel.jones@glasshouserealty.com",
     "name": "Angel Jones",
     "phone": "(937) 624-9764",
@@ -5486,7 +5465,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "4e4c8641d286",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-10-29T23:14:22.605084+00:00"
   },
   {
     "email": "ronette@glasshouserealty.com",
