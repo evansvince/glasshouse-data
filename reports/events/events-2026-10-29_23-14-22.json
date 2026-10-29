@@ -1,0 +1,23 @@
+{
+  "generated": "2026-10-29T23:14:22.605248",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Rodney Washburn",
+      "email": "burns22.1974@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    }
+  ],
+  "purges": [
+    {
+      "name": "Angel Edge",
+      "email": "angeledgerealtor@gmail.com",
+      "softDeletedAt": "2026-09-29T22:56:26.318271+00:00"
+    }
+  ],
+  "reactivated": []
+}
