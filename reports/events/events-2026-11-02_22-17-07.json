@@ -1,0 +1,14 @@
+{
+  "generated": "2026-11-02T22:17:07.343602",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Teresa Gustafson",
+      "email": "tggroupohio@gmail.com",
+      "softDeletedAt": "2026-10-02T18:22:09.574152+00:00"
+    }
+  ],
+  "reactivated": []
+}
