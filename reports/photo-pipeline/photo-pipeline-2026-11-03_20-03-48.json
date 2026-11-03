@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-11-03T20:03:48.519634Z",
+  "mode": "LIVE",
+  "totalEvents": 7,
+  "acquired_a": 5,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Alison North",
+      "key": "272167",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-03T20:03:43.264762Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517973.gif?v=1793718656"
+    },
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-03T20:03:43.906918Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Colleen Maiden",
+      "key": "272211",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-03T20:03:45.191897Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518017.gif?v=1793735498"
+    },
+    {
+      "name": "Michelle McBride",
+      "key": "272343",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-03T20:03:45.771833Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518149.gif?v=1793736102"
+    },
+    {
+      "name": "Sarah Lyons",
+      "key": "272376",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-03T20:03:46.331963Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518182.gif?v=1793734607"
+    },
+    {
+      "name": "Shelby MacGregor",
+      "key": "272383",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-03T20:03:47.414841Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518189.gif?v=1793735334"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-03T20:03:48.513466Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
