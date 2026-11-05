@@ -1,0 +1,37 @@
+{
+  "generated": "2026-11-05T20:37:25.021177",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Janette Mendez",
+      "email": "janette.mendez@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Team Keener",
+      "office": "",
+      "boldtrailId": "320641",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [
+    {
+      "name": "Janice Collinsworth",
+      "email": "janice.diane10@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": ""
+    },
+    {
+      "name": "Ryan Kirkwood",
+      "email": "ryankirkwoodrealty@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "GPS Real Estate Team"
+    }
+  ],
+  "purges": [],
+  "reactivated": []
+}
