@@ -2791,6 +2791,26 @@
     "softDeletedAt": "2026-10-21T21:35:46.935336+00:00"
   },
   {
+    "email": "janette.mendez@glasshouserealty.com",
+    "name": "Janette Mendez",
+    "phone": "(440) 679-6740",
+    "title": "REALTOR\u00ae",
+    "team": "Team Keener",
+    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Team Keener Logos White Background.png",
+    "regions": [
+      "Cleveland"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "",
+    "boldtrailId": "320641",
+    "loftyId": "",
+    "source": "boldtrail-cleveland",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "janice.diane10@gmail.com",
     "name": "Janice Collinsworth",
     "phone": "(937) 361-4693",
@@ -2808,7 +2828,8 @@
     "source": "boldtrail",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-11-05T20:37:25.020949+00:00"
   },
   {
     "email": "jared@wamsleygroup.com",
@@ -5567,7 +5588,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "",
     "photoSourceHash": "",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-11-05T20:37:25.021008+00:00"
   },
   {
     "email": "chasewithtschida@gmail.com",
