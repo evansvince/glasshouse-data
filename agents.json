@@ -985,27 +985,6 @@
     "hidden": false
   },
   {
-    "email": "brandilawsonrealtor@gmail.com",
-    "name": "Brandi Lawson",
-    "phone": "(937) 418-1718",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024812/13/original_f9c3052b-281e-4873-ab33-5b9c28e20002.png",
-    "profileUrl": "https://glasshouserealty.com/agents/Brandi-Lawson/8697428",
-    "boldtrailId": "272242",
-    "loftyId": 8697428,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-10-07T19:18:38.424783+00:00"
-  },
-  {
     "email": "brandonammons.asacoxhomes@gmail.com",
     "name": "Brandon Ammons",
     "phone": "(440) 453-7285",
@@ -2307,6 +2286,26 @@
     "hidden": false
   },
   {
+    "email": "soldbyevanbam@gmail.com",
+    "name": "Evan Bambakidis",
+    "phone": "(937) 684-1393",
+    "title": "REALTOR\u00ae",
+    "team": "The Bambakidis Team",
+    "teamLogo": "",
+    "regions": [
+      "Dayton"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/evan-bambakidis",
+    "boldtrailId": "318879",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "evan@z-kgroup.com",
     "name": "Evan Kloth",
     "phone": "(937) 654-0283",
@@ -2699,13 +2698,13 @@
       "Cincinnati"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026224/20/c4fdbfbd-28d6-49f5-9273-caccb2737a1c/original_100cf60d-773f-40fe-b0fd-374b13699b89.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/284103.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Jacob-Miller/8898992",
     "boldtrailId": "284103",
     "loftyId": 8898992,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "c027a46d7f59",
     "hidden": false
   },
   {
@@ -4218,13 +4217,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202648/15/6c229957-29d3-4308-bc97-7de3223a6ecd/original_49f64f18-3195-4187-bf33-284bbc808447.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272313.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Lorisa-Motko/8923179",
     "boldtrailId": "272313",
     "loftyId": 8923179,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "9f2547554412",
     "hidden": false
   },
   {
@@ -4540,13 +4539,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202648/13/f0f58fb8-de05-436d-8024-423e18f88c98/original_62e8938f-1f94-42e3-99db-99d38e532fa3.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272330.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Megan-Mullins/8870110",
     "boldtrailId": "272330",
     "loftyId": 8870110,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "6d0dd3012b85",
     "hidden": false
   },
   {
@@ -5040,13 +5039,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/202493/13/original_94b40b4e-7668-4335-bae6-fc9b1aad41d3.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272320.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Nickie-Moreno/8728599",
     "boldtrailId": "272320",
     "loftyId": 8728599,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "7887fe75760a",
     "hidden": false
   },
   {
@@ -5521,13 +5520,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025428/8/original_19963269-3a55-49b4-b355-f733e44bf500.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272371.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Ronen-Menachem/8820790",
     "boldtrailId": "272371",
     "loftyId": 8820790,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "304587342213",
     "hidden": false
   },
   {
@@ -6019,7 +6018,7 @@
     "name": "Stacy Bambakidis",
     "phone": "(571) 277-3802",
     "title": "REALTOR\u00ae",
-    "team": "Bambakidis Placeholder",
+    "team": "The Bambakidis Team",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -6406,13 +6405,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024721/18/original_0c915965-e177-4afd-b832-e349f332b33b.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272404.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Terry-Mull/8726277",
     "boldtrailId": "272404",
     "loftyId": 8726277,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "d90c140390d8",
     "hidden": false
   },
   {
