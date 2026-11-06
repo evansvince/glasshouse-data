@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-11-06T19:56:06.532329Z",
+  "mode": "LIVE",
+  "totalEvents": 9,
+  "acquired_a": 6,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-06T19:56:02.054530Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-06T19:56:03.117345Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Jacob Miller",
+      "key": "284103",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-06T19:56:04.209251Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/578349.gif?v=1793983487"
+    },
+    {
+      "name": "Lorisa Motko",
+      "key": "272313",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-06T19:56:04.348284Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518119.gif?v=1793985652"
+    },
+    {
+      "name": "Megan Mullins",
+      "key": "272330",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-06T19:56:04.541131Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518136.gif?v=1793987687"
+    },
+    {
+      "name": "Nickie Moreno",
+      "key": "272320",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-06T19:56:05.190200Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518126.gif?v=1793985150"
+    },
+    {
+      "name": "Ronnie Menachem",
+      "key": "272371",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-06T19:56:05.605170Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518177.gif?v=1793978883"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-06T19:56:05.897507Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Terry Mull",
+      "key": "272404",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-06T19:56:05.897536Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518210.gif?v=1793987020"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "generated": "2026-11-06T19:56:00.378678",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Evan Bambakidis",
+      "email": "soldbyevanbam@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Bambakidis Team",
+      "office": "",
+      "boldtrailId": "318879",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Brandi Lawson",
+      "email": "brandilawsonrealtor@gmail.com",
+      "softDeletedAt": "2026-10-07T19:18:38.424783+00:00"
+    }
+  ],
+  "reactivated": []
+}
