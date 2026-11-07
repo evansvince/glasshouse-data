@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-11-07T00:03:46.085000Z",
+  "mode": "LIVE",
+  "totalEvents": 3,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 2,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-07T00:03:44.839287Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-07T00:03:44.839309Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-07T00:03:44.839314Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    }
+  ]
+}
