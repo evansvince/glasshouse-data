@@ -13,17 +13,17 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "318879": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-11-06T19:56:04.209230Z",
-      "lastAttemptRun": 468,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-11-09T22:57:40.761765Z",
+      "lastAttemptRun": 470,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "319233": {
-      "failureCount": 10,
-      "lastAttemptAt": "2026-11-06T19:56:03.117321Z",
-      "lastAttemptRun": 468,
+      "failureCount": 11,
+      "lastAttemptAt": "2026-11-09T22:57:39.694448Z",
+      "lastAttemptRun": 470,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 469
+  "runCounter": 470
 }
