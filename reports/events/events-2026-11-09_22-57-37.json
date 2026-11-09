@@ -1,0 +1,23 @@
+{
+  "generated": "2026-11-09T22:57:37.197242",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Missy Zink",
+      "email": "missy.asacoxhomes@gmail.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Admin Team"
+    }
+  ],
+  "purges": [
+    {
+      "name": "Sunnie Shafer",
+      "email": "sunnie@daytonrealestatecrush.com",
+      "softDeletedAt": "2026-10-08T19:15:05.730279+00:00"
+    }
+  ],
+  "reactivated": []
+}

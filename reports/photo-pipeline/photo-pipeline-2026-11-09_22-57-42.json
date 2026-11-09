@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-11-09T22:57:42.246706Z",
+  "mode": "LIVE",
+  "totalEvents": 7,
+  "acquired_a": 4,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-09T22:57:38.556307Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-09T22:57:39.694473Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "KD Nave",
+      "key": "272286",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-09T22:57:40.761790Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518092.gif?v=1794240056"
+    },
+    {
+      "name": "Kunal Patel",
+      "key": "272300",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-09T22:57:41.085896Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518106.gif?v=1794240489"
+    },
+    {
+      "name": "Lorka Munoz Daugherty",
+      "key": "272314",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-09T22:57:41.269461Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518120.gif?v=1794238098"
+    },
+    {
+      "name": "Rita O'Leary",
+      "key": "272369",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-09T22:57:42.044648Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518175.gif?v=1794245820"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-09T22:57:42.240839Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
