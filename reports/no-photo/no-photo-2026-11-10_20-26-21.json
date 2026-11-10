@@ -1,0 +1,63 @@
+{
+  "generated": "2026-11-10T20:26:21.529831",
+  "dry_run": false,
+  "description": "Agents on site with no profile photo. Upload a headshot to BoldTrail to populate. The sync pulls it on the next cycle.",
+  "count": 5,
+  "agents": [
+    {
+      "name": "Austin Zeleny",
+      "email": "austin.zeleny@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "307268",
+      "loftyId": ""
+    },
+    {
+      "name": "Caleb Woodland",
+      "email": "calebwoodlandrealestate@outlook.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "",
+      "source": "boldtrail",
+      "boldtrailId": "319233",
+      "loftyId": ""
+    },
+    {
+      "name": "Evan Bambakidis",
+      "email": "soldbyevanbam@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Bambakidis Team",
+      "source": "boldtrail",
+      "boldtrailId": "318879",
+      "loftyId": ""
+    },
+    {
+      "name": "Janette Mendez",
+      "email": "janette.mendez@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "Team Keener",
+      "source": "boldtrail-cleveland",
+      "boldtrailId": "320641",
+      "loftyId": ""
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "email": "soldbystacybam@gmail.com",
+      "regions": [
+        "Dayton"
+      ],
+      "team": "The Bambakidis Team",
+      "source": "boldtrail",
+      "boldtrailId": "318225",
+      "loftyId": ""
+    }
+  ]
+}

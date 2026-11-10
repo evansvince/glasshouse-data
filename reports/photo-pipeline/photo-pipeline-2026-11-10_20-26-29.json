@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-11-10T20:26:29.822857Z",
+  "mode": "LIVE",
+  "totalEvents": 9,
+  "acquired_a": 6,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-10T20:26:24.675134Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Chrissie Pennington",
+      "key": "272206",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-10T20:26:25.836942Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518012.gif?v=1794338207"
+    },
+    {
+      "name": "Deanne Chester",
+      "key": "272229",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-10T20:26:26.415201Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518035.gif?v=1794330008"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-10T20:26:26.726817Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Katie Overholtz",
+      "key": "272282",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-10T20:26:27.885462Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518088.gif?v=1794337181"
+    },
+    {
+      "name": "Kendra Osborne",
+      "key": "272288",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-10T20:26:28.091702Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518094.gif?v=1794336812"
+    },
+    {
+      "name": "Michele Oman",
+      "key": "272340",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-10T20:26:28.653999Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518146.gif?v=1794333346"
+    },
+    {
+      "name": "Nicole Peacock",
+      "key": "272336",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-10T20:26:29.087602Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518142.gif?v=1794337575"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-10T20:26:29.725452Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
