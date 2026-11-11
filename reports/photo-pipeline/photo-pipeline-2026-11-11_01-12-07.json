@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-11-11T01:12:07.652669Z",
+  "mode": "LIVE",
+  "totalEvents": 5,
+  "acquired_a": 2,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 2,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T01:12:05.628743Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Casey Phelps",
+      "key": "272199",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T01:12:05.628758Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518005.gif?v=1794344444"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T01:12:06.185301Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "RaeAnn Prculovski",
+      "key": "279798",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T01:12:06.185338Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/571310.gif?v=1794345075"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T01:12:06.420866Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    }
+  ]
+}
