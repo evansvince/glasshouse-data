@@ -2386,6 +2386,26 @@
     "hidden": false
   },
   {
+    "email": "gracie.linebaugh@glasshouserealty.com",
+    "name": "Gracie Linebaugh",
+    "phone": "(937) 212-9926",
+    "title": "REALTOR\u00ae",
+    "team": "",
+    "teamLogo": "",
+    "regions": [
+      "Columbus"
+    ],
+    "office": "",
+    "photo": "",
+    "profileUrl": "https://glasshouserealty.com/gracie-linebaugh",
+    "boldtrailId": "320437",
+    "loftyId": "",
+    "source": "boldtrail",
+    "photoSource": "",
+    "photoSourceHash": "",
+    "hidden": false
+  },
+  {
     "email": "haileycox2004@gmail.com",
     "name": "Hailey Cox",
     "phone": "(937) 689-9748",
@@ -2738,13 +2758,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2025115/8/original_105e299c-dc9d-4dda-9e41-e726b6477f44.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272256.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/James-Ricker/8726291",
     "boldtrailId": "272256",
     "loftyId": 8726291,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "10f311408ecb",
     "hidden": false
   },
   {
@@ -4037,13 +4057,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026515/14/ef7f9be1-fbd5-4701-8d25-7c4986a48161/w600_original_e966dd49-b8b2-4873-a677-ca5ab77fd37b-jpeg.webp",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/297951.jpg",
     "profileUrl": "https://glasshouserealty.com/lauren-rau",
     "boldtrailId": "297951",
     "loftyId": "",
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "fa1ddd224952",
     "hidden": false
   },
   {
@@ -4559,13 +4579,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024712/19/original_365fe4d9-b8b3-410c-a37c-bfc79825dedf.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272329.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Megan-Reed/8718692",
     "boldtrailId": "272329",
     "loftyId": 8718692,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "5872d621a5fc",
     "hidden": false
   },
   {
@@ -5300,13 +5320,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024719/16/original_5f0f7eb6-54ed-40f5-a0cc-dcaef131d1b9.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272577.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Rebecca-Quinones/8726255",
     "boldtrailId": "272577",
     "loftyId": 8726255,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f3eec55c0d83",
     "hidden": false
   },
   {
@@ -5764,13 +5784,13 @@
       "Cincinnati"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/20241024/10/original_0e0e0b32-1adb-4e5f-94b2-52bf0740b001.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272382.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Shawn-Reese/8726199",
     "boldtrailId": "272382",
     "loftyId": 8726199,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "b832e74abb3b",
     "hidden": false
   },
   {
@@ -6725,13 +6745,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/20250705/12/add50c7d-69c0-400b-bdaa-c5f30115d656.jpg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272358.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Tricia-Reynolds/8838016",
     "boldtrailId": "272358",
     "loftyId": 8838016,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "719033b999a2",
     "hidden": false
   },
   {
