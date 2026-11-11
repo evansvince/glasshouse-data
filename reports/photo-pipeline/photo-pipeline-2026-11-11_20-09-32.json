@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-11-11T20:09:32.668798Z",
+  "mode": "LIVE",
+  "totalEvents": 10,
+  "acquired_a": 6,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T20:09:27.092610Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T20:09:28.276172Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Gracie Linebaugh",
+      "key": "320437",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T20:09:29.461157Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "James Ricker",
+      "key": "272256",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T20:09:30.619018Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518062.gif?v=1794425435"
+    },
+    {
+      "name": "Lauren Rau",
+      "key": "297951",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T20:09:31.053147Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/609026.gif?v=1794422485"
+    },
+    {
+      "name": "Megan Reed",
+      "key": "272329",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T20:09:31.254633Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518135.gif?v=1794423432"
+    },
+    {
+      "name": "Rebecca Quinones",
+      "key": "272577",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T20:09:31.835816Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518389.gif?v=1794408764"
+    },
+    {
+      "name": "Shawn Reese",
+      "key": "272382",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T20:09:32.047959Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518188.gif?v=1794423975"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-11T20:09:32.349897Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Tricia Reynolds",
+      "key": "272358",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-11T20:09:32.349922Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518164.gif?v=1794424517"
+    }
+  ]
+}

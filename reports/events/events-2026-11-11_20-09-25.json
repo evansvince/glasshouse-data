@@ -1,0 +1,20 @@
+{
+  "generated": "2026-11-11T20:09:25.795432",
+  "dry_run": false,
+  "new_agents": [
+    {
+      "name": "Gracie Linebaugh",
+      "email": "gracie.linebaugh@glasshouserealty.com",
+      "regions": [
+        "Columbus"
+      ],
+      "team": "",
+      "office": "",
+      "boldtrailId": "320437",
+      "has_photo": false
+    }
+  ],
+  "soft_deletes": [],
+  "purges": [],
+  "reactivated": []
+}
