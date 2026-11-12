@@ -1,5 +1,11 @@
 {
   "agentRetries": {
+    "272381": {
+      "failureCount": 1,
+      "lastAttemptAt": "2026-11-12T20:47:02.156012Z",
+      "lastAttemptRun": 476,
+      "lastFailedReason": "A:download_failed:HTTPError,B:parse:no_agent_card_div"
+    },
     "313358": {
       "failureCount": 23,
       "lastAttemptAt": "2026-10-13T23:42:24.046979Z",
@@ -13,23 +19,23 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "318879": {
-      "failureCount": 4,
-      "lastAttemptAt": "2026-11-11T20:09:29.461136Z",
-      "lastAttemptRun": 474,
+      "failureCount": 5,
+      "lastAttemptAt": "2026-11-12T20:46:19.875222Z",
+      "lastAttemptRun": 476,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "319233": {
-      "failureCount": 13,
-      "lastAttemptAt": "2026-11-11T20:09:28.276147Z",
-      "lastAttemptRun": 474,
+      "failureCount": 14,
+      "lastAttemptAt": "2026-11-12T20:46:01.583317Z",
+      "lastAttemptRun": 476,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     },
     "320437": {
-      "failureCount": 1,
-      "lastAttemptAt": "2026-11-11T20:09:30.618994Z",
-      "lastAttemptRun": 474,
+      "failureCount": 2,
+      "lastAttemptAt": "2026-11-12T20:46:21.555749Z",
+      "lastAttemptRun": 476,
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 475
+  "runCounter": 476
 }
