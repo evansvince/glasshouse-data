@@ -1,0 +1,866 @@
+{
+  "generatedAt": "2026-11-12T20:47:15.715683Z",
+  "mode": "LIVE",
+  "totalEvents": 95,
+  "acquired_a": 90,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Amanda Stiles",
+      "key": "275095",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:50.059390Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/524325.gif?v=1794501808"
+    },
+    {
+      "name": "Andrea Sorrell",
+      "key": "272173",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:50.779216Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517979.gif?v=1794498618"
+    },
+    {
+      "name": "Angie Chambers",
+      "key": "272174",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:51.217018Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517980.gif?v=1794495733"
+    },
+    {
+      "name": "Annette Sand",
+      "key": "282330",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:51.751666Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/575185.gif?v=1794497400"
+    },
+    {
+      "name": "Ben Wourms",
+      "key": "272182",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:52.294950Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517988.gif?v=1794501721"
+    },
+    {
+      "name": "Bobby Williams",
+      "key": "272184",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:53.400329Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517990.gif?v=1794496948"
+    },
+    {
+      "name": "Bobi Gray",
+      "key": "272185",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:53.762340Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517991.gif?v=1794501090"
+    },
+    {
+      "name": "Brandon Gonzalez",
+      "key": "272186",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:55.001281Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517992.gif?v=1794501759"
+    },
+    {
+      "name": "Brittany Carr",
+      "key": "272190",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:57.535698Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517996.gif?v=1794497431"
+    },
+    {
+      "name": "Brittany Collins",
+      "key": "279759",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:45:58.845987Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/571168.gif?v=1794501128"
+    },
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-12T20:46:00.364343Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Casey Hartman",
+      "key": "272198",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:01.583341Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518004.gif?v=1794495841"
+    },
+    {
+      "name": "Cassie Gutt",
+      "key": "272200",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:02.118881Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518006.gif?v=1794495881"
+    },
+    {
+      "name": "Chad Diggs",
+      "key": "286309",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:02.709727Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/591744.gif?v=1794495902"
+    },
+    {
+      "name": "Chayse Eby",
+      "key": "279764",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:03.124676Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/571260.gif?v=1794495936"
+    },
+    {
+      "name": "Chris Endres",
+      "key": "272207",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:04.263229Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518013.gif?v=1794495963"
+    },
+    {
+      "name": "Chris Uphus",
+      "key": "272208",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:04.945998Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518014.gif?v=1794495983"
+    },
+    {
+      "name": "Clinton Evans",
+      "key": "272210",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:05.599822Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518016.gif?v=1794496015"
+    },
+    {
+      "name": "Danielle Chapman",
+      "key": "272217",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:06.565842Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518023.gif?v=1794498645"
+    },
+    {
+      "name": "Danielle Steward",
+      "key": "272218",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:07.504893Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518024.gif?v=1794501784"
+    },
+    {
+      "name": "Danyell DeYoung",
+      "key": "272219",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:08.119976Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518025.gif?v=1794497826"
+    },
+    {
+      "name": "Dara Errett",
+      "key": "272220",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:09.356286Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518026.gif?v=1794500861"
+    },
+    {
+      "name": "David Scott II",
+      "key": "272224",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:11.039520Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518030.gif?v=1794501452"
+    },
+    {
+      "name": "Devin Booher",
+      "key": "272230",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:11.623638Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518036.gif?v=1794496086"
+    },
+    {
+      "name": "Dustin Carr",
+      "key": "272232",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:12.829484Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518038.gif?v=1794497481"
+    },
+    {
+      "name": "Elizabeth Cooper",
+      "key": "272321",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:14.001576Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518127.gif?v=1794498302"
+    },
+    {
+      "name": "Emily Flohre",
+      "key": "272233",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:14.945870Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518039.gif?v=1794496131"
+    },
+    {
+      "name": "Emily Skardon",
+      "key": "272235",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:15.527411Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518041.gif?v=1794496162"
+    },
+    {
+      "name": "Eric Credit",
+      "key": "272238",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:16.432260Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518044.gif?v=1794496187"
+    },
+    {
+      "name": "Eric Weimer",
+      "key": "272237",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:17.194614Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518043.gif?v=1794496206"
+    },
+    {
+      "name": "Erika Deady",
+      "key": "277366",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:17.561315Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/565523.gif?v=1794496245"
+    },
+    {
+      "name": "Erin Wertalik Eads",
+      "key": "272240",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:18.342672Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518046.gif?v=1794496277"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-12T20:46:18.641035Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Fred Seeger",
+      "key": "272241",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:19.875244Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518047.gif?v=1794496304"
+    },
+    {
+      "name": "Gracie Linebaugh",
+      "key": "320437",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-12T20:46:20.352998Z",
+      "boldtrailFailure": "avatar_added_false",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_no_photo"
+    },
+    {
+      "name": "Hayley Evans",
+      "key": "272247",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:21.555770Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518053.gif?v=1794496331"
+    },
+    {
+      "name": "Heather Daley",
+      "key": "272249",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:22.578756Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518055.gif?v=1794498173"
+    },
+    {
+      "name": "Heather Simmons",
+      "key": "272248",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:23.719571Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518054.gif?v=1794496360"
+    },
+    {
+      "name": "Jackie Day Cooper",
+      "key": "272252",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:24.326862Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518058.gif?v=1794497501"
+    },
+    {
+      "name": "Jackie Hoying",
+      "key": "272251",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:25.042492Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518057.gif?v=1794501384"
+    },
+    {
+      "name": "James Gray",
+      "key": "272257",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:26.392404Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518063.gif?v=1794500932"
+    },
+    {
+      "name": "Jamie Gabbard",
+      "key": "275091",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:26.990993Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/524321.gif?v=1794501842"
+    },
+    {
+      "name": "Jared Wamsley",
+      "key": "278198",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:28.002232Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/566723.gif?v=1794497851"
+    },
+    {
+      "name": "Jay Sampson",
+      "key": "272253",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:28.523732Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518059.gif?v=1794496388"
+    },
+    {
+      "name": "Jennie Ewald",
+      "key": "272260",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:29.106412Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518066.gif?v=1794496408"
+    },
+    {
+      "name": "John Dayspring",
+      "key": "272271",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:29.815599Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518077.gif?v=1794501499"
+    },
+    {
+      "name": "Josh Burritt",
+      "key": "272274",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:31.922545Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518080.gif?v=1794497911"
+    },
+    {
+      "name": "Julie Harris",
+      "key": "272276",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:32.725488Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518082.gif?v=1794496443"
+    },
+    {
+      "name": "Justin Ellis",
+      "key": "272277",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:33.643966Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518083.gif?v=1794496463"
+    },
+    {
+      "name": "Kara Ware",
+      "key": "292991",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:34.231449Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/601663.gif?v=1794497561"
+    },
+    {
+      "name": "Kendra Osborne",
+      "key": "272288",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-12T20:46:34.808931Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518094.gif?v=1794497941"
+    },
+    {
+      "name": "Kevin Troidl",
+      "key": "272290",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:35.951184Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518096.gif?v=1794496506"
+    },
+    {
+      "name": "Kim Harris",
+      "key": "272294",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:37.474130Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518100.gif?v=1794496529"
+    },
+    {
+      "name": "Kirsten Woods",
+      "key": "272297",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:38.351711Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518103.gif?v=1794497959"
+    },
+    {
+      "name": "Kori Shelton",
+      "key": "272298",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:39.012296Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518104.gif?v=1794497607"
+    },
+    {
+      "name": "Laura Sowards",
+      "key": "308357",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-12T20:46:39.871989Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/631010.gif?v=1794496574"
+    },
+    {
+      "name": "Lauren Dillon",
+      "key": "272306",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:41.113933Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518112.gif?v=1794496593"
+    },
+    {
+      "name": "Lilibeth Simon",
+      "key": "272309",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:41.814752Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518115.gif?v=1794497632"
+    },
+    {
+      "name": "Lisa Goris May",
+      "key": "272310",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:42.421422Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518116.gif?v=1794497655"
+    },
+    {
+      "name": "Lori Lyons",
+      "key": "272312",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:43.289215Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518118.gif?v=1794496630"
+    },
+    {
+      "name": "Marcos Castellanos",
+      "key": "272318",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:43.688258Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518124.gif?v=1794496675"
+    },
+    {
+      "name": "Matt Allen",
+      "key": "272323",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:44.796281Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518129.gif?v=1794496696"
+    },
+    {
+      "name": "Matt Bublitz",
+      "key": "272324",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:45.935221Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518130.gif?v=1794497678"
+    },
+    {
+      "name": "Meagan Roderer",
+      "key": "272328",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:46.699649Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518134.gif?v=1794494134"
+    },
+    {
+      "name": "Meghan Boehmer",
+      "key": "272331",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:47.576096Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518137.gif?v=1794496772"
+    },
+    {
+      "name": "Mileah Roper",
+      "key": "272345",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:48.930964Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518151.gif?v=1794494480"
+    },
+    {
+      "name": "Miranda Gibson",
+      "key": "272346",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:49.831733Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518152.gif?v=1794496826"
+    },
+    {
+      "name": "Missy Sansabrino",
+      "key": "272332",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:50.475187Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518138.gif?v=1794498334"
+    },
+    {
+      "name": "Monica Evans",
+      "key": "272348",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:52.168195Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518154.gif?v=1794496866"
+    },
+    {
+      "name": "Mustafa Shamuratov",
+      "key": "272349",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:52.565550Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518155.gif?v=1794498040"
+    },
+    {
+      "name": "Nick Franks",
+      "key": "272352",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:53.101728Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518158.gif?v=1794498371"
+    },
+    {
+      "name": "Nick Harrist",
+      "key": "272351",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:54.595656Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518157.gif?v=1794496887"
+    },
+    {
+      "name": "Osman Bayraktar",
+      "key": "272357",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:55.239493Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518163.gif?v=1794497722"
+    },
+    {
+      "name": "Paige Denlinger",
+      "key": "272350",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:56.350276Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518156.gif?v=1794501661"
+    },
+    {
+      "name": "Rhonda Cox",
+      "key": "272367",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:57.492005Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518173.gif?v=1794496925"
+    },
+    {
+      "name": "Rick Carr",
+      "key": "272368",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:58.233243Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518174.gif?v=1794497745"
+    },
+    {
+      "name": "Rob Dickerson",
+      "key": "306884",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-12T20:46:58.802463Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/626989.gif?v=1794498081"
+    },
+    {
+      "name": "Sarah Treon",
+      "key": "272377",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:46:59.310346Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518183.gif?v=1794497048"
+    },
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:00.662156Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_kept_existing"
+    },
+    {
+      "name": "Shyanna Baker",
+      "key": "288182",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:02.156034Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/594612.gif?v=1794497085"
+    },
+    {
+      "name": "Sierrah Hardy",
+      "key": "272386",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:02.822902Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518192.gif?v=1794497108"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "no_photo_at_all",
+      "attemptedAt": "2026-11-12T20:47:03.521252Z",
+      "boldtrailFailure": "avatar_added_false",
+      "status": "lofty_cooldown"
+    },
+    {
+      "name": "Stephanie Ball",
+      "key": "272391",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:03.521280Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518197.gif?v=1794497142"
+    },
+    {
+      "name": "Stephanie Dickerson",
+      "key": "272390",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:03.915018Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518196.gif?v=1794497168"
+    },
+    {
+      "name": "Stephanie Stepp",
+      "key": "272392",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:04.770053Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518198.gif?v=1794501591"
+    },
+    {
+      "name": "Talia Caldwell",
+      "key": "272396",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:05.745125Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518202.gif?v=1794498403"
+    },
+    {
+      "name": "Tami Galdeen",
+      "key": "272397",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:07.057707Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518203.gif?v=1794498572"
+    },
+    {
+      "name": "Tan Gray",
+      "key": "272398",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:08.651071Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518204.gif?v=1794497772"
+    },
+    {
+      "name": "Tasha Batsche",
+      "key": "272399",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:09.650691Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518205.gif?v=1794498592"
+    },
+    {
+      "name": "Tim Williams",
+      "key": "303292",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-12T20:47:10.298833Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/620701.gif?v=1794501692"
+    },
+    {
+      "name": "Tonya Thomason",
+      "key": "272583",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:11.461070Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518395.gif?v=1794501621"
+    },
+    {
+      "name": "Travis Wilt",
+      "key": "272584",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:12.117945Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518396.gif?v=1794497250"
+    },
+    {
+      "name": "Xanni Burton",
+      "key": "272589",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:12.850251Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518401.gif?v=1794501332"
+    },
+    {
+      "name": "Zac Banks",
+      "key": "272590",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-12T20:47:13.630251Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518402.gif?v=1794497316"
+    },
+    {
+      "name": "Zach Lucking",
+      "key": "272591",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-12T20:47:14.834190Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518403.gif?v=1794497337"
+    }
+  ]
+}
