@@ -1,0 +1,14 @@
+{
+  "generated": "2026-11-12T01:53:04.469386",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Matt Osolin",
+      "email": "matt.asacoxhomes@gmail.com",
+      "softDeletedAt": "2026-10-12T21:42:34.967986+00:00"
+    }
+  ],
+  "reactivated": []
+}
