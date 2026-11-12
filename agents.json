@@ -1481,13 +1481,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024724/9/original_44cb3210-5172-4d95-8f3d-905ddd2c9c17.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272203.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Chelsie-Robertson/8728584",
     "boldtrailId": "272203",
     "loftyId": 8728584,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "2aca58cc38aa",
     "hidden": false
   },
   {
@@ -4486,27 +4486,6 @@
     "photoSource": "boldtrail",
     "photoSourceHash": "5a72aaba1f99",
     "hidden": false
-  },
-  {
-    "email": "matt.asacoxhomes@gmail.com",
-    "name": "Matt Osolin",
-    "phone": "(440) 487-5562",
-    "title": "Agent",
-    "team": "Labbato Group",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Logo_Labbato_Team_Transparent_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293460.jpg",
-    "profileUrl": "https://www.zillow.com/profile/matt%20asacoxhomes",
-    "boldtrailId": "293460",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "35d022b6f241",
-    "hidden": true,
-    "softDeletedAt": "2026-10-12T21:42:34.967986+00:00"
   },
   {
     "email": "matthew.watercutter@glasshouserealty.com",
