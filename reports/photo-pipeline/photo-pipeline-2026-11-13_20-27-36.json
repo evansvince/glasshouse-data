@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-11-13T20:27:36.228603Z",
+  "mode": "LIVE",
+  "totalEvents": 8,
+  "acquired_a": 7,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Amy Cook",
+      "key": "272576",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:32.716378Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518388.gif?v=1794578611"
+    },
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:33.092867Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/646705.gif?v=1794578083"
+    },
+    {
+      "name": "Evan Bambakidis",
+      "key": "318879",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:33.420667Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/646255.gif?v=1794578173"
+    },
+    {
+      "name": "Gracie Linebaugh",
+      "key": "320437",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:33.752683Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/648409.gif?v=1794578863"
+    },
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:34.062113Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_kept_existing"
+    },
+    {
+      "name": "Stacy Bambakidis",
+      "key": "318225",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:35.210745Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/645489.gif?v=1794578061"
+    },
+    {
+      "name": "Tim Young",
+      "key": "272581",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:35.573307Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518393.gif?v=1794578516"
+    },
+    {
+      "name": "Wes Durkle",
+      "key": "272588",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-13T20:27:35.890440Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518400.gif?v=1794578584"
+    }
+  ]
+}
