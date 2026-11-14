@@ -1,0 +1,14 @@
+{
+  "generated": "2026-11-14T01:25:14.030300",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Shelby Swihart",
+      "email": "shelby@dreamhomeohio.com",
+      "softDeletedAt": "2026-10-14T21:36:44.382298+00:00"
+    }
+  ],
+  "reactivated": []
+}

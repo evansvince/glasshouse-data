@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-11-14T01:25:15.482205Z",
+  "mode": "LIVE",
+  "totalEvents": 1,
+  "acquired_a": 0,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 1,
+  "events": [
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-14T01:25:15.238066Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "status": "lofty_cooldown"
+    }
+  ]
+}
