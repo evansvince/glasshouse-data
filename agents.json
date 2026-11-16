@@ -416,7 +416,7 @@
     "loftyId": 8726258,
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "07305a846c7e",
+    "photoSourceHash": "720273e5f605",
     "hidden": false
   },
   {
@@ -801,7 +801,8 @@
     "source": "boldtrail-cleveland",
     "photoSource": "boldtrail",
     "photoSourceHash": "b1ffb8f62efd",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-11-16T22:51:22.477258+00:00"
   },
   {
     "email": "austin.zeleny@glasshouserealty.com",
@@ -2424,27 +2425,6 @@
     "photoSource": "boldtrail",
     "photoSourceHash": "cabb7f9d762e",
     "hidden": false
-  },
-  {
-    "email": "haley.connors@glasshouserealty.com",
-    "name": "Haley Connors",
-    "phone": "(216) 925-7265",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/307791.jpg",
-    "profileUrl": "",
-    "boldtrailId": "307791",
-    "loftyId": "",
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "0ea73068ec57",
-    "hidden": true,
-    "softDeletedAt": "2026-10-16T17:21:46.693005+00:00"
   },
   {
     "email": "hannah@glasshouserealty.com",
