@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-11-16T22:51:28.538805Z",
+  "mode": "LIVE",
+  "totalEvents": 2,
+  "acquired_a": 1,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Amy Cook",
+      "key": "272576",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-16T22:51:26.034678Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518388.gif?v=1794834159"
+    },
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-16T22:51:27.104183Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_kept_existing"
+    }
+  ]
+}

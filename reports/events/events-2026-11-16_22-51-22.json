@@ -1,0 +1,23 @@
+{
+  "generated": "2026-11-16T22:51:22.477449",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [
+    {
+      "name": "Ashley Stubbs",
+      "email": "ashley.stubbs@glasshouserealty.com",
+      "regions": [
+        "Cleveland"
+      ],
+      "team": "The Sams Group"
+    }
+  ],
+  "purges": [
+    {
+      "name": "Haley Connors",
+      "email": "haley.connors@glasshouserealty.com",
+      "softDeletedAt": "2026-10-16T17:21:46.693005+00:00"
+    }
+  ],
+  "reactivated": []
+}
