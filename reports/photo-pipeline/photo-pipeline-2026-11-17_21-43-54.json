@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-11-17T21:43:54.340401Z",
+  "mode": "LIVE",
+  "totalEvents": 3,
+  "acquired_a": 2,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Jennifer Schiavone",
+      "key": "272261",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-17T21:43:51.269282Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518067.gif?v=1794930681"
+    },
+    {
+      "name": "Randy Shaffner",
+      "key": "272362",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-17T21:43:52.440100Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518168.gif?v=1794932285"
+    },
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-17T21:43:52.763256Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_kept_existing"
+    }
+  ]
+}
