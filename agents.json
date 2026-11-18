@@ -1265,7 +1265,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "700542c8563b",
+    "photoSourceHash": "e459c64c21fd",
     "hidden": false
   },
   {
@@ -2323,7 +2323,7 @@
     "loftyId": "",
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "dc4f6575a557",
+    "photoSourceHash": "65201ca9a4e2",
     "hidden": false
   },
   {
@@ -2800,13 +2800,13 @@
       "Cleveland"
     ],
     "office": "",
-    "photo": "",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/320641.jpg",
     "profileUrl": "",
     "boldtrailId": "320641",
     "loftyId": "",
     "source": "boldtrail-cleveland",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "30fbdb4ec3e9",
     "hidden": false
   },
   {
@@ -4057,13 +4057,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025711/12/original_9692f6da-a8f0-43f6-b7c7-18893a5ac74d.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272307.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Lauren-Stroud/8842407",
     "boldtrailId": "272307",
     "loftyId": 8842407,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "f7f4a954ff0c",
     "hidden": false
   },
   {
@@ -4143,7 +4143,7 @@
     "loftyId": 8718659,
     "source": "boldtrail",
     "photoSource": "boldtrail",
-    "photoSourceHash": "fa3cd5ceb101",
+    "photoSourceHash": "3f8020b4cb7b",
     "hidden": false
   },
   {
