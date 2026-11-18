@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-11-18T21:21:49.677521Z",
+  "mode": "LIVE",
+  "totalEvents": 6,
+  "acquired_a": 5,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Caleb Woodland",
+      "key": "319233",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-18T21:21:45.389965Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/646705.gif?v=1795026795"
+    },
+    {
+      "name": "Evan Kloth",
+      "key": "256293",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-18T21:21:46.094045Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/497172.gif?v=1795034928"
+    },
+    {
+      "name": "Janette Mendez",
+      "key": "320641",
+      "reason": "cleveland_boldtrail",
+      "attemptedAt": "2026-11-18T21:21:46.576491Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/648702.gif?v=1795031386"
+    },
+    {
+      "name": "Lauren Stroud",
+      "key": "272307",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-18T21:21:47.186351Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518113.gif?v=1795029124"
+    },
+    {
+      "name": "Lilibeth Simon",
+      "key": "272309",
+      "reason": "boldtrail_changed",
+      "attemptedAt": "2026-11-18T21:21:47.690576Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518115.gif?v=1795035077"
+    },
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-18T21:21:48.174153Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_kept_existing"
+    }
+  ]
+}
