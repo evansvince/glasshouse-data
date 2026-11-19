@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-11-19T21:26:40.468614Z",
+  "mode": "LIVE",
+  "totalEvents": 8,
+  "acquired_a": 7,
+  "acquired_b": 0,
+  "kept_existing": 0,
+  "failed": 0,
+  "cooldown": 0,
+  "events": [
+    {
+      "name": "Brittany Hall",
+      "key": "272189",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:33.244489Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/517995.gif?v=1795096243"
+    },
+    {
+      "name": "Jill Freytag",
+      "key": "272267",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:34.016703Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518073.gif?v=1795096888"
+    },
+    {
+      "name": "Jim Foster",
+      "key": "272254",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:34.427903Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518060.gif?v=1795096346"
+    },
+    {
+      "name": "Kayli Anderson",
+      "key": "272284",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:35.169786Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518090.gif?v=1795096930"
+    },
+    {
+      "name": "Melissa Cleary",
+      "key": "272333",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:36.667349Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518139.gif?v=1795096814"
+    },
+    {
+      "name": "Scott Strayer",
+      "key": "272378",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:37.609424Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518184.gif?v=1795097032"
+    },
+    {
+      "name": "Shauna Boeke",
+      "key": "272381",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:38.098318Z",
+      "boldtrailFailure": "download_failed:HTTPError",
+      "loftyFailure": "parse:no_agent_card_div",
+      "status": "failed_kept_existing"
+    },
+    {
+      "name": "Zachary Thurston",
+      "key": "272592",
+      "reason": "upgrade_to_boldtrail",
+      "attemptedAt": "2026-11-19T21:26:39.523444Z",
+      "status": "success",
+      "source": "boldtrail",
+      "sourceUrl": "https://s3.us-west-2.amazonaws.com/brokermint.production/avatars/518404.gif?v=1795097068"
+    }
+  ]
+}
