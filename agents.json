@@ -1178,13 +1178,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024712/17/original_3d588825-2d88-4519-af6d-6e706f4e0106.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272189.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Brittany-Hall/8718664",
     "boldtrailId": "272189",
     "loftyId": 8718664,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "1e5c61c77d09",
     "hidden": false
   },
   {
@@ -2431,7 +2431,7 @@
     "name": "Hannah Lavey",
     "phone": "(937) 489-9622",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Miller-Lavey Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -3102,13 +3102,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024827/15/original_ebcfa530-f8b7-4e58-a743-d4bb9e515820.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272267.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Jill-Freytag/8726197",
     "boldtrailId": "272267",
     "loftyId": 8726197,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "873637c0b331",
     "hidden": false
   },
   {
@@ -3122,13 +3122,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/202586/8/original_3b6a2d51-744c-47fd-9508-1c1a29cf184e.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272254.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Jim-Foster/8726254",
     "boldtrailId": "272254",
     "loftyId": 8726254,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "225300097d4d",
     "hidden": false
   },
   {
@@ -3522,13 +3522,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025225/11/original_783fe0c0-0bde-4dbb-a463-a6fcff04b14d.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272284.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Kayli-Anderson/8728632",
     "boldtrailId": "272284",
     "loftyId": 8728632,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "0c0969a1dfc1",
     "hidden": false
   },
   {
@@ -4578,13 +4578,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.chime.me/image/fs/user-info/2024831/10/original_c9ae69a0-7b6b-4b8d-96a6-9cbc76055869.png",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272333.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Melissa-Cleary/8726299",
     "boldtrailId": "272333",
     "loftyId": 8726299,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "bbc926454dae",
     "hidden": false
   },
   {
@@ -5053,7 +5053,7 @@
     "name": "Niki Miller",
     "phone": "(937) 558-8072",
     "title": "REALTOR\u00ae",
-    "team": "",
+    "team": "Miller-Lavey Group",
     "teamLogo": "",
     "regions": [
       "Dayton"
@@ -5306,7 +5306,8 @@
     "source": "boldtrail",
     "photoSource": "boldtrail",
     "photoSourceHash": "82ee0d253ce4",
-    "hidden": false
+    "hidden": true,
+    "softDeletedAt": "2026-11-19T21:26:31.708189+00:00"
   },
   {
     "email": "rhondacox2020@outlook.com",
@@ -5642,13 +5643,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/2026424/18/72ad15de-0720-40b7-8910-8fd21f09b668/original_b59aa9ec-bb81-4d65-868e-4a20c2dba17b.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272378.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Scott-Strayer/8809965",
     "boldtrailId": "272378",
     "loftyId": 8809965,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "749aef9e1ded",
     "hidden": false
   },
   {
@@ -6905,13 +6906,13 @@
       "Dayton"
     ],
     "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/web/202633/14/a5a68301-7fc5-4e67-8a68-06cddd1c3c80/original_0acc6f04-c027-48fe-ad99-5e8c846db371.jpeg",
+    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/272592.jpg",
     "profileUrl": "https://glasshouserealty.com/agents/Zachary-Thurston/8903146",
     "boldtrailId": "272592",
     "loftyId": 8903146,
     "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
+    "photoSource": "boldtrail",
+    "photoSourceHash": "1881e021d8bb",
     "hidden": false
   },
   {
