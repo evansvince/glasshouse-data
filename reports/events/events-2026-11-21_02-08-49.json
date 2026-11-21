@@ -1,0 +1,19 @@
+{
+  "generated": "2026-11-21T02:08:49.218121",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Jacob Cramer",
+      "email": "closewithcramer@gmail.com",
+      "softDeletedAt": "2026-10-21T21:35:46.935324+00:00"
+    },
+    {
+      "name": "Jana Gruber",
+      "email": "jana.gruber@glasshouserealty.com",
+      "softDeletedAt": "2026-10-21T21:35:46.935336+00:00"
+    }
+  ],
+  "reactivated": []
+}
