@@ -2667,27 +2667,6 @@
     "hidden": false
   },
   {
-    "email": "closewithcramer@gmail.com",
-    "name": "Jacob Cramer",
-    "phone": "(330) 690-1536",
-    "title": "Agent",
-    "team": "The Blair Team",
-    "teamLogo": "https://evansvince.github.io/glasshouse-data/team-logos/Blair_Team_White_Background.png",
-    "regions": [
-      "Cleveland"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/293448.jpg",
-    "profileUrl": "https://www.zillow.com/profile/closewithcramer",
-    "boldtrailId": "293448",
-    "loftyId": null,
-    "source": "boldtrail-cleveland",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "a3dae0f59a62",
-    "hidden": true,
-    "softDeletedAt": "2026-10-21T21:35:46.935324+00:00"
-  },
-  {
     "email": "jmillerresales@gmail.com",
     "name": "Jacob Miller",
     "phone": "(513) 203-7931",
@@ -2767,27 +2746,6 @@
     "photoSource": "boldtrail",
     "photoSourceHash": "4820ff759f4e",
     "hidden": false
-  },
-  {
-    "email": "jana.gruber@glasshouserealty.com",
-    "name": "Jana Gruber",
-    "phone": "(937) 838-2674",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://evansvince.github.io/glasshouse-data/agent-photos/312106.jpg",
-    "profileUrl": "https://glasshouserealty.com/jana-gruber",
-    "boldtrailId": "312106",
-    "loftyId": "",
-    "source": "boldtrail",
-    "photoSource": "boldtrail",
-    "photoSourceHash": "a5f2ec483966",
-    "hidden": true,
-    "softDeletedAt": "2026-10-21T21:35:46.935336+00:00"
   },
   {
     "email": "janette.mendez@glasshouserealty.com",
