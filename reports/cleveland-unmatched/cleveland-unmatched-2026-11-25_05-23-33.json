@@ -1,0 +1,35 @@
+{
+  "generated": "2026-11-25T05:23:33.154388",
+  "dry_run": false,
+  "description": "Cleveland spreadsheet records with no BoldTrail match. Currently preserved on the site. Review and decide which should be retained vs soft-deleted.",
+  "count": 3,
+  "records": [
+    {
+      "name": "Ashley Stubbs",
+      "email": "ashley.stubbs@glasshouserealty.com",
+      "team": "The Sams Group",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Missy Zink",
+      "email": "missy.asacoxhomes@gmail.com",
+      "team": "Admin Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    },
+    {
+      "name": "Ryan Kirkwood",
+      "email": "ryankirkwoodrealty@gmail.com",
+      "team": "GPS Real Estate Team",
+      "regions": [
+        "Cleveland"
+      ],
+      "source": "boldtrail-cleveland"
+    }
+  ]
+}
