@@ -1,0 +1,14 @@
+{
+  "generated": "2026-11-27T21:55:18.719681",
+  "dry_run": false,
+  "new_agents": [],
+  "soft_deletes": [],
+  "purges": [
+    {
+      "name": "Kim Robinson",
+      "email": "kimrobinson@glasshouserealty.com",
+      "softDeletedAt": "2026-10-28T18:48:09.875313+00:00"
+    }
+  ],
+  "reactivated": []
+}
