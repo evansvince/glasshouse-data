@@ -3704,27 +3704,6 @@
     "hidden": false
   },
   {
-    "email": "kimrobinson@glasshouserealty.com",
-    "name": "Kim Robinson",
-    "phone": "(937) 469-3143",
-    "title": "REALTOR\u00ae",
-    "team": "",
-    "teamLogo": "",
-    "regions": [
-      "Dayton"
-    ],
-    "office": "",
-    "photo": "https://cdn.lofty.com/image/fs/user-info/2025826/11/original_e72bc307-3e02-49be-b9e8-c94fb7a65e9a.jpeg",
-    "profileUrl": "https://glasshouserealty.com/agents/Kim-Robinson/8844373",
-    "boldtrailId": "272293",
-    "loftyId": 8844373,
-    "source": "boldtrail",
-    "photoSource": "",
-    "photoSourceHash": "",
-    "hidden": true,
-    "softDeletedAt": "2026-10-28T18:48:09.875313+00:00"
-  },
-  {
     "email": "kimberlyl@glasshouserealty.com",
     "name": "Kimberly Luehmann",
     "phone": "(937) 287-7592",
