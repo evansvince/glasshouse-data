@@ -1,9 +1,9 @@
 {
   "agentRetries": {
     "272381": {
-      "failureCount": 11,
-      "lastAttemptAt": "2026-11-27T04:57:39.195744Z",
-      "lastAttemptRun": 496,
+      "failureCount": 12,
+      "lastAttemptAt": "2026-11-28T03:51:41.321558Z",
+      "lastAttemptRun": 498,
       "lastFailedReason": "A:download_failed:HTTPError,B:parse:no_agent_card_div"
     },
     "313358": {
@@ -13,5 +13,5 @@
       "lastFailedReason": "A:avatar_added_false,B:parse:no_agent_card_div"
     }
   },
-  "runCounter": 497
+  "runCounter": 498
 }
